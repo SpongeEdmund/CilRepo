@@ -1,0 +1,7 @@
+<!--In Xu Hanyang's circuit, the two DSP48 are merged in one circuit, however, we
+    should treat them separately here. 
+	-->
+<cluster name="DSP48" scale="2X1">
+  <site_inst name="XI0" ref="DSP48" pos="0"/>
+  <site_inst name="XI1" ref="DSP48" pos="1"/>
+</cluster>

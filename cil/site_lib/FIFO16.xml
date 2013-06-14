@@ -1,0 +1,456 @@
+  <site name="FIFO16">
+    <attribute name="RAM_EXTENSION_A" method="map">
+      <option name="LOWER" default="false">
+        <sram name="RAM_EXTENSIONA1" value="1"/>
+        <sram name="RAM_EXTENSIONA0" value="1"/>
+      </option>
+      <option name="NONE" default="false">
+        <sram name="RAM_EXTENSIONA1" value="0"/>
+        <sram name="RAM_EXTENSIONA0" value="0"/>
+      </option>
+      <option name="UPPER" default="false">
+        <sram name="RAM_EXTENSIONA1" value="0"/>
+        <sram name="RAM_EXTENSIONA0" value="1"/>
+      </option>
+    </attribute>
+    <attribute name="RAM_EXTENSION_B" method="map">
+      <option name="LOWER" default="false">
+        <sram name="RAM_EXTENSIONB1" value="1"/>
+        <sram name="RAM_EXTENSIONB0" value="1"/>
+      </option>
+      <option name="NONE" default="false">
+        <sram name="RAM_EXTENSIONB1" value="0"/>
+        <sram name="RAM_EXTENSIONB0" value="0"/>
+      </option>
+      <option name="UPPER" default="false">
+        <sram name="RAM_EXTENSIONB1" value="0"/>
+        <sram name="RAM_EXTENSIONB0" value="1"/>
+      </option>
+    </attribute>
+    <attribute name="DOA_REG" method="map">
+      <option name="0" default="false"/>
+      <option name="1" default="false"/>
+    </attribute>
+    <attribute name="DOB_REG" method="map">
+      <option name="0" default="false"/>
+      <option name="1" default="false"/>
+    </attribute>
+    <attribute name="INVERT_CLK_DOA_REG" method="map">
+      <option name="TRUE" default="false">
+        <sram name="CONTROL_SEL" value="1"/>
+      </option>
+      <option name="FALSE" default="false">
+        <sram name="CONTROL_SEL" value="0"/>
+      </option>
+    </attribute>
+    <attribute name="INVERT_CLK_DOB_REG" method="map">
+      <option name="TRUE" default="false">
+        <sram name="CONTROL_SEL" value="1"/>
+      </option>
+      <option name="FALSE" default="false">
+        <sram name="CONTROL_SEL" value="0"/>
+      </option>
+    </attribute>
+    <attribute name="READ_WIDTH_A" method="map">
+      <option name="0" default="false"/>
+      <option name="1" default="false">
+        <sram name="RPA4" value="0"/>
+        <sram name="RPA3" value="0"/>
+        <sram name="RPA2" value="0"/>
+        <sram name="RPA1" value="0"/>
+        <sram name="RPA0" value="0"/>
+      </option>
+      <option name="2" default="false">
+        <sram name="RPA4" value="0"/>
+        <sram name="RPA3" value="0"/>
+        <sram name="RPA2" value="0"/>
+        <sram name="RPA1" value="0"/>
+        <sram name="RPA0" value="1"/>
+      </option>
+      <option name="4" default="false">
+        <sram name="RPA4" value="0"/>
+        <sram name="RPA3" value="0"/>
+        <sram name="RPA2" value="0"/>
+        <sram name="RPA1" value="1"/>
+        <sram name="RPA0" value="1"/>
+      </option>
+      <option name="9" default="false">
+        <sram name="RPA4" value="0"/>
+        <sram name="RPA3" value="0"/>
+        <sram name="RPA2" value="1"/>
+        <sram name="RPA1" value="1"/>
+        <sram name="RPA0" value="1"/>
+      </option>
+      <option name="18" default="false">
+        <sram name="RPA4" value="0"/>
+        <sram name="RPA3" value="1"/>
+        <sram name="RPA2" value="1"/>
+        <sram name="RPA1" value="1"/>
+        <sram name="RPA0" value="1"/>
+      </option>
+      <option name="36" default="false">
+        <sram name="RPA4" value="1"/>
+        <sram name="RPA3" value="1"/>
+        <sram name="RPA2" value="1"/>
+        <sram name="RPA1" value="1"/>
+        <sram name="RPA0" value="1"/>
+      </option>
+    </attribute>
+    <attribute name="READ_WIDTH_B" method="map">
+      <option name="0" default="false"/>
+      <option name="1" default="false">
+        <sram name="RPB4" value="0"/>
+        <sram name="RPB3" value="0"/>
+        <sram name="RPB2" value="0"/>
+        <sram name="RPB1" value="0"/>
+        <sram name="RPB0" value="0"/>
+      </option>
+      <option name="2" default="false">
+        <sram name="RPB4" value="0"/>
+        <sram name="RPB3" value="0"/>
+        <sram name="RPB2" value="0"/>
+        <sram name="RPB1" value="0"/>
+        <sram name="RPB0" value="1"/>
+      </option>
+      <option name="4" default="false">
+        <sram name="RPB4" value="0"/>
+        <sram name="RPB3" value="0"/>
+        <sram name="RPB2" value="0"/>
+        <sram name="RPB1" value="1"/>
+        <sram name="RPB0" value="1"/>
+      </option>
+      <option name="9" default="false">
+        <sram name="RPB4" value="0"/>
+        <sram name="RPB3" value="0"/>
+        <sram name="RPB2" value="1"/>
+        <sram name="RPB1" value="1"/>
+        <sram name="RPB0" value="1"/>
+      </option>
+      <option name="18" default="false">
+        <sram name="RPB4" value="0"/>
+        <sram name="RPB3" value="1"/>
+        <sram name="RPB2" value="1"/>
+        <sram name="RPB1" value="1"/>
+        <sram name="RPB0" value="1"/>
+      </option>
+      <option name="36" default="false">
+        <sram name="RPB4" value="1"/>
+        <sram name="RPB3" value="1"/>
+        <sram name="RPB2" value="1"/>
+        <sram name="RPB1" value="1"/>
+        <sram name="RPB0" value="1"/>
+      </option>
+    </attribute>
+    <attribute name="WRITE_WIDTH_A" method="map">
+      <option name="0" default="false"/>
+      <option name="1" default="false">
+        <sram name="WPA4" value="0"/>
+        <sram name="WPA3" value="0"/>
+        <sram name="WPA2" value="0"/>
+        <sram name="WPA1" value="0"/>
+        <sram name="WPA0" value="0"/>
+      </option>
+      <option name="2" default="false">
+        <sram name="WPA4" value="0"/>
+        <sram name="WPA3" value="0"/>
+        <sram name="WPA2" value="0"/>
+        <sram name="WPA1" value="0"/>
+        <sram name="WPA0" value="1"/>
+      </option>
+      <option name="4" default="false">
+        <sram name="WPA4" value="0"/>
+        <sram name="WPA3" value="0"/>
+        <sram name="WPA2" value="0"/>
+        <sram name="WPA1" value="1"/>
+        <sram name="WPA0" value="1"/>
+      </option>
+      <option name="9" default="false">
+        <sram name="WPA4" value="0"/>
+        <sram name="WPA3" value="0"/>
+        <sram name="WPA2" value="1"/>
+        <sram name="WPA1" value="1"/>
+        <sram name="WPA0" value="1"/>
+      </option>
+      <option name="18" default="false">
+        <sram name="WPA4" value="0"/>
+        <sram name="WPA3" value="1"/>
+        <sram name="WPA2" value="1"/>
+        <sram name="WPA1" value="1"/>
+        <sram name="WPA0" value="1"/>
+      </option>
+      <option name="36" default="false">
+        <sram name="WPA4" value="1"/>
+        <sram name="WPA3" value="1"/>
+        <sram name="WPA2" value="1"/>
+        <sram name="WPA1" value="1"/>
+        <sram name="WPA0" value="1"/>
+      </option>
+    </attribute>
+    <attribute name="WRITE_WIDTH_B" method="map">
+      <option name="0" default="false"/>
+      <option name="1" default="false">
+        <sram name="WPB4" value="0"/>
+        <sram name="WPB3" value="0"/>
+        <sram name="WPB2" value="0"/>
+        <sram name="WPB1" value="0"/>
+        <sram name="WPB0" value="0"/>
+      </option>
+      <option name="2" default="false">
+        <sram name="WPB4" value="0"/>
+        <sram name="WPB3" value="0"/>
+        <sram name="WPB2" value="0"/>
+        <sram name="WPB1" value="0"/>
+        <sram name="WPB0" value="1"/>
+      </option>
+      <option name="4" default="false">
+        <sram name="WPB4" value="0"/>
+        <sram name="WPB3" value="0"/>
+        <sram name="WPB2" value="0"/>
+        <sram name="WPB1" value="1"/>
+        <sram name="WPB0" value="1"/>
+      </option>
+      <option name="9" default="false">
+        <sram name="WPB4" value="0"/>
+        <sram name="WPB3" value="0"/>
+        <sram name="WPB2" value="1"/>
+        <sram name="WPB1" value="1"/>
+        <sram name="WPB0" value="1"/>
+      </option>
+      <option name="18" default="false">
+        <sram name="WPB4" value="0"/>
+        <sram name="WPB3" value="1"/>
+        <sram name="WPB2" value="1"/>
+        <sram name="WPB1" value="1"/>
+        <sram name="WPB0" value="1"/>
+      </option>
+      <option name="36" default="false">
+        <sram name="WPB4" value="1"/>
+        <sram name="WPB3" value="1"/>
+        <sram name="WPB2" value="1"/>
+        <sram name="WPB1" value="1"/>
+        <sram name="WPB0" value="1"/>
+      </option>
+    </attribute>
+    <attribute name="WRITE_MODE_A" method="map">
+      <option name="NO_CHANGE" default="false">
+        <sram name="WMA1" value="1"/>
+        <sram name="WMA0" value="0"/>
+      </option>
+      <option name="READ_FIRST" default="false">
+        <sram name="WMA1" value="0"/>
+        <sram name="WMA0" value="1"/>
+      </option>
+      <option name="WRITE_FIRST" default="false">
+        <sram name="WMA1" value="0"/>
+        <sram name="WMA0" value="0"/>
+      </option>
+    </attribute>
+    <attribute name="WRITE_MODE_B" method="map">
+      <option name="NO_CHANGE" default="false">
+        <sram name="WMB1" value="1"/>
+        <sram name="WMB0" value="0"/>
+      </option>
+      <option name="READ_FIRST" default="false">
+        <sram name="WMB1" value="0"/>
+        <sram name="WMB0" value="1"/>
+      </option>
+      <option name="WRITE_FIRST" default="false">
+        <sram name="WMB1" value="0"/>
+        <sram name="WMB0" value="0"/>
+      </option>
+    </attribute>
+    <attribute name="SAVEDATA" method="map">
+      <option name="TRUE" default="false"/>
+      <option name="FALSE" default="false"/>
+    </attribute>
+    <attribute name="DATA_WIDTH" method="map">
+      <option name="4" default="false"/>
+      <option name="9" default="false"/>
+      <option name="18" default="false"/>
+      <option name="36" default="false"/>
+    </attribute>
+    <attribute name="FIRST_WORD_FALL_THROUGH" method="map">
+      <option name="TRUE" default="false">
+        <sram name="FWFT" value="1"/>
+      </option>
+      <option name="FALSE" default="false">
+        <sram name="FWFT" value="0"/>
+      </option>
+    </attribute>
+    <attribute name="ALMOST_EMPTY_OFFSET" method="bitstr">
+      <option name="HEX" default="false">
+        <sram name="ALMOST_EMPTY_OFFSET0" address="0"/>
+        <sram name="ALMOST_EMPTY_OFFSET1" address="1"/>
+        <sram name="ALMOST_EMPTY_OFFSET2" address="2"/>
+        <sram name="ALMOST_EMPTY_OFFSET3" address="3"/>
+        <sram name="ALMOST_EMPTY_OFFSET4" address="4"/>
+        <sram name="ALMOST_EMPTY_OFFSET5" address="5"/>
+        <sram name="ALMOST_EMPTY_OFFSET6" address="6"/>
+        <sram name="ALMOST_EMPTY_OFFSET7" address="7"/>
+        <sram name="ALMOST_EMPTY_OFFSET8" address="8"/>
+        <sram name="ALMOST_EMPTY_OFFSET9" address="9"/>
+        <sram name="ALMOST_EMPTY_OFFSET10" address="10"/>
+        <sram name="ALMOST_EMPTY_OFFSET11" address="11"/>
+      </option>
+    </attribute>
+    <attribute name="ALMOST_FULL_OFFSET" method="bitstr">
+      <option name="HEX" default="false">
+        <sram name="ALMOST_FULL_OFFSET0" address="0"/>
+        <sram name="ALMOST_FULL_OFFSET1" address="1"/>
+        <sram name="ALMOST_FULL_OFFSET2" address="2"/>
+        <sram name="ALMOST_FULL_OFFSET3" address="3"/>
+        <sram name="ALMOST_FULL_OFFSET4" address="4"/>
+        <sram name="ALMOST_FULL_OFFSET5" address="5"/>
+        <sram name="ALMOST_FULL_OFFSET6" address="6"/>
+        <sram name="ALMOST_FULL_OFFSET7" address="7"/>
+        <sram name="ALMOST_FULL_OFFSET8" address="8"/>
+        <sram name="ALMOST_FULL_OFFSET9" address="9"/>
+        <sram name="ALMOST_FULL_OFFSET10" address="10"/>
+        <sram name="ALMOST_FULL_OFFSET11" address="11"/>
+      </option>
+    </attribute>
+    <attribute name="MODE" method="map">
+      <option name="BRAM" default="false">
+        <sram name="MODE" value="1"/>
+      </option>
+      <option name="FIFO" default="false">
+        <sram name="MODE" value="0"/>
+      </option>
+    </attribute>
+    <attribute name="ENAINV" method="map">
+      <option name="ENA" default="false">
+        <sram name="ENA" value="0"/>
+      </option>
+      <option name="ENA_B " default="false">
+        <sram name="ENA_INV" value="1"/>
+      </option>
+    </attribute>
+    <attribute name="ENBINV" method="map">
+      <option name="ENB" default="false">
+        <sram name="ENB" value="0"/>
+      </option>
+      <option name="ENB_B " default="false">
+        <sram name="ENB_INV" value="1"/>
+      </option>
+    </attribute>
+    <attribute name="REGCEAINV" method="map">
+      <option name="REGCEA" default="false">
+        <sram name="REGCEA" value="0"/>
+      </option>
+      <option name="REGCEA_B " default="false">
+        <sram name="REGCEA_INV" value="1"/>
+      </option>
+    </attribute>
+    <attribute name="REGCEBINV" method="map">
+      <option name="REGCEB" default="false">
+        <sram name="REGCEB" value="0"/>
+      </option>
+      <option name="REGCEB_B " default="false">
+        <sram name="REGCEB_INV" value="1"/>
+      </option>
+    </attribute>
+    <attribute name="SSRAINV" method="map">
+      <option name="SSRA" default="false">
+        <sram name="SSRA" value="0"/>
+      </option>
+      <option name="SSRA_B " default="false">
+        <sram name="SSRA_INV" value="1"/>
+      </option>
+    </attribute>
+    <attribute name="SSRBINV" method="map">
+      <option name="SSRB" default="false">
+        <sram name="SSRB" value="0"/>
+      </option>
+      <option name="SSRB_B " default="false">
+        <sram name="SSRB_INV" value="1"/>
+      </option>
+    </attribute>
+    <attribute name="RDCLKINV" method="map">
+      <option name="RDCLK" default="false">
+        <sram name="RDCLK" value="0"/>
+      </option>
+      <option name="RDCLK_B " default="false">
+        <sram name="RDCLK_INV" value="1"/>
+      </option>
+    </attribute>
+    <attribute name="RDENINV" method="map">
+      <option name="RDEN" default="false">
+        <sram name="RDEN" value="0"/>
+      </option>
+      <option name="RDEN_B" default="false">
+        <sram name="RDEN_INV" value="1"/>
+      </option>
+    </attribute>
+    <attribute name="RSTINV" method="map">
+      <option name="RST" default="false">
+        <sram name="RST" value="0"/>
+      </option>
+      <option name="RST_B" default="false">
+        <sram name="RST_INV" value="1"/>
+      </option>
+    </attribute>
+    <attribute name="WRCLKINV" method="map">
+      <option name="WRCLK" default="false">
+        <sram name="WRCLK" value="0"/>
+      </option>
+      <option name="WRCLK_B" default="false">
+        <sram name="WRCLK_INV" value="1"/>
+      </option>
+    </attribute>
+    <attribute name="WRENINV" method="map">
+      <option name="WREN" default="false">
+        <sram name="WREN" value="0"/>
+      </option>
+      <option name="WREN_B" default="false">
+        <sram name="WREN_INV" value="1"/>
+      </option>
+    </attribute>
+    <attribute name="WEA0INV" method="map">
+      <option name="WEA0" default="false"/>
+      <option name="WEA0_B" default="false"/>
+    </attribute>
+    <attribute name="WEA1INV" method="map">
+      <option name="WEA1" default="false"/>
+      <option name="WEA1_B" default="false"/>
+    </attribute>
+    <attribute name="WEA2INV" method="map">
+      <option name="WEA2" default="false"/>
+      <option name="WEA2_B" default="false"/>
+    </attribute>
+    <attribute name="WEA3INV" method="map">
+      <option name="WEA3" default="false"/>
+      <option name="WEA3_B" default="false"/>
+    </attribute>
+    <attribute name="WEB0INV" method="map">
+      <option name="WEB0" default="false"/>
+      <option name="WEB0_B" default="false"/>
+    </attribute>
+    <attribute name="WEB1INV" method="map">
+      <option name="WEB1" default="false"/>
+      <option name="WEB1_B" default="false"/>
+    </attribute>
+    <attribute name="WEB2INV" method="map">
+      <option name="WEB2" default="false"/>
+      <option name="WEB2_B" default="false"/>
+    </attribute>
+    <attribute name="WEB3INV" method="map">
+      <option name="WEB3" default="false"/>
+      <option name="WEB3_B" default="false"/>
+    </attribute>
+    <attribute name="CLKAINV" method="map">
+      <option name="CLKA" default="false"/>
+      <option name="CLKA_B" default="false"/>
+    </attribute>
+    <attribute name="CLKBINV" method="map">
+      <option name="CLKB" default="false"/>
+      <option name="CLKB_B" default="false"/>
+    </attribute>
+    <attribute name="EN_ECC_READ" method="map">
+      <option name="TRUE" default="false"/>
+      <option name="FALSE" default="false"/>
+    </attribute>
+    <attribute name="EN_ECC_WRITE" method="map">
+      <option name="TRUE" default="false"/>
+      <option name="FALSE" default="false"/>
+    </attribute>
+  </site>

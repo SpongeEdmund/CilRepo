@@ -1,0 +1,3 @@
+<cluster name="DCM_ADV" scale="1X1">
+  <site_inst name="XI3" ref="DCM_ADV" pos="0"/>
+</cluster>

@@ -1,0 +1,162 @@
+  <element name="INT_MUX_16TO1CLK">
+    <path from="IN0" to="OUT">
+      <sram name="P0_" value="1"/>
+      <sram name="P1_" value="0"/>
+      <sram name="P2_" value="0"/>
+      <sram name="P3_" value="0"/>
+      <sram name="P4_" value="1"/>
+      <sram name="P5_" value="0"/>
+      <sram name="P6_" value="0"/>
+      <sram name="P7_" value="0"/>
+    </path>
+    <path from="IN1" to="OUT">
+      <sram name="P0_" value="0"/>
+      <sram name="P1_" value="1"/>
+      <sram name="P2_" value="0"/>
+      <sram name="P3_" value="0"/>
+      <sram name="P4_" value="1"/>
+      <sram name="P5_" value="0"/>
+      <sram name="P6_" value="0"/>
+      <sram name="P7_" value="0"/>
+    </path>
+    <path from="IN2" to="OUT">
+      <sram name="P0_" value="0"/>
+      <sram name="P1_" value="0"/>
+      <sram name="P2_" value="1"/>
+      <sram name="P3_" value="0"/>
+      <sram name="P4_" value="1"/>
+      <sram name="P5_" value="0"/>
+      <sram name="P6_" value="0"/>
+      <sram name="P7_" value="0"/>
+    </path>
+    <path from="IN3" to="OUT">
+      <sram name="P0_" value="0"/>
+      <sram name="P1_" value="0"/>
+      <sram name="P2_" value="0"/>
+      <sram name="P3_" value="1"/>
+      <sram name="P4_" value="1"/>
+      <sram name="P5_" value="0"/>
+      <sram name="P6_" value="0"/>
+      <sram name="P7_" value="0"/>
+    </path>
+    <path from="IN4" to="OUT">
+      <sram name="P0_" value="1"/>
+      <sram name="P1_" value="0"/>
+      <sram name="P2_" value="0"/>
+      <sram name="P3_" value="0"/>
+      <sram name="P4_" value="0"/>
+      <sram name="P5_" value="1"/>
+      <sram name="P6_" value="0"/>
+      <sram name="P7_" value="0"/>
+    </path>
+    <path from="IN5" to="OUT">
+      <sram name="P0_" value="0"/>
+      <sram name="P1_" value="1"/>
+      <sram name="P2_" value="0"/>
+      <sram name="P3_" value="0"/>
+      <sram name="P4_" value="0"/>
+      <sram name="P5_" value="1"/>
+      <sram name="P6_" value="0"/>
+      <sram name="P7_" value="0"/>
+    </path>
+    <path from="IN6" to="OUT">
+      <sram name="P0_" value="0"/>
+      <sram name="P1_" value="0"/>
+      <sram name="P2_" value="1"/>
+      <sram name="P3_" value="0"/>
+      <sram name="P4_" value="0"/>
+      <sram name="P5_" value="1"/>
+      <sram name="P6_" value="0"/>
+      <sram name="P7_" value="0"/>
+    </path>
+    <path from="IN7" to="OUT">
+      <sram name="P0_" value="0"/>
+      <sram name="P1_" value="0"/>
+      <sram name="P2_" value="0"/>
+      <sram name="P3_" value="1"/>
+      <sram name="P4_" value="0"/>
+      <sram name="P5_" value="1"/>
+      <sram name="P6_" value="0"/>
+      <sram name="P7_" value="0"/>
+    </path>
+    <path from="IN8" to="OUT">
+      <sram name="P0_" value="1"/>
+      <sram name="P1_" value="0"/>
+      <sram name="P2_" value="0"/>
+      <sram name="P3_" value="0"/>
+      <sram name="P4_" value="0"/>
+      <sram name="P5_" value="0"/>
+      <sram name="P6_" value="1"/>
+      <sram name="P7_" value="0"/>
+    </path>
+    <path from="IN9" to="OUT">
+      <sram name="P0_" value="0"/>
+      <sram name="P1_" value="1"/>
+      <sram name="P2_" value="0"/>
+      <sram name="P3_" value="0"/>
+      <sram name="P4_" value="0"/>
+      <sram name="P5_" value="0"/>
+      <sram name="P6_" value="1"/>
+      <sram name="P7_" value="0"/>
+    </path>
+    <path from="IN10" to="OUT">
+      <sram name="P0_" value="0"/>
+      <sram name="P1_" value="0"/>
+      <sram name="P2_" value="1"/>
+      <sram name="P3_" value="0"/>
+      <sram name="P4_" value="0"/>
+      <sram name="P5_" value="0"/>
+      <sram name="P6_" value="1"/>
+      <sram name="P7_" value="0"/>
+    </path>
+    <path from="IN11" to="OUT">
+      <sram name="P0_" value="0"/>
+      <sram name="P1_" value="0"/>
+      <sram name="P2_" value="0"/>
+      <sram name="P3_" value="1"/>
+      <sram name="P4_" value="0"/>
+      <sram name="P5_" value="0"/>
+      <sram name="P6_" value="1"/>
+      <sram name="P7_" value="0"/>
+    </path>
+    <path from="IN12" to="OUT">
+      <sram name="P0_" value="1"/>
+      <sram name="P1_" value="0"/>
+      <sram name="P2_" value="0"/>
+      <sram name="P3_" value="0"/>
+      <sram name="P4_" value="0"/>
+      <sram name="P5_" value="0"/>
+      <sram name="P6_" value="0"/>
+      <sram name="P7_" value="1"/>
+    </path>
+    <path from="IN13" to="OUT">
+      <sram name="P0_" value="0"/>
+      <sram name="P1_" value="1"/>
+      <sram name="P2_" value="0"/>
+      <sram name="P3_" value="0"/>
+      <sram name="P4_" value="0"/>
+      <sram name="P5_" value="0"/>
+      <sram name="P6_" value="0"/>
+      <sram name="P7_" value="1"/>
+    </path>
+    <path from="IN14" to="OUT">
+      <sram name="P0_" value="0"/>
+      <sram name="P1_" value="0"/>
+      <sram name="P2_" value="1"/>
+      <sram name="P3_" value="0"/>
+      <sram name="P4_" value="0"/>
+      <sram name="P5_" value="0"/>
+      <sram name="P6_" value="0"/>
+      <sram name="P7_" value="1"/>
+    </path>
+    <path from="IN15" to="OUT">
+      <sram name="P0_" value="0"/>
+      <sram name="P1_" value="0"/>
+      <sram name="P2_" value="0"/>
+      <sram name="P3_" value="1"/>
+      <sram name="P4_" value="0"/>
+      <sram name="P5_" value="0"/>
+      <sram name="P6_" value="0"/>
+      <sram name="P7_" value="1"/>
+    </path>
+  </element>

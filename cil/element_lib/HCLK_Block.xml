@@ -1,0 +1,84 @@
+  <!--V4CLK_NETWORK HCLK_Block-->
+  <!--Notice: E_SRAMb and Na<3:0> are not given here.-->
+  <element name="HCLK_Block">
+    <path from="HCLK0" to="LEAF_CLK0">
+	  <sram name="Enable0" value="1"/>
+	  <sram name="Enable1" value="0"/>
+	  <sram name="Enable2" value="0"/>
+	  <sram name="Enable3" value="0"/>
+	  <sram name="Enable4" value="0"/>
+	  <sram name="Enable5" value="0"/>
+	  <sram name="Enable6" value="0"/>
+	  <sram name="Enable7" value="0"/>
+	</path>
+    <path from="HCLK1" to="LEAF_CLK1">
+	  <sram name="Enable0" value="0"/>
+	  <sram name="Enable1" value="1"/>
+	  <sram name="Enable2" value="0"/>
+	  <sram name="Enable3" value="0"/>
+	  <sram name="Enable4" value="0"/>
+	  <sram name="Enable5" value="0"/>
+	  <sram name="Enable6" value="0"/>
+	  <sram name="Enable7" value="0"/>
+	</path>
+    <path from="HCLK2" to="LEAF_CLK2">
+	  <sram name="Enable0" value="0"/>
+	  <sram name="Enable1" value="0"/>
+	  <sram name="Enable2" value="1"/>
+	  <sram name="Enable3" value="0"/>
+	  <sram name="Enable4" value="0"/>
+	  <sram name="Enable5" value="0"/>
+	  <sram name="Enable6" value="0"/>
+	  <sram name="Enable7" value="0"/>
+	</path>
+    <path from="HCLK3" to="LEAF_CLK3">
+	  <sram name="Enable0" value="0"/>
+	  <sram name="Enable1" value="0"/>
+	  <sram name="Enable2" value="0"/>
+	  <sram name="Enable3" value="1"/>
+	  <sram name="Enable4" value="0"/>
+	  <sram name="Enable5" value="0"/>
+	  <sram name="Enable6" value="0"/>
+	  <sram name="Enable7" value="0"/>
+	</path>
+    <path from="HCLK4" to="LEAF_CLK4">
+	  <sram name="Enable0" value="0"/>
+	  <sram name="Enable1" value="0"/>
+	  <sram name="Enable2" value="0"/>
+	  <sram name="Enable3" value="0"/>
+	  <sram name="Enable4" value="1"/>
+	  <sram name="Enable5" value="0"/>
+	  <sram name="Enable6" value="0"/>
+	  <sram name="Enable7" value="0"/>
+	</path>
+    <path from="HCLK5" to="LEAF_CLK5">
+	  <sram name="Enable0" value="0"/>
+	  <sram name="Enable1" value="0"/>
+	  <sram name="Enable2" value="0"/>
+	  <sram name="Enable3" value="0"/>
+	  <sram name="Enable4" value="0"/>
+	  <sram name="Enable5" value="1"/>
+	  <sram name="Enable6" value="0"/>
+	  <sram name="Enable7" value="0"/>
+	</path>
+    <path from="HCLK6" to="LEAF_CLK6">
+	  <sram name="Enable0" value="0"/>
+	  <sram name="Enable1" value="0"/>
+	  <sram name="Enable2" value="0"/>
+	  <sram name="Enable3" value="0"/>
+	  <sram name="Enable4" value="0"/>
+	  <sram name="Enable5" value="0"/>
+	  <sram name="Enable6" value="1"/>
+	  <sram name="Enable7" value="0"/>
+	</path>
+	<path from="HCLK7" to="LEAF_CLK7">
+	  <sram name="Enable0" value="0"/>
+	  <sram name="Enable1" value="0"/>
+	  <sram name="Enable2" value="0"/>
+	  <sram name="Enable3" value="0"/>
+	  <sram name="Enable4" value="0"/>
+	  <sram name="Enable5" value="0"/>
+	  <sram name="Enable6" value="0"/>
+	  <sram name="Enable7" value="1"/>
+	</path>
+  </element>

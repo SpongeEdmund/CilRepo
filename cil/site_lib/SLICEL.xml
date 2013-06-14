@@ -1,0 +1,562 @@
+  <site name="SLICEL">
+    <attribute name="BXINV" method="map">
+      <option name="#OFF" default="false">
+        <sram name="BXINV" value="0"/>
+      </option>
+      <option name="BX" default="false">
+        <sram name="BXINV" value="0"/>
+      </option>
+      <option name="BX_B" default="false">
+        <sram name="BXINV" value="1"/>
+      </option>
+    </attribute>
+    <attribute name="BYINV" method="map">
+      <option name="#OFF" default="false">
+        <sram name="BYINV" value="0"/>
+      </option>
+      <option name="BY" default="false">
+        <sram name="BYINV" value="0"/>
+      </option>
+      <option name="BY_B" default="false">
+        <sram name="BYINV" value="1"/>
+      </option>
+    </attribute>
+    <attribute name="CEINV" method="map">
+      <option name="#OFF" default="false">
+        <sram name="CEINV" value="0"/>
+      </option>
+      <option name="CE" default="false">
+        <sram name="CEINV" value="0"/>
+      </option>
+      <option name="CE_B" default="false">
+        <sram name="CEINV" value="1"/>
+      </option>
+    </attribute>
+    <attribute name="CLKINV" method="map">
+      <option name="#OFF" default="false">
+        <sram name="CLKINV" value="0"/>
+      </option>
+      <option name="CLK" default="false">
+        <sram name="CLKINV" value="0"/>
+      </option>
+      <option name="CLK_B" default="false">
+        <sram name="CLKINV" value="1"/>
+      </option>
+    </attribute>
+    <attribute name="COUTUSED" method="map">
+      <option name="#OFF" default="false"/>
+      <option name="0" default="false"/>
+    </attribute>
+    <attribute name="CY0F" method="map">
+      <option name="#OFF" default="false">
+        <sram name="AU_SF0" value="0"/>
+        <sram name="AU_SF1" value="0"/>
+        <sram name="AU_SF2" value="0"/>
+      </option>
+      <option name="BX" default="false">
+        <sram name="AU_SF0" value="1"/>
+        <sram name="AU_SF1" value="1"/>
+        <sram name="AU_SF2" value="1"/>
+      </option>
+      <option name="F2" default="false">
+        <sram name="AU_SF0" value="1"/>
+        <sram name="AU_SF1" value="1"/>
+        <sram name="AU_SF2" value="0"/>
+      </option>
+      <option name="PROD" default="false">
+        <sram name="AU_SF0" value="1"/>
+        <sram name="AU_SF1" value="0"/>
+        <sram name="AU_SF2" value="1"/>
+      </option>
+      <option name="F3" default="false">
+        <sram name="AU_SF0" value="0"/>
+        <sram name="AU_SF1" value="1"/>
+        <sram name="AU_SF2" value="0"/>
+      </option>
+      <option name="1" default="false">
+        <sram name="AU_SF0" value="0"/>
+        <sram name="AU_SF1" value="0"/>
+        <sram name="AU_SF2" value="0"/>
+      </option>
+      <option name="0" default="false">
+        <sram name="AU_SF0" value="1"/>
+        <sram name="AU_SF1" value="0"/>
+        <sram name="AU_SF2" value="0"/>
+      </option>
+    </attribute>
+    <attribute name="CY0G" method="map">
+      <option name="#OFF" default="false">
+        <sram name="AU_SG0" value="0"/>
+        <sram name="AU_SG1" value="0"/>
+        <sram name="AU_SG2" value="0"/>
+      </option>
+      <option name="BY" default="false">
+        <sram name="AU_SG0" value="1"/>
+        <sram name="AU_SG1" value="1"/>
+        <sram name="AU_SG2" value="1"/>
+      </option>
+      <option name="G2" default="false">
+        <sram name="AU_SG0" value="1"/>
+        <sram name="AU_SG1" value="1"/>
+        <sram name="AU_SG2" value="0"/>
+      </option>
+      <option name="PROD" default="false">
+        <sram name="AU_SG0" value="1"/>
+        <sram name="AU_SG1" value="0"/>
+        <sram name="AU_SG2" value="1"/>
+      </option>
+      <option name="G3" default="false">
+        <sram name="AU_SG0" value="0"/>
+        <sram name="AU_SG1" value="1"/>
+        <sram name="AU_SG2" value="0"/>
+      </option>
+      <option name="1" default="false">
+        <sram name="AU_SG0" value="0"/>
+        <sram name="AU_SG1" value="0"/>
+        <sram name="AU_SG2" value="0"/>
+      </option>
+      <option name="0" default="false">
+        <sram name="AU_SG0" value="1"/>
+        <sram name="AU_SG1" value="0"/>
+        <sram name="AU_SG2" value="0"/>
+      </option>
+    </attribute>
+    <attribute name="CYINIT" method="map">
+      <option name="#OFF" default="false">
+        <sram name="CIN_S" value="0"/>
+      </option>
+      <option name="BX" default="false">
+        <sram name="CIN_S" value="0"/>
+      </option>
+      <option name="CIN" default="false">
+        <sram name="CIN_S" value="1"/>
+      </option>
+    </attribute>
+    <attribute name="DXMUX" method="map">
+      <option name="#OFF" default="false">
+        <sram name="FFD_SF0" value="0"/>
+        <sram name="FFD_SF1" value="0"/>
+      </option>
+      <option name="XB" default="false">
+        <sram name="FFD_SF0" value="1"/>
+        <sram name="FFD_SF1" value="1"/>
+      </option>
+      <option name="XMUX" default="false">
+        <sram name="FFD_SF0" value="0"/>
+        <sram name="FFD_SF1" value="1"/>
+      </option>
+      <option name="X" default="false">
+        <sram name="FFD_SF0" value="1"/>
+        <sram name="FFD_SF1" value="0"/>
+      </option>
+      <option name="BX" default="false">
+        <sram name="FFD_SF0" value="0"/>
+        <sram name="FFD_SF1" value="0"/>
+      </option>
+    </attribute>
+    <attribute name="DYMUX" method="map">
+      <option name="#OFF" default="false">
+        <sram name="FFD_SG0" value="0"/>
+        <sram name="FFD_SG1" value="0"/>
+      </option>
+      <option name="YB" default="false">
+        <sram name="FFD_SG0" value="1"/>
+        <sram name="FFD_SG1" value="1"/>
+      </option>
+      <option name="YMUX" default="false">
+        <sram name="FFD_SG0" value="0"/>
+        <sram name="FFD_SG1" value="1"/>
+      </option>
+      <option name="Y" default="false">
+        <sram name="FFD_SG0" value="1"/>
+        <sram name="FFD_SG1" value="0"/>
+      </option>
+      <option name="BY" default="false">
+        <sram name="FFD_SG0" value="0"/>
+        <sram name="FFD_SG1" value="0"/>
+      </option>
+    </attribute>
+    <attribute name="F5USED" method="map">
+      <option name="#OFF" default="false"/>
+      <option name="0" default="false"/>
+    </attribute>
+    <attribute name="FFX" method="map">
+      <option name="#OFF" default="false">
+        <sram name="LF_S" value="0"/>
+      </option>
+      <option name="#FF" default="false">
+        <sram name="LF_S" value="0"/>
+      </option>
+      <option name="#LATCH" default="false">
+        <sram name="LF_S" value="1"/>
+      </option>
+    </attribute>
+    <attribute name="FFY" method="map">
+      <option name="#OFF" default="false">
+        <sram name="LF_S" value="0"/>
+      </option>
+      <option name="#FF" default="false">
+        <sram name="LF_S" value="0"/>
+      </option>
+      <option name="#LATCH" default="false">
+        <sram name="LF_S" value="1"/>
+      </option>
+    </attribute>
+    <attribute name="FFX_INIT_ATTR" method="map">
+      <option name="#OFF" default="false">
+        <sram name="SQ_SFB" value="0"/>
+      </option>
+      <option name="INIT0" default="false">
+        <sram name="SQ_SFB" value="1"/>
+      </option>
+      <option name="INIT1" default="false">
+        <sram name="SQ_SFB" value="0"/>
+      </option>
+    </attribute>
+    <attribute name="FFX_SR_ATTR" method="map">
+      <option name="#OFF" default="false">
+        <sram name="SR_SF" value="0"/>
+      </option>
+      <option name="SRLOW" default="false">
+        <sram name="SR_SF" value="1"/>
+      </option>
+      <option name="SRHIGH" default="false">
+        <sram name="SR_SF" value="0"/>
+      </option>
+    </attribute>
+    <attribute name="FFY_INIT_ATTR" method="map">
+      <option name="#OFF" default="false">
+        <sram name="SQ_SGB" value="0"/>
+      </option>
+      <option name="INIT0" default="false">
+        <sram name="SQ_SGB" value="1"/>
+      </option>
+      <option name="INIT1" default="false">
+        <sram name="SQ_SGB" value="0"/>
+      </option>
+    </attribute>
+    <attribute name="FFY_SR_ATTR" method="map">
+      <option name="#OFF" default="false">
+        <sram name="SR_SG" value="0"/>
+      </option>
+      <option name="SRLOW" default="false">
+        <sram name="SR_SG" value="1"/>
+      </option>
+      <option name="SRHIGH" default="false">
+        <sram name="SR_SG" value="0"/>
+      </option>
+    </attribute>
+    <attribute name="FXMUX" method="map">
+      <option name="#OFF" default="false">
+        <sram name="XMUX_S" value="0"/>
+      </option>
+      <option name="F5" default="false">
+        <sram name="XMUX_S" value="0"/>
+      </option>
+      <option name="FXOR" default="false">
+        <sram name="XMUX_S" value="1"/>
+      </option>
+    </attribute>
+    <attribute name="GYMUX" method="map">
+      <option name="#OFF" default="false">
+        <sram name="YMUX_S" value="0"/>
+      </option>
+      <option name="FX" default="false">
+        <sram name="YMUX_S" value="0"/>
+      </option>
+      <option name="GXOR" default="false">
+        <sram name="YMUX_S" value="1"/>
+      </option>
+    </attribute>
+    <attribute name="FXUSED" method="map">
+      <option name="#OFF" default="false"/>
+      <option name="0" default="false"/>
+    </attribute>
+    <attribute name="REVUSED" method="map">
+      <option name="#OFF" default="false">
+        <sram name="FFS_S" value="0"/>
+      </option>
+      <option name="0" default="false">
+        <sram name="FFS_S" value="1"/>
+      </option>
+    </attribute>
+    <attribute name="SRINV" method="map">
+      <option name="#OFF" default="false">
+        <sram name="SRINV" value="0"/>
+      </option>
+      <option name="SR" default="false">
+        <sram name="SRINV" value="0"/>
+      </option>
+      <option name="SR_B" default="false">
+        <sram name="SRINV" value="1"/>
+      </option>
+    </attribute>
+    <attribute name="SYNC_ATTR" method="map">
+      <option name="#OFF" default="false">
+        <sram name="DS_S" value="0"/>
+      </option>
+      <option name="SYNC" default="false">
+        <sram name="DS_S" value="1"/>
+      </option>
+      <option name="ASYNC" default="false">
+        <sram name="DS_S" value="0"/>
+      </option>
+    </attribute>
+    <attribute name="XBUSED" method="map">
+      <option name="#OFF" default="false"/>
+      <option name="0" default="false"/>
+    </attribute>
+    <attribute name="XMUXUSED" method="map">
+      <option name="#OFF" default="false"/>
+      <option name="0" default="false"/>
+    </attribute>
+    <attribute name="XUSED" method="map">
+      <option name="#OFF" default="false"/>
+      <option name="0" default="false"/>
+    </attribute>
+    <attribute name="YBUSED" method="map">
+      <option name="#OFF" default="false"/>
+      <option name="0" default="false"/>
+    </attribute>
+    <attribute name="YMUXUSED" method="map">
+      <option name="#OFF" default="false"/>
+      <option name="0" default="false"/>
+    </attribute>
+    <attribute name="YUSED" method="map">
+      <option name="#OFF" default="false"/>
+      <option name="0" default="false"/>
+    </attribute>
+    <attribute name="F" method="lut">
+      <option name="#OFF" default="false">
+        <sram name="LUTF0" address="0"/>
+        <sram name="LUTF1" address="1"/>
+        <sram name="LUTF2" address="2"/>
+        <sram name="LUTF3" address="3"/>
+        <sram name="LUTF4" address="4"/>
+        <sram name="LUTF5" address="5"/>
+        <sram name="LUTF6" address="6"/>
+        <sram name="LUTF7" address="7"/>
+        <sram name="LUTF8" address="8"/>
+        <sram name="LUTF9" address="9"/>
+        <sram name="LUTF10" address="10"/>
+        <sram name="LUTF11" address="11"/>
+        <sram name="LUTF12" address="12"/>
+        <sram name="LUTF13" address="13"/>
+        <sram name="LUTF14" address="14"/>
+        <sram name="LUTF15" address="15"/>
+      </option>
+      <option name="#LUT" default="false">
+        <sram name="LUTF0" address="0"/>
+        <sram name="LUTF1" address="1"/>
+        <sram name="LUTF2" address="2"/>
+        <sram name="LUTF3" address="3"/>
+        <sram name="LUTF4" address="4"/>
+        <sram name="LUTF5" address="5"/>
+        <sram name="LUTF6" address="6"/>
+        <sram name="LUTF7" address="7"/>
+        <sram name="LUTF8" address="8"/>
+        <sram name="LUTF9" address="9"/>
+        <sram name="LUTF10" address="10"/>
+        <sram name="LUTF11" address="11"/>
+        <sram name="LUTF12" address="12"/>
+        <sram name="LUTF13" address="13"/>
+        <sram name="LUTF14" address="14"/>
+        <sram name="LUTF15" address="15"/>
+      </option>
+    </attribute>
+    <attribute name="G" method="lut">
+      <option name="#OFF" default="false">
+        <sram name="LUTG0" address="0"/>
+        <sram name="LUTG1" address="1"/>
+        <sram name="LUTG2" address="2"/>
+        <sram name="LUTG3" address="3"/>
+        <sram name="LUTG4" address="4"/>
+        <sram name="LUTG5" address="5"/>
+        <sram name="LUTG6" address="6"/>
+        <sram name="LUTG7" address="7"/>
+        <sram name="LUTG8" address="8"/>
+        <sram name="LUTG9" address="9"/>
+        <sram name="LUTG10" address="10"/>
+        <sram name="LUTG11" address="11"/>
+        <sram name="LUTG12" address="12"/>
+        <sram name="LUTG13" address="13"/>
+        <sram name="LUTG14" address="14"/>
+        <sram name="LUTG15" address="15"/>
+      </option>
+      <option name="#LUT" default="false">
+        <sram name="LUTG0" address="0"/>
+        <sram name="LUTG1" address="1"/>
+        <sram name="LUTG2" address="2"/>
+        <sram name="LUTG3" address="3"/>
+        <sram name="LUTG4" address="4"/>
+        <sram name="LUTG5" address="5"/>
+        <sram name="LUTG6" address="6"/>
+        <sram name="LUTG7" address="7"/>
+        <sram name="LUTG8" address="8"/>
+        <sram name="LUTG9" address="9"/>
+        <sram name="LUTG10" address="10"/>
+        <sram name="LUTG11" address="11"/>
+        <sram name="LUTG12" address="12"/>
+        <sram name="LUTG13" address="13"/>
+        <sram name="LUTG14" address="14"/>
+        <sram name="LUTG15" address="15"/>
+      </option>
+    </attribute>
+    <attribute name="_ROUTETHROUGH" method="map">
+      <option name="CIN:XMUX" default="false">
+        <sram name="CIN_S" value="1"/>
+        <sram name="XMUX_S" value="1"/>
+      </option>
+      <option name="COUT:YB" default="false"/>
+      <option name="F1:X" default="false">
+        <sram name="LUTF0" value="0"/>
+        <sram name="LUTF1" value="1"/>
+        <sram name="LUTF2" value="0"/>
+        <sram name="LUTF3" value="1"/>
+        <sram name="LUTF4" value="0"/>
+        <sram name="LUTF5" value="1"/>
+        <sram name="LUTF6" value="0"/>
+        <sram name="LUTF7" value="1"/>
+        <sram name="LUTF8" value="0"/>
+        <sram name="LUTF9" value="1"/>
+        <sram name="LUTF10" value="0"/>
+        <sram name="LUTF11" value="1"/>
+        <sram name="LUTF12" value="0"/>
+        <sram name="LUTF13" value="1"/>
+        <sram name="LUTF14" value="0"/>
+        <sram name="LUTF15" value="1"/>
+      </option>
+      <option name="F2:X" default="false">
+        <sram name="LUTF0" value="0"/>
+        <sram name="LUTF1" value="0"/>
+        <sram name="LUTF2" value="1"/>
+        <sram name="LUTF3" value="1"/>
+        <sram name="LUTF4" value="0"/>
+        <sram name="LUTF5" value="0"/>
+        <sram name="LUTF6" value="1"/>
+        <sram name="LUTF7" value="1"/>
+        <sram name="LUTF8" value="0"/>
+        <sram name="LUTF9" value="0"/>
+        <sram name="LUTF10" value="1"/>
+        <sram name="LUTF11" value="1"/>
+        <sram name="LUTF12" value="0"/>
+        <sram name="LUTF13" value="0"/>
+        <sram name="LUTF14" value="1"/>
+        <sram name="LUTF15" value="1"/>
+      </option>
+      <option name="F3:X" default="false">
+        <sram name="LUTF0" value="0"/>
+        <sram name="LUTF1" value="0"/>
+        <sram name="LUTF2" value="0"/>
+        <sram name="LUTF3" value="0"/>
+        <sram name="LUTF4" value="1"/>
+        <sram name="LUTF5" value="1"/>
+        <sram name="LUTF6" value="1"/>
+        <sram name="LUTF7" value="1"/>
+        <sram name="LUTF8" value="0"/>
+        <sram name="LUTF9" value="0"/>
+        <sram name="LUTF10" value="0"/>
+        <sram name="LUTF11" value="0"/>
+        <sram name="LUTF12" value="1"/>
+        <sram name="LUTF13" value="1"/>
+        <sram name="LUTF14" value="1"/>
+        <sram name="LUTF15" value="1"/>
+      </option>
+      <option name="F4:X" default="false">
+        <sram name="LUTF0" value="0"/>
+        <sram name="LUTF1" value="0"/>
+        <sram name="LUTF2" value="0"/>
+        <sram name="LUTF3" value="0"/>
+        <sram name="LUTF4" value="0"/>
+        <sram name="LUTF5" value="0"/>
+        <sram name="LUTF6" value="0"/>
+        <sram name="LUTF7" value="0"/>
+        <sram name="LUTF8" value="1"/>
+        <sram name="LUTF9" value="1"/>
+        <sram name="LUTF10" value="1"/>
+        <sram name="LUTF11" value="1"/>
+        <sram name="LUTF12" value="1"/>
+        <sram name="LUTF13" value="1"/>
+        <sram name="LUTF14" value="1"/>
+        <sram name="LUTF15" value="1"/>
+      </option>
+      <option name="F5:XMUX" default="false">
+        <sram name="XMUX_S" value="0"/>
+      </option>
+      <option name="FX:YMUX" default="false">
+        <sram name="YMUX_S" value="0"/>
+      </option>
+      <option name="G1:Y" default="false">
+        <sram name="LUTG0" value="0"/>
+        <sram name="LUTG1" value="1"/>
+        <sram name="LUTG2" value="0"/>
+        <sram name="LUTG3" value="1"/>
+        <sram name="LUTG4" value="0"/>
+        <sram name="LUTG5" value="1"/>
+        <sram name="LUTG6" value="0"/>
+        <sram name="LUTG7" value="1"/>
+        <sram name="LUTG8" value="0"/>
+        <sram name="LUTG9" value="1"/>
+        <sram name="LUTG10" value="0"/>
+        <sram name="LUTG11" value="1"/>
+        <sram name="LUTG12" value="0"/>
+        <sram name="LUTG13" value="1"/>
+        <sram name="LUTG14" value="0"/>
+        <sram name="LUTG15" value="1"/>
+      </option>
+      <option name="G2:Y" default="false">
+        <sram name="LUTG0" value="0"/>
+        <sram name="LUTG1" value="0"/>
+        <sram name="LUTG2" value="1"/>
+        <sram name="LUTG3" value="1"/>
+        <sram name="LUTG4" value="0"/>
+        <sram name="LUTG5" value="0"/>
+        <sram name="LUTG6" value="1"/>
+        <sram name="LUTG7" value="1"/>
+        <sram name="LUTG8" value="0"/>
+        <sram name="LUTG9" value="0"/>
+        <sram name="LUTG10" value="1"/>
+        <sram name="LUTG11" value="1"/>
+        <sram name="LUTG12" value="0"/>
+        <sram name="LUTG13" value="0"/>
+        <sram name="LUTG14" value="1"/>
+        <sram name="LUTG15" value="1"/>
+      </option>
+      <option name="G3:Y" default="false">
+        <sram name="LUTG0" value="0"/>
+        <sram name="LUTG1" value="0"/>
+        <sram name="LUTG2" value="0"/>
+        <sram name="LUTG3" value="0"/>
+        <sram name="LUTG4" value="1"/>
+        <sram name="LUTG5" value="1"/>
+        <sram name="LUTG6" value="1"/>
+        <sram name="LUTG7" value="1"/>
+        <sram name="LUTG8" value="0"/>
+        <sram name="LUTG9" value="0"/>
+        <sram name="LUTG10" value="0"/>
+        <sram name="LUTG11" value="0"/>
+        <sram name="LUTG12" value="1"/>
+        <sram name="LUTG13" value="1"/>
+        <sram name="LUTG14" value="1"/>
+        <sram name="LUTG15" value="1"/>
+      </option>
+      <option name="G4:Y" default="false">
+        <sram name="LUTG0" value="0"/>
+        <sram name="LUTG1" value="0"/>
+        <sram name="LUTG2" value="0"/>
+        <sram name="LUTG3" value="0"/>
+        <sram name="LUTG4" value="0"/>
+        <sram name="LUTG5" value="0"/>
+        <sram name="LUTG6" value="0"/>
+        <sram name="LUTG7" value="0"/>
+        <sram name="LUTG8" value="1"/>
+        <sram name="LUTG9" value="1"/>
+        <sram name="LUTG10" value="1"/>
+        <sram name="LUTG11" value="1"/>
+        <sram name="LUTG12" value="1"/>
+        <sram name="LUTG13" value="1"/>
+        <sram name="LUTG14" value="1"/>
+        <sram name="LUTG15" value="1"/>
+      </option>
+    </attribute>
+  </site>

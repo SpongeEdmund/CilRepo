@@ -1,0 +1,159 @@
+<tile name="BRAM" scale="320X2">
+  <cluster_inst name="RAMB16" ref="RAMB16">
+    <dist sram="P1" inst="XI597" bl="1" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="WPA0" inst="XI597" bl="0" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="RPB0" inst="XI597" bl="74" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="CONTROL_SEL" inst="XI597" bl="58" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="ALMOSTEMPTY_OFFSET3" inst="XI597" bl="25" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="ALMOSTFULL_OFFSET10" inst="XI597" bl="49" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="WPA4" inst="XI597" bl="3" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="WPB2" inst="XI597" bl="75" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="ALMOSTFULL_OFFSET6" inst="XI597" bl="40" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="MODE" inst="XI597" bl="49" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="ALMOSTEMPTY_OFFSET7" inst="XI597" bl="39" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="WMB1" inst="XI597" bl="51" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="WPB4" inst="XI597" bl="73" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="RPA2" inst="XI597" bl="10" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="RAM_EXTENSIONB0" inst="XI597" bl="47" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="ALMOSTEMPTY_OFFSET1" inst="XI597" bl="30" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="ALMOSTEMPTY_OFFSET11" inst="XI597" bl="32" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="P0" inst="XI597" bl="77" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="WPA3" inst="XI597" bl="4" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="RPA4" inst="XI597" bl="7" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="RAM_EXTENSIONA1" inst="XI597" bl="28" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="ALMOSTEMPTY_OFFSET4" inst="XI597" bl="24" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="RPB4" inst="XI597" bl="69" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="ALMOSTEMPTY_OFFSET8" inst="XI597" bl="37" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="ALMOSTEMPTY_OFFSET9" inst="XI597" bl="36" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="WMA0" inst="XI597" bl="25" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="FWFT" inst="XI597" bl="14" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="RPA0" inst="XI597" bl="8" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="ALMOSTFULL_OFFSET7" inst="XI597" bl="41" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="ALMOSTFULL_OFFSET0" inst="XI597" bl="32" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="WMB0" inst="XI597" bl="52" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="ALMOSTFULL_OFFSET1" inst="XI597" bl="47" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="ALMOSTEMPTY_OFFSET0" inst="XI597" bl="28" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="WMA1" inst="XI597" bl="27" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="ALMOSTEMPTY_OFFSET2" inst="XI597" bl="27" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="ALMOSTFULL_OFFSET2" inst="XI597" bl="33" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="ALMOSTEMPTY_OFFSET6" inst="XI597" bl="20" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="WPA2" inst="XI597" bl="2" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="ALMOSTEMPTY_OFFSET10" inst="XI597" bl="35" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="ALMOSTFULL_OFFSET11" inst="XI597" bl="51" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="ALMOSTFULL_OFFSET9" inst="XI597" bl="46" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="ALMOSTFULL_OFFSET8" inst="XI597" bl="43" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="ALMOSTFULL_OFFSET5" inst="XI597" bl="39" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="RAM_EXTENSIONA0" inst="XI597" bl="29" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="RAM_EXTENSIONB1" inst="XI597" bl="48" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="WPA1" inst="XI597" bl="79" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="WPB1" inst="XI597" bl="78" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="WPB3" inst="XI597" bl="72" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="RPA1" inst="XI597" bl="6" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="RPA3" inst="XI597" bl="5" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="RPB1" inst="XI597" bl="70" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="RPB3" inst="XI597" bl="71" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="ALMOSTFULL_OFFSET4" inst="XI597" bl="38" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="ALMOSTFULL_OFFSET3" inst="XI597" bl="35" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="ALMOSTEMPTY_OFFSET5" inst="XI597" bl="22" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="WPB0" inst="XI597" bl="76" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="RPB2" inst="XI597" bl="67" wl="19" inv="no" offset="-2,-1" />
+
+  	<!--INVERTERs existing in GRM-->
+	<!--BF_ENA-->
+	<dist sram="ENAINV" inst="XI597" bl="8" wl="16" inv="yes" offset="-1,-1"/>
+	<!--BF_ENB-->
+	<dist sram="ENBINV" inst="XI597" bl="0" wl="16" inv="yes" offset="-1,-1"/>
+	<!--REGCEA-->
+	<dist sram="REGCEAINV" inst="XI597" bl="15" wl="16" inv="yes" offset="-1,-1"/>
+	<!--REGCEB-->
+	<dist sram="REGCEBINV" inst="XI597" bl="7" wl="16" inv="yes" offset="-1,-1"/>
+	<!--BF_CLKA-->
+	<dist sram="CLKAINV" inst="XI597" bl="24" wl="16" inv="yes" offset="-1,-1"/>
+	<!--BF_CLKB-->
+	<dist sram="CLKBINV" inst="XI597" bl="31" wl="16" inv="yes" offset="-1,-1"/>
+	<!--SSRB-->
+	<dist sram="SSRBINV" inst="XI597" bl="71" wl="16" inv="yes" offset="-2,-1"/>
+	<!--BF_RST-->
+	<dist sram="RSTINV" inst="XI597" bl="79" wl="16" inv="yes" offset="-2,-1"/>
+	
+  </cluster_inst>
+  <!--FIFO16 is exactly the same with RAMB16-->
+  <cluster_inst name="FIFO16" ref="FIFO16">
+    <dist sram="P1" inst="XI597" bl="1" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="WPA0" inst="XI597" bl="0" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="RPB0" inst="XI597" bl="74" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="CONTROL_SEL" inst="XI597" bl="58" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="ALMOSTEMPTY_OFFSET3" inst="XI597" bl="25" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="ALMOSTFULL_OFFSET10" inst="XI597" bl="49" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="WPA4" inst="XI597" bl="3" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="WPB2" inst="XI597" bl="75" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="ALMOSTFULL_OFFSET6" inst="XI597" bl="40" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="MODE" inst="XI597" bl="49" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="ALMOSTEMPTY_OFFSET7" inst="XI597" bl="39" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="WMB1" inst="XI597" bl="51" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="WPB4" inst="XI597" bl="73" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="RPA2" inst="XI597" bl="10" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="RAM_EXTENSIONB0" inst="XI597" bl="47" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="ALMOSTEMPTY_OFFSET1" inst="XI597" bl="30" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="ALMOSTEMPTY_OFFSET11" inst="XI597" bl="32" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="P0" inst="XI597" bl="77" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="WPA3" inst="XI597" bl="4" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="RPA4" inst="XI597" bl="7" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="RAM_EXTENSIONA1" inst="XI597" bl="28" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="ALMOSTEMPTY_OFFSET4" inst="XI597" bl="24" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="RPB4" inst="XI597" bl="69" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="ALMOSTEMPTY_OFFSET8" inst="XI597" bl="37" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="ALMOSTEMPTY_OFFSET9" inst="XI597" bl="36" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="WMA0" inst="XI597" bl="25" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="FWFT" inst="XI597" bl="14" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="RPA0" inst="XI597" bl="8" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="ALMOSTFULL_OFFSET7" inst="XI597" bl="41" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="ALMOSTFULL_OFFSET0" inst="XI597" bl="32" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="WMB0" inst="XI597" bl="52" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="ALMOSTFULL_OFFSET1" inst="XI597" bl="47" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="ALMOSTEMPTY_OFFSET0" inst="XI597" bl="28" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="WMA1" inst="XI597" bl="27" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="ALMOSTEMPTY_OFFSET2" inst="XI597" bl="27" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="ALMOSTFULL_OFFSET2" inst="XI597" bl="33" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="ALMOSTEMPTY_OFFSET6" inst="XI597" bl="20" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="WPA2" inst="XI597" bl="2" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="ALMOSTEMPTY_OFFSET10" inst="XI597" bl="35" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="ALMOSTFULL_OFFSET11" inst="XI597" bl="51" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="ALMOSTFULL_OFFSET9" inst="XI597" bl="46" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="ALMOSTFULL_OFFSET8" inst="XI597" bl="43" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="ALMOSTFULL_OFFSET5" inst="XI597" bl="39" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="RAM_EXTENSIONA0" inst="XI597" bl="29" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="RAM_EXTENSIONB1" inst="XI597" bl="48" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="WPA1" inst="XI597" bl="79" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="WPB1" inst="XI597" bl="78" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="WPB3" inst="XI597" bl="72" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="RPA1" inst="XI597" bl="6" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="RPA3" inst="XI597" bl="5" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="RPB1" inst="XI597" bl="70" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="RPB3" inst="XI597" bl="71" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="ALMOSTFULL_OFFSET4" inst="XI597" bl="38" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="ALMOSTFULL_OFFSET3" inst="XI597" bl="35" wl="19" inv="no" offset="-1,-1" />
+    <dist sram="ALMOSTEMPTY_OFFSET5" inst="XI597" bl="22" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="WPB0" inst="XI597" bl="76" wl="19" inv="no" offset="-2,-1" />
+    <dist sram="RPB2" inst="XI597" bl="67" wl="19" inv="no" offset="-2,-1" />
+	
+  	<!--INVERTERs existing in GRM-->
+	<!--BF_ENA-->
+	<dist sram="ENAINV" inst="XI597" bl="8" wl="16" inv="yes" offset="-1,-1"/>
+	<!--BF_ENB-->
+	<dist sram="ENBINV" inst="XI597" bl="0" wl="16" inv="yes" offset="-1,-1"/>
+	<!--REGCEA-->
+	<dist sram="REGCEAINV" inst="XI597" bl="15" wl="16" inv="yes" offset="-1,-1"/>
+	<!--REGCEB-->
+	<dist sram="REGCEBINV" inst="XI597" bl="7" wl="16" inv="yes" offset="-1,-1"/>
+	<!--BF_CLKA-->
+	<dist sram="CLKAINV" inst="XI597" bl="24" wl="16" inv="yes" offset="-1,-1"/>
+	<!--BF_CLKB-->
+	<dist sram="CLKBINV" inst="XI597" bl="31" wl="16" inv="yes" offset="-1,-1"/>
+	<!--SSRB-->
+	<dist sram="SSRBINV" inst="XI597" bl="71" wl="16" inv="yes" offset="-2,-1"/>
+	<!--BF_RST-->
+	<dist sram="RSTINV" inst="XI597" bl="79" wl="16" inv="yes" offset="-2,-1"/>
+	
+  </cluster_inst>
+</tile>

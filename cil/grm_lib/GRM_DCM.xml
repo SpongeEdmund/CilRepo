@@ -1,0 +1,1168 @@
+<grm name="GRM_DCM">
+  <element_inst name="XI1" ref="DCM_MUX_13TO1" />
+  <element_inst name="XI11" ref="DCM_MUX_13TO1" />
+  <element_inst name="XI44" ref="DCM_MUX_13TO1" />
+  <element_inst name="XI20" ref="DCM_MUX_13TO1" />
+  <element_inst name="XI21" ref="DCM_MUX_13TO1" />
+  <element_inst name="XI18" ref="DCM_MUX_13TO1" />
+  <element_inst name="XI185" ref="DCM_MUX_36TO1" />
+  <element_inst name="XI16" ref="DCM_MUX_13TO1" />
+  <element_inst name="XI12" ref="DCM_MUX_13TO1" />
+  <element_inst name="XI186" ref="DCM_MUX_36TO1" />
+  <element_inst name="XI10" ref="DCM_MUX_13TO1" />
+  <element_inst name="XI2" ref="DCM_MUX_13TO1" />
+  <element_inst name="XI0" ref="DCM_MUX_13TO1" />
+  <element_inst name="XI15" ref="DCM_MUX_13TO1" />
+  <element_inst name="XI19" ref="DCM_MUX_13TO1" />
+  <element_inst name="XI7" ref="DCM_MUX_13TO1" />
+  <element_inst name="XI4" ref="DCM_MUX_13TO1" />
+  <element_inst name="XI9" ref="DCM_MUX_13TO1" />
+  <element_inst name="XI17" ref="DCM_MUX_13TO1" />
+  <element_inst name="XI8" ref="DCM_MUX_13TO1" />
+  <element_inst name="XI22" ref="DCM_MUX_13TO1" />
+  <element_inst name="XI5" ref="DCM_MUX_13TO1" />
+  <element_inst name="XI6" ref="DCM_MUX_13TO1" />
+  <element_inst name="XI14" ref="DCM_MUX_13TO1" />
+  <element_inst name="XI3" ref="DCM_MUX_13TO1" />
+  <element_inst name="XI13" ref="DCM_MUX_13TO1" />
+  <route src="DCM_OUT0" snk="DCM_ADV_CLKFB">
+    <step from="IN32" to="Y" through="XI185" />
+  </route>
+  <route src="DCM_OUT1" snk="DCM_ADV_CLKFB">
+    <step from="IN33" to="Y" through="XI185" />
+  </route>
+  <route src="DCM_OUT0" snk="DCM_ADV_CLKIN">
+    <step from="IN32" to="Y" through="XI186" />
+  </route>
+  <route src="DCM_OUT1" snk="DCM_ADV_CLKIN">
+    <step from="IN33" to="Y" through="XI186" />
+  </route>
+  <route src="CLK_B0_INT0_DCM0" snk="DCM_ADV_CLKFB">
+    <step from="IN0" to="Y" through="XI185" />
+  </route>
+  <route src="CLK_B0_INT0_DCM0" snk="DCM_ADV_CLKIN">
+    <step from="IN0" to="Y" through="XI186" />
+  </route>
+  <route src="CLK_B1_INT0" snk="DCM_ADV_CLKFB">
+    <step from="IN1" to="Y" through="XI185" />
+  </route>
+  <route src="CLK_B1_INT0" snk="DCM_ADV_CLKIN">
+    <step from="IN1" to="Y" through="XI186" />
+  </route>
+  <route src="CLK_B2_INT0" snk="DCM_ADV_CLKFB">
+    <step from="IN2" to="Y" through="XI185" />
+  </route>
+  <route src="CLK_B2_INT0" snk="DCM_ADV_CLKIN">
+    <step from="IN2" to="Y" through="XI186" />
+  </route>
+  <route src="CLK_B3_INT0" snk="DCM_ADV_CLKFB">
+    <step from="IN3" to="Y" through="XI185" />
+  </route>
+  <route src="CLK_B3_INT0" snk="DCM_ADV_CLKIN">
+    <step from="IN3" to="Y" through="XI186" />
+  </route>
+  <route src="DCM_BUFG7" snk="DCM_ADV_CLKFB">
+    <step from="IN11" to="Y" through="XI185" />
+  </route>
+  <route src="DCM_BUFG7" snk="DCM_ADV_CLKIN">
+    <step from="IN11" to="Y" through="XI186" />
+  </route>
+  <route src="DCM_BUFG6" snk="DCM_ADV_CLKFB">
+    <step from="IN10" to="Y" through="XI185" />
+  </route>
+  <route src="DCM_BUFG6" snk="DCM_ADV_CLKIN">
+    <step from="IN10" to="Y" through="XI186" />
+  </route>
+  <route src="DCM_BUFG5" snk="DCM_ADV_CLKFB">
+    <step from="IN9" to="Y" through="XI185" />
+  </route>
+  <route src="DCM_BUFG5" snk="DCM_ADV_CLKIN">
+    <step from="IN9" to="Y" through="XI186" />
+  </route>
+  <route src="DCM_BUFG4" snk="DCM_ADV_CLKFB">
+    <step from="IN8" to="Y" through="XI185" />
+  </route>
+  <route src="DCM_BUFG4" snk="DCM_ADV_CLKIN">
+    <step from="IN8" to="Y" through="XI186" />
+  </route>
+  <route src="DCM_BUFG3" snk="DCM_ADV_CLKFB">
+    <step from="IN7" to="Y" through="XI185" />
+  </route>
+  <route src="DCM_BUFG3" snk="DCM_ADV_CLKIN">
+    <step from="IN7" to="Y" through="XI186" />
+  </route>
+  <route src="DCM_BUFG2" snk="DCM_ADV_CLKFB">
+    <step from="IN6" to="Y" through="XI185" />
+  </route>
+  <route src="DCM_BUFG2" snk="DCM_ADV_CLKIN">
+    <step from="IN6" to="Y" through="XI186" />
+  </route>
+  <route src="DCM_BUFG1" snk="DCM_ADV_CLKFB">
+    <step from="IN5" to="Y" through="XI185" />
+  </route>
+  <route src="DCM_BUFG1" snk="DCM_ADV_CLKIN">
+    <step from="IN5" to="Y" through="XI186" />
+  </route>
+  <route src="DCM_BUFG0" snk="DCM_ADV_CLKFB">
+    <step from="IN4" to="Y" through="XI185" />
+  </route>
+  <route src="DCM_BUFG0" snk="DCM_ADV_CLKIN">
+    <step from="IN4" to="Y" through="XI186" />
+  </route>
+  <route src="DCM_CLK0" snk="DCM_OUT7">
+    <step from="IN1" to="DCM_OUT" through="XI9" />
+  </route>
+  <route src="DCM_CLK0" snk="DCM_OUT6">
+    <step from="IN1" to="DCM_OUT" through="XI10" />
+  </route>
+  <route src="DCM_CLK0" snk="DCM_OUT3">
+    <step from="IN1" to="DCM_OUT" through="XI2" />
+  </route>
+  <route src="DCM_CLK0" snk="DCM_OUT10">
+    <step from="IN1" to="DCM_OUT" through="XI6" />
+  </route>
+  <route src="DCM_CLK0" snk="DCM_OUT19">
+    <step from="IN1" to="DCM_OUT" through="XI21" />
+  </route>
+  <route src="DCM_CLK0" snk="DCM_OUT2">
+    <step from="IN1" to="DCM_OUT" through="XI1" />
+  </route>
+  <route src="DCM_CLK0" snk="DCM_OUT8">
+    <step from="IN1" to="DCM_OUT" through="XI8" />
+  </route>
+  <route src="DCM_CLK0" snk="DCM_OUT23">
+    <step from="IN1" to="DCM_OUT" through="XI17" />
+  </route>
+  <route src="DCM_CLK0" snk="DCM_OUT4">
+    <step from="IN1" to="DCM_OUT" through="XI3" />
+  </route>
+  <route src="DCM_CLK0" snk="DCM_OUT22">
+    <step from="IN1" to="DCM_OUT" through="XI18" />
+  </route>
+  <route src="DCM_CLK0" snk="DCM_OUT21">
+    <step from="IN1" to="DCM_OUT" through="XI19" />
+  </route>
+  <route src="DCM_CLK0" snk="DCM_OUT12">
+    <step from="IN1" to="DCM_OUT" through="XI16" />
+  </route>
+  <route src="DCM_CLK0" snk="DCM_OUT18">
+    <step from="IN1" to="DCM_OUT" through="XI22" />
+  </route>
+  <route src="DCM_CLK0" snk="DCM_OUT5">
+    <step from="IN1" to="DCM_OUT" through="XI4" />
+  </route>
+  <route src="DCM_CLK0" snk="DCM_OUT13">
+    <step from="IN1" to="DCM_OUT" through="XI15" />
+  </route>
+  <route src="DCM_CLK0" snk="DCM_OUT15">
+    <step from="IN1" to="DCM_OUT" through="XI13" />
+  </route>
+  <route src="DCM_CLK0" snk="DCM_OUT0">
+    <step from="IN1" to="DCM_OUT" through="XI44" />
+  </route>
+  <route src="DCM_CLK0" snk="DCM_OUT1">
+    <step from="IN1" to="DCM_OUT" through="XI0" />
+  </route>
+  <route src="DCM_CLK0" snk="DCM_OUT20">
+    <step from="IN1" to="DCM_OUT" through="XI20" />
+  </route>
+  <route src="DCM_CLK0" snk="DCM_OUT17">
+    <step from="IN1" to="DCM_OUT" through="XI11" />
+  </route>
+  <route src="DCM_CLK0" snk="DCM_OUT9">
+    <step from="IN1" to="DCM_OUT" through="XI7" />
+  </route>
+  <route src="DCM_CLK0" snk="DCM_OUT11">
+    <step from="IN1" to="DCM_OUT" through="XI5" />
+  </route>
+  <route src="DCM_CLK0" snk="DCM_OUT14">
+    <step from="IN1" to="DCM_OUT" through="XI14" />
+  </route>
+  <route src="DCM_CLK0" snk="DCM_OUT16">
+    <step from="IN1" to="DCM_OUT" through="XI12" />
+  </route>
+  <route src="DCM_CLK2X" snk="DCM_OUT7">
+    <step from="IN2" to="DCM_OUT" through="XI9" />
+  </route>
+  <route src="DCM_CLK2X" snk="DCM_OUT6">
+    <step from="IN2" to="DCM_OUT" through="XI10" />
+  </route>
+  <route src="DCM_CLK2X" snk="DCM_OUT3">
+    <step from="IN2" to="DCM_OUT" through="XI2" />
+  </route>
+  <route src="DCM_CLK2X" snk="DCM_OUT10">
+    <step from="IN2" to="DCM_OUT" through="XI6" />
+  </route>
+  <route src="DCM_CLK2X" snk="DCM_OUT19">
+    <step from="IN2" to="DCM_OUT" through="XI21" />
+  </route>
+  <route src="DCM_CLK2X" snk="DCM_OUT2">
+    <step from="IN2" to="DCM_OUT" through="XI1" />
+  </route>
+  <route src="DCM_CLK2X" snk="DCM_OUT8">
+    <step from="IN2" to="DCM_OUT" through="XI8" />
+  </route>
+  <route src="DCM_CLK2X" snk="DCM_OUT23">
+    <step from="IN2" to="DCM_OUT" through="XI17" />
+  </route>
+  <route src="DCM_CLK2X" snk="DCM_OUT4">
+    <step from="IN2" to="DCM_OUT" through="XI3" />
+  </route>
+  <route src="DCM_CLK2X" snk="DCM_OUT22">
+    <step from="IN2" to="DCM_OUT" through="XI18" />
+  </route>
+  <route src="DCM_CLK2X" snk="DCM_OUT21">
+    <step from="IN2" to="DCM_OUT" through="XI19" />
+  </route>
+  <route src="DCM_CLK2X" snk="DCM_OUT12">
+    <step from="IN2" to="DCM_OUT" through="XI16" />
+  </route>
+  <route src="DCM_CLK2X" snk="DCM_OUT18">
+    <step from="IN2" to="DCM_OUT" through="XI22" />
+  </route>
+  <route src="DCM_CLK2X" snk="DCM_OUT5">
+    <step from="IN2" to="DCM_OUT" through="XI4" />
+  </route>
+  <route src="DCM_CLK2X" snk="DCM_OUT13">
+    <step from="IN2" to="DCM_OUT" through="XI15" />
+  </route>
+  <route src="DCM_CLK2X" snk="DCM_OUT15">
+    <step from="IN2" to="DCM_OUT" through="XI13" />
+  </route>
+  <route src="DCM_CLK2X" snk="DCM_OUT0">
+    <step from="IN2" to="DCM_OUT" through="XI44" />
+  </route>
+  <route src="DCM_CLK2X" snk="DCM_OUT1">
+    <step from="IN2" to="DCM_OUT" through="XI0" />
+  </route>
+  <route src="DCM_CLK2X" snk="DCM_OUT20">
+    <step from="IN2" to="DCM_OUT" through="XI20" />
+  </route>
+  <route src="DCM_CLK2X" snk="DCM_OUT17">
+    <step from="IN2" to="DCM_OUT" through="XI11" />
+  </route>
+  <route src="DCM_CLK2X" snk="DCM_OUT9">
+    <step from="IN2" to="DCM_OUT" through="XI7" />
+  </route>
+  <route src="DCM_CLK2X" snk="DCM_OUT11">
+    <step from="IN2" to="DCM_OUT" through="XI5" />
+  </route>
+  <route src="DCM_CLK2X" snk="DCM_OUT14">
+    <step from="IN2" to="DCM_OUT" through="XI14" />
+  </route>
+  <route src="DCM_CLK2X" snk="DCM_OUT16">
+    <step from="IN2" to="DCM_OUT" through="XI12" />
+  </route>
+  <route src="DCM_CLK2X180" snk="DCM_OUT7">
+    <step from="IN3" to="DCM_OUT" through="XI9" />
+  </route>
+  <route src="DCM_CLK2X180" snk="DCM_OUT6">
+    <step from="IN3" to="DCM_OUT" through="XI10" />
+  </route>
+  <route src="DCM_CLK2X180" snk="DCM_OUT3">
+    <step from="IN3" to="DCM_OUT" through="XI2" />
+  </route>
+  <route src="DCM_CLK2X180" snk="DCM_OUT10">
+    <step from="IN3" to="DCM_OUT" through="XI6" />
+  </route>
+  <route src="DCM_CLK2X180" snk="DCM_OUT19">
+    <step from="IN3" to="DCM_OUT" through="XI21" />
+  </route>
+  <route src="DCM_CLK2X180" snk="DCM_OUT2">
+    <step from="IN3" to="DCM_OUT" through="XI1" />
+  </route>
+  <route src="DCM_CLK2X180" snk="DCM_OUT8">
+    <step from="IN3" to="DCM_OUT" through="XI8" />
+  </route>
+  <route src="DCM_CLK2X180" snk="DCM_OUT23">
+    <step from="IN3" to="DCM_OUT" through="XI17" />
+  </route>
+  <route src="DCM_CLK2X180" snk="DCM_OUT4">
+    <step from="IN3" to="DCM_OUT" through="XI3" />
+  </route>
+  <route src="DCM_CLK2X180" snk="DCM_OUT22">
+    <step from="IN3" to="DCM_OUT" through="XI18" />
+  </route>
+  <route src="DCM_CLK2X180" snk="DCM_OUT21">
+    <step from="IN3" to="DCM_OUT" through="XI19" />
+  </route>
+  <route src="DCM_CLK2X180" snk="DCM_OUT12">
+    <step from="IN3" to="DCM_OUT" through="XI16" />
+  </route>
+  <route src="DCM_CLK2X180" snk="DCM_OUT18">
+    <step from="IN3" to="DCM_OUT" through="XI22" />
+  </route>
+  <route src="DCM_CLK2X180" snk="DCM_OUT5">
+    <step from="IN3" to="DCM_OUT" through="XI4" />
+  </route>
+  <route src="DCM_CLK2X180" snk="DCM_OUT13">
+    <step from="IN3" to="DCM_OUT" through="XI15" />
+  </route>
+  <route src="DCM_CLK2X180" snk="DCM_OUT15">
+    <step from="IN3" to="DCM_OUT" through="XI13" />
+  </route>
+  <route src="DCM_CLK2X180" snk="DCM_OUT0">
+    <step from="IN3" to="DCM_OUT" through="XI44" />
+  </route>
+  <route src="DCM_CLK2X180" snk="DCM_OUT1">
+    <step from="IN3" to="DCM_OUT" through="XI0" />
+  </route>
+  <route src="DCM_CLK2X180" snk="DCM_OUT20">
+    <step from="IN3" to="DCM_OUT" through="XI20" />
+  </route>
+  <route src="DCM_CLK2X180" snk="DCM_OUT17">
+    <step from="IN3" to="DCM_OUT" through="XI11" />
+  </route>
+  <route src="DCM_CLK2X180" snk="DCM_OUT9">
+    <step from="IN3" to="DCM_OUT" through="XI7" />
+  </route>
+  <route src="DCM_CLK2X180" snk="DCM_OUT11">
+    <step from="IN3" to="DCM_OUT" through="XI5" />
+  </route>
+  <route src="DCM_CLK2X180" snk="DCM_OUT14">
+    <step from="IN3" to="DCM_OUT" through="XI14" />
+  </route>
+  <route src="DCM_CLK2X180" snk="DCM_OUT16">
+    <step from="IN3" to="DCM_OUT" through="XI12" />
+  </route>
+  <route src="DCM_CLK90" snk="DCM_OUT7">
+    <step from="IN4" to="DCM_OUT" through="XI9" />
+  </route>
+  <route src="DCM_CLK90" snk="DCM_OUT6">
+    <step from="IN4" to="DCM_OUT" through="XI10" />
+  </route>
+  <route src="DCM_CLK90" snk="DCM_OUT3">
+    <step from="IN4" to="DCM_OUT" through="XI2" />
+  </route>
+  <route src="DCM_CLK90" snk="DCM_OUT10">
+    <step from="IN4" to="DCM_OUT" through="XI6" />
+  </route>
+  <route src="DCM_CLK90" snk="DCM_OUT19">
+    <step from="IN4" to="DCM_OUT" through="XI21" />
+  </route>
+  <route src="DCM_CLK90" snk="DCM_OUT2">
+    <step from="IN4" to="DCM_OUT" through="XI1" />
+  </route>
+  <route src="DCM_CLK90" snk="DCM_OUT8">
+    <step from="IN4" to="DCM_OUT" through="XI8" />
+  </route>
+  <route src="DCM_CLK90" snk="DCM_OUT23">
+    <step from="IN4" to="DCM_OUT" through="XI17" />
+  </route>
+  <route src="DCM_CLK90" snk="DCM_OUT4">
+    <step from="IN4" to="DCM_OUT" through="XI3" />
+  </route>
+  <route src="DCM_CLK90" snk="DCM_OUT22">
+    <step from="IN4" to="DCM_OUT" through="XI18" />
+  </route>
+  <route src="DCM_CLK90" snk="DCM_OUT21">
+    <step from="IN4" to="DCM_OUT" through="XI19" />
+  </route>
+  <route src="DCM_CLK90" snk="DCM_OUT12">
+    <step from="IN4" to="DCM_OUT" through="XI16" />
+  </route>
+  <route src="DCM_CLK90" snk="DCM_OUT18">
+    <step from="IN4" to="DCM_OUT" through="XI22" />
+  </route>
+  <route src="DCM_CLK90" snk="DCM_OUT5">
+    <step from="IN4" to="DCM_OUT" through="XI4" />
+  </route>
+  <route src="DCM_CLK90" snk="DCM_OUT13">
+    <step from="IN4" to="DCM_OUT" through="XI15" />
+  </route>
+  <route src="DCM_CLK90" snk="DCM_OUT15">
+    <step from="IN4" to="DCM_OUT" through="XI13" />
+  </route>
+  <route src="DCM_CLK90" snk="DCM_OUT0">
+    <step from="IN4" to="DCM_OUT" through="XI44" />
+  </route>
+  <route src="DCM_CLK90" snk="DCM_OUT1">
+    <step from="IN4" to="DCM_OUT" through="XI0" />
+  </route>
+  <route src="DCM_CLK90" snk="DCM_OUT20">
+    <step from="IN4" to="DCM_OUT" through="XI20" />
+  </route>
+  <route src="DCM_CLK90" snk="DCM_OUT17">
+    <step from="IN4" to="DCM_OUT" through="XI11" />
+  </route>
+  <route src="DCM_CLK90" snk="DCM_OUT9">
+    <step from="IN4" to="DCM_OUT" through="XI7" />
+  </route>
+  <route src="DCM_CLK90" snk="DCM_OUT11">
+    <step from="IN4" to="DCM_OUT" through="XI5" />
+  </route>
+  <route src="DCM_CLK90" snk="DCM_OUT14">
+    <step from="IN4" to="DCM_OUT" through="XI14" />
+  </route>
+  <route src="DCM_CLK90" snk="DCM_OUT16">
+    <step from="IN4" to="DCM_OUT" through="XI12" />
+  </route>
+  <route src="DCM_CLK180" snk="DCM_OUT7">
+    <step from="IN5" to="DCM_OUT" through="XI9" />
+  </route>
+  <route src="DCM_CLK180" snk="DCM_OUT6">
+    <step from="IN5" to="DCM_OUT" through="XI10" />
+  </route>
+  <route src="DCM_CLK180" snk="DCM_OUT3">
+    <step from="IN5" to="DCM_OUT" through="XI2" />
+  </route>
+  <route src="DCM_CLK180" snk="DCM_OUT10">
+    <step from="IN5" to="DCM_OUT" through="XI6" />
+  </route>
+  <route src="DCM_CLK180" snk="DCM_OUT19">
+    <step from="IN5" to="DCM_OUT" through="XI21" />
+  </route>
+  <route src="DCM_CLK180" snk="DCM_OUT2">
+    <step from="IN5" to="DCM_OUT" through="XI1" />
+  </route>
+  <route src="DCM_CLK180" snk="DCM_OUT8">
+    <step from="IN5" to="DCM_OUT" through="XI8" />
+  </route>
+  <route src="DCM_CLK180" snk="DCM_OUT23">
+    <step from="IN5" to="DCM_OUT" through="XI17" />
+  </route>
+  <route src="DCM_CLK180" snk="DCM_OUT4">
+    <step from="IN5" to="DCM_OUT" through="XI3" />
+  </route>
+  <route src="DCM_CLK180" snk="DCM_OUT22">
+    <step from="IN5" to="DCM_OUT" through="XI18" />
+  </route>
+  <route src="DCM_CLK180" snk="DCM_OUT21">
+    <step from="IN5" to="DCM_OUT" through="XI19" />
+  </route>
+  <route src="DCM_CLK180" snk="DCM_OUT12">
+    <step from="IN5" to="DCM_OUT" through="XI16" />
+  </route>
+  <route src="DCM_CLK180" snk="DCM_OUT18">
+    <step from="IN5" to="DCM_OUT" through="XI22" />
+  </route>
+  <route src="DCM_CLK180" snk="DCM_OUT5">
+    <step from="IN5" to="DCM_OUT" through="XI4" />
+  </route>
+  <route src="DCM_CLK180" snk="DCM_OUT13">
+    <step from="IN5" to="DCM_OUT" through="XI15" />
+  </route>
+  <route src="DCM_CLK180" snk="DCM_OUT15">
+    <step from="IN5" to="DCM_OUT" through="XI13" />
+  </route>
+  <route src="DCM_CLK180" snk="DCM_OUT0">
+    <step from="IN5" to="DCM_OUT" through="XI44" />
+  </route>
+  <route src="DCM_CLK180" snk="DCM_OUT1">
+    <step from="IN5" to="DCM_OUT" through="XI0" />
+  </route>
+  <route src="DCM_CLK180" snk="DCM_OUT20">
+    <step from="IN5" to="DCM_OUT" through="XI20" />
+  </route>
+  <route src="DCM_CLK180" snk="DCM_OUT17">
+    <step from="IN5" to="DCM_OUT" through="XI11" />
+  </route>
+  <route src="DCM_CLK180" snk="DCM_OUT9">
+    <step from="IN5" to="DCM_OUT" through="XI7" />
+  </route>
+  <route src="DCM_CLK180" snk="DCM_OUT11">
+    <step from="IN5" to="DCM_OUT" through="XI5" />
+  </route>
+  <route src="DCM_CLK180" snk="DCM_OUT14">
+    <step from="IN5" to="DCM_OUT" through="XI14" />
+  </route>
+  <route src="DCM_CLK180" snk="DCM_OUT16">
+    <step from="IN5" to="DCM_OUT" through="XI12" />
+  </route>
+  <route src="DCM_CLK270" snk="DCM_OUT7">
+    <step from="IN6" to="DCM_OUT" through="XI9" />
+  </route>
+  <route src="DCM_CLK270" snk="DCM_OUT6">
+    <step from="IN6" to="DCM_OUT" through="XI10" />
+  </route>
+  <route src="DCM_CLK270" snk="DCM_OUT3">
+    <step from="IN6" to="DCM_OUT" through="XI2" />
+  </route>
+  <route src="DCM_CLK270" snk="DCM_OUT10">
+    <step from="IN6" to="DCM_OUT" through="XI6" />
+  </route>
+  <route src="DCM_CLK270" snk="DCM_OUT19">
+    <step from="IN6" to="DCM_OUT" through="XI21" />
+  </route>
+  <route src="DCM_CLK270" snk="DCM_OUT2">
+    <step from="IN6" to="DCM_OUT" through="XI1" />
+  </route>
+  <route src="DCM_CLK270" snk="DCM_OUT8">
+    <step from="IN6" to="DCM_OUT" through="XI8" />
+  </route>
+  <route src="DCM_CLK270" snk="DCM_OUT23">
+    <step from="IN6" to="DCM_OUT" through="XI17" />
+  </route>
+  <route src="DCM_CLK270" snk="DCM_OUT4">
+    <step from="IN6" to="DCM_OUT" through="XI3" />
+  </route>
+  <route src="DCM_CLK270" snk="DCM_OUT22">
+    <step from="IN6" to="DCM_OUT" through="XI18" />
+  </route>
+  <route src="DCM_CLK270" snk="DCM_OUT21">
+    <step from="IN6" to="DCM_OUT" through="XI19" />
+  </route>
+  <route src="DCM_CLK270" snk="DCM_OUT12">
+    <step from="IN6" to="DCM_OUT" through="XI16" />
+  </route>
+  <route src="DCM_CLK270" snk="DCM_OUT18">
+    <step from="IN6" to="DCM_OUT" through="XI22" />
+  </route>
+  <route src="DCM_CLK270" snk="DCM_OUT5">
+    <step from="IN6" to="DCM_OUT" through="XI4" />
+  </route>
+  <route src="DCM_CLK270" snk="DCM_OUT13">
+    <step from="IN6" to="DCM_OUT" through="XI15" />
+  </route>
+  <route src="DCM_CLK270" snk="DCM_OUT15">
+    <step from="IN6" to="DCM_OUT" through="XI13" />
+  </route>
+  <route src="DCM_CLK270" snk="DCM_OUT0">
+    <step from="IN6" to="DCM_OUT" through="XI44" />
+  </route>
+  <route src="DCM_CLK270" snk="DCM_OUT1">
+    <step from="IN6" to="DCM_OUT" through="XI0" />
+  </route>
+  <route src="DCM_CLK270" snk="DCM_OUT20">
+    <step from="IN6" to="DCM_OUT" through="XI20" />
+  </route>
+  <route src="DCM_CLK270" snk="DCM_OUT17">
+    <step from="IN6" to="DCM_OUT" through="XI11" />
+  </route>
+  <route src="DCM_CLK270" snk="DCM_OUT9">
+    <step from="IN6" to="DCM_OUT" through="XI7" />
+  </route>
+  <route src="DCM_CLK270" snk="DCM_OUT11">
+    <step from="IN6" to="DCM_OUT" through="XI5" />
+  </route>
+  <route src="DCM_CLK270" snk="DCM_OUT14">
+    <step from="IN6" to="DCM_OUT" through="XI14" />
+  </route>
+  <route src="DCM_CLK270" snk="DCM_OUT16">
+    <step from="IN6" to="DCM_OUT" through="XI12" />
+  </route>
+  <route src="DCM_CLKDV" snk="DCM_OUT7">
+    <step from="IN7" to="DCM_OUT" through="XI9" />
+  </route>
+  <route src="DCM_CLKDV" snk="DCM_OUT6">
+    <step from="IN7" to="DCM_OUT" through="XI10" />
+  </route>
+  <route src="DCM_CLKDV" snk="DCM_OUT3">
+    <step from="IN7" to="DCM_OUT" through="XI2" />
+  </route>
+  <route src="DCM_CLKDV" snk="DCM_OUT10">
+    <step from="IN7" to="DCM_OUT" through="XI6" />
+  </route>
+  <route src="DCM_CLKDV" snk="DCM_OUT19">
+    <step from="IN7" to="DCM_OUT" through="XI21" />
+  </route>
+  <route src="DCM_CLKDV" snk="DCM_OUT2">
+    <step from="IN7" to="DCM_OUT" through="XI1" />
+  </route>
+  <route src="DCM_CLKDV" snk="DCM_OUT8">
+    <step from="IN7" to="DCM_OUT" through="XI8" />
+  </route>
+  <route src="DCM_CLKDV" snk="DCM_OUT23">
+    <step from="IN7" to="DCM_OUT" through="XI17" />
+  </route>
+  <route src="DCM_CLKDV" snk="DCM_OUT4">
+    <step from="IN7" to="DCM_OUT" through="XI3" />
+  </route>
+  <route src="DCM_CLKDV" snk="DCM_OUT22">
+    <step from="IN7" to="DCM_OUT" through="XI18" />
+  </route>
+  <route src="DCM_CLKDV" snk="DCM_OUT21">
+    <step from="IN7" to="DCM_OUT" through="XI19" />
+  </route>
+  <route src="DCM_CLKDV" snk="DCM_OUT12">
+    <step from="IN7" to="DCM_OUT" through="XI16" />
+  </route>
+  <route src="DCM_CLKDV" snk="DCM_OUT18">
+    <step from="IN7" to="DCM_OUT" through="XI22" />
+  </route>
+  <route src="DCM_CLKDV" snk="DCM_OUT5">
+    <step from="IN7" to="DCM_OUT" through="XI4" />
+  </route>
+  <route src="DCM_CLKDV" snk="DCM_OUT13">
+    <step from="IN7" to="DCM_OUT" through="XI15" />
+  </route>
+  <route src="DCM_CLKDV" snk="DCM_OUT15">
+    <step from="IN7" to="DCM_OUT" through="XI13" />
+  </route>
+  <route src="DCM_CLKDV" snk="DCM_OUT0">
+    <step from="IN7" to="DCM_OUT" through="XI44" />
+  </route>
+  <route src="DCM_CLKDV" snk="DCM_OUT1">
+    <step from="IN7" to="DCM_OUT" through="XI0" />
+  </route>
+  <route src="DCM_CLKDV" snk="DCM_OUT20">
+    <step from="IN7" to="DCM_OUT" through="XI20" />
+  </route>
+  <route src="DCM_CLKDV" snk="DCM_OUT17">
+    <step from="IN7" to="DCM_OUT" through="XI11" />
+  </route>
+  <route src="DCM_CLKDV" snk="DCM_OUT9">
+    <step from="IN7" to="DCM_OUT" through="XI7" />
+  </route>
+  <route src="DCM_CLKDV" snk="DCM_OUT11">
+    <step from="IN7" to="DCM_OUT" through="XI5" />
+  </route>
+  <route src="DCM_CLKDV" snk="DCM_OUT14">
+    <step from="IN7" to="DCM_OUT" through="XI14" />
+  </route>
+  <route src="DCM_CLKDV" snk="DCM_OUT16">
+    <step from="IN7" to="DCM_OUT" through="XI12" />
+  </route>
+  <route src="DCM_CLKFX" snk="DCM_OUT7">
+    <step from="IN8" to="DCM_OUT" through="XI9" />
+  </route>
+  <route src="DCM_CLKFX" snk="DCM_OUT6">
+    <step from="IN8" to="DCM_OUT" through="XI10" />
+  </route>
+  <route src="DCM_CLKFX" snk="DCM_OUT3">
+    <step from="IN8" to="DCM_OUT" through="XI2" />
+  </route>
+  <route src="DCM_CLKFX" snk="DCM_OUT10">
+    <step from="IN8" to="DCM_OUT" through="XI6" />
+  </route>
+  <route src="DCM_CLKFX" snk="DCM_OUT19">
+    <step from="IN8" to="DCM_OUT" through="XI21" />
+  </route>
+  <route src="DCM_CLKFX" snk="DCM_OUT2">
+    <step from="IN8" to="DCM_OUT" through="XI1" />
+  </route>
+  <route src="DCM_CLKFX" snk="DCM_OUT8">
+    <step from="IN8" to="DCM_OUT" through="XI8" />
+  </route>
+  <route src="DCM_CLKFX" snk="DCM_OUT23">
+    <step from="IN8" to="DCM_OUT" through="XI17" />
+  </route>
+  <route src="DCM_CLKFX" snk="DCM_OUT4">
+    <step from="IN8" to="DCM_OUT" through="XI3" />
+  </route>
+  <route src="DCM_CLKFX" snk="DCM_OUT22">
+    <step from="IN8" to="DCM_OUT" through="XI18" />
+  </route>
+  <route src="DCM_CLKFX" snk="DCM_OUT21">
+    <step from="IN8" to="DCM_OUT" through="XI19" />
+  </route>
+  <route src="DCM_CLKFX" snk="DCM_OUT12">
+    <step from="IN8" to="DCM_OUT" through="XI16" />
+  </route>
+  <route src="DCM_CLKFX" snk="DCM_OUT18">
+    <step from="IN8" to="DCM_OUT" through="XI22" />
+  </route>
+  <route src="DCM_CLKFX" snk="DCM_OUT5">
+    <step from="IN8" to="DCM_OUT" through="XI4" />
+  </route>
+  <route src="DCM_CLKFX" snk="DCM_OUT13">
+    <step from="IN8" to="DCM_OUT" through="XI15" />
+  </route>
+  <route src="DCM_CLKFX" snk="DCM_OUT15">
+    <step from="IN8" to="DCM_OUT" through="XI13" />
+  </route>
+  <route src="DCM_CLKFX" snk="DCM_OUT0">
+    <step from="IN8" to="DCM_OUT" through="XI44" />
+  </route>
+  <route src="DCM_CLKFX" snk="DCM_OUT1">
+    <step from="IN8" to="DCM_OUT" through="XI0" />
+  </route>
+  <route src="DCM_CLKFX" snk="DCM_OUT20">
+    <step from="IN8" to="DCM_OUT" through="XI20" />
+  </route>
+  <route src="DCM_CLKFX" snk="DCM_OUT17">
+    <step from="IN8" to="DCM_OUT" through="XI11" />
+  </route>
+  <route src="DCM_CLKFX" snk="DCM_OUT9">
+    <step from="IN8" to="DCM_OUT" through="XI7" />
+  </route>
+  <route src="DCM_CLKFX" snk="DCM_OUT11">
+    <step from="IN8" to="DCM_OUT" through="XI5" />
+  </route>
+  <route src="DCM_CLKFX" snk="DCM_OUT14">
+    <step from="IN8" to="DCM_OUT" through="XI14" />
+  </route>
+  <route src="DCM_CLKFX" snk="DCM_OUT16">
+    <step from="IN8" to="DCM_OUT" through="XI12" />
+  </route>
+  <route src="DCM_CLKFX180" snk="DCM_OUT7">
+    <step from="IN9" to="DCM_OUT" through="XI9" />
+  </route>
+  <route src="DCM_CLKFX180" snk="DCM_OUT6">
+    <step from="IN9" to="DCM_OUT" through="XI10" />
+  </route>
+  <route src="DCM_CLKFX180" snk="DCM_OUT3">
+    <step from="IN9" to="DCM_OUT" through="XI2" />
+  </route>
+  <route src="DCM_CLKFX180" snk="DCM_OUT10">
+    <step from="IN9" to="DCM_OUT" through="XI6" />
+  </route>
+  <route src="DCM_CLKFX180" snk="DCM_OUT19">
+    <step from="IN9" to="DCM_OUT" through="XI21" />
+  </route>
+  <route src="DCM_CLKFX180" snk="DCM_OUT2">
+    <step from="IN9" to="DCM_OUT" through="XI1" />
+  </route>
+  <route src="DCM_CLKFX180" snk="DCM_OUT8">
+    <step from="IN9" to="DCM_OUT" through="XI8" />
+  </route>
+  <route src="DCM_CLKFX180" snk="DCM_OUT23">
+    <step from="IN9" to="DCM_OUT" through="XI17" />
+  </route>
+  <route src="DCM_CLKFX180" snk="DCM_OUT4">
+    <step from="IN9" to="DCM_OUT" through="XI3" />
+  </route>
+  <route src="DCM_CLKFX180" snk="DCM_OUT22">
+    <step from="IN9" to="DCM_OUT" through="XI18" />
+  </route>
+  <route src="DCM_CLKFX180" snk="DCM_OUT21">
+    <step from="IN9" to="DCM_OUT" through="XI19" />
+  </route>
+  <route src="DCM_CLKFX180" snk="DCM_OUT12">
+    <step from="IN9" to="DCM_OUT" through="XI16" />
+  </route>
+  <route src="DCM_CLKFX180" snk="DCM_OUT18">
+    <step from="IN9" to="DCM_OUT" through="XI22" />
+  </route>
+  <route src="DCM_CLKFX180" snk="DCM_OUT5">
+    <step from="IN9" to="DCM_OUT" through="XI4" />
+  </route>
+  <route src="DCM_CLKFX180" snk="DCM_OUT13">
+    <step from="IN9" to="DCM_OUT" through="XI15" />
+  </route>
+  <route src="DCM_CLKFX180" snk="DCM_OUT15">
+    <step from="IN9" to="DCM_OUT" through="XI13" />
+  </route>
+  <route src="DCM_CLKFX180" snk="DCM_OUT0">
+    <step from="IN9" to="DCM_OUT" through="XI44" />
+  </route>
+  <route src="DCM_CLKFX180" snk="DCM_OUT1">
+    <step from="IN9" to="DCM_OUT" through="XI0" />
+  </route>
+  <route src="DCM_CLKFX180" snk="DCM_OUT20">
+    <step from="IN9" to="DCM_OUT" through="XI20" />
+  </route>
+  <route src="DCM_CLKFX180" snk="DCM_OUT17">
+    <step from="IN9" to="DCM_OUT" through="XI11" />
+  </route>
+  <route src="DCM_CLKFX180" snk="DCM_OUT9">
+    <step from="IN9" to="DCM_OUT" through="XI7" />
+  </route>
+  <route src="DCM_CLKFX180" snk="DCM_OUT11">
+    <step from="IN9" to="DCM_OUT" through="XI5" />
+  </route>
+  <route src="DCM_CLKFX180" snk="DCM_OUT14">
+    <step from="IN9" to="DCM_OUT" through="XI14" />
+  </route>
+  <route src="DCM_CLKFX180" snk="DCM_OUT16">
+    <step from="IN9" to="DCM_OUT" through="XI12" />
+  </route>
+  <route src="DCM_CLK_IN0" snk="DCM_OUT7">
+    <step from="IN0" to="DCM_OUT" through="XI9" />
+  </route>
+  <route src="DCM_CLK_IN0" snk="DCM_OUT6">
+    <step from="IN0" to="DCM_OUT" through="XI10" />
+  </route>
+  <route src="DCM_CLK_IN0" snk="DCM_OUT3">
+    <step from="IN0" to="DCM_OUT" through="XI2" />
+  </route>
+  <route src="DCM_CLK_IN0" snk="DCM_OUT10">
+    <step from="IN0" to="DCM_OUT" through="XI6" />
+  </route>
+  <route src="DCM_CLK_IN0" snk="DCM_OUT19">
+    <step from="IN0" to="DCM_OUT" through="XI21" />
+  </route>
+  <route src="DCM_CLK_IN0" snk="DCM_OUT2">
+    <step from="IN0" to="DCM_OUT" through="XI1" />
+  </route>
+  <route src="DCM_CLK_IN0" snk="DCM_OUT8">
+    <step from="IN0" to="DCM_OUT" through="XI8" />
+  </route>
+  <route src="DCM_CLK_IN0" snk="DCM_OUT23">
+    <step from="IN0" to="DCM_OUT" through="XI17" />
+  </route>
+  <route src="DCM_CLK_IN0" snk="DCM_OUT4">
+    <step from="IN0" to="DCM_OUT" through="XI3" />
+  </route>
+  <route src="DCM_CLK_IN0" snk="DCM_OUT22">
+    <step from="IN0" to="DCM_OUT" through="XI18" />
+  </route>
+  <route src="DCM_CLK_IN0" snk="DCM_OUT21">
+    <step from="IN0" to="DCM_OUT" through="XI19" />
+  </route>
+  <route src="DCM_CLK_IN0" snk="DCM_OUT12">
+    <step from="IN0" to="DCM_OUT" through="XI16" />
+  </route>
+  <route src="DCM_CLK_IN0" snk="DCM_OUT18">
+    <step from="IN0" to="DCM_OUT" through="XI22" />
+  </route>
+  <route src="DCM_CLK_IN0" snk="DCM_OUT5">
+    <step from="IN0" to="DCM_OUT" through="XI4" />
+  </route>
+  <route src="DCM_CLK_IN0" snk="DCM_OUT13">
+    <step from="IN0" to="DCM_OUT" through="XI15" />
+  </route>
+  <route src="DCM_CLK_IN0" snk="DCM_OUT15">
+    <step from="IN0" to="DCM_OUT" through="XI13" />
+  </route>
+  <route src="DCM_CLK_IN0" snk="DCM_OUT0">
+    <step from="IN0" to="DCM_OUT" through="XI44" />
+  </route>
+  <route src="DCM_CLK_IN0" snk="DCM_OUT1">
+    <step from="IN0" to="DCM_OUT" through="XI0" />
+  </route>
+  <route src="DCM_CLK_IN0" snk="DCM_OUT20">
+    <step from="IN0" to="DCM_OUT" through="XI20" />
+  </route>
+  <route src="DCM_CLK_IN0" snk="DCM_OUT17">
+    <step from="IN0" to="DCM_OUT" through="XI11" />
+  </route>
+  <route src="DCM_CLK_IN0" snk="DCM_OUT9">
+    <step from="IN0" to="DCM_OUT" through="XI7" />
+  </route>
+  <route src="DCM_CLK_IN0" snk="DCM_OUT11">
+    <step from="IN0" to="DCM_OUT" through="XI5" />
+  </route>
+  <route src="DCM_CLK_IN0" snk="DCM_OUT14">
+    <step from="IN0" to="DCM_OUT" through="XI14" />
+  </route>
+  <route src="DCM_CLK_IN0" snk="DCM_OUT16">
+    <step from="IN0" to="DCM_OUT" through="XI12" />
+  </route>
+  <route src="DCM_CONCUR" snk="DCM_OUT7">
+    <step from="IN10" to="DCM_OUT" through="XI9" />
+  </route>
+  <route src="DCM_CONCUR" snk="DCM_OUT6">
+    <step from="IN10" to="DCM_OUT" through="XI10" />
+  </route>
+  <route src="DCM_CONCUR" snk="DCM_OUT3">
+    <step from="IN10" to="DCM_OUT" through="XI2" />
+  </route>
+  <route src="DCM_CONCUR" snk="DCM_OUT10">
+    <step from="IN10" to="DCM_OUT" through="XI6" />
+  </route>
+  <route src="DCM_CONCUR" snk="DCM_OUT19">
+    <step from="IN10" to="DCM_OUT" through="XI21" />
+  </route>
+  <route src="DCM_CONCUR" snk="DCM_OUT2">
+    <step from="IN10" to="DCM_OUT" through="XI1" />
+  </route>
+  <route src="DCM_CONCUR" snk="DCM_OUT8">
+    <step from="IN10" to="DCM_OUT" through="XI8" />
+  </route>
+  <route src="DCM_CONCUR" snk="DCM_OUT23">
+    <step from="IN10" to="DCM_OUT" through="XI17" />
+  </route>
+  <route src="DCM_CONCUR" snk="DCM_OUT4">
+    <step from="IN10" to="DCM_OUT" through="XI3" />
+  </route>
+  <route src="DCM_CONCUR" snk="DCM_OUT22">
+    <step from="IN10" to="DCM_OUT" through="XI18" />
+  </route>
+  <route src="DCM_CONCUR" snk="DCM_OUT21">
+    <step from="IN10" to="DCM_OUT" through="XI19" />
+  </route>
+  <route src="DCM_CONCUR" snk="DCM_OUT12">
+    <step from="IN10" to="DCM_OUT" through="XI16" />
+  </route>
+  <route src="DCM_CONCUR" snk="DCM_OUT18">
+    <step from="IN10" to="DCM_OUT" through="XI22" />
+  </route>
+  <route src="DCM_CONCUR" snk="DCM_OUT5">
+    <step from="IN10" to="DCM_OUT" through="XI4" />
+  </route>
+  <route src="DCM_CONCUR" snk="DCM_OUT13">
+    <step from="IN10" to="DCM_OUT" through="XI15" />
+  </route>
+  <route src="DCM_CONCUR" snk="DCM_OUT15">
+    <step from="IN10" to="DCM_OUT" through="XI13" />
+  </route>
+  <route src="DCM_CONCUR" snk="DCM_OUT0">
+    <step from="IN10" to="DCM_OUT" through="XI44" />
+  </route>
+  <route src="DCM_CONCUR" snk="DCM_OUT1">
+    <step from="IN10" to="DCM_OUT" through="XI0" />
+  </route>
+  <route src="DCM_CONCUR" snk="DCM_OUT20">
+    <step from="IN10" to="DCM_OUT" through="XI20" />
+  </route>
+  <route src="DCM_CONCUR" snk="DCM_OUT17">
+    <step from="IN10" to="DCM_OUT" through="XI11" />
+  </route>
+  <route src="DCM_CONCUR" snk="DCM_OUT9">
+    <step from="IN10" to="DCM_OUT" through="XI7" />
+  </route>
+  <route src="DCM_CONCUR" snk="DCM_OUT11">
+    <step from="IN10" to="DCM_OUT" through="XI5" />
+  </route>
+  <route src="DCM_CONCUR" snk="DCM_OUT14">
+    <step from="IN10" to="DCM_OUT" through="XI14" />
+  </route>
+  <route src="DCM_CONCUR" snk="DCM_OUT16">
+    <step from="IN10" to="DCM_OUT" through="XI12" />
+  </route>
+  <route src="DCM_GIOB15" snk="DCM_ADV_CLKFB">
+    <step from="IN27" to="Y" through="XI185" />
+  </route>
+  <route src="DCM_GIOB15" snk="DCM_ADV_CLKIN">
+    <step from="IN27" to="Y" through="XI186" />
+  </route>
+  <route src="DCM_GIOB14" snk="DCM_ADV_CLKFB">
+    <step from="IN26" to="Y" through="XI185" />
+  </route>
+  <route src="DCM_GIOB14" snk="DCM_ADV_CLKIN">
+    <step from="IN26" to="Y" through="XI186" />
+  </route>
+  <route src="DCM_GIOB13" snk="DCM_ADV_CLKFB">
+    <step from="IN25" to="Y" through="XI185" />
+  </route>
+  <route src="DCM_GIOB13" snk="DCM_ADV_CLKIN">
+    <step from="IN25" to="Y" through="XI186" />
+  </route>
+  <route src="DCM_GIOB12" snk="DCM_ADV_CLKFB">
+    <step from="IN24" to="Y" through="XI185" />
+  </route>
+  <route src="DCM_GIOB12" snk="DCM_ADV_CLKIN">
+    <step from="IN24" to="Y" through="XI186" />
+  </route>
+  <route src="DCM_GIOB11" snk="DCM_ADV_CLKFB">
+    <step from="IN23" to="Y" through="XI185" />
+  </route>
+  <route src="DCM_GIOB11" snk="DCM_ADV_CLKIN">
+    <step from="IN23" to="Y" through="XI186" />
+  </route>
+  <route src="DCM_GIOB10" snk="DCM_ADV_CLKFB">
+    <step from="IN22" to="Y" through="XI185" />
+  </route>
+  <route src="DCM_GIOB10" snk="DCM_ADV_CLKIN">
+    <step from="IN22" to="Y" through="XI186" />
+  </route>
+  <route src="DCM_GIOB9" snk="DCM_ADV_CLKFB">
+    <step from="IN21" to="Y" through="XI185" />
+  </route>
+  <route src="DCM_GIOB9" snk="DCM_ADV_CLKIN">
+    <step from="IN21" to="Y" through="XI186" />
+  </route>
+  <route src="DCM_GIOB8" snk="DCM_ADV_CLKFB">
+    <step from="IN20" to="Y" through="XI185" />
+  </route>
+  <route src="DCM_GIOB8" snk="DCM_ADV_CLKIN">
+    <step from="IN20" to="Y" through="XI186" />
+  </route>
+  <route src="DCM_GIOB7" snk="DCM_ADV_CLKFB">
+    <step from="IN19" to="Y" through="XI185" />
+  </route>
+  <route src="DCM_GIOB7" snk="DCM_ADV_CLKIN">
+    <step from="IN19" to="Y" through="XI186" />
+  </route>
+  <route src="DCM_GIOB6" snk="DCM_ADV_CLKFB">
+    <step from="IN18" to="Y" through="XI185" />
+  </route>
+  <route src="DCM_GIOB6" snk="DCM_ADV_CLKIN">
+    <step from="IN18" to="Y" through="XI186" />
+  </route>
+  <route src="DCM_GIOB5" snk="DCM_ADV_CLKFB">
+    <step from="IN17" to="Y" through="XI185" />
+  </route>
+  <route src="DCM_GIOB5" snk="DCM_ADV_CLKIN">
+    <step from="IN17" to="Y" through="XI186" />
+  </route>
+  <route src="DCM_GIOB4" snk="DCM_ADV_CLKFB">
+    <step from="IN16" to="Y" through="XI185" />
+  </route>
+  <route src="DCM_GIOB4" snk="DCM_ADV_CLKIN">
+    <step from="IN16" to="Y" through="XI186" />
+  </route>
+  <route src="DCM_GIOB3" snk="DCM_ADV_CLKFB">
+    <step from="IN15" to="Y" through="XI185" />
+  </route>
+  <route src="DCM_GIOB3" snk="DCM_ADV_CLKIN">
+    <step from="IN15" to="Y" through="XI186" />
+  </route>
+  <route src="DCM_GIOB2" snk="DCM_ADV_CLKFB">
+    <step from="IN14" to="Y" through="XI185" />
+  </route>
+  <route src="DCM_GIOB2" snk="DCM_ADV_CLKIN">
+    <step from="IN14" to="Y" through="XI186" />
+  </route>
+  <route src="DCM_GIOB1" snk="DCM_ADV_CLKFB">
+    <step from="IN13" to="Y" through="XI185" />
+  </route>
+  <route src="DCM_GIOB1" snk="DCM_ADV_CLKIN">
+    <step from="IN13" to="Y" through="XI186" />
+  </route>
+  <route src="DCM_GIOB0" snk="DCM_ADV_CLKFB">
+    <step from="IN12" to="Y" through="XI185" />
+  </route>
+  <route src="DCM_GIOB0" snk="DCM_ADV_CLKIN">
+    <step from="IN12" to="Y" through="XI186" />
+  </route>
+  <route src="DCM_IN23" snk="DCM_OUT23">
+    <step from="DCM_IN" to="DCM_OUT" through="XI17" />
+  </route>
+  <route src="DCM_IN22" snk="DCM_OUT22">
+    <step from="DCM_IN" to="DCM_OUT" through="XI18" />
+  </route>
+  <route src="DCM_IN21" snk="DCM_OUT21">
+    <step from="DCM_IN" to="DCM_OUT" through="XI19" />
+  </route>
+  <route src="DCM_IN20" snk="DCM_OUT20">
+    <step from="DCM_IN" to="DCM_OUT" through="XI20" />
+  </route>
+  <route src="DCM_IN19" snk="DCM_OUT19">
+    <step from="DCM_IN" to="DCM_OUT" through="XI21" />
+  </route>
+  <route src="DCM_IN18" snk="DCM_OUT18">
+    <step from="DCM_IN" to="DCM_OUT" through="XI22" />
+  </route>
+  <route src="DCM_IN17" snk="DCM_OUT17">
+    <step from="DCM_IN" to="DCM_OUT" through="XI11" />
+  </route>
+  <route src="DCM_IN16" snk="DCM_OUT16">
+    <step from="DCM_IN" to="DCM_OUT" through="XI12" />
+  </route>
+  <route src="DCM_IN15" snk="DCM_OUT15">
+    <step from="DCM_IN" to="DCM_OUT" through="XI13" />
+  </route>
+  <route src="DCM_IN14" snk="DCM_OUT14">
+    <step from="DCM_IN" to="DCM_OUT" through="XI14" />
+  </route>
+  <route src="DCM_IN13" snk="DCM_OUT13">
+    <step from="DCM_IN" to="DCM_OUT" through="XI15" />
+  </route>
+  <route src="DCM_IN12" snk="DCM_OUT12">
+    <step from="DCM_IN" to="DCM_OUT" through="XI16" />
+  </route>
+  <route src="DCM_IN11" snk="DCM_OUT11">
+    <step from="DCM_IN" to="DCM_OUT" through="XI5" />
+  </route>
+  <route src="DCM_IN10" snk="DCM_OUT10">
+    <step from="DCM_IN" to="DCM_OUT" through="XI6" />
+  </route>
+  <route src="DCM_IN9" snk="DCM_OUT9">
+    <step from="DCM_IN" to="DCM_OUT" through="XI7" />
+  </route>
+  <route src="DCM_IN8" snk="DCM_OUT8">
+    <step from="DCM_IN" to="DCM_OUT" through="XI8" />
+  </route>
+  <route src="DCM_IN7" snk="DCM_OUT7">
+    <step from="DCM_IN" to="DCM_OUT" through="XI9" />
+  </route>
+  <route src="DCM_IN6" snk="DCM_OUT6">
+    <step from="DCM_IN" to="DCM_OUT" through="XI10" />
+  </route>
+  <route src="DCM_IN5" snk="DCM_OUT5">
+    <step from="DCM_IN" to="DCM_OUT" through="XI4" />
+  </route>
+  <route src="DCM_IN4" snk="DCM_OUT4">
+    <step from="DCM_IN" to="DCM_OUT" through="XI3" />
+  </route>
+  <route src="DCM_IN3" snk="DCM_OUT3">
+    <step from="DCM_IN" to="DCM_OUT" through="XI2" />
+  </route>
+  <route src="DCM_IN2" snk="DCM_OUT2">
+    <step from="DCM_IN" to="DCM_OUT" through="XI1" />
+  </route>
+  <route src="DCM_IN1" snk="DCM_OUT1">
+    <step from="DCM_IN" to="DCM_OUT" through="XI0" />
+  </route>
+  <route src="DCM_IN0" snk="DCM_OUT0">
+    <step from="DCM_IN" to="DCM_OUT" through="XI44" />
+  </route>
+  <route src="DCM_LOCKED" snk="DCM_OUT7">
+    <step from="IN11" to="DCM_OUT" through="XI9" />
+  </route>
+  <route src="DCM_LOCKED" snk="DCM_OUT6">
+    <step from="IN11" to="DCM_OUT" through="XI10" />
+  </route>
+  <route src="DCM_LOCKED" snk="DCM_OUT3">
+    <step from="IN11" to="DCM_OUT" through="XI2" />
+  </route>
+  <route src="DCM_LOCKED" snk="DCM_OUT10">
+    <step from="IN11" to="DCM_OUT" through="XI6" />
+  </route>
+  <route src="DCM_LOCKED" snk="DCM_OUT19">
+    <step from="IN11" to="DCM_OUT" through="XI21" />
+  </route>
+  <route src="DCM_LOCKED" snk="DCM_OUT2">
+    <step from="IN11" to="DCM_OUT" through="XI1" />
+  </route>
+  <route src="DCM_LOCKED" snk="DCM_OUT8">
+    <step from="IN11" to="DCM_OUT" through="XI8" />
+  </route>
+  <route src="DCM_LOCKED" snk="DCM_OUT23">
+    <step from="IN11" to="DCM_OUT" through="XI17" />
+  </route>
+  <route src="DCM_LOCKED" snk="DCM_OUT4">
+    <step from="IN11" to="DCM_OUT" through="XI3" />
+  </route>
+  <route src="DCM_LOCKED" snk="DCM_OUT22">
+    <step from="IN11" to="DCM_OUT" through="XI18" />
+  </route>
+  <route src="DCM_LOCKED" snk="DCM_OUT21">
+    <step from="IN11" to="DCM_OUT" through="XI19" />
+  </route>
+  <route src="DCM_LOCKED" snk="DCM_OUT12">
+    <step from="IN11" to="DCM_OUT" through="XI16" />
+  </route>
+  <route src="DCM_LOCKED" snk="DCM_OUT18">
+    <step from="IN11" to="DCM_OUT" through="XI22" />
+  </route>
+  <route src="DCM_LOCKED" snk="DCM_OUT5">
+    <step from="IN11" to="DCM_OUT" through="XI4" />
+  </route>
+  <route src="DCM_LOCKED" snk="DCM_OUT13">
+    <step from="IN11" to="DCM_OUT" through="XI15" />
+  </route>
+  <route src="DCM_LOCKED" snk="DCM_OUT15">
+    <step from="IN11" to="DCM_OUT" through="XI13" />
+  </route>
+  <route src="DCM_LOCKED" snk="DCM_OUT0">
+    <step from="IN11" to="DCM_OUT" through="XI44" />
+  </route>
+  <route src="DCM_LOCKED" snk="DCM_OUT1">
+    <step from="IN11" to="DCM_OUT" through="XI0" />
+  </route>
+  <route src="DCM_LOCKED" snk="DCM_OUT20">
+    <step from="IN11" to="DCM_OUT" through="XI20" />
+  </route>
+  <route src="DCM_LOCKED" snk="DCM_OUT17">
+    <step from="IN11" to="DCM_OUT" through="XI11" />
+  </route>
+  <route src="DCM_LOCKED" snk="DCM_OUT9">
+    <step from="IN11" to="DCM_OUT" through="XI7" />
+  </route>
+  <route src="DCM_LOCKED" snk="DCM_OUT11">
+    <step from="IN11" to="DCM_OUT" through="XI5" />
+  </route>
+  <route src="DCM_LOCKED" snk="DCM_OUT14">
+    <step from="IN11" to="DCM_OUT" through="XI14" />
+  </route>
+  <route src="DCM_LOCKED" snk="DCM_OUT16">
+    <step from="IN11" to="DCM_OUT" through="XI12" />
+  </route>
+  <route src="DCM_MGT3" snk="DCM_ADV_CLKFB">
+    <step from="IN31" to="Y" through="XI185" />
+  </route>
+  <route src="DCM_MGT3" snk="DCM_ADV_CLKIN">
+    <step from="IN31" to="Y" through="XI186" />
+  </route>
+  <route src="DCM_MGT2" snk="DCM_ADV_CLKFB">
+    <step from="IN30" to="Y" through="XI185" />
+  </route>
+  <route src="DCM_MGT2" snk="DCM_ADV_CLKIN">
+    <step from="IN30" to="Y" through="XI186" />
+  </route>
+  <route src="DCM_MGT1" snk="DCM_ADV_CLKFB">
+    <step from="IN29" to="Y" through="XI185" />
+  </route>
+  <route src="DCM_MGT1" snk="DCM_ADV_CLKIN">
+    <step from="IN29" to="Y" through="XI186" />
+  </route>
+  <route src="DCM_MGT0" snk="DCM_ADV_CLKFB">
+    <step from="IN28" to="Y" through="XI185" />
+  </route>
+  <route src="DCM_MGT0" snk="DCM_ADV_CLKIN">
+    <step from="IN28" to="Y" through="XI186" />
+  </route>
+</grm>

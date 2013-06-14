@@ -1,0 +1,21 @@
+<!--HCLK_Block_withram_forMIODCM-->
+<tile name="HCLK_CENTER" scale="16X22">
+  <grm_inst name="GRM_HCLK_CENTER">
+    <dist sram="Enable0" inst="XI4" bl="1" wl="1" inv="no" offset="0,-1" />
+    <dist sram="Enable1" inst="XI4" bl="2" wl="1" inv="no" offset="0,-1" />
+    <dist sram="Enable2" inst="XI4" bl="0" wl="2" inv="no" offset="0,-1" />
+    <dist sram="Enable3" inst="XI4" bl="1" wl="2" inv="no" offset="0,-1" />
+    <dist sram="Enable4" inst="XI4" bl="2" wl="2" inv="no" offset="0,-1" />
+    <dist sram="Enable5" inst="XI4" bl="0" wl="3" inv="no" offset="0,-1" />
+    <dist sram="Enable6" inst="XI4" bl="1" wl="3" inv="no" offset="0,-1" />
+    <dist sram="Enable7" inst="XI4" bl="2" wl="3" inv="no" offset="0,-1" />
+    <dist sram="Enable0" inst="XI111" bl="1" wl="5" inv="no" offset="0,-1" />
+    <dist sram="Enable1" inst="XI111" bl="2" wl="5" inv="no" offset="0,-1" />
+    <dist sram="Enable2" inst="XI111" bl="0" wl="6" inv="no" offset="0,-1" />
+    <dist sram="Enable3" inst="XI111" bl="1" wl="6" inv="no" offset="0,-1" />
+    <dist sram="Enable4" inst="XI111" bl="2" wl="6" inv="no" offset="0,-1" />
+    <dist sram="Enable5" inst="XI111" bl="0" wl="7" inv="no" offset="0,-1" />
+    <dist sram="Enable6" inst="XI111" bl="1" wl="7" inv="no" offset="0,-1" />
+    <dist sram="Enable7" inst="XI111" bl="2" wl="7" inv="no" offset="0,-1" />
+  </grm_inst>
+</tile>

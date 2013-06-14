@@ -1,0 +1,3 @@
+<cluster name="RAMB16" scale="1X1">
+  <site_inst name="XI597" ref="RAMB16_FIFO16" pos="1"/>
+</cluster>

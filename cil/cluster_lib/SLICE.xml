@@ -1,0 +1,6 @@
+<cluster name="SLICE" scale="2X2">
+  <site_inst name="XI0" ref="SLICEM" pos="0"/>
+  <site_inst name="XI2" ref="SLICEM" pos="1"/>
+  <site_inst name="XI1" ref="SLICEL" pos="2"/>
+  <site_inst name="XI3" ref="SLICEL" pos="3"/>
+</cluster>

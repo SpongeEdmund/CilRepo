@@ -1,0 +1,54 @@
+  <!--HCLK_Block_withram_forMIODCM-->
+  <grm name="GRM_HCLK_IOBDCM">
+    <element_inst name="XI4" ref="HCLK_Block"/>
+	<element_inst name="XI111" ref="HCLK_Block"/>
+	<route src="HCLK_DCM_G_HCLKP0" snk="HCLK_DCM_LEAF_GCLK_P0">
+	  <step from="HCLK0" to="LEAF_CLK0" through="XI4"/>
+	</route>
+	<route src="HCLK_DCM_G_HCLKP1" snk="HCLK_DCM_LEAF_GCLK_P1">
+	  <step from="HCLK1" to="LEAF_CLK1" through="XI4"/>
+	</route>
+	<route src="HCLK_DCM_G_HCLKP2" snk="HCLK_DCM_LEAF_GCLK_P2">
+	  <step from="HCLK2" to="LEAF_CLK2" through="XI4"/>
+	</route>
+	<route src="HCLK_DCM_G_HCLKP3" snk="HCLK_DCM_LEAF_GCLK_P3">
+	  <step from="HCLK3" to="LEAF_CLK3" through="XI4"/>
+	</route>
+	<route src="HCLK_DCM_G_HCLKP4" snk="HCLK_DCM_LEAF_GCLK_P4">
+	  <step from="HCLK4" to="LEAF_CLK4" through="XI4"/>
+	</route>
+	<route src="HCLK_DCM_G_HCLKP5" snk="HCLK_DCM_LEAF_GCLK_P5">
+	  <step from="HCLK5" to="LEAF_CLK5" through="XI4"/>
+	</route>
+	<route src="HCLK_DCM_G_HCLKP6" snk="HCLK_DCM_LEAF_GCLK_P6">
+	  <step from="HCLK6" to="LEAF_CLK6" through="XI4"/>
+	</route>
+	<route src="HCLK_DCM_G_HCLKP7" snk="HCLK_DCM_LEAF_GCLK_P7">
+	  <step from="HCLK7" to="LEAF_CLK7" through="XI4"/>
+	</route>
+	<route src="HCLK_DCM_G_HCLKP0" snk="HCLK_DCM_LEAF_DIRECT_HCLKP0">
+	  <step from="HCLK0" to="LEAF_CLK0" through="XI111"/>
+	</route>
+	<route src="HCLK_DCM_G_HCLKP1" snk="HCLK_DCM_LEAF_DIRECT_HCLKP1">
+	  <step from="HCLK1" to="LEAF_CLK1" through="XI111"/>
+	</route>
+	<route src="HCLK_DCM_G_HCLKP2" snk="HCLK_DCM_LEAF_DIRECT_HCLKP2">
+	  <step from="HCLK2" to="LEAF_CLK2" through="XI111"/>
+	</route>
+	<route src="HCLK_DCM_G_HCLKP3" snk="HCLK_DCM_LEAF_DIRECT_HCLKP3">
+	  <step from="HCLK3" to="LEAF_CLK3" through="XI111"/>
+	</route>
+	<route src="HCLK_DCM_G_HCLKP4" snk="HCLK_DCM_LEAF_DIRECT_HCLKP4">
+	  <step from="HCLK4" to="LEAF_CLK4" through="XI111"/>
+	</route>
+	<route src="HCLK_DCM_G_HCLKP5" snk="HCLK_DCM_LEAF_DIRECT_HCLKP5">
+	  <step from="HCLK5" to="LEAF_CLK5" through="XI111"/>
+	</route>
+	<route src="HCLK_DCM_G_HCLKP6" snk="HCLK_DCM_LEAF_DIRECT_HCLKP6">
+	  <step from="HCLK6" to="LEAF_CLK6" through="XI111"/>
+	</route>
+	<route src="HCLK_DCM_G_HCLKP7" snk="HCLK_DCM_LEAF_DIRECT_HCLKP7">
+	  <step from="HCLK7" to="LEAF_CLK7" through="XI111"/>
+	</route>
+  </grm>
+  
