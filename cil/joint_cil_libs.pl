@@ -32,7 +32,7 @@ my @cil_libs = qw (
 #my @dirs = readdir DIR;
 
 
-open XML, ">fdp5p15_cil_$version.xml" or die;
+open XML, ">fdp5p15_cil.xml" or die;
 
 # xml declaration
 say XML "<?xml version=\"1.0\" encoding=\"UTF-8\"?>";
