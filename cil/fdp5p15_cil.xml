@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cil family="fdp5" author="chwang" version="2013_0616_2024">
+<cil family="fdp5" author="chwang" version="2013_0616_2111">
 <element_lib>
   <element name="CLKMUXED_MX24">
     <path from="I0" to="Y">
@@ -2246,7 +2246,6 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="1"/>
-      <sram name="P9" value="0"/>
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN1" to="OUT">
@@ -2260,7 +2259,7 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="1"/>
-      <sram name="P9" value="0"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN2" to="OUT">
@@ -2274,7 +2273,7 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="1"/>
-      <sram name="P9" value="0"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN3" to="OUT">
@@ -2288,7 +2287,7 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="1"/>
-      <sram name="P9" value="0"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN4" to="OUT">
@@ -2302,7 +2301,7 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="1"/>
-      <sram name="P9" value="0"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN5" to="OUT">
@@ -2316,7 +2315,7 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="1"/>
-      <sram name="P9" value="0"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN6" to="OUT">
@@ -2330,7 +2329,7 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="1"/>
-      <sram name="P9" value="0"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN7" to="OUT">
@@ -2344,7 +2343,7 @@
       <sram name="P7_" value="1"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="1"/>
-      <sram name="P9" value="0"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN8" to="OUT">
@@ -2358,7 +2357,7 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="1"/>
       <sram name="P9_" value="1"/>
-      <sram name="P9" value="0"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN9" to="OUT">
@@ -2372,7 +2371,7 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="0"/>
-      <sram name="P9" value="1"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN10" to="OUT">
@@ -2386,7 +2385,7 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="0"/>
-      <sram name="P9" value="1"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN11" to="OUT">
@@ -2400,7 +2399,7 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="0"/>
-      <sram name="P9" value="1"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN12" to="OUT">
@@ -2414,7 +2413,7 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="0"/>
-      <sram name="P9" value="1"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN13" to="OUT">
@@ -2428,7 +2427,7 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="0"/>
-      <sram name="P9" value="1"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN14" to="OUT">
@@ -2442,7 +2441,7 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="0"/>
-      <sram name="P9" value="1"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN15" to="OUT">
@@ -2456,7 +2455,7 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="0"/>
-      <sram name="P9" value="1"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN16" to="OUT">
@@ -2470,7 +2469,7 @@
       <sram name="P7_" value="1"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="0"/>
-      <sram name="P9" value="1"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN17" to="OUT">
@@ -2484,7 +2483,7 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="1"/>
       <sram name="P9_" value="0"/>
-      <sram name="P9" value="1"/>
+      
       <sram name="P10_" value="1"/>
     </path>
   </element>
@@ -62532,7 +62531,7 @@
 </tile>
 <!--HCLK_Block_withram, HCLK_Block_withram_forbramdsp-->
 <tile name="HCLK" scale="16X22">
-  <grm_inst name="GRM_HCLK">
+  <grm_inst name="GRM_HCLK" ref="GRM_HCLK">
     <dist sram="Enable0" inst="XI4" bl="1" wl="1" inv="no" offset="0,0" />
     <dist sram="Enable1" inst="XI4" bl="2" wl="1" inv="no" offset="0,0" />
     <dist sram="Enable2" inst="XI4" bl="0" wl="2" inv="no" offset="0,0" />
@@ -62545,7 +62544,7 @@
 </tile>
 <!--HCLK_Block_withram_forMIODCM-->
 <tile name="HCLK_CENTER" scale="16X22">
-  <grm_inst name="GRM_HCLK_CENTER">
+  <grm_inst name="GRM_HCLK_CENTER" ref="GRM_HCLK_CENTER">
     <dist sram="Enable0" inst="XI4" bl="1" wl="1" inv="no" offset="0,-1" />
     <dist sram="Enable1" inst="XI4" bl="2" wl="1" inv="no" offset="0,-1" />
     <dist sram="Enable2" inst="XI4" bl="0" wl="2" inv="no" offset="0,-1" />
@@ -62566,7 +62565,7 @@
 </tile>
 <!--HCLK_Block_withram_forMIODCM-->
 <tile name="HCLK_CENTER_ABOVE_CFG" scale="16X22">
-  <grm_inst name="GRM_HCLK_CENTER_ABOVE_CFG">
+  <grm_inst name="GRM_HCLK_CENTER_ABOVE_CFG" ref="GRM_HCLK_CENTER_ABOVE_CFG">
     <dist sram="Enable0" inst="XI4" bl="1" wl="1" inv="no" offset="0,-1" />
     <dist sram="Enable1" inst="XI4" bl="2" wl="1" inv="no" offset="0,-1" />
     <dist sram="Enable2" inst="XI4" bl="0" wl="2" inv="no" offset="0,-1" />
@@ -62586,7 +62585,7 @@
   </grm_inst>
 </tile>
 <tile name="HCLK_DCI" scale="16X22">
-  <grm_inst name="GRM_HCLK_DCI">
+  <grm_inst name="GRM_HCLK_DCI" ref="GRM_HCLK_DCI">
     <dist sram="Enable0" inst="XI4" bl="1" wl="1" inv="no" offset="0,-1" />
     <dist sram="Enable1" inst="XI4" bl="2" wl="1" inv="no" offset="0,-1" />
     <dist sram="Enable2" inst="XI4" bl="0" wl="2" inv="no" offset="0,-1" />
@@ -62599,7 +62598,7 @@
 </tile>
 <!--HCLK_Block_withram, HCLK_Block_withram_forbramdsp-->
 <tile name="HCLK_DCMIOB" scale="16X22">
-  <grm_inst name="GRM_HCLK_DCMIOB">
+  <grm_inst name="GRM_HCLK_DCMIOB" ref="GRM_HCLK_DCMIOB">
     <dist sram="Enable0" inst="XI4" bl="1" wl="1" inv="no" offset="0,0" />
     <dist sram="Enable1" inst="XI4" bl="2" wl="1" inv="no" offset="0,0" />
     <dist sram="Enable2" inst="XI4" bl="0" wl="2" inv="no" offset="0,0" />
@@ -62620,7 +62619,7 @@
 </tile>
 <!--HCLK_Block_withram, HCLK_Block_withram_forbramdsp-->
 <tile name="HCLK_IOBDCM" scale="16X22">
-  <grm_inst name="GRM_HCLK_IOBDCM">
+  <grm_inst name="GRM_HCLK_IOBDCM" ref="GRM_HCLK_IOBDCM">
     <dist sram="Enable0" inst="XI4" bl="1" wl="1" inv="no" offset="0,-1" />
     <dist sram="Enable1" inst="XI4" bl="2" wl="1" inv="no" offset="0,-1" />
     <dist sram="Enable2" inst="XI4" bl="0" wl="2" inv="no" offset="0,-1" />
@@ -62640,7 +62639,7 @@
   </grm_inst>
 </tile>
 <tile name="HCLK_LVDS" scale="16X22">
-  <grm_inst name="GRM_HCLK_LVDS">
+  <grm_inst name="GRM_HCLK_LVDS" ref="GRM_HCLK_LVDS">
     <dist sram="Enable0" inst="XI4" bl="1" wl="1" inv="no" offset="0,-1" />
     <dist sram="Enable1" inst="XI4" bl="2" wl="1" inv="no" offset="0,-1" />
     <dist sram="Enable2" inst="XI4" bl="0" wl="2" inv="no" offset="0,-1" />
