@@ -1,0 +1,4 @@
+<cluster name="OLOGIC" scale="2X1">
+  <site_inst name="XI0" ref="OLOBIC" pos="0"/>
+  <site_inst name="XI1" ref="OLOGIC" pos="1"/>
+</cluster>

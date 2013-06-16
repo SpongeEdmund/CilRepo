@@ -1,0 +1,21 @@
+<tile name="IOIS_LC" scale="0X0">
+	<cluster_inst name="IOB" type="IOBL"/>
+	<cluster_inst name="ILOGIC" type="ILOGIC"/>
+	<cluster_inst name="OLOGIC" type="OLOGIC"/>
+</tile>
+<tile name="IOIS_LC_L" scale="0X0">
+	<cluster_inst name="IOB" type="IOBL"/>
+	<cluster_inst name="ILOGIC" type="ILOGIC"/>
+	<cluster_inst name="OLOGIC" type="OLOGIC"/>
+</tile>
+<tile name="IOIS_NC" scale="0X0">
+	<cluster_inst name="IOB" type="IOBN"/>
+	<cluster_inst name="ILOGIC" type="ILOGIC"/>
+	<cluster_inst name="OLOGIC" type="OLOGIC"/>
+</tile>
+<tile name="IOIS_NC_L" scale="0X0">
+	<cluster_inst name="IOB" type="IOBN"/>
+	<cluster_inst name="ILOGIC" type="ILOGIC"/>
+	<cluster_inst name="OLOGIC" type="OLOGIC"/>
+</tile>
+
