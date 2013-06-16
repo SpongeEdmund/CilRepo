@@ -1,5 +1,6 @@
 <tile name="INT_SO_DCM0" scale="80X19">
   <grm_inst name="GRM_INT_SO_DCM0" ref="GRM_INT_SO_DCM0">
+    <dist sram="P9_" inst="XILV24" bl="17" wl="0" inv="no" offset="0,0" />
     <dist sram="P6_" inst="XIIMUX_B25" bl="54" wl="14" inv="yes" offset="0,0" />
     <dist sram="P6_" inst="XIBYP_INT_B1" bl="22" wl="14" inv="yes" offset="0,0" />
     <dist sram="P7_" inst="XIBYP_INT_B1" bl="20" wl="14" inv="yes" offset="0,0" />
@@ -1030,6 +1031,7 @@
     <dist sram="P6_" inst="XILV24" bl="9" wl="0" inv="yes" offset="0,0" />
     <dist sram="P9_" inst="XILH0" bl="57" wl="0" inv="yes" offset="0,0" />
     <dist sram="P9" inst="XILH24" bl="22" wl="0" inv="yes" offset="0,0" />
+	<dist sram="P9_" inst="XILH24" bl="22" wl="0" inv="no" offset="0,0" />
     <dist sram="P9_" inst="XILV0" bl="62" wl="0" inv="yes" offset="0,0" />
     <dist sram="P9" inst="XILV24" bl="17" wl="0" inv="yes" offset="0,0" />
     <dist sram="P5_" inst="XIN6BEG9" bl="5" wl="2" inv="yes" offset="0,0" />

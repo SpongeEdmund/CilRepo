@@ -326,7 +326,7 @@
       <option name="#OFF" default="false"/>
       <option name="0" default="false"/>
     </attribute>
-    <attribute name="F" method="lut">
+    <attribute name="F" method="equation">
       <option name="#OFF" default="false">
         <sram name="LUTF0" address="0"/>
         <sram name="LUTF1" address="1"/>
@@ -364,7 +364,7 @@
         <sram name="LUTF15" address="15"/>
       </option>
     </attribute>
-    <attribute name="G" method="lut">
+    <attribute name="G" method="equation">
       <option name="#OFF" default="false">
         <sram name="LUTG0" address="0"/>
         <sram name="LUTG1" address="1"/>
