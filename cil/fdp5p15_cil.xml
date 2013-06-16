@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cil family="fdp5" author="chwang" version="2013_0614_1815">
+<cil family="fdp5" author="chwang" version="2013_0616_1357">
 <element_lib>
   <element name="CLKMUXED_MX24">
     <path from="I0" to="Y">
@@ -62637,6 +62637,7 @@
 </tile>
 <tile name="INT" scale="80X19">
   <grm_inst name="GRM_INT" ref="GRM_INT">
+  	<dist sram="P9_" inst="XILH24" bl="22" wl="0" inv="no" offset="0,0" />
     <dist sram="P6_" inst="XIIMUX_B25" bl="54" wl="14" inv="yes" offset="0,0" />
     <dist sram="P6_" inst="XIBYP_INT_B1" bl="22" wl="14" inv="yes" offset="0,0" />
     <dist sram="P7_" inst="XIBYP_INT_B1" bl="20" wl="14" inv="yes" offset="0,0" />
@@ -63669,6 +63670,7 @@
     <dist sram="P9" inst="XILH24" bl="22" wl="0" inv="yes" offset="0,0" />
     <dist sram="P9_" inst="XILV0" bl="62" wl="0" inv="yes" offset="0,0" />
     <dist sram="P9" inst="XILV24" bl="17" wl="0" inv="yes" offset="0,0" />
+    <dist sram="P9_" inst="XILV24" bl="17" wl="0" inv="no" offset="0,0" />
     <dist sram="P5_" inst="XIN6BEG9" bl="5" wl="2" inv="yes" offset="0,0" />
     <dist sram="P2_" inst="XIN6BEG4" bl="45" wl="1" inv="yes" offset="0,0" />
     <dist sram="P3_" inst="XIE6BEG1" bl="67" wl="3" inv="yes" offset="0,0" />
@@ -64113,6 +64115,8 @@
 </tile>
 <tile name="INT_SO" scale="80X19">
   <grm_inst name="GRM_INT_SO" ref="GRM_INT_SO">
+  	<dist sram="P9_" inst="XILH24" bl="22" wl="0" inv="no" offset="0,0" />
+    <dist sram="P9_" inst="XILV24" bl="17" wl="0" inv="no" offset="0,0" />
     <dist sram="P6_" inst="XIIMUX_B25" bl="54" wl="14" inv="yes" offset="0,0" />
     <dist sram="P6_" inst="XIBYP_INT_B1" bl="22" wl="14" inv="yes" offset="0,0" />
     <dist sram="P7_" inst="XIBYP_INT_B1" bl="20" wl="14" inv="yes" offset="0,0" />
@@ -65589,6 +65593,7 @@
 </tile>
 <tile name="INT_SO_DCM0" scale="80X19">
   <grm_inst name="GRM_INT_SO_DCM0" ref="GRM_INT_SO_DCM0">
+    <dist sram="P9_" inst="XILV24" bl="17" wl="0" inv="no" offset="0,0" />
     <dist sram="P6_" inst="XIIMUX_B25" bl="54" wl="14" inv="yes" offset="0,0" />
     <dist sram="P6_" inst="XIBYP_INT_B1" bl="22" wl="14" inv="yes" offset="0,0" />
     <dist sram="P7_" inst="XIBYP_INT_B1" bl="20" wl="14" inv="yes" offset="0,0" />
@@ -66619,6 +66624,7 @@
     <dist sram="P6_" inst="XILV24" bl="9" wl="0" inv="yes" offset="0,0" />
     <dist sram="P9_" inst="XILH0" bl="57" wl="0" inv="yes" offset="0,0" />
     <dist sram="P9" inst="XILH24" bl="22" wl="0" inv="yes" offset="0,0" />
+	<dist sram="P9_" inst="XILH24" bl="22" wl="0" inv="no" offset="0,0" />
     <dist sram="P9_" inst="XILV0" bl="62" wl="0" inv="yes" offset="0,0" />
     <dist sram="P9" inst="XILV24" bl="17" wl="0" inv="yes" offset="0,0" />
     <dist sram="P5_" inst="XIN6BEG9" bl="5" wl="2" inv="yes" offset="0,0" />
