@@ -10,7 +10,6 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="1"/>
-      <sram name="P9" value="0"/>
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN1" to="OUT">
@@ -24,7 +23,7 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="1"/>
-      <sram name="P9" value="0"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN2" to="OUT">
@@ -38,7 +37,7 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="1"/>
-      <sram name="P9" value="0"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN3" to="OUT">
@@ -52,7 +51,7 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="1"/>
-      <sram name="P9" value="0"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN4" to="OUT">
@@ -66,7 +65,7 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="1"/>
-      <sram name="P9" value="0"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN5" to="OUT">
@@ -80,7 +79,7 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="1"/>
-      <sram name="P9" value="0"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN6" to="OUT">
@@ -94,7 +93,7 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="1"/>
-      <sram name="P9" value="0"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN7" to="OUT">
@@ -108,7 +107,7 @@
       <sram name="P7_" value="1"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="1"/>
-      <sram name="P9" value="0"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN8" to="OUT">
@@ -122,7 +121,7 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="1"/>
       <sram name="P9_" value="1"/>
-      <sram name="P9" value="0"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN9" to="OUT">
@@ -136,7 +135,7 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="0"/>
-      <sram name="P9" value="1"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN10" to="OUT">
@@ -150,7 +149,7 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="0"/>
-      <sram name="P9" value="1"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN11" to="OUT">
@@ -164,7 +163,7 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="0"/>
-      <sram name="P9" value="1"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN12" to="OUT">
@@ -178,7 +177,7 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="0"/>
-      <sram name="P9" value="1"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN13" to="OUT">
@@ -192,7 +191,7 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="0"/>
-      <sram name="P9" value="1"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN14" to="OUT">
@@ -206,7 +205,7 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="0"/>
-      <sram name="P9" value="1"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN15" to="OUT">
@@ -220,7 +219,7 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="0"/>
-      <sram name="P9" value="1"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN16" to="OUT">
@@ -234,7 +233,7 @@
       <sram name="P7_" value="1"/>
       <sram name="P8_" value="0"/>
       <sram name="P9_" value="0"/>
-      <sram name="P9" value="1"/>
+      
       <sram name="P10_" value="1"/>
     </path>
     <path from="IN17" to="OUT">
@@ -248,7 +247,7 @@
       <sram name="P7_" value="0"/>
       <sram name="P8_" value="1"/>
       <sram name="P9_" value="0"/>
-      <sram name="P9" value="1"/>
+      
       <sram name="P10_" value="1"/>
     </path>
   </element>
