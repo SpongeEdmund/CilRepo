@@ -1,10 +1,8 @@
   <element name="RDM_TranPASS">
     <path from="A" to="Y">
-      <sram name="S0" value="1"/>
       <sram name="S1" value="0"/>
     </path>
     <path from="B" to="Y">
-      <sram name="S0" value="0"/>
       <sram name="S1" value="1"/>
     </path>
   </element>

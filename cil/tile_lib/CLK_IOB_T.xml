@@ -1,5 +1,37 @@
 <tile name="CLK_IOB_T" scale="320X2">
   <grm_inst name="GRM_CLK_IOB_T" ref="GRM_CLK_IOB_T">
+  	<dist sram="S1" inst="XI1" bl="63" wl="1" inv="yes" offset="-2,0" />
+    <dist sram="S1" inst="XI12_14XI12" bl="43" wl="1" inv="yes" offset="-2,0" />
+    <dist sram="S1" inst="XI12_13XI12" bl="23" wl="1" inv="yes" offset="-2,0" />
+    <dist sram="S1" inst="XI12_12XI12" bl="3" wl="1" inv="yes" offset="-2,0" />
+    <dist sram="S1" inst="XI12_11XI12" bl="63" wl="1" inv="yes" offset="-3,0" />
+    <dist sram="S1" inst="XI12_10XI12" bl="43" wl="1" inv="yes" offset="-3,0" />
+    <dist sram="S1" inst="XI12_9XI12" bl="23" wl="1" inv="yes" offset="-3,0" />
+    <dist sram="S1" inst="XI12_8XI12" bl="3" wl="1" inv="yes" offset="-3,0" />
+    <dist sram="S1" inst="XI12_7XI12" bl="63" wl="1" inv="yes" offset="-4,0" />
+    <dist sram="S1" inst="XI12_6XI12" bl="43" wl="1" inv="yes" offset="-4,0" />
+    <dist sram="S1" inst="XI12_5XI12" bl="23" wl="1" inv="yes" offset="-4,0" />
+    <dist sram="S1" inst="XI12_4XI12" bl="3" wl="1" inv="yes" offset="-4,0" />
+    <dist sram="S1" inst="XI12_3XI12" bl="63" wl="1" inv="yes" offset="-5,0" />
+    <dist sram="S1" inst="XI12_2XI12" bl="43" wl="1" inv="yes" offset="-5,0" />
+    <dist sram="S1" inst="XI12_1XI12" bl="23" wl="1" inv="yes" offset="-5,0" />
+    <dist sram="S1" inst="XI12_0XI12" bl="3" wl="1" inv="yes" offset="-5,0" />
+    <dist sram="S1" inst="XI6_15XI12" bl="63" wl="0" inv="yes" offset="-2,0" />	
+    <dist sram="S1" inst="XI6_14XI12" bl="43" wl="0" inv="yes" offset="-2,0" />
+    <dist sram="S1" inst="XI6_13XI12" bl="23" wl="0" inv="yes" offset="-2,0" />
+    <dist sram="S1" inst="XI6_12XI12" bl="3" wl="0" inv="yes" offset="-2,0" />
+    <dist sram="S1" inst="XI6_11XI12" bl="63" wl="0" inv="yes" offset="-3,0" />
+    <dist sram="S1" inst="XI6_10XI12" bl="43" wl="0" inv="yes" offset="-3,0" />
+    <dist sram="S1" inst="XI6_9XI12" bl="23" wl="0" inv="yes" offset="-3,0" />
+    <dist sram="S1" inst="XI6_8XI12" bl="3" wl="0" inv="yes" offset="-3,0" />
+    <dist sram="S1" inst="XI6_7XI12" bl="63" wl="0" inv="yes" offset="-4,0" />
+    <dist sram="S1" inst="XI6_6XI12" bl="43" wl="0" inv="yes" offset="-4,0" />
+    <dist sram="S1" inst="XI6_5XI12" bl="23" wl="0" inv="yes" offset="-4,0" />
+    <dist sram="S1" inst="XI6_4XI12" bl="3" wl="0" inv="yes" offset="-4,0" />
+    <dist sram="S1" inst="XI6_3XI12" bl="63" wl="0" inv="yes" offset="-5,0" />
+    <dist sram="S1" inst="XI6_2XI12" bl="43" wl="0" inv="yes" offset="-5,0" />
+    <dist sram="S1" inst="XI6_1XI12" bl="23" wl="0" inv="yes" offset="-5,0" />
+    <dist sram="S1" inst="XI6_0XI12" bl="3" wl="0" inv="yes" offset="-5,0" />
     <dist sram="S2" inst="XI6_15XI20" bl="73" wl="0" inv="yes" offset="-2,0" />
     <dist sram="S3" inst="XI6_15XI20" bl="72" wl="0" inv="yes" offset="-2,0" />
     <dist sram="S1" inst="XI6_15XI20" bl="75" wl="0" inv="yes" offset="-2,0" />
