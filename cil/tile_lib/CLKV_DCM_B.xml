@@ -1,4 +1,4 @@
-<tile name="CLKV_DCM_B" scale="320X2">
+<tile name="CLKV_DCM_B" scale="3024X0">
   <grm_inst name="GRM_CLKV_DCM_B" ref="GRM_CLKV_DCM_B">
     <dist sram="S2" inst="XI2_15XI20" bl="73" wl="0" inv="yes" offset="-6,0" />
     <dist sram="S3" inst="XI2_15XI20" bl="72" wl="0" inv="yes" offset="-6,0" />
@@ -6,6 +6,8 @@
     <dist sram="S8" inst="XI2_15XI20" bl="66" wl="0" inv="yes" offset="-6,0" />
     <dist sram="S9" inst="XI2_15XI20" bl="67" wl="0" inv="yes" offset="-6,0" />
     <dist sram="S7" inst="XI2_15XI20" bl="65" wl="0" inv="yes" offset="-6,0" />
+    <dist sram="S0_" inst="XI2_15XI12" bl="63" wl="0" inv="yes" offset="-6,0" />
+    <dist sram="S1" inst="XI2_15XI12" bl="63" wl="0" inv="yes" offset="-6,0" />
     <dist sram="S6" inst="XI2_15XI20" bl="64" wl="0" inv="yes" offset="-6,0" />
     <dist sram="S4" inst="XI2_15XI20" bl="71" wl="0" inv="yes" offset="-6,0" />
     <dist sram="S5" inst="XI2_15XI20" bl="70" wl="0" inv="yes" offset="-6,0" />
@@ -16,6 +18,8 @@
     <dist sram="S8" inst="XI2_14XI20" bl="46" wl="0" inv="yes" offset="-6,0" />
     <dist sram="S9" inst="XI2_14XI20" bl="47" wl="0" inv="yes" offset="-6,0" />
     <dist sram="S7" inst="XI2_14XI20" bl="45" wl="0" inv="yes" offset="-6,0" />
+    <dist sram="S0_" inst="XI2_14XI12" bl="43" wl="0" inv="yes" offset="-6,0" />
+    <dist sram="S1" inst="XI2_14XI12" bl="43" wl="0" inv="yes" offset="-6,0" />
     <dist sram="S6" inst="XI2_14XI20" bl="44" wl="0" inv="yes" offset="-6,0" />
     <dist sram="S4" inst="XI2_14XI20" bl="51" wl="0" inv="yes" offset="-6,0" />
     <dist sram="S5" inst="XI2_14XI20" bl="50" wl="0" inv="yes" offset="-6,0" />
@@ -26,6 +30,8 @@
     <dist sram="S8" inst="XI2_13XI20" bl="26" wl="0" inv="yes" offset="-6,0" />
     <dist sram="S9" inst="XI2_13XI20" bl="27" wl="0" inv="yes" offset="-6,0" />
     <dist sram="S7" inst="XI2_13XI20" bl="25" wl="0" inv="yes" offset="-6,0" />
+    <dist sram="S0_" inst="XI2_13XI12" bl="23" wl="0" inv="yes" offset="-6,0" />
+    <dist sram="S1" inst="XI2_13XI12" bl="23" wl="0" inv="yes" offset="-6,0" />
     <dist sram="S6" inst="XI2_13XI20" bl="24" wl="0" inv="yes" offset="-6,0" />
     <dist sram="S4" inst="XI2_13XI20" bl="31" wl="0" inv="yes" offset="-6,0" />
     <dist sram="S5" inst="XI2_13XI20" bl="30" wl="0" inv="yes" offset="-6,0" />
@@ -36,6 +42,8 @@
     <dist sram="S8" inst="XI2_12XI20" bl="6" wl="0" inv="yes" offset="-6,0" />
     <dist sram="S9" inst="XI2_12XI20" bl="7" wl="0" inv="yes" offset="-6,0" />
     <dist sram="S7" inst="XI2_12XI20" bl="5" wl="0" inv="yes" offset="-6,0" />
+    <dist sram="S0_" inst="XI2_12XI12" bl="3" wl="0" inv="yes" offset="-6,0" />
+    <dist sram="S1" inst="XI2_12XI12" bl="3" wl="0" inv="yes" offset="-6,0" />
     <dist sram="S6" inst="XI2_12XI20" bl="4" wl="0" inv="yes" offset="-6,0" />
     <dist sram="S4" inst="XI2_12XI20" bl="11" wl="0" inv="yes" offset="-6,0" />
     <dist sram="S5" inst="XI2_12XI20" bl="10" wl="0" inv="yes" offset="-6,0" />
@@ -46,6 +54,8 @@
     <dist sram="S8" inst="XI2_11XI20" bl="66" wl="0" inv="yes" offset="-5,0" />
     <dist sram="S9" inst="XI2_11XI20" bl="67" wl="0" inv="yes" offset="-5,0" />
     <dist sram="S7" inst="XI2_11XI20" bl="65" wl="0" inv="yes" offset="-5,0" />
+    <dist sram="S0_" inst="XI2_11XI12" bl="63" wl="0" inv="yes" offset="-5,0" />
+    <dist sram="S1" inst="XI2_11XI12" bl="63" wl="0" inv="yes" offset="-5,0" />
     <dist sram="S6" inst="XI2_11XI20" bl="64" wl="0" inv="yes" offset="-5,0" />
     <dist sram="S4" inst="XI2_11XI20" bl="71" wl="0" inv="yes" offset="-5,0" />
     <dist sram="S5" inst="XI2_11XI20" bl="70" wl="0" inv="yes" offset="-5,0" />
@@ -56,6 +66,8 @@
     <dist sram="S8" inst="XI2_10XI20" bl="46" wl="0" inv="yes" offset="-5,0" />
     <dist sram="S9" inst="XI2_10XI20" bl="47" wl="0" inv="yes" offset="-5,0" />
     <dist sram="S7" inst="XI2_10XI20" bl="45" wl="0" inv="yes" offset="-5,0" />
+    <dist sram="S0_" inst="XI2_10XI12" bl="43" wl="0" inv="yes" offset="-5,0" />
+    <dist sram="S1" inst="XI2_10XI12" bl="43" wl="0" inv="yes" offset="-5,0" />
     <dist sram="S6" inst="XI2_10XI20" bl="44" wl="0" inv="yes" offset="-5,0" />
     <dist sram="S4" inst="XI2_10XI20" bl="51" wl="0" inv="yes" offset="-5,0" />
     <dist sram="S5" inst="XI2_10XI20" bl="50" wl="0" inv="yes" offset="-5,0" />
@@ -66,6 +78,8 @@
     <dist sram="S8" inst="XI2_9XI20" bl="26" wl="0" inv="yes" offset="-5,0" />
     <dist sram="S9" inst="XI2_9XI20" bl="27" wl="0" inv="yes" offset="-5,0" />
     <dist sram="S7" inst="XI2_9XI20" bl="25" wl="0" inv="yes" offset="-5,0" />
+    <dist sram="S0_" inst="XI2_9XI12" bl="23" wl="0" inv="yes" offset="-5,0" />
+    <dist sram="S1" inst="XI2_9XI12" bl="23" wl="0" inv="yes" offset="-5,0" />
     <dist sram="S6" inst="XI2_9XI20" bl="24" wl="0" inv="yes" offset="-5,0" />
     <dist sram="S4" inst="XI2_9XI20" bl="31" wl="0" inv="yes" offset="-5,0" />
     <dist sram="S5" inst="XI2_9XI20" bl="30" wl="0" inv="yes" offset="-5,0" />
@@ -76,6 +90,8 @@
     <dist sram="S8" inst="XI2_8XI20" bl="6" wl="0" inv="yes" offset="-5,0" />
     <dist sram="S9" inst="XI2_8XI20" bl="7" wl="0" inv="yes" offset="-5,0" />
     <dist sram="S7" inst="XI2_8XI20" bl="5" wl="0" inv="yes" offset="-5,0" />
+    <dist sram="S0_" inst="XI2_8XI12" bl="3" wl="0" inv="yes" offset="-5,0" />
+    <dist sram="S1" inst="XI2_8XI12" bl="3" wl="0" inv="yes" offset="-5,0" />
     <dist sram="S6" inst="XI2_8XI20" bl="4" wl="0" inv="yes" offset="-5,0" />
     <dist sram="S4" inst="XI2_8XI20" bl="11" wl="0" inv="yes" offset="-5,0" />
     <dist sram="S5" inst="XI2_8XI20" bl="10" wl="0" inv="yes" offset="-5,0" />
@@ -86,6 +102,8 @@
     <dist sram="S8" inst="XI2_7XI20" bl="66" wl="0" inv="yes" offset="-4,0" />
     <dist sram="S9" inst="XI2_7XI20" bl="67" wl="0" inv="yes" offset="-4,0" />
     <dist sram="S7" inst="XI2_7XI20" bl="65" wl="0" inv="yes" offset="-4,0" />
+    <dist sram="S0_" inst="XI2_7XI12" bl="63" wl="0" inv="yes" offset="-4,0" />
+    <dist sram="S1" inst="XI2_7XI12" bl="63" wl="0" inv="yes" offset="-4,0" />
     <dist sram="S6" inst="XI2_7XI20" bl="64" wl="0" inv="yes" offset="-4,0" />
     <dist sram="S4" inst="XI2_7XI20" bl="71" wl="0" inv="yes" offset="-4,0" />
     <dist sram="S5" inst="XI2_7XI20" bl="70" wl="0" inv="yes" offset="-4,0" />
@@ -96,6 +114,8 @@
     <dist sram="S8" inst="XI2_6XI20" bl="46" wl="0" inv="yes" offset="-4,0" />
     <dist sram="S9" inst="XI2_6XI20" bl="47" wl="0" inv="yes" offset="-4,0" />
     <dist sram="S7" inst="XI2_6XI20" bl="45" wl="0" inv="yes" offset="-4,0" />
+    <dist sram="S0_" inst="XI2_6XI12" bl="43" wl="0" inv="yes" offset="-4,0" />
+    <dist sram="S1" inst="XI2_6XI12" bl="43" wl="0" inv="yes" offset="-4,0" />
     <dist sram="S6" inst="XI2_6XI20" bl="44" wl="0" inv="yes" offset="-4,0" />
     <dist sram="S4" inst="XI2_6XI20" bl="51" wl="0" inv="yes" offset="-4,0" />
     <dist sram="S5" inst="XI2_6XI20" bl="50" wl="0" inv="yes" offset="-4,0" />
@@ -106,6 +126,8 @@
     <dist sram="S8" inst="XI2_5XI20" bl="26" wl="0" inv="yes" offset="-4,0" />
     <dist sram="S9" inst="XI2_5XI20" bl="27" wl="0" inv="yes" offset="-4,0" />
     <dist sram="S7" inst="XI2_5XI20" bl="25" wl="0" inv="yes" offset="-4,0" />
+    <dist sram="S0_" inst="XI2_5XI12" bl="23" wl="0" inv="yes" offset="-4,0" />
+    <dist sram="S1" inst="XI2_5XI12" bl="23" wl="0" inv="yes" offset="-4,0" />
     <dist sram="S6" inst="XI2_5XI20" bl="24" wl="0" inv="yes" offset="-4,0" />
     <dist sram="S4" inst="XI2_5XI20" bl="31" wl="0" inv="yes" offset="-4,0" />
     <dist sram="S5" inst="XI2_5XI20" bl="30" wl="0" inv="yes" offset="-4,0" />
@@ -116,6 +138,8 @@
     <dist sram="S8" inst="XI2_4XI20" bl="6" wl="0" inv="yes" offset="-4,0" />
     <dist sram="S9" inst="XI2_4XI20" bl="7" wl="0" inv="yes" offset="-4,0" />
     <dist sram="S7" inst="XI2_4XI20" bl="5" wl="0" inv="yes" offset="-4,0" />
+    <dist sram="S0_" inst="XI2_4XI12" bl="3" wl="0" inv="yes" offset="-4,0" />
+    <dist sram="S1" inst="XI2_4XI12" bl="3" wl="0" inv="yes" offset="-4,0" />
     <dist sram="S6" inst="XI2_4XI20" bl="4" wl="0" inv="yes" offset="-4,0" />
     <dist sram="S4" inst="XI2_4XI20" bl="11" wl="0" inv="yes" offset="-4,0" />
     <dist sram="S5" inst="XI2_4XI20" bl="10" wl="0" inv="yes" offset="-4,0" />
@@ -126,6 +150,8 @@
     <dist sram="S8" inst="XI2_3XI20" bl="66" wl="0" inv="yes" offset="-3,0" />
     <dist sram="S9" inst="XI2_3XI20" bl="67" wl="0" inv="yes" offset="-3,0" />
     <dist sram="S7" inst="XI2_3XI20" bl="65" wl="0" inv="yes" offset="-3,0" />
+    <dist sram="S0_" inst="XI2_3XI12" bl="63" wl="0" inv="yes" offset="-3,0" />
+    <dist sram="S1" inst="XI2_3XI12" bl="63" wl="0" inv="yes" offset="-3,0" />
     <dist sram="S6" inst="XI2_3XI20" bl="64" wl="0" inv="yes" offset="-3,0" />
     <dist sram="S4" inst="XI2_3XI20" bl="71" wl="0" inv="yes" offset="-3,0" />
     <dist sram="S5" inst="XI2_3XI20" bl="70" wl="0" inv="yes" offset="-3,0" />
@@ -136,6 +162,8 @@
     <dist sram="S8" inst="XI2_2XI20" bl="46" wl="0" inv="yes" offset="-3,0" />
     <dist sram="S9" inst="XI2_2XI20" bl="47" wl="0" inv="yes" offset="-3,0" />
     <dist sram="S7" inst="XI2_2XI20" bl="45" wl="0" inv="yes" offset="-3,0" />
+    <dist sram="S0_" inst="XI2_2XI12" bl="43" wl="0" inv="yes" offset="-3,0" />
+    <dist sram="S1" inst="XI2_2XI12" bl="43" wl="0" inv="yes" offset="-3,0" />
     <dist sram="S6" inst="XI2_2XI20" bl="44" wl="0" inv="yes" offset="-3,0" />
     <dist sram="S4" inst="XI2_2XI20" bl="51" wl="0" inv="yes" offset="-3,0" />
     <dist sram="S5" inst="XI2_2XI20" bl="50" wl="0" inv="yes" offset="-3,0" />
@@ -146,6 +174,8 @@
     <dist sram="S8" inst="XI2_1XI20" bl="26" wl="0" inv="yes" offset="-3,0" />
     <dist sram="S9" inst="XI2_1XI20" bl="27" wl="0" inv="yes" offset="-3,0" />
     <dist sram="S7" inst="XI2_1XI20" bl="25" wl="0" inv="yes" offset="-3,0" />
+    <dist sram="S0_" inst="XI2_1XI12" bl="23" wl="0" inv="yes" offset="-3,0" />
+    <dist sram="S1" inst="XI2_1XI12" bl="23" wl="0" inv="yes" offset="-3,0" />
     <dist sram="S6" inst="XI2_1XI20" bl="24" wl="0" inv="yes" offset="-3,0" />
     <dist sram="S4" inst="XI2_1XI20" bl="31" wl="0" inv="yes" offset="-3,0" />
     <dist sram="S5" inst="XI2_1XI20" bl="30" wl="0" inv="yes" offset="-3,0" />
@@ -156,6 +186,8 @@
     <dist sram="S8" inst="XI2_0XI20" bl="6" wl="0" inv="yes" offset="-3,0" />
     <dist sram="S9" inst="XI2_0XI20" bl="7" wl="0" inv="yes" offset="-3,0" />
     <dist sram="S7" inst="XI2_0XI20" bl="5" wl="0" inv="yes" offset="-3,0" />
+    <dist sram="S0_" inst="XI2_0XI12" bl="3" wl="0" inv="yes" offset="-3,0" />
+    <dist sram="S1" inst="XI2_0XI12" bl="3" wl="0" inv="yes" offset="-3,0" />
     <dist sram="S6" inst="XI2_0XI20" bl="4" wl="0" inv="yes" offset="-3,0" />
     <dist sram="S4" inst="XI2_0XI20" bl="11" wl="0" inv="yes" offset="-3,0" />
     <dist sram="S5" inst="XI2_0XI20" bl="10" wl="0" inv="yes" offset="-3,0" />
@@ -166,6 +198,8 @@
     <dist sram="S8" inst="XI3_14XI20" bl="46" wl="1" inv="yes" offset="-6,0" />
     <dist sram="S9" inst="XI3_14XI20" bl="47" wl="1" inv="yes" offset="-6,0" />
     <dist sram="S7" inst="XI3_14XI20" bl="45" wl="1" inv="yes" offset="-6,0" />
+    <dist sram="S0_" inst="XI3_14XI12" bl="43" wl="1" inv="yes" offset="-6,0" />
+    <dist sram="S1" inst="XI3_14XI12" bl="43" wl="1" inv="yes" offset="-6,0" />
     <dist sram="S6" inst="XI3_14XI20" bl="44" wl="1" inv="yes" offset="-6,0" />
     <dist sram="S4" inst="XI3_14XI20" bl="51" wl="1" inv="yes" offset="-6,0" />
     <dist sram="S5" inst="XI3_14XI20" bl="50" wl="1" inv="yes" offset="-6,0" />
@@ -176,6 +210,8 @@
     <dist sram="S8" inst="XI3_13XI20" bl="26" wl="1" inv="yes" offset="-6,0" />
     <dist sram="S9" inst="XI3_13XI20" bl="27" wl="1" inv="yes" offset="-6,0" />
     <dist sram="S7" inst="XI3_13XI20" bl="25" wl="1" inv="yes" offset="-6,0" />
+    <dist sram="S0_" inst="XI3_13XI12" bl="23" wl="1" inv="yes" offset="-6,0" />
+    <dist sram="S1" inst="XI3_13XI12" bl="23" wl="1" inv="yes" offset="-6,0" />
     <dist sram="S6" inst="XI3_13XI20" bl="24" wl="1" inv="yes" offset="-6,0" />
     <dist sram="S4" inst="XI3_13XI20" bl="31" wl="1" inv="yes" offset="-6,0" />
     <dist sram="S5" inst="XI3_13XI20" bl="30" wl="1" inv="yes" offset="-6,0" />
@@ -186,6 +222,8 @@
     <dist sram="S8" inst="XI3_12XI20" bl="6" wl="1" inv="yes" offset="-6,0" />
     <dist sram="S9" inst="XI3_12XI20" bl="7" wl="1" inv="yes" offset="-6,0" />
     <dist sram="S7" inst="XI3_12XI20" bl="5" wl="1" inv="yes" offset="-6,0" />
+    <dist sram="S0_" inst="XI3_12XI12" bl="3" wl="1" inv="yes" offset="-6,0" />
+    <dist sram="S1" inst="XI3_12XI12" bl="3" wl="1" inv="yes" offset="-6,0" />
     <dist sram="S6" inst="XI3_12XI20" bl="4" wl="1" inv="yes" offset="-6,0" />
     <dist sram="S4" inst="XI3_12XI20" bl="11" wl="1" inv="yes" offset="-6,0" />
     <dist sram="S5" inst="XI3_12XI20" bl="10" wl="1" inv="yes" offset="-6,0" />
@@ -196,6 +234,8 @@
     <dist sram="S8" inst="XI3_11XI20" bl="66" wl="1" inv="yes" offset="-5,0" />
     <dist sram="S9" inst="XI3_11XI20" bl="67" wl="1" inv="yes" offset="-5,0" />
     <dist sram="S7" inst="XI3_11XI20" bl="65" wl="1" inv="yes" offset="-5,0" />
+    <dist sram="S0_" inst="XI3_11XI12" bl="63" wl="1" inv="yes" offset="-5,0" />
+    <dist sram="S1" inst="XI3_11XI12" bl="63" wl="1" inv="yes" offset="-5,0" />
     <dist sram="S6" inst="XI3_11XI20" bl="64" wl="1" inv="yes" offset="-5,0" />
     <dist sram="S4" inst="XI3_11XI20" bl="71" wl="1" inv="yes" offset="-5,0" />
     <dist sram="S5" inst="XI3_11XI20" bl="70" wl="1" inv="yes" offset="-5,0" />
@@ -206,6 +246,8 @@
     <dist sram="S8" inst="XI3_10XI20" bl="46" wl="1" inv="yes" offset="-5,0" />
     <dist sram="S9" inst="XI3_10XI20" bl="47" wl="1" inv="yes" offset="-5,0" />
     <dist sram="S7" inst="XI3_10XI20" bl="45" wl="1" inv="yes" offset="-5,0" />
+    <dist sram="S0_" inst="XI3_10XI12" bl="43" wl="1" inv="yes" offset="-5,0" />
+    <dist sram="S1" inst="XI3_10XI12" bl="43" wl="1" inv="yes" offset="-5,0" />
     <dist sram="S6" inst="XI3_10XI20" bl="44" wl="1" inv="yes" offset="-5,0" />
     <dist sram="S4" inst="XI3_10XI20" bl="51" wl="1" inv="yes" offset="-5,0" />
     <dist sram="S5" inst="XI3_10XI20" bl="50" wl="1" inv="yes" offset="-5,0" />
@@ -216,6 +258,8 @@
     <dist sram="S8" inst="XI3_9XI20" bl="26" wl="1" inv="yes" offset="-5,0" />
     <dist sram="S9" inst="XI3_9XI20" bl="27" wl="1" inv="yes" offset="-5,0" />
     <dist sram="S7" inst="XI3_9XI20" bl="25" wl="1" inv="yes" offset="-5,0" />
+    <dist sram="S0_" inst="XI3_9XI12" bl="23" wl="1" inv="yes" offset="-5,0" />
+    <dist sram="S1" inst="XI3_9XI12" bl="23" wl="1" inv="yes" offset="-5,0" />
     <dist sram="S6" inst="XI3_9XI20" bl="24" wl="1" inv="yes" offset="-5,0" />
     <dist sram="S4" inst="XI3_9XI20" bl="31" wl="1" inv="yes" offset="-5,0" />
     <dist sram="S5" inst="XI3_9XI20" bl="30" wl="1" inv="yes" offset="-5,0" />
@@ -226,6 +270,8 @@
     <dist sram="S8" inst="XI3_8XI20" bl="6" wl="1" inv="yes" offset="-5,0" />
     <dist sram="S9" inst="XI3_8XI20" bl="7" wl="1" inv="yes" offset="-5,0" />
     <dist sram="S7" inst="XI3_8XI20" bl="5" wl="1" inv="yes" offset="-5,0" />
+    <dist sram="S0_" inst="XI3_8XI12" bl="3" wl="1" inv="yes" offset="-5,0" />
+    <dist sram="S1" inst="XI3_8XI12" bl="3" wl="1" inv="yes" offset="-5,0" />
     <dist sram="S6" inst="XI3_8XI20" bl="4" wl="1" inv="yes" offset="-5,0" />
     <dist sram="S4" inst="XI3_8XI20" bl="11" wl="1" inv="yes" offset="-5,0" />
     <dist sram="S5" inst="XI3_8XI20" bl="10" wl="1" inv="yes" offset="-5,0" />
@@ -236,6 +282,8 @@
     <dist sram="S8" inst="XI3_7XI20" bl="66" wl="1" inv="yes" offset="-4,0" />
     <dist sram="S9" inst="XI3_7XI20" bl="67" wl="1" inv="yes" offset="-4,0" />
     <dist sram="S7" inst="XI3_7XI20" bl="65" wl="1" inv="yes" offset="-4,0" />
+    <dist sram="S0_" inst="XI3_7XI12" bl="63" wl="1" inv="yes" offset="-4,0" />
+    <dist sram="S1" inst="XI3_7XI12" bl="63" wl="1" inv="yes" offset="-4,0" />
     <dist sram="S6" inst="XI3_7XI20" bl="64" wl="1" inv="yes" offset="-4,0" />
     <dist sram="S4" inst="XI3_7XI20" bl="71" wl="1" inv="yes" offset="-4,0" />
     <dist sram="S5" inst="XI3_7XI20" bl="70" wl="1" inv="yes" offset="-4,0" />
@@ -246,6 +294,8 @@
     <dist sram="S8" inst="XI3_6XI20" bl="46" wl="1" inv="yes" offset="-4,0" />
     <dist sram="S9" inst="XI3_6XI20" bl="47" wl="1" inv="yes" offset="-4,0" />
     <dist sram="S7" inst="XI3_6XI20" bl="45" wl="1" inv="yes" offset="-4,0" />
+    <dist sram="S0_" inst="XI3_6XI12" bl="43" wl="1" inv="yes" offset="-4,0" />
+    <dist sram="S1" inst="XI3_6XI12" bl="43" wl="1" inv="yes" offset="-4,0" />
     <dist sram="S6" inst="XI3_6XI20" bl="44" wl="1" inv="yes" offset="-4,0" />
     <dist sram="S4" inst="XI3_6XI20" bl="51" wl="1" inv="yes" offset="-4,0" />
     <dist sram="S5" inst="XI3_6XI20" bl="50" wl="1" inv="yes" offset="-4,0" />
@@ -256,6 +306,8 @@
     <dist sram="S8" inst="XI3_5XI20" bl="26" wl="1" inv="yes" offset="-4,0" />
     <dist sram="S9" inst="XI3_5XI20" bl="27" wl="1" inv="yes" offset="-4,0" />
     <dist sram="S7" inst="XI3_5XI20" bl="25" wl="1" inv="yes" offset="-4,0" />
+    <dist sram="S0_" inst="XI3_5XI12" bl="23" wl="1" inv="yes" offset="-4,0" />
+    <dist sram="S1" inst="XI3_5XI12" bl="23" wl="1" inv="yes" offset="-4,0" />
     <dist sram="S6" inst="XI3_5XI20" bl="24" wl="1" inv="yes" offset="-4,0" />
     <dist sram="S4" inst="XI3_5XI20" bl="31" wl="1" inv="yes" offset="-4,0" />
     <dist sram="S5" inst="XI3_5XI20" bl="30" wl="1" inv="yes" offset="-4,0" />
@@ -266,6 +318,8 @@
     <dist sram="S8" inst="XI3_4XI20" bl="6" wl="1" inv="yes" offset="-4,0" />
     <dist sram="S9" inst="XI3_4XI20" bl="7" wl="1" inv="yes" offset="-4,0" />
     <dist sram="S7" inst="XI3_4XI20" bl="5" wl="1" inv="yes" offset="-4,0" />
+    <dist sram="S0_" inst="XI3_4XI12" bl="3" wl="1" inv="yes" offset="-4,0" />
+    <dist sram="S1" inst="XI3_4XI12" bl="3" wl="1" inv="yes" offset="-4,0" />
     <dist sram="S6" inst="XI3_4XI20" bl="4" wl="1" inv="yes" offset="-4,0" />
     <dist sram="S4" inst="XI3_4XI20" bl="11" wl="1" inv="yes" offset="-4,0" />
     <dist sram="S5" inst="XI3_4XI20" bl="10" wl="1" inv="yes" offset="-4,0" />
@@ -276,6 +330,8 @@
     <dist sram="S8" inst="XI3_3XI20" bl="66" wl="1" inv="yes" offset="-3,0" />
     <dist sram="S9" inst="XI3_3XI20" bl="67" wl="1" inv="yes" offset="-3,0" />
     <dist sram="S7" inst="XI3_3XI20" bl="65" wl="1" inv="yes" offset="-3,0" />
+    <dist sram="S0_" inst="XI3_3XI12" bl="63" wl="1" inv="yes" offset="-3,0" />
+    <dist sram="S1" inst="XI3_3XI12" bl="63" wl="1" inv="yes" offset="-3,0" />
     <dist sram="S6" inst="XI3_3XI20" bl="64" wl="1" inv="yes" offset="-3,0" />
     <dist sram="S4" inst="XI3_3XI20" bl="71" wl="1" inv="yes" offset="-3,0" />
     <dist sram="S5" inst="XI3_3XI20" bl="70" wl="1" inv="yes" offset="-3,0" />
@@ -286,6 +342,8 @@
     <dist sram="S8" inst="XI3_2XI20" bl="46" wl="1" inv="yes" offset="-3,0" />
     <dist sram="S9" inst="XI3_2XI20" bl="47" wl="1" inv="yes" offset="-3,0" />
     <dist sram="S7" inst="XI3_2XI20" bl="45" wl="1" inv="yes" offset="-3,0" />
+    <dist sram="S0_" inst="XI3_2XI12" bl="43" wl="1" inv="yes" offset="-3,0" />
+    <dist sram="S1" inst="XI3_2XI12" bl="43" wl="1" inv="yes" offset="-3,0" />
     <dist sram="S6" inst="XI3_2XI20" bl="44" wl="1" inv="yes" offset="-3,0" />
     <dist sram="S4" inst="XI3_2XI20" bl="51" wl="1" inv="yes" offset="-3,0" />
     <dist sram="S5" inst="XI3_2XI20" bl="50" wl="1" inv="yes" offset="-3,0" />
@@ -296,6 +354,8 @@
     <dist sram="S8" inst="XI3_1XI20" bl="26" wl="1" inv="yes" offset="-3,0" />
     <dist sram="S9" inst="XI3_1XI20" bl="27" wl="1" inv="yes" offset="-3,0" />
     <dist sram="S7" inst="XI3_1XI20" bl="25" wl="1" inv="yes" offset="-3,0" />
+    <dist sram="S0_" inst="XI3_1XI12" bl="23" wl="1" inv="yes" offset="-3,0" />
+    <dist sram="S1" inst="XI3_1XI12" bl="23" wl="1" inv="yes" offset="-3,0" />
     <dist sram="S6" inst="XI3_1XI20" bl="24" wl="1" inv="yes" offset="-3,0" />
     <dist sram="S4" inst="XI3_1XI20" bl="31" wl="1" inv="yes" offset="-3,0" />
     <dist sram="S5" inst="XI3_1XI20" bl="30" wl="1" inv="yes" offset="-3,0" />
@@ -306,6 +366,8 @@
     <dist sram="S8" inst="XI3_0XI20" bl="6" wl="1" inv="yes" offset="-3,0" />
     <dist sram="S9" inst="XI3_0XI20" bl="7" wl="1" inv="yes" offset="-3,0" />
     <dist sram="S7" inst="XI3_0XI20" bl="5" wl="1" inv="yes" offset="-3,0" />
+    <dist sram="S0_" inst="XI3_0XI12" bl="3" wl="1" inv="yes" offset="-3,0" />
+    <dist sram="S1" inst="XI3_0XI12" bl="3" wl="1" inv="yes" offset="-3,0" />
     <dist sram="S6" inst="XI3_0XI20" bl="4" wl="1" inv="yes" offset="-3,0" />
     <dist sram="S4" inst="XI3_0XI20" bl="11" wl="1" inv="yes" offset="-3,0" />
     <dist sram="S5" inst="XI3_0XI20" bl="10" wl="1" inv="yes" offset="-3,0" />
@@ -316,6 +378,8 @@
     <dist sram="S8" inst="XI1XI20" bl="66" wl="1" inv="yes" offset="-6,0" />
     <dist sram="S9" inst="XI1XI20" bl="67" wl="1" inv="yes" offset="-6,0" />
     <dist sram="S7" inst="XI1XI20" bl="65" wl="1" inv="yes" offset="-6,0" />
+    <dist sram="S0_" inst="XI1XI12" bl="63" wl="1" inv="yes" offset="-6,0" />
+    <dist sram="S1" inst="XI1XI12" bl="63" wl="1" inv="yes" offset="-6,0" />
     <dist sram="S6" inst="XI1XI20" bl="64" wl="1" inv="yes" offset="-6,0" />
     <dist sram="S4" inst="XI1XI20" bl="71" wl="1" inv="yes" offset="-6,0" />
     <dist sram="S5" inst="XI1XI20" bl="70" wl="1" inv="yes" offset="-6,0" />
