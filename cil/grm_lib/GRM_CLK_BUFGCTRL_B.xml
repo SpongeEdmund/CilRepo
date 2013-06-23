@@ -1,4 +1,4 @@
-<grm name="GRM_CLK_BUFGCTRL_T">
+<grm name="GRM_CLK_BUFGCTRL_B">
   <element_inst name="XI9_15XI0" ref="CLKMUXED_MX24" />
   <element_inst name="XI9_2XI20" ref="CLKMUXED_MX24" />
   <element_inst name="XI9_0XI3" ref="RDM_TranPASS" />

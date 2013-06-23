@@ -1,4 +1,4 @@
-<grm name="GRM_CLK_IOB_T">
+<grm name="GRM_CLK_IOB_B">
   <element_inst name="XI6_3XI20" ref="CLKMUXED_MX24" />
   <element_inst name="XI12_11XI12" ref="RDM_TranPASS" />
   <element_inst name="XI6_3XI12" ref="RDM_TranPASS" />
