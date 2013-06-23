@@ -36,4 +36,9 @@
 <tile name="EMPTY_CLK_BUFGCTRL3" scale="80X3"/>
 <tile name="EMPTY_CLK_BUFGCTRL2" scale="80X3"/>
 <tile name="EMPTY_CLK_BUFGCTRL1" scale="80X3"/>
-<tile name="EMPTY_CLK_BUFGCTRL0" scale="80X3"/>
+<tile name="EMPTY_BRAM3" scale="80X64"/>
+<tile name="EMPTY_BRAM2" scale="80X64"/>
+<tile name="EMPTY_BRAM1" scale="80X64"/>
+<tile name="HCLK_BRAM" scale="32X64"/>
+<tile name="HCLK_DSP" scale="32X64"/>
+
