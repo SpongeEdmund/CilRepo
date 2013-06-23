@@ -5146,7 +5146,7 @@
     <segment address="1"  row="19" packet_amount="35"/>
     <segment address="2"  row="37" packet_amount="35"/>
     <segment address="3"  row="55" packet_amount="35"/>
-    <packet address="0"  col="31" frame_amount="3" />
+    <packet address="0"  col="33" frame_amount="3" />
     <packet address="1"  col="3"  frame_amount="22"/>
     <packet address="2"  col="5"  frame_amount="22"/>
     <packet address="3"  col="7"  frame_amount="22"/>

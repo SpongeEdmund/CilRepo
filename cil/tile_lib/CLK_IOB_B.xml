@@ -1,4 +1,4 @@
-<tile name="CLK_IOB_B" scale="3024X0">
+<tile name="CLK_IOB_B" scale="80X3">
   <grm_inst name="GRM_CLK_IOB_B" ref="GRM_CLK_IOB_B">
     <dist sram="S2" inst="XI6_15XI20" bl="73" wl="0" inv="yes" offset="-7,0" />
     <dist sram="S3" inst="XI6_15XI20" bl="72" wl="0" inv="yes" offset="-7,0" />

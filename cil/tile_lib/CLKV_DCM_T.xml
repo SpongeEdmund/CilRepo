@@ -1,4 +1,4 @@
-<tile name="CLKV_DCM_T" scale="320X0">
+<tile name="CLKV_DCM_T" scale="80X3">
   <grm_inst name="GRM_CLKV_DCM_T" ref="GRM_CLKV_DCM_T">
     <dist sram="S2" inst="XI2_15XI20" bl="73" wl="0" inv="yes" offset="-1,0" />
     <dist sram="S3" inst="XI2_15XI20" bl="72" wl="0" inv="yes" offset="-1,0" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cil family="fdp5" author="chwang" version="2013_0622_1500">
+<cil family="fdp5" author="chwang" version="2013_0622_2244">
 <element_lib>
   <element name="CLKMUXED_MX24">
     <path from="I0" to="Y">
@@ -59489,7 +59489,7 @@
 
   </cluster_inst>
 </tile>
-<tile name="CLKV_DCM_B" scale="3024X0">
+<tile name="CLKV_DCM_B" scale="80X2">
   <grm_inst name="GRM_CLKV_DCM_B" ref="GRM_CLKV_DCM_B">
     <dist sram="S2" inst="XI2_15XI20" bl="73" wl="0" inv="yes" offset="-6,0" />
     <dist sram="S3" inst="XI2_15XI20" bl="72" wl="0" inv="yes" offset="-6,0" />
@@ -59877,7 +59877,7 @@
     <dist sram="S0" inst="XI1XI20" bl="76" wl="1" inv="yes" offset="-6,0" />
   </grm_inst>
 </tile>
-<tile name="CLKV_DCM_T" scale="320X0">
+<tile name="CLKV_DCM_T" scale="80X2">
   <grm_inst name="GRM_CLKV_DCM_T" ref="GRM_CLKV_DCM_T">
     <dist sram="S2" inst="XI2_15XI20" bl="73" wl="0" inv="yes" offset="-1,0" />
     <dist sram="S3" inst="XI2_15XI20" bl="72" wl="0" inv="yes" offset="-1,0" />
@@ -60265,7 +60265,7 @@
     <dist sram="S0" inst="XI1XI20" bl="76" wl="1" inv="yes" offset="-1,0" />
   </grm_inst>
 </tile>
-<tile name="CLK_BUFGCTRL_B" scale="3024X0">
+<tile name="CLK_BUFGCTRL_B" scale="80X2">
   <grm_inst name="GRM_CLK_BUFGCTRL_B" ref="GRM_CLK_BUFGCTRL_B">
     <dist sram="S0_" inst="XI9_15XI12" bl="66" wl="0" inv="yes" offset="-4,0" />
     <dist sram="S1" inst="XI9_15XI12" bl="66" wl="0" inv="yes" offset="-4,0" />
@@ -60653,7 +60653,7 @@
     <dist sram="S9" inst="XI11_0XI20" bl="14" wl="1" inv="yes" offset="-1,0" />
   </grm_inst>
 </tile>
-<tile name="CLK_BUFGCTRL_T" scale="3024X0">
+<tile name="CLK_BUFGCTRL_T" scale="80X2">
   <grm_inst name="GRM_CLK_BUFGCTRL_T" ref="GRM_CLK_BUFGCTRL_T">
     <dist sram="S0_" inst="XI9_15XI12" bl="66" wl="0" inv="yes" offset="-3,0" />
     <dist sram="S1" inst="XI9_15XI12" bl="66" wl="0" inv="yes" offset="-3,0" />
@@ -61433,7 +61433,7 @@
     <dist sram="S11" inst="XI21_0XI0" bl="15" wl="0" inv="yes" offset="1,0" />
   </grm_inst>
 </tile>
-<tile name="CLK_IOB_B" scale="3024X0">
+<tile name="CLK_IOB_B" scale="80X2">
   <grm_inst name="GRM_CLK_IOB_B" ref="GRM_CLK_IOB_B">
     <dist sram="S2" inst="XI6_15XI20" bl="73" wl="0" inv="yes" offset="-7,0" />
     <dist sram="S3" inst="XI6_15XI20" bl="72" wl="0" inv="yes" offset="-7,0" />
@@ -61821,7 +61821,7 @@
     <dist sram="S0" inst="XI1XI20" bl="76" wl="1" inv="yes" offset="-7,0" />
   </grm_inst>
 </tile>
-<tile name="CLK_IOB_T" scale="3024X0">
+<tile name="CLK_IOB_T" scale="80X2">
   <grm_inst name="GRM_CLK_IOB_T" ref="GRM_CLK_IOB_T">
     <dist sram="S2" inst="XI6_15XI20" bl="73" wl="0" inv="yes" offset="-1,0" />
     <dist sram="S3" inst="XI6_15XI20" bl="72" wl="0" inv="yes" offset="-1,0" />
@@ -72637,7 +72637,7 @@
     <segment address="1"  row="19" packet_amount="35"/>
     <segment address="2"  row="37" packet_amount="35"/>
     <segment address="3"  row="55" packet_amount="35"/>
-    <packet address="0"  col="31" frame_amount="3" />
+    <packet address="0"  col="33" frame_amount="3" />
     <packet address="1"  col="3"  frame_amount="22"/>
     <packet address="2"  col="5"  frame_amount="22"/>
     <packet address="3"  col="7"  frame_amount="22"/>
