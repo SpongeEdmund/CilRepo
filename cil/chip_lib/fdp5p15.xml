@@ -5163,7 +5163,7 @@
     <packet address="14" col="31" frame_amount="22"/>
     <packet address="15" col="21" frame_amount="21"/>
     <packet address="16" col="11" frame_amount="20"/>
-    <packet address="17" col="11" frame_amount="64"/>
+    <packet address="17" col="12" frame_amount="64"/>
     <packet address="18" col="35" frame_amount="22"/>
     <packet address="19" col="37" frame_amount="22"/>
     <packet address="20" col="39" frame_amount="22"/>
@@ -5178,8 +5178,8 @@
     <packet address="29" col="61" frame_amount="22"/>
     <packet address="30" col="63" frame_amount="22"/>
     <packet address="31" col="43" frame_amount="20"/>
-    <packet address="32" col="43" frame_amount="20"/>
-    <packet address="33" col="53" frame_amount="64"/>
-    <packet address="34" col="53" frame_amount="64"/>
+    <packet address="32" col="53" frame_amount="20"/>
+    <packet address="33" col="44" frame_amount="64"/>
+    <packet address="34" col="54" frame_amount="64"/>
   </plan>
 </chip>
