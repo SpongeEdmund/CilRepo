@@ -1,4 +1,4 @@
-<tile name="BRAM" scale="320X2">
+<tile name="BRAM" scale="80X64">
   <cluster_inst name="RAMB16" ref="RAMB16">
     <dist sram="P1" inst="XI597" bl="1" wl="19" inv="no" offset="-1,-1" />
     <dist sram="WPA0" inst="XI597" bl="0" wl="19" inv="no" offset="-1,-1" />

@@ -40,7 +40,7 @@
     <dist sram="P8_" inst="XIIMUX_B20" bl="74" wl="16" inv="yes" offset="0,0" />
     <dist sram="P13_" inst="XIBYP_INT_B2" bl="62" wl="16" inv="yes" offset="0,0" />
     <dist sram="P13_" inst="XIBYP_INT_B6" bl="59" wl="16" inv="yes" offset="0,0" />
-    <dist sram="P8_" inst="XICLK_B0" bl="32" wl="16" inv="yes" offset="0,0" />
+    <dist sram="P8_" inst="XICLK_B0_DCM0" bl="32" wl="16" inv="yes" offset="0,0" />
     <dist sram="P8_" inst="XICLK_B2" bl="24" wl="16" inv="yes" offset="0,0" />
     <dist sram="P8_" inst="XISR_B2" bl="72" wl="16" inv="yes" offset="0,0" />
     <dist sram="P13_" inst="XIBYP_INT_B5" bl="17" wl="16" inv="yes" offset="0,0" />
@@ -69,7 +69,7 @@
     <dist sram="P8_" inst="XICE_B0" bl="15" wl="16" inv="yes" offset="0,0" />
     <dist sram="P8_" inst="XISR_B0" bl="79" wl="16" inv="yes" offset="0,0" />
     <dist sram="P8_" inst="XIIMUX_B24" bl="76" wl="16" inv="yes" offset="0,0" />
-    <dist sram="P7_" inst="XICLK_B0" bl="32" wl="9" inv="yes" offset="0,0" />
+    <dist sram="P7_" inst="XICLK_B0_DCM0" bl="32" wl="9" inv="yes" offset="0,0" />
     <dist sram="P10_" inst="XIBYP_INT_B1" bl="21" wl="11" inv="yes" offset="0,0" />
     <dist sram="P1_" inst="XIBYP_INT_B7" bl="17" wl="12" inv="yes" offset="0,0" />
     <dist sram="P1_" inst="XIIMUX_B10" bl="31" wl="13" inv="yes" offset="0,0" />
@@ -142,7 +142,7 @@
     <dist sram="P0_" inst="XIBYP_INT_B2" bl="61" wl="13" inv="yes" offset="0,0" />
     <dist sram="P0_" inst="XIBYP_INT_B0" bl="62" wl="13" inv="yes" offset="0,0" />
     <dist sram="P4_" inst="XIIMUX_B26" bl="38" wl="15" inv="yes" offset="0,0" />
-    <dist sram="P5_" inst="XICLK_B0" bl="33" wl="8" inv="yes" offset="0,0" />
+    <dist sram="P5_" inst="XICLK_B0_DCM0" bl="33" wl="8" inv="yes" offset="0,0" />
     <dist sram="P0_" inst="XIBYP_INT_B6" bl="58" wl="13" inv="yes" offset="0,0" />
     <dist sram="P10_" inst="XIIMUX_B9" bl="45" wl="11" inv="yes" offset="0,0" />
     <dist sram="P6_" inst="XIBYP_INT_B6" bl="56" wl="15" inv="yes" offset="0,0" />
@@ -379,7 +379,7 @@
     <dist sram="P6_" inst="XIIMUX_B4" bl="64" wl="15" inv="yes" offset="0,0" />
     <dist sram="P7_" inst="XIIMUX_B2" bl="24" wl="14" inv="yes" offset="0,0" />
     <dist sram="P2_" inst="XIIMUX_B11" bl="6" wl="12" inv="yes" offset="0,0" />
-    <dist sram="P1_" inst="XICLK_B0" bl="36" wl="8" inv="yes" offset="0,0" />
+    <dist sram="P1_" inst="XICLK_B0_DCM0" bl="36" wl="8" inv="yes" offset="0,0" />
     <dist sram="P5_" inst="XIIMUX_B29" bl="53" wl="14" inv="yes" offset="0,0" />
     <dist sram="P10_" inst="XIIMUX_B4" bl="65" wl="11" inv="yes" offset="0,0" />
     <dist sram="P4_" inst="XIIMUX_B4" bl="66" wl="15" inv="yes" offset="0,0" />
@@ -409,7 +409,7 @@
     <dist sram="P3_" inst="XIIMUX_B10" bl="28" wl="12" inv="yes" offset="0,0" />
     <dist sram="P2_" inst="XISR_B3" bl="68" wl="9" inv="yes" offset="0,0" />
     <dist sram="P8_" inst="XIIMUX_B10" bl="20" wl="8" inv="yes" offset="0,0" />
-    <dist sram="P6_" inst="XICLK_B0" bl="32" wl="8" inv="yes" offset="0,0" />
+    <dist sram="P6_" inst="XICLK_B0_DCM0" bl="32" wl="8" inv="yes" offset="0,0" />
     <dist sram="P12_" inst="XIIMUX_B19" bl="11" wl="10" inv="yes" offset="0,0" />
     <dist sram="P4_" inst="XIIMUX_B28" bl="77" wl="15" inv="yes" offset="0,0" />
     <dist sram="P4_" inst="XIIMUX_B16" bl="73" wl="15" inv="yes" offset="0,0" />
@@ -465,7 +465,7 @@
     <dist sram="P1_" inst="XISR_B2" bl="76" wl="8" inv="yes" offset="0,0" />
     <dist sram="P6_" inst="XISR_B3" bl="64" wl="8" inv="yes" offset="0,0" />
     <dist sram="P9_" inst="XIIMUX_B20" bl="73" wl="10" inv="yes" offset="0,0" />
-    <dist sram="P3_" inst="XICLK_B0" bl="34" wl="9" inv="yes" offset="0,0" />
+    <dist sram="P3_" inst="XICLK_B0_DCM0" bl="34" wl="9" inv="yes" offset="0,0" />
     <dist sram="P1_" inst="XISR_B3" bl="68" wl="8" inv="yes" offset="0,0" />
     <dist sram="P5_" inst="XISR_B1" bl="70" wl="8" inv="yes" offset="0,0" />
     <dist sram="P7_" inst="XICE_B1" bl="7" wl="9" inv="yes" offset="0,0" />
@@ -532,7 +532,7 @@
     <dist sram="P8_" inst="XIBYP_INT_B5" bl="20" wl="9" inv="yes" offset="0,0" />
     <dist sram="P8_" inst="XIBYP_INT_B1" bl="19" wl="9" inv="yes" offset="0,0" />
     <dist sram="P8_" inst="XIBYP_INT_B7" bl="16" wl="9" inv="yes" offset="0,0" />
-    <dist sram="P2_" inst="XICLK_B0" bl="36" wl="9" inv="yes" offset="0,0" />
+    <dist sram="P2_" inst="XICLK_B0_DCM0" bl="36" wl="9" inv="yes" offset="0,0" />
     <dist sram="P10_" inst="XIIMUX_B8" bl="69" wl="11" inv="yes" offset="0,0" />
     <dist sram="P4_" inst="XIIMUX_B23" bl="10" wl="15" inv="yes" offset="0,0" />
     <dist sram="P5_" inst="XIIMUX_B19" bl="11" wl="15" inv="yes" offset="0,0" />
@@ -569,7 +569,7 @@
     <dist sram="P5_" inst="XIIMUX_B3" bl="3" wl="15" inv="yes" offset="0,0" />
     <dist sram="P10_" inst="XIIMUX_B19" bl="8" wl="11" inv="yes" offset="0,0" />
     <dist sram="P6_" inst="XIIMUX_B11" bl="6" wl="14" inv="yes" offset="0,0" />
-    <dist sram="P4_" inst="XICLK_B0" bl="33" wl="9" inv="yes" offset="0,0" />
+    <dist sram="P4_" inst="XICLK_B0_DCM0" bl="33" wl="9" inv="yes" offset="0,0" />
     <dist sram="P1_" inst="XIIMUX_B12" bl="69" wl="12" inv="yes" offset="0,0" />
     <dist sram="P2_" inst="XIIMUX_B12" bl="68" wl="13" inv="yes" offset="0,0" />
     <dist sram="P11_" inst="XIIMUX_B0" bl="67" wl="11" inv="yes" offset="0,0" />
@@ -587,7 +587,7 @@
     <dist sram="P1_" inst="XIIMUX_B28" bl="77" wl="12" inv="yes" offset="0,0" />
     <dist sram="P8_" inst="XIIMUX_B0" bl="61" wl="9" inv="yes" offset="0,0" />
     <dist sram="P8_" inst="XIIMUX_B14" bl="23" wl="8" inv="yes" offset="0,0" />
-    <dist sram="P0_" inst="XICLK_B0" bl="34" wl="8" inv="yes" offset="0,0" />
+    <dist sram="P0_" inst="XICLK_B0_DCM0" bl="34" wl="8" inv="yes" offset="0,0" />
     <dist sram="P8_" inst="XIBYP_INT_B0" bl="60" wl="9" inv="yes" offset="0,0" />
     <dist sram="P8_" inst="XIBYP_INT_B6" bl="59" wl="9" inv="yes" offset="0,0" />
     <dist sram="P8_" inst="XIIMUX_B29" bl="58" wl="9" inv="yes" offset="0,0" />
