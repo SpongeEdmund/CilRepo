@@ -1,4 +1,8 @@
   <site name="SLICEL">
+    <attribute name="SHIFTOUTUSED" method="map">
+      <option name="#OFF" default="yes" />
+      <option name="0" default="false" />
+    </attribute>
     <attribute name="BXINV" method="map">
       <option name="#OFF" default="false">
         <sram name="BXINV" value="0"/>
