@@ -1,4 +1,7 @@
   <site name="SLICEL">
+	<attribute name="_GND_SOURCE" method="map">
+	  <option name="Y" default="no" />
+	</attribute>
     <attribute name="SHIFTOUTUSED" method="map">
       <option name="#OFF" default="yes" />
       <option name="0" default="false" />
