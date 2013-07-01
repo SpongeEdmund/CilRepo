@@ -244,30 +244,30 @@
     <dist sram="LUTG15" inst="XI3" bl="15" wl="21" inv="yes" offset="0,-1" />
 	
 	
-	<!--INVERTERs existing in GRM-->
-    <dist sram="BXINV" inst="XI0" bl="61" wl="16" inv="yes" offset="0,0" />
-    <dist sram="BYINV" inst="XI0" bl="58" wl="16" inv="yes" offset="0,0" />
-    <dist sram="CEINV" inst="XI0" bl="15" wl="16" inv="yes" offset="0,0" />
-    <dist sram="CLKINV" inst="XI0" bl="32" wl="16" inv="yes" offset="0,0" />
-    <dist sram="SRINV" inst="XI0" bl="79" wl="16" inv="yes" offset="0,0" />
+    <!--INVERTERs existing in GRM-->
+    <dist sram="BXINV" inst="XI0" bl="61" wl="16" inv="yes" offset="0,-1" />
+    <dist sram="BYINV" inst="XI0" bl="58" wl="16" inv="yes" offset="0,-1" />
+    <dist sram="CEINV" inst="XI0" bl="15" wl="16" inv="yes" offset="0,-1" />
+    <dist sram="CLKINV" inst="XI0" bl="32" wl="16" inv="yes" offset="0,-1" />
+    <dist sram="SRINV" inst="XI0" bl="79" wl="16" inv="yes" offset="0,-1" />
 	
-	<dist sram="BXINV" inst="XI2" bl="62" wl="16" inv="yes" offset="0,0" />
-    <dist sram="BYINV" inst="XI2" bl="59" wl="16" inv="yes" offset="0,0" />
-    <dist sram="CEINV" inst="XI2" bl="8" wl="16" inv="yes" offset="0,0" />
-    <dist sram="CLKINV" inst="XI2" bl="24" wl="16" inv="yes" offset="0,0" />
-    <dist sram="SRINV" inst="XI2" bl="72" wl="16" inv="yes" offset="0,0" />
+    <dist sram="BXINV" inst="XI2" bl="62" wl="16" inv="yes" offset="0,-1" />
+    <dist sram="BYINV" inst="XI2" bl="59" wl="16" inv="yes" offset="0,-1" />
+    <dist sram="CEINV" inst="XI2" bl="8" wl="16" inv="yes" offset="0,-1" />
+    <dist sram="CLKINV" inst="XI2" bl="24" wl="16" inv="yes" offset="0,-1" />
+    <dist sram="SRINV" inst="XI2" bl="72" wl="16" inv="yes" offset="0,-1" />
 	
-	<dist sram="BXINV" inst="XI1" bl="17" wl="16" inv="yes" offset="0,0" />
-    <dist sram="BYINV" inst="XI1" bl="60" wl="16" inv="yes" offset="0,0" />
-    <dist sram="CEINV" inst="XI1" bl="7" wl="16" inv="yes" offset="0,0" />
-    <dist sram="CLKINV" inst="XI1" bl="39" wl="16" inv="yes" offset="0,0" />
-    <dist sram="SRINV" inst="XI1" bl="71" wl="16" inv="yes" offset="0,0" />
+    <dist sram="BXINV" inst="XI1" bl="17" wl="16" inv="yes" offset="0,-1" />
+    <dist sram="BYINV" inst="XI1" bl="60" wl="16" inv="yes" offset="0,-1" />
+    <dist sram="CEINV" inst="XI1" bl="7" wl="16" inv="yes" offset="0,-1" />
+    <dist sram="CLKINV" inst="XI1" bl="39" wl="16" inv="yes" offset="0,-1" />
+    <dist sram="SRINV" inst="XI1" bl="71" wl="16" inv="yes" offset="0,-1" />
 	
-	<dist sram="BXINV" inst="XI3" bl="18" wl="16" inv="yes" offset="0,0" />
-    <dist sram="BYINV" inst="XI3" bl="21" wl="16" inv="yes" offset="0,0" />
-    <dist sram="CEINV" inst="XI3" bl="0" wl="16" inv="yes" offset="0,0" />
-    <dist sram="CLKINV" inst="XI3" bl="31" wl="16" inv="yes" offset="0,0" />
-    <dist sram="SRINV" inst="XI3" bl="64" wl="16" inv="yes" offset="0,0" />
+    <dist sram="BXINV" inst="XI3" bl="18" wl="16" inv="yes" offset="0,-1" />
+    <dist sram="BYINV" inst="XI3" bl="21" wl="16" inv="yes" offset="0,-1" />
+    <dist sram="CEINV" inst="XI3" bl="0" wl="16" inv="yes" offset="0,-1" />
+    <dist sram="CLKINV" inst="XI3" bl="31" wl="16" inv="yes" offset="0,-1" />
+    <dist sram="SRINV" inst="XI3" bl="64" wl="16" inv="yes" offset="0,-1" />
 
   </cluster_inst>
 </tile>
