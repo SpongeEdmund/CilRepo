@@ -1,4 +1,4 @@
-<chip name="fdp5p15">
+<chip name="fdp5p15" slice_amount="6144">
   <arch>
     <tile_inst name="EMPTY_CORNER_X0Y72" ref="EMPTY_CORNER" pos="0,0"/>
     <tile_inst name="T_TERM_INT_X0Y63" ref="T_TERM_INT" pos="0,1"/>
