@@ -1,5 +1,5 @@
 <chip name="fdp5p15" slice_amount="6144">
-  <arch>
+  <arch scale="73X66">
     <tile_inst name="EMPTY_CORNER_X0Y72" ref="EMPTY_CORNER" pos="0,0"/>
     <tile_inst name="T_TERM_INT_X0Y63" ref="T_TERM_INT" pos="0,1"/>
     <tile_inst name="EMPTY_IOIS_X0Y63" ref="EMPTY_IOIS" pos="0,2"/>
