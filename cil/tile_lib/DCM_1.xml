@@ -1,4 +1,4 @@
-<tile name="DCM_0" scale="320X3">
+<tile name="DCM_1" scale="320X3">
   <grm_inst name="GRM_DCM" ref="GRM_DCM">
     <dist sram="S_4" inst="XI18" bl="73" wl="19" inv="yes" offset="0,-1" />
     <dist sram="S_5" inst="XI12" bl="36" wl="19" inv="yes" offset="0,-1" />
