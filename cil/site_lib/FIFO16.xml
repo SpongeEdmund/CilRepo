@@ -319,90 +319,90 @@
     </attribute>
     <attribute name="ENAINV" method="map">
       <option name="ENA" default="false">
-        <sram name="ENA" value="0"/>
+        <sram name="ENAINV" value="0"/>
       </option>
-      <option name="ENA_B " default="false">
-        <sram name="ENA_INV" value="1"/>
+      <option name="ENA_B" default="false">
+        <sram name="ENAINV" value="1"/>
       </option>
     </attribute>
     <attribute name="ENBINV" method="map">
       <option name="ENB" default="false">
-        <sram name="ENB" value="0"/>
+        <sram name="ENBINV" value="0"/>
       </option>
-      <option name="ENB_B " default="false">
-        <sram name="ENB_INV" value="1"/>
+      <option name="ENB_B" default="false">
+        <sram name="ENBINV" value="1"/>
       </option>
     </attribute>
     <attribute name="REGCEAINV" method="map">
       <option name="REGCEA" default="false">
-        <sram name="REGCEA" value="0"/>
+        <sram name="REGCEAINV" value="0"/>
       </option>
-      <option name="REGCEA_B " default="false">
-        <sram name="REGCEA_INV" value="1"/>
+      <option name="REGCEA_B" default="false">
+        <sram name="REGCEAINV" value="1"/>
       </option>
     </attribute>
     <attribute name="REGCEBINV" method="map">
       <option name="REGCEB" default="false">
-        <sram name="REGCEB" value="0"/>
+        <sram name="REGCEBINV" value="0"/>
       </option>
-      <option name="REGCEB_B " default="false">
-        <sram name="REGCEB_INV" value="1"/>
+      <option name="REGCEB_B" default="false">
+        <sram name="REGCEBINV" value="1"/>
       </option>
     </attribute>
     <attribute name="SSRAINV" method="map">
       <option name="SSRA" default="false">
-        <sram name="SSRA" value="0"/>
+        <sram name="SSRAINV" value="0"/>
       </option>
-      <option name="SSRA_B " default="false">
-        <sram name="SSRA_INV" value="1"/>
+      <option name="SSRA_B" default="false">
+        <sram name="SSRAINV" value="1"/>
       </option>
     </attribute>
     <attribute name="SSRBINV" method="map">
       <option name="SSRB" default="false">
-        <sram name="SSRB" value="0"/>
+        <sram name="SSRBINV" value="0"/>
       </option>
-      <option name="SSRB_B " default="false">
-        <sram name="SSRB_INV" value="1"/>
+      <option name="SSRB_B" default="false">
+        <sram name="SSRBINV" value="1"/>
       </option>
     </attribute>
     <attribute name="RDCLKINV" method="map">
       <option name="RDCLK" default="false">
-        <sram name="RDCLK" value="0"/>
+        <sram name="RDCLKINV" value="0"/>
       </option>
-      <option name="RDCLK_B " default="false">
-        <sram name="RDCLK_INV" value="1"/>
+      <option name="RDCLK_B" default="false">
+        <sram name="RDCLKINV" value="1"/>
       </option>
     </attribute>
     <attribute name="RDENINV" method="map">
       <option name="RDEN" default="false">
-        <sram name="RDEN" value="0"/>
+        <sram name="RDENINV" value="0"/>
       </option>
       <option name="RDEN_B" default="false">
-        <sram name="RDEN_INV" value="1"/>
+        <sram name="RDENINV" value="1"/>
       </option>
     </attribute>
     <attribute name="RSTINV" method="map">
       <option name="RST" default="false">
-        <sram name="RST" value="0"/>
+        <sram name="RSTINV" value="0"/>
       </option>
       <option name="RST_B" default="false">
-        <sram name="RST_INV" value="1"/>
+        <sram name="RSTINV" value="1"/>
       </option>
     </attribute>
     <attribute name="WRCLKINV" method="map">
       <option name="WRCLK" default="false">
-        <sram name="WRCLK" value="0"/>
+        <sram name="WRCLKINV" value="0"/>
       </option>
       <option name="WRCLK_B" default="false">
-        <sram name="WRCLK_INV" value="1"/>
+        <sram name="WRCLKINV" value="1"/>
       </option>
     </attribute>
     <attribute name="WRENINV" method="map">
       <option name="WREN" default="false">
-        <sram name="WREN" value="0"/>
+        <sram name="WRENINV" value="0"/>
       </option>
       <option name="WREN_B" default="false">
-        <sram name="WREN_INV" value="1"/>
+        <sram name="WRENINV" value="1"/>
       </option>
     </attribute>
     <attribute name="WEA0INV" method="map">
