@@ -74,7 +74,7 @@
 	<!--SSRB-->
 	<dist sram="SSRBINV" inst="XI597" bl="71" wl="16" inv="yes" offset="-2,-1"/>
 	<!--BF_RST-->
-	<dist sram="RSTINV" inst="XI597" bl="79" wl="16" inv="yes" offset="-2,-1"/>
+	<dist sram="SSRAINV" inst="XI597" bl="79" wl="16" inv="yes" offset="-2,-1"/>
 	
   </cluster_inst>
   <!--FIFO16 is exactly the same with RAMB16-->
@@ -153,7 +153,7 @@
 	<!--SSRB-->
 	<dist sram="SSRBINV" inst="XI597" bl="71" wl="16" inv="yes" offset="-2,-1"/>
 	<!--BF_RST-->
-	<dist sram="RSTINV" inst="XI597" bl="79" wl="16" inv="yes" offset="-2,-1"/>
+	<dist sram="SSRAINV" inst="XI597" bl="79" wl="16" inv="yes" offset="-2,-1"/>
 	
   </cluster_inst>
 </tile>
