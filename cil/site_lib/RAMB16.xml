@@ -453,4 +453,89 @@
       <option name="TRUE" default="false"/>
       <option name="FALSE" default="false"/>
     </attribute>
+	<!--BRAM BLOCK-->
+    <attribute name="INITP_00" method="bram"/>
+    <attribute name="INITP_01" method="bram"/>
+    <attribute name="INITP_02" method="bram"/>
+    <attribute name="INITP_03" method="bram"/>
+    <attribute name="INITP_04" method="bram"/>
+    <attribute name="INITP_05" method="bram"/>
+    <attribute name="INITP_06" method="bram"/>
+    <attribute name="INITP_07" method="bram"/>
+    <attribute name="INIT_00" method="bram"/>
+    <attribute name="INIT_01" method="bram"/>
+    <attribute name="INIT_02" method="bram"/>
+    <attribute name="INIT_03" method="bram"/>
+    <attribute name="INIT_04" method="bram"/>
+    <attribute name="INIT_05" method="bram"/>
+    <attribute name="INIT_06" method="bram"/>
+    <attribute name="INIT_07" method="bram"/>
+    <attribute name="INIT_08" method="bram"/>
+    <attribute name="INIT_09" method="bram"/>
+    <attribute name="INIT_0A" method="bram"/>
+    <attribute name="INIT_0B" method="bram"/>
+    <attribute name="INIT_0C" method="bram"/>
+    <attribute name="INIT_0D" method="bram"/>
+    <attribute name="INIT_0E" method="bram"/>
+    <attribute name="INIT_0F" method="bram"/>
+    <attribute name="INIT_10" method="bram"/>
+    <attribute name="INIT_11" method="bram"/>
+    <attribute name="INIT_12" method="bram"/>
+    <attribute name="INIT_13" method="bram"/>
+    <attribute name="INIT_14" method="bram"/>
+    <attribute name="INIT_15" method="bram"/>
+    <attribute name="INIT_16" method="bram"/>
+    <attribute name="INIT_17" method="bram"/>
+    <attribute name="INIT_18" method="bram"/>
+    <attribute name="INIT_19" method="bram"/>
+    <attribute name="INIT_1A" method="bram"/>
+    <attribute name="INIT_1B" method="bram"/>
+    <attribute name="INIT_1C" method="bram"/>
+    <attribute name="INIT_1D" method="bram"/>
+    <attribute name="INIT_1E" method="bram"/>
+    <attribute name="INIT_1F" method="bram"/>
+    <attribute name="INIT_20" method="bram"/>
+    <attribute name="INIT_21" method="bram"/>
+    <attribute name="INIT_22" method="bram"/>
+    <attribute name="INIT_23" method="bram"/>
+    <attribute name="INIT_24" method="bram"/>
+    <attribute name="INIT_25" method="bram"/>
+    <attribute name="INIT_26" method="bram"/>
+    <attribute name="INIT_27" method="bram"/>
+    <attribute name="INIT_28" method="bram"/>
+    <attribute name="INIT_29" method="bram"/>
+    <attribute name="INIT_2A" method="bram"/>
+    <attribute name="INIT_2B" method="bram"/>
+    <attribute name="INIT_2C" method="bram"/>
+    <attribute name="INIT_2D" method="bram"/>
+    <attribute name="INIT_2E" method="bram"/>
+    <attribute name="INIT_2F" method="bram"/>
+    <attribute name="INIT_30" method="bram"/>
+    <attribute name="INIT_31" method="bram"/>
+    <attribute name="INIT_32" method="bram"/>
+    <attribute name="INIT_33" method="bram"/>
+    <attribute name="INIT_34" method="bram"/>
+    <attribute name="INIT_35" method="bram"/>
+    <attribute name="INIT_36" method="bram"/>
+    <attribute name="INIT_37" method="bram"/>
+    <attribute name="INIT_38" method="bram"/>
+    <attribute name="INIT_39" method="bram"/>
+    <attribute name="INIT_3A" method="bram"/>
+    <attribute name="INIT_3B" method="bram"/>
+    <attribute name="INIT_3C" method="bram"/>
+    <attribute name="INIT_3D" method="bram"/>
+    <attribute name="INIT_3E" method="bram"/>
+    <attribute name="INIT_3F" method="bram"/>
+    <attribute name="INIT_A" method="bitstr">
+      <option name="hex" default="yes"/>
+    </attribute>
+    <attribute name="INIT_B" method="bitstr">
+      <option name="hex" default="yes"/>
+    </attribute>
+    <attribute name="SRVAL_A" method="bitstr">
+      <option name="hex" default="yes"/>
+    </attribute>
+    <attribute name="SRVAL_B" method="bitstr">
+      <option name="hex" default="yes"/>
+    </attribute>
   </site>
