@@ -23,6 +23,7 @@ my @cil_libs = qw (
     cluster_lib
     tile_lib
     chip_lib
+	bram_lib
 );
 
 
