@@ -1,4 +1,4 @@
-<tile name="HCLK_DCI" scale="16X22">
+<tile name="HCLK_DCI" scale="32X22">
   <grm_inst name="GRM_HCLK_DCI" ref="GRM_HCLK_DCI">
     <dist sram="Enable0" inst="XI4" bl="1" wl="1" inv="no" offset="0,-1" />
     <dist sram="Enable1" inst="XI4" bl="2" wl="1" inv="no" offset="0,-1" />

@@ -5141,45 +5141,47 @@
     <pad name="AD8" pos="71,64,0"/>
     <pad name="AC8" pos="71,64,1"/>
   </package>
-  <plan segment_amount="4" frames_per_segment="870" words_per_frame="41" rows_per_segment="17">
-    <segment address="0"  row="1"  packet_amount="35"/>
-    <segment address="1"  row="19" packet_amount="35"/>
-    <segment address="2"  row="37" packet_amount="35"/>
-    <segment address="3"  row="55" packet_amount="35"/>
-    <packet address="0"  col="33" frame_amount="3" />
-    <packet address="1"  col="3"  frame_amount="22"/>
-    <packet address="2"  col="5"  frame_amount="22"/>
-    <packet address="3"  col="7"  frame_amount="22"/>
-    <packet address="4"  col="9"  frame_amount="22"/>
-    <packet address="5"  col="13" frame_amount="22"/>
-    <packet address="6"  col="15" frame_amount="22"/>
-    <packet address="7"  col="17" frame_amount="22"/>
-    <packet address="8"  col="19" frame_amount="22"/>
-    <packet address="9"  col="23" frame_amount="22"/>
-    <packet address="10" col="25" frame_amount="22"/>
-    <packet address="11" col="27" frame_amount="22"/>
-    <packet address="12" col="29" frame_amount="22"/>
-    <packet address="13" col="1"  frame_amount="22"/>
-    <packet address="14" col="31" frame_amount="22"/>
-    <packet address="15" col="21" frame_amount="21"/>
-    <packet address="16" col="11" frame_amount="20"/>
-    <packet address="17" col="12" frame_amount="64"/>
-    <packet address="18" col="35" frame_amount="22"/>
-    <packet address="19" col="37" frame_amount="22"/>
-    <packet address="20" col="39" frame_amount="22"/>
-    <packet address="21" col="41" frame_amount="22"/>
-    <packet address="22" col="45" frame_amount="22"/>
-    <packet address="23" col="47" frame_amount="22"/>
-    <packet address="24" col="49" frame_amount="22"/>
-    <packet address="25" col="51" frame_amount="22"/>
-    <packet address="26" col="55" frame_amount="22"/>
-    <packet address="27" col="57" frame_amount="22"/>
-    <packet address="28" col="59" frame_amount="22"/>
-    <packet address="29" col="61" frame_amount="22"/>
-    <packet address="30" col="63" frame_amount="22"/>
-    <packet address="31" col="43" frame_amount="20"/>
-    <packet address="32" col="53" frame_amount="20"/>
-    <packet address="33" col="44" frame_amount="64"/>
-    <packet address="34" col="54" frame_amount="64"/>
+  <plan segment_amount="4" frames_per_segment="900" words_per_frame="41" rows_per_segment="17">
+    <segment address="0"  row="1"  packet_amount="37"/>
+    <segment address="1"  row="19" packet_amount="37"/>
+    <segment address="2"  row="37" packet_amount="37"/>
+    <segment address="3"  row="55" packet_amount="37"/>
+	<packet address="0" col="33" frame_amount="3"/>
+	<packet address="1" col="0" frame_amount="3"/>
+	<packet address="2" col="65" frame_amount="3"/>
+	<packet address="3" col="3" frame_amount="22"/>
+	<packet address="4" col="5" frame_amount="22"/>
+	<packet address="5" col="7" frame_amount="22"/>
+	<packet address="6" col="9" frame_amount="22"/>
+	<packet address="7" col="13" frame_amount="22"/>
+	<packet address="8" col="15" frame_amount="22"/>
+	<packet address="9" col="17" frame_amount="22"/>
+	<packet address="10" col="19" frame_amount="22"/>
+	<packet address="11" col="23" frame_amount="22"/>
+	<packet address="12" col="25" frame_amount="22"/>
+	<packet address="13" col="27" frame_amount="22"/>
+	<packet address="14" col="29" frame_amount="22"/>
+	<packet address="15" col="61" frame_amount="22"/>
+	<packet address="16" col="59" frame_amount="22"/>
+	<packet address="17" col="57" frame_amount="22"/>
+	<packet address="18" col="55" frame_amount="22"/>
+	<packet address="19" col="51" frame_amount="22"/>
+	<packet address="20" col="49" frame_amount="22"/>
+	<packet address="21" col="47" frame_amount="22"/>
+	<packet address="22" col="45" frame_amount="22"/>
+	<packet address="23" col="41" frame_amount="22"/>
+	<packet address="24" col="39" frame_amount="22"/>
+	<packet address="25" col="37" frame_amount="22"/>
+	<packet address="26" col="35" frame_amount="22"/>
+	<packet address="27" col="1" frame_amount="30"/>
+	<packet address="28" col="31" frame_amount="30"/>
+	<packet address="29" col="63" frame_amount="30"/>
+	<packet address="30" col="21" frame_amount="21"/>
+	<packet address="31" col="11" frame_amount="20"/>
+	<packet address="32" col="53" frame_amount="20"/>
+	<packet address="33" col="43" frame_amount="20"/>
+	<packet address="34" col="12" frame_amount="64"/>
+	<packet address="35" col="54" frame_amount="64"/>
+	<packet address="36" col="44" frame_amount="64"/>
   </plan>
 </chip>

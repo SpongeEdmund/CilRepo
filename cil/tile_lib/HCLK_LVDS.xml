@@ -1,4 +1,4 @@
-<tile name="HCLK_LVDS" scale="16X22">
+<tile name="HCLK_LVDS" scale="32X22">
   <grm_inst name="GRM_HCLK_LVDS" ref="GRM_HCLK_LVDS">
     <dist sram="Enable0" inst="XI4" bl="1" wl="1" inv="no" offset="0,-1" />
     <dist sram="Enable1" inst="XI4" bl="2" wl="1" inv="no" offset="0,-1" />
