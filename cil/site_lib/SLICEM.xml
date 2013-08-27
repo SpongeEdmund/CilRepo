@@ -1,11 +1,4 @@
   <site name="SLICEM">
-	<attribute name="_GND_SOURCE" method="map">
-	  <option name="Y" default="no" />
-	</attribute>  
-    <attribute name="SHIFTOUTUSED" method="map">
-      <option name="#OFF" default="yes" />
-      <option name="0" default="false" />
-    </attribute>  
     <attribute name="BXINV" method="map">
       <option name="#OFF" default="false">
         <sram name="BXINV" value="0"/>
@@ -30,7 +23,7 @@
     </attribute>
     <attribute name="CEINV" method="map">
       <option name="#OFF" default="false">
-        <sram name="CEINV" value="0"/>
+        <sram name="CEINV" value="1"/>
       </option>
       <option name="CE" default="false">
         <sram name="CEINV" value="0"/>
@@ -798,5 +791,12 @@
       <option name="SHIFTOUT:XB" default="false">
         <sram name="XB_S" value="1"/>
       </option>
+    </attribute>
+    <attribute name="SHIFTOUTUSED" method="map">
+      <option name="#OFF" default="false"/>
+      <option name="0" default="false"/>
+    </attribute>
+    <attribute name="_GND_SOURCE" method="map">
+      <option name="Y" default="false"/>
     </attribute>
   </site>
