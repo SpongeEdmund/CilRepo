@@ -12,6 +12,7 @@
         <sram name="RAM_EXTENSIONA1" value="0"/>
         <sram name="RAM_EXTENSIONA0" value="1"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="RAM_EXTENSION_B" method="map">
       <option name="LOWER" default="false">
@@ -26,14 +27,17 @@
         <sram name="RAM_EXTENSIONB1" value="0"/>
         <sram name="RAM_EXTENSIONB0" value="1"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="DOA_REG" method="map">
       <option name="0" default="false"/>
       <option name="1" default="false"/>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="DOB_REG" method="map">
       <option name="0" default="false"/>
       <option name="1" default="false"/>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="INVERT_CLK_DOA_REG" method="map">
       <option name="TRUE" default="false">
@@ -42,6 +46,7 @@
       <option name="FALSE" default="false">
         <sram name="CONTROL_SEL" value="0"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="INVERT_CLK_DOB_REG" method="map">
       <option name="TRUE" default="false">
@@ -50,6 +55,7 @@
       <option name="FALSE" default="false">
         <sram name="CONTROL_SEL" value="0"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="READ_WIDTH_A" method="map">
       <option name="0" default="false"/>
@@ -95,6 +101,7 @@
         <sram name="RPA1" value="1"/>
         <sram name="RPA0" value="1"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="READ_WIDTH_B" method="map">
       <option name="0" default="false"/>
@@ -140,6 +147,7 @@
         <sram name="RPB1" value="1"/>
         <sram name="RPB0" value="1"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="WRITE_WIDTH_A" method="map">
       <option name="0" default="false"/>
@@ -185,6 +193,7 @@
         <sram name="WPA1" value="1"/>
         <sram name="WPA0" value="1"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="WRITE_WIDTH_B" method="map">
       <option name="0" default="false"/>
@@ -230,6 +239,7 @@
         <sram name="WPB1" value="1"/>
         <sram name="WPB0" value="1"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="WRITE_MODE_A" method="map">
       <option name="NO_CHANGE" default="false">
@@ -244,6 +254,7 @@
         <sram name="WMA1" value="0"/>
         <sram name="WMA0" value="0"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="WRITE_MODE_B" method="map">
       <option name="NO_CHANGE" default="false">
@@ -258,16 +269,19 @@
         <sram name="WMB1" value="0"/>
         <sram name="WMB0" value="0"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="SAVEDATA" method="map">
       <option name="TRUE" default="false"/>
       <option name="FALSE" default="false"/>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="DATA_WIDTH" method="map">
       <option name="4" default="false"/>
       <option name="9" default="false"/>
       <option name="18" default="false"/>
       <option name="36" default="false"/>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="FIRST_WORD_FALL_THROUGH" method="map">
       <option name="TRUE" default="false">
@@ -276,6 +290,7 @@
       <option name="FALSE" default="false">
         <sram name="FWFT" value="0"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="ALMOST_EMPTY_OFFSET" method="bitstr">
       <option name="HEX" default="false">
@@ -292,6 +307,7 @@
         <sram name="ALMOST_EMPTY_OFFSET10" address="10"/>
         <sram name="ALMOST_EMPTY_OFFSET11" address="11"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="ALMOST_FULL_OFFSET" method="bitstr">
       <option name="HEX" default="false">
@@ -308,6 +324,7 @@
         <sram name="ALMOST_FULL_OFFSET10" address="10"/>
         <sram name="ALMOST_FULL_OFFSET11" address="11"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="MODE" method="map">
       <option name="BRAM" default="false">
@@ -316,6 +333,7 @@
       <option name="FIFO" default="false">
         <sram name="MODE" value="0"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="ENAINV" method="map">
       <option name="ENA" default="false">
@@ -324,6 +342,7 @@
       <option name="ENA_B" default="false">
         <sram name="ENAINV" value="1"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="ENBINV" method="map">
       <option name="ENB" default="false">
@@ -332,6 +351,7 @@
       <option name="ENB_B" default="false">
         <sram name="ENBINV" value="1"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="REGCEAINV" method="map">
       <option name="REGCEA" default="false">
@@ -340,6 +360,7 @@
       <option name="REGCEA_B" default="false">
         <sram name="REGCEAINV" value="1"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="REGCEBINV" method="map">
       <option name="REGCEB" default="false">
@@ -348,6 +369,7 @@
       <option name="REGCEB_B" default="false">
         <sram name="REGCEBINV" value="1"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="SSRAINV" method="map">
       <option name="SSRA" default="false">
@@ -356,6 +378,7 @@
       <option name="SSRA_B" default="false">
         <sram name="SSRAINV" value="1"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="SSRBINV" method="map">
       <option name="SSRB" default="false">
@@ -364,6 +387,7 @@
       <option name="SSRB_B" default="false">
         <sram name="SSRBINV" value="1"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="RDCLKINV" method="map">
       <option name="RDCLK" default="false">
@@ -372,6 +396,7 @@
       <option name="RDCLK_B" default="false">
         <sram name="RDCLKINV" value="1"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="RDENINV" method="map">
       <option name="RDEN" default="false">
@@ -380,6 +405,7 @@
       <option name="RDEN_B" default="false">
         <sram name="RDENINV" value="1"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="RSTINV" method="map">
       <option name="RST" default="false">
@@ -388,6 +414,7 @@
       <option name="RST_B" default="false">
         <sram name="RSTINV" value="1"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="WRCLKINV" method="map">
       <option name="WRCLK" default="false">
@@ -396,6 +423,7 @@
       <option name="WRCLK_B" default="false">
         <sram name="WRCLKINV" value="1"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="WRENINV" method="map">
       <option name="WREN" default="false">
@@ -404,138 +432,294 @@
       <option name="WREN_B" default="false">
         <sram name="WRENINV" value="1"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="WEA0INV" method="map">
       <option name="WEA0" default="false"/>
       <option name="WEA0_B" default="false"/>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="WEA1INV" method="map">
       <option name="WEA1" default="false"/>
       <option name="WEA1_B" default="false"/>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="WEA2INV" method="map">
       <option name="WEA2" default="false"/>
       <option name="WEA2_B" default="false"/>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="WEA3INV" method="map">
       <option name="WEA3" default="false"/>
       <option name="WEA3_B" default="false"/>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="WEB0INV" method="map">
       <option name="WEB0" default="false"/>
       <option name="WEB0_B" default="false"/>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="WEB1INV" method="map">
       <option name="WEB1" default="false"/>
       <option name="WEB1_B" default="false"/>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="WEB2INV" method="map">
       <option name="WEB2" default="false"/>
       <option name="WEB2_B" default="false"/>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="WEB3INV" method="map">
       <option name="WEB3" default="false"/>
       <option name="WEB3_B" default="false"/>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="CLKAINV" method="map">
       <option name="CLKA" default="false"/>
       <option name="CLKA_B" default="false"/>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="CLKBINV" method="map">
       <option name="CLKB" default="false"/>
       <option name="CLKB_B" default="false"/>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="EN_ECC_READ" method="map">
       <option name="TRUE" default="false"/>
       <option name="FALSE" default="false"/>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="EN_ECC_WRITE" method="map">
       <option name="TRUE" default="false"/>
       <option name="FALSE" default="false"/>
+      <option name="#OFF" default="false"/>
     </attribute>
-	<!--BRAM BLOCK-->
-    <attribute name="INITP_00" method="bram"/>
-    <attribute name="INITP_01" method="bram"/>
-    <attribute name="INITP_02" method="bram"/>
-    <attribute name="INITP_03" method="bram"/>
-    <attribute name="INITP_04" method="bram"/>
-    <attribute name="INITP_05" method="bram"/>
-    <attribute name="INITP_06" method="bram"/>
-    <attribute name="INITP_07" method="bram"/>
-    <attribute name="INIT_00" method="bram"/>
-    <attribute name="INIT_01" method="bram"/>
-    <attribute name="INIT_02" method="bram"/>
-    <attribute name="INIT_03" method="bram"/>
-    <attribute name="INIT_04" method="bram"/>
-    <attribute name="INIT_05" method="bram"/>
-    <attribute name="INIT_06" method="bram"/>
-    <attribute name="INIT_07" method="bram"/>
-    <attribute name="INIT_08" method="bram"/>
-    <attribute name="INIT_09" method="bram"/>
-    <attribute name="INIT_0A" method="bram"/>
-    <attribute name="INIT_0B" method="bram"/>
-    <attribute name="INIT_0C" method="bram"/>
-    <attribute name="INIT_0D" method="bram"/>
-    <attribute name="INIT_0E" method="bram"/>
-    <attribute name="INIT_0F" method="bram"/>
-    <attribute name="INIT_10" method="bram"/>
-    <attribute name="INIT_11" method="bram"/>
-    <attribute name="INIT_12" method="bram"/>
-    <attribute name="INIT_13" method="bram"/>
-    <attribute name="INIT_14" method="bram"/>
-    <attribute name="INIT_15" method="bram"/>
-    <attribute name="INIT_16" method="bram"/>
-    <attribute name="INIT_17" method="bram"/>
-    <attribute name="INIT_18" method="bram"/>
-    <attribute name="INIT_19" method="bram"/>
-    <attribute name="INIT_1A" method="bram"/>
-    <attribute name="INIT_1B" method="bram"/>
-    <attribute name="INIT_1C" method="bram"/>
-    <attribute name="INIT_1D" method="bram"/>
-    <attribute name="INIT_1E" method="bram"/>
-    <attribute name="INIT_1F" method="bram"/>
-    <attribute name="INIT_20" method="bram"/>
-    <attribute name="INIT_21" method="bram"/>
-    <attribute name="INIT_22" method="bram"/>
-    <attribute name="INIT_23" method="bram"/>
-    <attribute name="INIT_24" method="bram"/>
-    <attribute name="INIT_25" method="bram"/>
-    <attribute name="INIT_26" method="bram"/>
-    <attribute name="INIT_27" method="bram"/>
-    <attribute name="INIT_28" method="bram"/>
-    <attribute name="INIT_29" method="bram"/>
-    <attribute name="INIT_2A" method="bram"/>
-    <attribute name="INIT_2B" method="bram"/>
-    <attribute name="INIT_2C" method="bram"/>
-    <attribute name="INIT_2D" method="bram"/>
-    <attribute name="INIT_2E" method="bram"/>
-    <attribute name="INIT_2F" method="bram"/>
-    <attribute name="INIT_30" method="bram"/>
-    <attribute name="INIT_31" method="bram"/>
-    <attribute name="INIT_32" method="bram"/>
-    <attribute name="INIT_33" method="bram"/>
-    <attribute name="INIT_34" method="bram"/>
-    <attribute name="INIT_35" method="bram"/>
-    <attribute name="INIT_36" method="bram"/>
-    <attribute name="INIT_37" method="bram"/>
-    <attribute name="INIT_38" method="bram"/>
-    <attribute name="INIT_39" method="bram"/>
-    <attribute name="INIT_3A" method="bram"/>
-    <attribute name="INIT_3B" method="bram"/>
-    <attribute name="INIT_3C" method="bram"/>
-    <attribute name="INIT_3D" method="bram"/>
-    <attribute name="INIT_3E" method="bram"/>
-    <attribute name="INIT_3F" method="bram"/>
     <attribute name="INIT_A" method="bitstr">
-      <option name="hex" default="yes"/>
+      <option name="HEX" default="false"/>
     </attribute>
     <attribute name="INIT_B" method="bitstr">
-      <option name="hex" default="yes"/>
+      <option name="HEX" default="false"/>
     </attribute>
     <attribute name="SRVAL_A" method="bitstr">
-      <option name="hex" default="yes"/>
+      <option name="HEX" default="false"/>
     </attribute>
     <attribute name="SRVAL_B" method="bitstr">
-      <option name="hex" default="yes"/>
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INITP_00" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INITP_01" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INITP_02" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INITP_03" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INITP_04" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INITP_05" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INITP_06" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INITP_07" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_00" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_01" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_02" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_03" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_04" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_05" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_06" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_07" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_08" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_09" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_0A" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_0B" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_0C" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_0D" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_0E" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_0F" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_10" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_11" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_12" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_13" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_14" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_15" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_16" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_17" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_18" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_19" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_1A" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_1B" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_1C" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_1D" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_1E" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_1F" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_20" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_21" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_22" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_23" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_24" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_25" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_26" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_27" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_28" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_29" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_2A" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_2B" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_2C" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_2D" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_2E" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_2F" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_30" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_31" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_32" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_33" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_34" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_35" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_36" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_37" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_38" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_39" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_3A" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_3B" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_3C" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_3D" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_3E" method="bram">
+      <option name="HEX" default="false"/>
+    </attribute>
+    <attribute name="INIT_3F" method="bram">
+      <option name="HEX" default="false"/>
     </attribute>
   </site>
