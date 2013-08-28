@@ -1,4 +1,22 @@
 <grm name="GRM_CLK_BUFGCTRL_T">
+  <!--added by chwang due to CS_SRAMb in BUFGCTRL-->
+  <element_inst name="XI12_0" ref="ENBUF" />
+  <element_inst name="XI12_1" ref="ENBUF" />
+  <element_inst name="XI12_2" ref="ENBUF" />
+  <element_inst name="XI12_3" ref="ENBUF" />
+  <element_inst name="XI12_4" ref="ENBUF" />
+  <element_inst name="XI12_5" ref="ENBUF" />
+  <element_inst name="XI12_6" ref="ENBUF" />
+  <element_inst name="XI12_7" ref="ENBUF" />
+  <element_inst name="XI12_8" ref="ENBUF" />
+  <element_inst name="XI12_9" ref="ENBUF" />
+  <element_inst name="XI12_10" ref="ENBUF" />
+  <element_inst name="XI12_11" ref="ENBUF" />
+  <element_inst name="XI12_12" ref="ENBUF" />
+  <element_inst name="XI12_13" ref="ENBUF" />
+  <element_inst name="XI12_14" ref="ENBUF" />
+  <element_inst name="XI12_15" ref="ENBUF" />
+  <!--end-->
   <element_inst name="XI9_15XI0" ref="CLKMUXED_MX24" />
   <element_inst name="XI9_2XI20" ref="CLKMUXED_MX24" />
   <element_inst name="XI9_0XI3" ref="RDM_TranPASS" />
@@ -3039,4 +3057,55 @@
   <route src="CLK_BUFGCTRL_MUXED_CLK0" snk="CLK_BUFGCTRL_I0P0">
     <step from="B" to="Y" through="XI11_0XI3" />
   </route>
+  
+  <!--added by chwang due to CS_SRAMb in BUFGCTRL-->
+  <route src="CLK_BUFGCTRL_POSTMUX_GCLKP0" snk="CLK_BUFGCTRL_GCLKP16">
+	<step from="I" to="O" through="XI12_0" />
+  </route>
+  <route src="CLK_BUFGCTRL_POSTMUX_GCLKP1" snk="CLK_BUFGCTRL_GCLKP17">
+	<step from="I" to="O" through="XI12_1" />
+  </route>
+  <route src="CLK_BUFGCTRL_POSTMUX_GCLKP2" snk="CLK_BUFGCTRL_GCLKP18">
+	<step from="I" to="O" through="XI12_2" />
+  </route>
+  <route src="CLK_BUFGCTRL_POSTMUX_GCLKP3" snk="CLK_BUFGCTRL_GCLKP19">
+	<step from="I" to="O" through="XI12_3" />
+  </route>
+  <route src="CLK_BUFGCTRL_POSTMUX_GCLKP4" snk="CLK_BUFGCTRL_GCLKP20">
+	<step from="I" to="O" through="XI12_4" />
+  </route>
+  <route src="CLK_BUFGCTRL_POSTMUX_GCLKP5" snk="CLK_BUFGCTRL_GCLKP21">
+	<step from="I" to="O" through="XI12_5" />
+  </route>
+  <route src="CLK_BUFGCTRL_POSTMUX_GCLKP6" snk="CLK_BUFGCTRL_GCLKP22">
+	<step from="I" to="O" through="XI12_6" />
+  </route>
+  <route src="CLK_BUFGCTRL_POSTMUX_GCLKP7" snk="CLK_BUFGCTRL_GCLKP23">
+	<step from="I" to="O" through="XI12_7" />
+  </route>
+  <route src="CLK_BUFGCTRL_POSTMUX_GCLKP8" snk="CLK_BUFGCTRL_GCLKP24">
+	<step from="I" to="O" through="XI12_8" />
+  </route>
+  <route src="CLK_BUFGCTRL_POSTMUX_GCLKP9" snk="CLK_BUFGCTRL_GCLKP25">
+	<step from="I" to="O" through="XI12_9" />
+  </route>
+  <route src="CLK_BUFGCTRL_POSTMUX_GCLKP10" snk="CLK_BUFGCTRL_GCLKP26">
+	<step from="I" to="O" through="XI12_10" />
+  </route>
+  <route src="CLK_BUFGCTRL_POSTMUX_GCLKP11" snk="CLK_BUFGCTRL_GCLKP27">
+	<step from="I" to="O" through="XI12_11" />
+  </route>
+  <route src="CLK_BUFGCTRL_POSTMUX_GCLKP12" snk="CLK_BUFGCTRL_GCLKP28">
+	<step from="I" to="O" through="XI12_12" />
+  </route>
+  <route src="CLK_BUFGCTRL_POSTMUX_GCLKP13" snk="CLK_BUFGCTRL_GCLKP29">
+	<step from="I" to="O" through="XI12_13" />
+  </route>
+  <route src="CLK_BUFGCTRL_POSTMUX_GCLKP14" snk="CLK_BUFGCTRL_GCLKP30">
+	<step from="I" to="O" through="XI12_14" />
+  </route>
+  <route src="CLK_BUFGCTRL_POSTMUX_GCLKP15" snk="CLK_BUFGCTRL_GCLKP31">
+	<step from="I" to="O" through="XI12_15" />
+  </route>
+  <!--end-->
 </grm>

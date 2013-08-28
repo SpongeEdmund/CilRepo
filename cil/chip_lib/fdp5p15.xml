@@ -627,7 +627,7 @@
     <tile_inst name="HCLK_CLB_X14Y55" ref="HCLK_CLB" pos="9,30"/>
     <tile_inst name="HCLK_X15Y55" ref="HCLK" pos="9,31"/>
     <tile_inst name="HCLK_IOBDCM_X15Y55" ref="HCLK_IOBDCM" pos="9,32"/>
-    <tile_inst name="CLK_HROW_X15Y55" ref="CLK_HROW" pos="9,33"/>
+    <tile_inst name="CLK_HROW_X15Y55" ref="CLK_HROW_T" pos="9,33"/>
     <tile_inst name="HCLK_FT_X15Y55" ref="HCLK_FT" pos="9,34"/>
     <tile_inst name="HCLK_X16Y55" ref="HCLK" pos="9,35"/>
     <tile_inst name="HCLK_CLB_X16Y55" ref="HCLK_CLB" pos="9,36"/>
@@ -1815,7 +1815,7 @@
     <tile_inst name="HCLK_CLB_X14Y39" ref="HCLK_CLB" pos="27,30"/>
     <tile_inst name="HCLK_X15Y39" ref="HCLK" pos="27,31"/>
     <tile_inst name="HCLK_CENTER_ABOVE_CFG_X15Y39" ref="HCLK_CENTER_ABOVE_CFG" pos="27,32"/>
-    <tile_inst name="CLK_HROW_X15Y39" ref="CLK_HROW" pos="27,33"/>
+    <tile_inst name="CLK_HROW_X15Y39" ref="CLK_HROW_T" pos="27,33"/>
     <tile_inst name="HCLK_FT_X15Y39" ref="HCLK_FT" pos="27,34"/>
     <tile_inst name="HCLK_X16Y39" ref="HCLK" pos="27,35"/>
     <tile_inst name="HCLK_CLB_X16Y39" ref="HCLK_CLB" pos="27,36"/>
@@ -3003,7 +3003,7 @@
     <tile_inst name="HCLK_CLB_X14Y23" ref="HCLK_CLB" pos="45,30"/>
     <tile_inst name="HCLK_X15Y23" ref="HCLK" pos="45,31"/>
     <tile_inst name="HCLK_CENTER_X15Y23" ref="HCLK_CENTER" pos="45,32"/>
-    <tile_inst name="CLK_HROW_X15Y23" ref="CLK_HROW" pos="45,33"/>
+    <tile_inst name="CLK_HROW_X15Y23" ref="CLK_HROW_B" pos="45,33"/>
     <tile_inst name="HCLK_FT_X15Y23" ref="HCLK_FT" pos="45,34"/>
     <tile_inst name="HCLK_X16Y23" ref="HCLK" pos="45,35"/>
     <tile_inst name="HCLK_CLB_X16Y23" ref="HCLK_CLB" pos="45,36"/>
@@ -4191,7 +4191,7 @@
     <tile_inst name="HCLK_CLB_X14Y7" ref="HCLK_CLB" pos="63,30"/>
     <tile_inst name="HCLK_X15Y7" ref="HCLK" pos="63,31"/>
     <tile_inst name="HCLK_DCMIOB_X15Y7" ref="HCLK_DCMIOB" pos="63,32"/>
-    <tile_inst name="CLK_HROW_X15Y7" ref="CLK_HROW" pos="63,33"/>
+    <tile_inst name="CLK_HROW_X15Y7" ref="CLK_HROW_B" pos="63,33"/>
     <tile_inst name="HCLK_FT_X15Y7" ref="HCLK_FT" pos="63,34"/>
     <tile_inst name="HCLK_X16Y7" ref="HCLK" pos="63,35"/>
     <tile_inst name="HCLK_CLB_X16Y7" ref="HCLK_CLB" pos="63,36"/>

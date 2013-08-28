@@ -1,0 +1,6 @@
+  <element name="ENBUF">
+    <path from="I" to="O">
+      <sram name="EN" value="1"/>
+    </path>
+  </element>
+  

@@ -1,5 +1,5 @@
-<tile name="CLK_HROW" scale="32X2">
-  <grm_inst name="GRM_CLK_HROW" ref="GRM_CLK_HROW">
+<tile name="CLK_HROW_T" scale="32X2">
+  <grm_inst name="GRM_CLK_HROW_T" ref="GRM_CLK_HROW">
     <dist sram="S0" inst="XI1_3XI0" bl="60" wl="0" inv="yes" offset="-1,0" />
     <dist sram="S1" inst="XI1_3XI0" bl="61" wl="0" inv="yes" offset="-1,0" />
     <dist sram="S2" inst="XI1_3XI0" bl="64" wl="0" inv="yes" offset="-1,0" />
@@ -192,5 +192,23 @@
     <dist sram="S8" inst="XI21_0XI0" bl="12" wl="0" inv="yes" offset="1,0" />
     <dist sram="S10" inst="XI21_0XI0" bl="14" wl="0" inv="yes" offset="1,0" />
     <dist sram="S11" inst="XI21_0XI0" bl="15" wl="0" inv="yes" offset="1,0" />
+	<!--added by chwang to use CS_SRAMb-->
+	<dist sram="CS" inst="XI1_3XI0" bl="76" wl="0" inv="yes" offset="-1,0" />
+	<dist sram="CS" inst="XI1_2XI0" bl="56" wl="0" inv="yes" offset="-1,0" />
+	<dist sram="CS" inst="XI1_1XI0" bl="36" wl="0" inv="yes" offset="-1,0" />
+	<dist sram="CS" inst="XI1_0XI0" bl="16" wl="0" inv="yes" offset="-1,0" />
+	<dist sram="CS" inst="XI3_3XI0" bl="76" wl="1" inv="yes" offset="-1,0" />
+	<dist sram="CS" inst="XI3_2XI0" bl="56" wl="1" inv="yes" offset="-1,0" />
+	<dist sram="CS" inst="XI3_1XI0" bl="36" wl="1" inv="yes" offset="-1,0" />
+	<dist sram="CS" inst="XI3_0XI0" bl="16" wl="1" inv="yes" offset="-1,0" />
+	<dist sram="CS" inst="XI20_3XI0" bl="76" wl="1" inv="yes" offset="1,0" />
+	<dist sram="CS" inst="XI20_2XI0" bl="56" wl="1" inv="yes" offset="1,0" />
+	<dist sram="CS" inst="XI20_1XI0" bl="36" wl="1" inv="yes" offset="1,0" />
+	<dist sram="CS" inst="XI20_0XI0" bl="16" wl="1" inv="yes" offset="1,0" />
+	<dist sram="CS" inst="XI21_3XI0" bl="76" wl="0" inv="yes" offset="1,0" />
+	<dist sram="CS" inst="XI21_2XI0" bl="56" wl="0" inv="yes" offset="1,0" />
+	<dist sram="CS" inst="XI21_1XI0" bl="36" wl="0" inv="yes" offset="1,0" />
+	<dist sram="CS" inst="XI21_0XI0" bl="16" wl="0" inv="yes" offset="1,0" />
+	<!--end-->
   </grm_inst>
 </tile>

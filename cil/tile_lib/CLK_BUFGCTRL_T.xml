@@ -768,5 +768,24 @@
     <dist sram="S8" inst="XI11_0XI0" bl="15" wl="1" inv="yes" offset="-6,0" />
     <dist sram="S9" inst="XI11_0XI20" bl="14" wl="1" inv="yes" offset="-6,0" />
     <dist sram="S9" inst="XI11_0XI0" bl="14" wl="1" inv="yes" offset="-6,0" />
+	
+	<!--added by chwang due to CS_SRAMb in BUFGCTRL-->
+    <dist sram="EN" inst="XI12_0" bl="0" wl="1" inv="yes" offset="-1,0" />
+    <dist sram="EN" inst="XI12_1" bl="1" wl="1" inv="yes" offset="-1,0" />
+    <dist sram="EN" inst="XI12_2" bl="22" wl="1" inv="yes" offset="-1,0" />
+    <dist sram="EN" inst="XI12_3" bl="23" wl="1" inv="yes" offset="-1,0" />
+    <dist sram="EN" inst="XI12_4" bl="43" wl="1" inv="yes" offset="-1,0" />
+    <dist sram="EN" inst="XI12_5" bl="44" wl="1" inv="yes" offset="-1,0" />
+    <dist sram="EN" inst="XI12_6" bl="64" wl="1" inv="yes" offset="-1,0" />
+    <dist sram="EN" inst="XI12_7" bl="65" wl="1" inv="yes" offset="-1,0" />
+    <dist sram="EN" inst="XI12_8" bl="5" wl="1" inv="yes" offset="0,0" />
+    <dist sram="EN" inst="XI12_9" bl="6" wl="1" inv="yes" offset="0,0" />
+    <dist sram="EN" inst="XI12_10" bl="26" wl="1" inv="yes" offset="0,0" />
+    <dist sram="EN" inst="XI12_11" bl="27" wl="1" inv="yes" offset="0,0" />
+    <dist sram="EN" inst="XI12_12" bl="47" wl="1" inv="yes" offset="0,0" />
+    <dist sram="EN" inst="XI12_13" bl="48" wl="1" inv="yes" offset="0,0" />
+    <dist sram="EN" inst="XI12_14" bl="68" wl="1" inv="yes" offset="0,0" />
+    <dist sram="EN" inst="XI12_15" bl="69" wl="1" inv="yes" offset="0,0" />
+	<!--end-->
   </grm_inst>
 </tile>
