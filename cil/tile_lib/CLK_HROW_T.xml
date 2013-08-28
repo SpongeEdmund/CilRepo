@@ -1,4 +1,4 @@
-<tile name="CLK_HROW" scale="176X2">
+<tile name="CLK_HROW" scale="32X2">
   <grm_inst name="GRM_CLK_HROW" ref="GRM_CLK_HROW">
     <dist sram="S0" inst="XI1_3XI0" bl="60" wl="0" inv="yes" offset="-1,0" />
     <dist sram="S1" inst="XI1_3XI0" bl="61" wl="0" inv="yes" offset="-1,0" />
