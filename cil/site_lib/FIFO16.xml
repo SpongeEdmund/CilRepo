@@ -1,4 +1,7 @@
   <site name="FIFO16">
+	<initial>
+		<sram name="MODE" value="0"/>
+	</initial>
     <attribute name="RAM_EXTENSION_A" method="map">
       <option name="LOWER" default="false">
         <sram name="RAM_EXTENSIONA1" value="1"/>
@@ -293,7 +296,7 @@
       <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="ALMOST_EMPTY_OFFSET" method="bitstr">
-      <option name="HEX" default="false">
+      <option name="hex" default="false">
         <sram name="ALMOST_EMPTY_OFFSET0" address="0"/>
         <sram name="ALMOST_EMPTY_OFFSET1" address="1"/>
         <sram name="ALMOST_EMPTY_OFFSET2" address="2"/>
@@ -310,7 +313,7 @@
       <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="ALMOST_FULL_OFFSET" method="bitstr">
-      <option name="HEX" default="false">
+      <option name="hex" default="false">
         <sram name="ALMOST_FULL_OFFSET0" address="0"/>
         <sram name="ALMOST_FULL_OFFSET1" address="1"/>
         <sram name="ALMOST_FULL_OFFSET2" address="2"/>
@@ -493,5 +496,233 @@
       <option name="TRUE" default="false"/>
       <option name="FALSE" default="false"/>
       <option name="#OFF" default="false"/>
+    </attribute>
+    <attribute name="INIT_A" method="bitstr">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_B" method="bitstr">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="SRVAL_A" method="bitstr">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="SRVAL_B" method="bitstr">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INITP_00" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INITP_01" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INITP_02" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INITP_03" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INITP_04" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INITP_05" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INITP_06" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INITP_07" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_00" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_01" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_02" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_03" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_04" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_05" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_06" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_07" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_08" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_09" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_0A" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_0B" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_0C" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_0D" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_0E" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_0F" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_10" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_11" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_12" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_13" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_14" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_15" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_16" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_17" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_18" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_19" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_1A" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_1B" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_1C" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_1D" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_1E" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_1F" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_20" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_21" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_22" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_23" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_24" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_25" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_26" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_27" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_28" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_29" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_2A" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_2B" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_2C" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_2D" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_2E" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_2F" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_30" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_31" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_32" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_33" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_34" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_35" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_36" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_37" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_38" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_39" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_3A" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_3B" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_3C" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_3D" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_3E" method="bram">
+      <option name="hex" default="false"/>
+    </attribute>
+    <attribute name="INIT_3F" method="bram">
+      <option name="hex" default="false"/>
     </attribute>
   </site>

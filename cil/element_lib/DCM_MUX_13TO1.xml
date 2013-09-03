@@ -1,145 +1,145 @@
   <element name="DCM_MUX_13TO1">
     <path from="IN0" to="DCM_OUT">
-      <sram name="S_0" value="1"/>
-      <sram name="S_1" value="0"/>
-      <sram name="S_2" value="0"/>
-      <sram name="S_3" value="0"/>
-      <sram name="S_4" value="0"/>
-      <sram name="S_5" value="0"/>
-      <sram name="S_6" value="1"/>
-      <sram name="S_7" value="0"/>
-      <sram name="S_8" value="0"/>
+      <sram name="S_0" value="0"/>
+      <sram name="S_1" value="1"/>
+      <sram name="S_2" value="1"/>
+      <sram name="S_3" value="1"/>
+      <sram name="S_4" value="1"/>
+      <sram name="S_5" value="1"/>
+      <sram name="S_6" value="0"/>
+      <sram name="S_7" value="1"/>
+      <sram name="S_8" value="1"/>
     </path>
     <path from="IN1" to="DCM_OUT">
-      <sram name="S_0" value="0"/>
-      <sram name="S_1" value="1"/>
-      <sram name="S_2" value="0"/>
-      <sram name="S_3" value="0"/>
-      <sram name="S_4" value="0"/>
-      <sram name="S_5" value="0"/>
-      <sram name="S_6" value="1"/>
-      <sram name="S_7" value="0"/>
-      <sram name="S_8" value="0"/>
-    </path>
-    <path from="IN2" to="DCM_OUT">
-      <sram name="S_0" value="0"/>
-      <sram name="S_1" value="0"/>
-      <sram name="S_2" value="1"/>
-      <sram name="S_3" value="0"/>
-      <sram name="S_4" value="0"/>
-      <sram name="S_5" value="0"/>
-      <sram name="S_6" value="1"/>
-      <sram name="S_7" value="0"/>
-      <sram name="S_8" value="0"/>
-    </path>
-    <path from="IN3" to="DCM_OUT">
-      <sram name="S_0" value="0"/>
-      <sram name="S_1" value="0"/>
-      <sram name="S_2" value="0"/>
-      <sram name="S_3" value="1"/>
-      <sram name="S_4" value="0"/>
-      <sram name="S_5" value="0"/>
-      <sram name="S_6" value="1"/>
-      <sram name="S_7" value="0"/>
-      <sram name="S_8" value="0"/>
-    </path>
-    <path from="IN4" to="DCM_OUT">
-      <sram name="S_0" value="0"/>
-      <sram name="S_1" value="0"/>
-      <sram name="S_2" value="0"/>
-      <sram name="S_3" value="0"/>
-      <sram name="S_4" value="1"/>
-      <sram name="S_5" value="0"/>
-      <sram name="S_6" value="1"/>
-      <sram name="S_7" value="0"/>
-      <sram name="S_8" value="0"/>
-    </path>
-    <path from="IN5" to="DCM_OUT">
-      <sram name="S_0" value="0"/>
-      <sram name="S_1" value="0"/>
-      <sram name="S_2" value="0"/>
-      <sram name="S_3" value="0"/>
-      <sram name="S_4" value="0"/>
-      <sram name="S_5" value="1"/>
-      <sram name="S_6" value="1"/>
-      <sram name="S_7" value="0"/>
-      <sram name="S_8" value="0"/>
-    </path>
-    <path from="IN6" to="DCM_OUT">
       <sram name="S_0" value="1"/>
       <sram name="S_1" value="0"/>
-      <sram name="S_2" value="0"/>
-      <sram name="S_3" value="0"/>
-      <sram name="S_4" value="0"/>
-      <sram name="S_5" value="0"/>
+      <sram name="S_2" value="1"/>
+      <sram name="S_3" value="1"/>
+      <sram name="S_4" value="1"/>
+      <sram name="S_5" value="1"/>
       <sram name="S_6" value="0"/>
       <sram name="S_7" value="1"/>
-      <sram name="S_8" value="0"/>
+      <sram name="S_8" value="1"/>
     </path>
-    <path from="IN7" to="DCM_OUT">
-      <sram name="S_0" value="0"/>
+    <path from="IN2" to="DCM_OUT">
+      <sram name="S_0" value="1"/>
       <sram name="S_1" value="1"/>
       <sram name="S_2" value="0"/>
-      <sram name="S_3" value="0"/>
-      <sram name="S_4" value="0"/>
-      <sram name="S_5" value="0"/>
+      <sram name="S_3" value="1"/>
+      <sram name="S_4" value="1"/>
+      <sram name="S_5" value="1"/>
       <sram name="S_6" value="0"/>
       <sram name="S_7" value="1"/>
-      <sram name="S_8" value="0"/>
+      <sram name="S_8" value="1"/>
     </path>
-    <path from="IN8" to="DCM_OUT">
-      <sram name="S_0" value="0"/>
-      <sram name="S_1" value="0"/>
+    <path from="IN3" to="DCM_OUT">
+      <sram name="S_0" value="1"/>
+      <sram name="S_1" value="1"/>
       <sram name="S_2" value="1"/>
       <sram name="S_3" value="0"/>
-      <sram name="S_4" value="0"/>
-      <sram name="S_5" value="0"/>
-      <sram name="S_6" value="0"/>
-      <sram name="S_7" value="1"/>
-      <sram name="S_8" value="0"/>
-    </path>
-    <path from="IN9" to="DCM_OUT">
-      <sram name="S_0" value="0"/>
-      <sram name="S_1" value="0"/>
-      <sram name="S_2" value="0"/>
-      <sram name="S_3" value="1"/>
-      <sram name="S_4" value="0"/>
-      <sram name="S_5" value="0"/>
-      <sram name="S_6" value="0"/>
-      <sram name="S_7" value="1"/>
-      <sram name="S_8" value="0"/>
-    </path>
-    <path from="IN10" to="DCM_OUT">
-      <sram name="S_0" value="0"/>
-      <sram name="S_1" value="0"/>
-      <sram name="S_2" value="0"/>
-      <sram name="S_3" value="0"/>
       <sram name="S_4" value="1"/>
-      <sram name="S_5" value="0"/>
+      <sram name="S_5" value="1"/>
       <sram name="S_6" value="0"/>
       <sram name="S_7" value="1"/>
-      <sram name="S_8" value="0"/>
+      <sram name="S_8" value="1"/>
     </path>
-    <path from="IN11" to="DCM_OUT">
-      <sram name="S_0" value="0"/>
-      <sram name="S_1" value="0"/>
-      <sram name="S_2" value="0"/>
-      <sram name="S_3" value="0"/>
+    <path from="IN4" to="DCM_OUT">
+      <sram name="S_0" value="1"/>
+      <sram name="S_1" value="1"/>
+      <sram name="S_2" value="1"/>
+      <sram name="S_3" value="1"/>
       <sram name="S_4" value="0"/>
       <sram name="S_5" value="1"/>
       <sram name="S_6" value="0"/>
       <sram name="S_7" value="1"/>
-      <sram name="S_8" value="0"/>
+      <sram name="S_8" value="1"/>
     </path>
-    <path from="DCM_IN" to="DCM_OUT">
-      <sram name="S_0" value="0"/>
-      <sram name="S_1" value="0"/>
-      <sram name="S_2" value="0"/>
-      <sram name="S_3" value="0"/>
-      <sram name="S_4" value="0"/>
+    <path from="IN5" to="DCM_OUT">
+      <sram name="S_0" value="1"/>
+      <sram name="S_1" value="1"/>
+      <sram name="S_2" value="1"/>
+      <sram name="S_3" value="1"/>
+      <sram name="S_4" value="1"/>
       <sram name="S_5" value="0"/>
       <sram name="S_6" value="0"/>
+      <sram name="S_7" value="1"/>
+      <sram name="S_8" value="1"/>
+    </path>
+    <path from="IN6" to="DCM_OUT">
+      <sram name="S_0" value="0"/>
+      <sram name="S_1" value="1"/>
+      <sram name="S_2" value="1"/>
+      <sram name="S_3" value="1"/>
+      <sram name="S_4" value="1"/>
+      <sram name="S_5" value="1"/>
+      <sram name="S_6" value="1"/>
       <sram name="S_7" value="0"/>
       <sram name="S_8" value="1"/>
+    </path>
+    <path from="IN7" to="DCM_OUT">
+      <sram name="S_0" value="1"/>
+      <sram name="S_1" value="0"/>
+      <sram name="S_2" value="1"/>
+      <sram name="S_3" value="1"/>
+      <sram name="S_4" value="1"/>
+      <sram name="S_5" value="1"/>
+      <sram name="S_6" value="1"/>
+      <sram name="S_7" value="0"/>
+      <sram name="S_8" value="1"/>
+    </path>
+    <path from="IN8" to="DCM_OUT">
+      <sram name="S_0" value="1"/>
+      <sram name="S_1" value="1"/>
+      <sram name="S_2" value="0"/>
+      <sram name="S_3" value="1"/>
+      <sram name="S_4" value="1"/>
+      <sram name="S_5" value="1"/>
+      <sram name="S_6" value="1"/>
+      <sram name="S_7" value="0"/>
+      <sram name="S_8" value="1"/>
+    </path>
+    <path from="IN9" to="DCM_OUT">
+      <sram name="S_0" value="1"/>
+      <sram name="S_1" value="1"/>
+      <sram name="S_2" value="1"/>
+      <sram name="S_3" value="0"/>
+      <sram name="S_4" value="1"/>
+      <sram name="S_5" value="1"/>
+      <sram name="S_6" value="1"/>
+      <sram name="S_7" value="0"/>
+      <sram name="S_8" value="1"/>
+    </path>
+    <path from="IN10" to="DCM_OUT">
+      <sram name="S_0" value="1"/>
+      <sram name="S_1" value="1"/>
+      <sram name="S_2" value="1"/>
+      <sram name="S_3" value="1"/>
+      <sram name="S_4" value="0"/>
+      <sram name="S_5" value="1"/>
+      <sram name="S_6" value="1"/>
+      <sram name="S_7" value="0"/>
+      <sram name="S_8" value="1"/>
+    </path>
+    <path from="IN11" to="DCM_OUT">
+      <sram name="S_0" value="1"/>
+      <sram name="S_1" value="1"/>
+      <sram name="S_2" value="1"/>
+      <sram name="S_3" value="1"/>
+      <sram name="S_4" value="1"/>
+      <sram name="S_5" value="0"/>
+      <sram name="S_6" value="1"/>
+      <sram name="S_7" value="0"/>
+      <sram name="S_8" value="1"/>
+    </path>
+    <path from="DCM_IN" to="DCM_OUT">
+      <sram name="S_0" value="1"/>
+      <sram name="S_1" value="1"/>
+      <sram name="S_2" value="1"/>
+      <sram name="S_3" value="1"/>
+      <sram name="S_4" value="1"/>
+      <sram name="S_5" value="1"/>
+      <sram name="S_6" value="1"/>
+      <sram name="S_7" value="1"/>
+      <sram name="S_8" value="0"/>
     </path>
   </element>

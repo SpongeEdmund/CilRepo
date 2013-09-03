@@ -1,6 +1,7 @@
   <site name="DCM_ADV">
     <attribute name="CLKDV_DIVIDE" method="map">
-      <option name="1.0" default="false">
+     <option name="#OFF" default="yes"/>
+      <option name="1" default="false">
         <sram name="DVD4" value="0"/>
         <sram name="DVD3" value="0"/>
         <sram name="DVD2" value="0"/>
@@ -8,7 +9,7 @@
         <sram name="DVD0" value="1"/>
       </option>
       <option name="1.5" default="false"/>
-      <option name="2.0" default="false">
+      <option name="2" default="false">
         <sram name="DVD4" value="0"/>
         <sram name="DVD3" value="0"/>
         <sram name="DVD2" value="0"/>
@@ -16,7 +17,7 @@
         <sram name="DVD0" value="0"/>
       </option>
       <option name="2.5" default="false"/>
-      <option name="3.0" default="false">
+      <option name="3" default="false">
         <sram name="DVD4" value="0"/>
         <sram name="DVD3" value="0"/>
         <sram name="DVD2" value="0"/>
@@ -24,7 +25,7 @@
         <sram name="DVD0" value="1"/>
       </option>
       <option name="3.5" default="false"/>
-      <option name="4.0" default="false">
+      <option name="4" default="false">
         <sram name="DVD4" value="0"/>
         <sram name="DVD3" value="0"/>
         <sram name="DVD2" value="1"/>
@@ -32,7 +33,7 @@
         <sram name="DVD0" value="0"/>
       </option>
       <option name="4.5" default="false"/>
-      <option name="5.0" default="false">
+      <option name="5" default="false">
         <sram name="DVD4" value="0"/>
         <sram name="DVD3" value="0"/>
         <sram name="DVD2" value="1"/>
@@ -40,7 +41,7 @@
         <sram name="DVD0" value="1"/>
       </option>
       <option name="5.5" default="false"/>
-      <option name="6.0" default="false">
+      <option name="6" default="false">
         <sram name="DVD4" value="0"/>
         <sram name="DVD3" value="0"/>
         <sram name="DVD2" value="1"/>
@@ -48,7 +49,7 @@
         <sram name="DVD0" value="0"/>
       </option>
       <option name="6.5" default="false"/>
-      <option name="7.0" default="false">
+      <option name="7" default="false">
         <sram name="DVD4" value="0"/>
         <sram name="DVD3" value="0"/>
         <sram name="DVD2" value="1"/>
@@ -56,175 +57,175 @@
         <sram name="DVD0" value="1"/>
       </option>
       <option name="7.5" default="false"/>
-      <option name="8.0" default="false">
+      <option name="8" default="false">
         <sram name="DVD4" value="0"/>
         <sram name="DVD3" value="1"/>
         <sram name="DVD2" value="0"/>
         <sram name="DVD1" value="0"/>
         <sram name="DVD0" value="0"/>
       </option>
-      <option name="9.0" default="false">
+      <option name="9" default="false">
         <sram name="DVD4" value="0"/>
         <sram name="DVD3" value="1"/>
         <sram name="DVD2" value="0"/>
         <sram name="DVD1" value="0"/>
         <sram name="DVD0" value="1"/>
       </option>
-      <option name="10.0" default="false">
+      <option name="10" default="false">
         <sram name="DVD4" value="0"/>
         <sram name="DVD3" value="1"/>
         <sram name="DVD2" value="0"/>
         <sram name="DVD1" value="1"/>
         <sram name="DVD0" value="0"/>
       </option>
-      <option name="11.0" default="false">
+      <option name="11" default="false">
         <sram name="DVD4" value="0"/>
         <sram name="DVD3" value="1"/>
         <sram name="DVD2" value="0"/>
         <sram name="DVD1" value="1"/>
         <sram name="DVD0" value="1"/>
       </option>
-      <option name="12.0" default="false">
+      <option name="12" default="false">
         <sram name="DVD4" value="0"/>
         <sram name="DVD3" value="1"/>
         <sram name="DVD2" value="1"/>
         <sram name="DVD1" value="0"/>
         <sram name="DVD0" value="0"/>
       </option>
-      <option name="13.0" default="false">
+      <option name="13" default="false">
         <sram name="DVD4" value="0"/>
         <sram name="DVD3" value="1"/>
         <sram name="DVD2" value="1"/>
         <sram name="DVD1" value="0"/>
         <sram name="DVD0" value="1"/>
       </option>
-      <option name="14.0" default="false">
+      <option name="14" default="false">
         <sram name="DVD4" value="0"/>
         <sram name="DVD3" value="1"/>
         <sram name="DVD2" value="1"/>
         <sram name="DVD1" value="1"/>
         <sram name="DVD0" value="0"/>
       </option>
-      <option name="15.0" default="false">
+      <option name="15" default="false">
         <sram name="DVD4" value="0"/>
         <sram name="DVD3" value="1"/>
         <sram name="DVD2" value="1"/>
         <sram name="DVD1" value="1"/>
         <sram name="DVD0" value="1"/>
       </option>
-      <option name="16.0" default="false">
+      <option name="16" default="false">
         <sram name="DVD4" value="1"/>
         <sram name="DVD3" value="0"/>
         <sram name="DVD2" value="0"/>
         <sram name="DVD1" value="0"/>
         <sram name="DVD0" value="0"/>
       </option>
-      <option name="17.0" default="false">
+      <option name="17" default="false">
         <sram name="DVD4" value="1"/>
         <sram name="DVD3" value="0"/>
         <sram name="DVD2" value="0"/>
         <sram name="DVD1" value="0"/>
         <sram name="DVD0" value="1"/>
       </option>
-      <option name="18.0" default="false">
+      <option name="18" default="false">
         <sram name="DVD4" value="1"/>
         <sram name="DVD3" value="0"/>
         <sram name="DVD2" value="0"/>
         <sram name="DVD1" value="1"/>
         <sram name="DVD0" value="0"/>
       </option>
-      <option name="19.0" default="false">
+      <option name="19" default="false">
         <sram name="DVD4" value="1"/>
         <sram name="DVD3" value="0"/>
         <sram name="DVD2" value="0"/>
         <sram name="DVD1" value="1"/>
         <sram name="DVD0" value="1"/>
       </option>
-      <option name="20.0" default="false">
+      <option name="20" default="false">
         <sram name="DVD4" value="1"/>
         <sram name="DVD3" value="0"/>
         <sram name="DVD2" value="1"/>
         <sram name="DVD1" value="0"/>
         <sram name="DVD0" value="0"/>
       </option>
-      <option name="21.0" default="false">
+      <option name="21" default="false">
         <sram name="DVD4" value="1"/>
         <sram name="DVD3" value="0"/>
         <sram name="DVD2" value="1"/>
         <sram name="DVD1" value="0"/>
         <sram name="DVD0" value="1"/>
       </option>
-      <option name="22.0" default="false">
+      <option name="22" default="false">
         <sram name="DVD4" value="1"/>
         <sram name="DVD3" value="0"/>
         <sram name="DVD2" value="1"/>
         <sram name="DVD1" value="1"/>
         <sram name="DVD0" value="0"/>
       </option>
-      <option name="23.0" default="false">
+      <option name="23" default="false">
         <sram name="DVD4" value="1"/>
         <sram name="DVD3" value="0"/>
         <sram name="DVD2" value="1"/>
         <sram name="DVD1" value="1"/>
         <sram name="DVD0" value="1"/>
       </option>
-      <option name="24.0" default="false">
+      <option name="24" default="false">
         <sram name="DVD4" value="1"/>
         <sram name="DVD3" value="1"/>
         <sram name="DVD2" value="0"/>
         <sram name="DVD1" value="0"/>
         <sram name="DVD0" value="0"/>
       </option>
-      <option name="25.0" default="false">
+      <option name="25" default="false">
         <sram name="DVD4" value="1"/>
         <sram name="DVD3" value="1"/>
         <sram name="DVD2" value="0"/>
         <sram name="DVD1" value="0"/>
         <sram name="DVD0" value="1"/>
       </option>
-      <option name="26.0" default="false">
+      <option name="26" default="false">
         <sram name="DVD4" value="1"/>
         <sram name="DVD3" value="1"/>
         <sram name="DVD2" value="0"/>
         <sram name="DVD1" value="1"/>
         <sram name="DVD0" value="0"/>
       </option>
-      <option name="27.0" default="false">
+      <option name="27" default="false">
         <sram name="DVD4" value="1"/>
         <sram name="DVD3" value="1"/>
         <sram name="DVD2" value="0"/>
         <sram name="DVD1" value="1"/>
         <sram name="DVD0" value="1"/>
       </option>
-      <option name="28.0" default="false">
+      <option name="28" default="false">
         <sram name="DVD4" value="1"/>
         <sram name="DVD3" value="1"/>
         <sram name="DVD2" value="1"/>
         <sram name="DVD1" value="0"/>
         <sram name="DVD0" value="0"/>
       </option>
-      <option name="29.0" default="false">
+      <option name="29" default="false">
         <sram name="DVD4" value="1"/>
         <sram name="DVD3" value="1"/>
         <sram name="DVD2" value="1"/>
         <sram name="DVD1" value="0"/>
         <sram name="DVD0" value="1"/>
       </option>
-      <option name="30.0" default="false">
+      <option name="30" default="false">
         <sram name="DVD4" value="1"/>
         <sram name="DVD3" value="1"/>
         <sram name="DVD2" value="1"/>
         <sram name="DVD1" value="1"/>
         <sram name="DVD0" value="0"/>
       </option>
-      <option name="31.0" default="false">
+      <option name="31" default="false">
         <sram name="DVD4" value="1"/>
         <sram name="DVD3" value="1"/>
         <sram name="DVD2" value="1"/>
         <sram name="DVD1" value="1"/>
         <sram name="DVD0" value="1"/>
       </option>
-      <option name="32.0" default="false">
+      <option name="32" default="false">
         <sram name="DVD4" value="0"/>
         <sram name="DVD3" value="0"/>
         <sram name="DVD2" value="0"/>
@@ -233,6 +234,7 @@
       </option>
     </attribute>
     <attribute name="CLKFX_DIVIDE" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="1" default="false">
         <sram name="DVF4" value="0"/>
         <sram name="DVF3" value="0"/>
@@ -459,6 +461,7 @@
       </option>
     </attribute>
     <attribute name="CLKFX_MULTIPLY" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="1" default="false">
         <sram name="DVP4" value="0"/>
         <sram name="DVP3" value="0"/>
@@ -685,6 +688,7 @@
       </option>
     </attribute>
     <attribute name="CLKIN_DIVIDE_BY_2" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="1" default="false">
         <sram name="DVR4" value="0"/>
         <sram name="DVR3" value="0"/>
@@ -913,20 +917,22 @@
       <option name="FALSE" method="map"/>
     </attribute>
     <attribute name="CLK_FEEDBACK" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="NONE" default="false">
         <sram name="FB_SEL1" value="0"/>
         <sram name="FB_SEL0" value="0"/>
       </option>
-      <option name="2X" default="false">
+      <option name="2" default="false">
         <sram name="FB_SEL1" value="0"/>
         <sram name="FB_SEL0" value="1"/>
       </option>
-      <option name="1X" default="false">
+      <option name="1" default="false">
         <sram name="FB_SEL1" value="1"/>
         <sram name="FB_SEL0" value="0"/>
       </option>
     </attribute>
     <attribute name="DUTY_CYCLE_CORRECTION" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="FALSE" default="false">
         <sram name="DUT_EN" value="0"/>
       </option>
@@ -935,6 +941,7 @@
       </option>
     </attribute>
     <attribute name="CLKOUT_PHASE_SHIFT" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="NONE" default="false">
         <sram name="DVPPS_EN" value="0"/>
         <sram name="FXPS_EN" value="0"/>
@@ -948,6 +955,7 @@
       <option name="VARIABLE_POSITIVE" method="map"/>
     </attribute>
     <attribute name="DESKEW_ADJUST" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="0" default="false">
         <sram name="FBPS5" value="0"/>
         <sram name="FBPS4" value="0"/>
@@ -1214,6 +1222,7 @@
       </option>
     </attribute>
     <attribute name="CLKFB_DIVIDE" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="1" default="false">
         <sram name="DVFB4" value="0"/>
         <sram name="DVFB3" value="0"/>
@@ -1439,11 +1448,13 @@
         <sram name="DVFB0" value="0"/>
       </option>
     </attribute>
-    <attribute name="DI5INV" type="map">
+    <attribute name="DI5INV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="DI5_B" default="no"/>
       <option name="DI5" default="no"/>
     </attribute>
-    <attribute name="BGM_MULTIPLY" type="map">
+    <attribute name="BGM_MULTIPLY" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="32" default="no"/>
       <option name="31" default="no"/>
       <option name="30" default="no"/>
@@ -1509,32 +1520,39 @@
       <option name="34" default="no"/>
       <option name="33" default="no"/>
     </attribute>
-    <attribute name="DLL_PERIOD_LOCK_BY1" type="map">
+    <attribute name="DLL_PERIOD_LOCK_BY1" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="FALSE" default="no"/>
       <option name="TRUE" default="no"/>
     </attribute>
-    <attribute name="BGM_CONFIG_REF_SEL" type="map">
+    <attribute name="BGM_CONFIG_REF_SEL" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="DCLK" default="no"/>
       <option name="CLKIN" default="no"/>
     </attribute>
-    <attribute name="DI10INV" type="map">
+    <attribute name="DI10INV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="DI10_B" default="no"/>
       <option name="DI10" default="no"/>
     </attribute>
-    <attribute name="DLL_FREQUENCY_MODE" type="map">
+    <attribute name="DLL_FREQUENCY_MODE" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="LOW" default="no"/>
       <option name="HIGH_SER" default="no"/>
       <option name="HIGH" default="no"/>
     </attribute>
-    <attribute name="DADDR2INV" type="map">
+    <attribute name="DADDR2INV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="DADDR2_B" default="no"/>
       <option name="DADDR2" default="no"/>
     </attribute>
-    <attribute name="DFS_EARLY_LOCK" type="map">
+    <attribute name="DFS_EARLY_LOCK" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="FALSE" default="no"/>
       <option name="TRUE" default="no"/>
     </attribute>
-    <attribute name="DFS_AVE_FREQ_ADJ_INTERVAL" type="map">
+    <attribute name="DFS_AVE_FREQ_ADJ_INTERVAL" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="15" default="no"/>
       <option name="14" default="no"/>
       <option name="13" default="no"/>
@@ -1551,19 +1569,23 @@
       <option name="2" default="no"/>
       <option name="1" default="no"/>
     </attribute>
-    <attribute name="DFS_EN_RELRST" type="map">
+    <attribute name="DFS_EN_RELRST" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="FALSE" default="no"/>
       <option name="TRUE" default="no"/>
     </attribute>
-    <attribute name="CTLSEL2INV" type="map">
+    <attribute name="CTLSEL2INV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="CTLSEL2_B" default="no"/>
       <option name="CTLSEL2" default="no"/>
     </attribute>
-    <attribute name="DFS_NON_STOP" type="map">
+    <attribute name="DFS_NON_STOP" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="FALSE" default="no"/>
       <option name="TRUE" default="no"/>
     </attribute>
-    <attribute name="BGM_DIVIDE" type="map">
+    <attribute name="BGM_DIVIDE" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="32" default="no"/>
       <option name="31" default="no"/>
       <option name="30" default="no"/>
@@ -1629,44 +1651,53 @@
       <option name="34" default="no"/>
       <option name="33" default="no"/>
     </attribute>
-    <attribute name="DFS_EXTEND_FLUSH_TIME" type="map">
+    <attribute name="DFS_EXTEND_FLUSH_TIME" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="FALSE" default="no"/>
       <option name="TRUE" default="no"/>
     </attribute>
-    <attribute name="DFS_FREQUENCY_MODE" type="map">
+    <attribute name="DFS_FREQUENCY_MODE" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="LOW" default="no"/>
       <option name="HIGH" default="no"/>
     </attribute>
-    <attribute name="DI7INV" type="map">
+    <attribute name="DI7INV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="DI7_B" default="no"/>
       <option name="DI7" default="no"/>
     </attribute>
-    <attribute name="DI13INV" type="map">
+    <attribute name="DI13INV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="DI13_B" default="no"/>
       <option name="DI13" default="no"/>
     </attribute>
-    <attribute name="DI9INV" type="map">
+    <attribute name="DI9INV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="DI9_B" default="no"/>
       <option name="DI9" default="no"/>
     </attribute>
-    <attribute name="CTLMODEINV" type="map">
+    <attribute name="CTLMODEINV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="CTLMODE_B" default="no"/>
       <option name="CTLMODE" default="no"/>
     </attribute>
-    <attribute name="DFS_AVE_FREQ_GAIN" type="map">
-      <option name="8.0" default="no"/>
-      <option name="4.0" default="no"/>
-      <option name="2.0" default="no"/>
-      <option name="1.0" default="no"/>
+    <attribute name="DFS_AVE_FREQ_GAIN" method="map">
+     <option name="#OFF" default="yes"/>
+      <option name="8" default="no"/>
+      <option name="4" default="no"/>
+      <option name="2" default="no"/>
+      <option name="1" default="no"/>
       <option name="0.5" default="no"/>
       <option name="0.25" default="no"/>
       <option name="0.125" default="no"/>
     </attribute>
-    <attribute name="DWEINV" type="map">
+    <attribute name="DWEINV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="DWE_B" default="no"/>
       <option name="DWE" default="no"/>
     </attribute>
-    <attribute name="BGM_SDLY" type="map">
+    <attribute name="BGM_SDLY" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="7" default="no"/>
       <option name="6" default="no"/>
       <option name="5" default="no"/>
@@ -1676,7 +1707,8 @@
       <option name="1" default="no"/>
       <option name="0" default="no"/>
     </attribute>
-    <attribute name="BGM_VADJ" type="map">
+    <attribute name="BGM_VADJ" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="15" default="no"/>
       <option name="14" default="no"/>
       <option name="13" default="no"/>
@@ -1693,19 +1725,23 @@
       <option name="2" default="no"/>
       <option name="1" default="no"/>
     </attribute>
-    <attribute name="DFS_EXTEND_HALT_TIME" type="map">
+    <attribute name="DFS_EXTEND_HALT_TIME" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="FALSE" default="no"/>
       <option name="TRUE" default="no"/>
     </attribute>
-    <attribute name="CTLOSC2INV" type="map">
+    <attribute name="CTLOSC2INV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="CTLOSC2_B" default="no"/>
       <option name="CTLOSC2" default="no"/>
     </attribute>
-    <attribute name="DCM_UNUSED_TAPS_POWERDOWN" type="map">
+    <attribute name="DCM_UNUSED_TAPS_POWERDOWN" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="FALSE" default="no"/>
       <option name="TRUE" default="no"/>
     </attribute>
-    <attribute name="DFS_AVE_FREQ_SAMPLE_INTERVAL" type="map">
+    <attribute name="DFS_AVE_FREQ_SAMPLE_INTERVAL" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="7" default="no"/>
       <option name="6" default="no"/>
       <option name="5" default="no"/>
@@ -1714,23 +1750,28 @@
       <option name="2" default="no"/>
       <option name="1" default="no"/>
     </attribute>
-    <attribute name="DFS_SKIP_FINE" type="map">
+    <attribute name="DFS_SKIP_FINE" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="FALSE" default="no"/>
       <option name="TRUE" default="no"/>
     </attribute>
-    <attribute name="PSINCDECINV" type="map">
+    <attribute name="PSINCDECINV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="PSINCDEC_B" default="no"/>
       <option name="PSINCDEC" default="no"/>
     </attribute>
-    <attribute name="DCM_PERFORMANCE_MODE" type="map">
+    <attribute name="DCM_PERFORMANCE_MODE" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="MAX_SPEED" default="no"/>
       <option name="MAX_RANGE" default="no"/>
     </attribute>
-    <attribute name="DI14INV" type="map">
+    <attribute name="DI14INV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="DI14_B" default="no"/>
       <option name="DI14" default="no"/>
     </attribute>
-    <attribute name="BGM_VLDLY" type="map">
+    <attribute name="BGM_VLDLY" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="7" default="no"/>
       <option name="6" default="no"/>
       <option name="5" default="no"/>
@@ -1740,27 +1781,33 @@
       <option name="1" default="no"/>
       <option name="0" default="no"/>
     </attribute>
-    <attribute name="DENINV" type="map">
+    <attribute name="DENINV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="DEN_B" default="no"/>
       <option name="DEN" default="no"/>
     </attribute>
-    <attribute name="DI11INV" type="map">
+    <attribute name="DI11INV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="DI11_B" default="no"/>
       <option name="DI11" default="no"/>
     </attribute>
-    <attribute name="DADDR3INV" type="map">
+    <attribute name="DADDR3INV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="DADDR3_B" default="no"/>
       <option name="DADDR3" default="no"/>
     </attribute>
-    <attribute name="DI4INV" type="map">
+    <attribute name="DI4INV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="DI4_B" default="no"/>
       <option name="DI4" default="no"/>
     </attribute>
-    <attribute name="FREEZE_DLLINV" type="map">
+    <attribute name="FREEZE_DLLINV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="FREEZE_DLL_B" default="no"/>
       <option name="FREEZE_DLL" default="no"/>
     </attribute>
-    <attribute name="BGM_VSDLY" type="map">
+    <attribute name="BGM_VSDLY" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="7" default="no"/>
       <option name="6" default="no"/>
       <option name="5" default="no"/>
@@ -1770,11 +1817,13 @@
       <option name="1" default="no"/>
       <option name="0" default="no"/>
     </attribute>
-    <attribute name="DI3INV" type="map">
+    <attribute name="DI3INV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="DI3_B" default="no"/>
       <option name="DI3" default="no"/>
     </attribute>
-    <attribute name="BGM_SAMPLE_LEN" type="map">
+    <attribute name="BGM_SAMPLE_LEN" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="7" default="no"/>
       <option name="6" default="no"/>
       <option name="5" default="no"/>
@@ -1784,88 +1833,109 @@
       <option name="1" default="no"/>
       <option name="0" default="no"/>
     </attribute>
-    <attribute name="DCM_VREG_ENABLE" type="map">
+    <attribute name="DCM_VREG_ENABLE" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="FALSE" default="no"/>
       <option name="TRUE" default="no"/>
     </attribute>
-    <attribute name="DI1INV" type="map">
+    <attribute name="DI1INV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="DI1_B" default="no"/>
       <option name="DI1" default="no"/>
     </attribute>
-    <attribute name="CTLOSC1INV" type="map">
+    <attribute name="CTLOSC1INV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="CTLOSC1_B" default="no"/>
       <option name="CTLOSC1" default="no"/>
     </attribute>
-    <attribute name="DADDR5INV" type="map">
+    <attribute name="DADDR5INV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="DADDR5_B" default="no"/>
       <option name="DADDR5" default="no"/>
     </attribute>
-    <attribute name="DFS_EXTEND_RUN_TIME" type="map">
+    <attribute name="DFS_EXTEND_RUN_TIME" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="FALSE" default="no"/>
       <option name="TRUE" default="no"/>
     </attribute>
-    <attribute name="DFS_OSCILLATOR_MODE" type="map">
+    <attribute name="DFS_OSCILLATOR_MODE" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="PHASE_FREQ_LOCK" default="no"/>
       <option name="FREQ_LOCK" default="no"/>
       <option name="AVE_FREQ_LOCK" default="no"/>
     </attribute>
-    <attribute name="DLL_CONTROL_CLOCK_SPEED" type="map">
+    <attribute name="DLL_CONTROL_CLOCK_SPEED" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="QUARTER" default="no"/>
       <option name="HALF" default="no"/>
     </attribute>
-    <attribute name="DFS_TP_SEL" type="map">
+    <attribute name="DFS_TP_SEL" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="LEVEL" default="no"/>
       <option name="LEGACY" default="no"/>
     </attribute>
-    <attribute name="CTLSEL1INV" type="map">
+    <attribute name="CTLSEL1INV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="CTLSEL1_B" default="no"/>
       <option name="CTLSEL1" default="no"/>
     </attribute>
-    <attribute name="DFS_TRACKMODE" type="map">
+    <attribute name="DFS_TRACKMODE" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="1" default="no"/>
       <option name="0" default="no"/>
     </attribute>
-    <attribute name="DADDR4INV" type="map">
+    <attribute name="DADDR4INV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="DADDR4_B" default="no"/>
       <option name="DADDR4" default="no"/>
     </attribute>
-    <attribute name="PMCD_SYNC" type="map">
+    <attribute name="PMCD_SYNC" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="FALSE" default="no"/>
       <option name="TRUE" default="no"/>
     </attribute>
-    <attribute name="CTLSEL0INV" type="map">
+    <attribute name="CTLSEL0INV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="CTLSEL0_B" default="no"/>
       <option name="CTLSEL0" default="no"/>
     </attribute>
-    <attribute name="DLL_DESKEW_LOCK_BY1" type="map">
+    <attribute name="DLL_DESKEW_LOCK_BY1" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="FALSE" default="no"/>
       <option name="TRUE" default="no"/>
     </attribute>
-    <attribute name="DLL_PHASE_DETECTOR_AUTO_RESET" type="map">
+    <attribute name="DLL_PHASE_DETECTOR_AUTO_RESET" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="FALSE" default="no"/>
       <option name="TRUE" default="no"/>
     </attribute>
-    <attribute name="DADDR1INV" type="map">
+    <attribute name="DADDR1INV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="DADDR1_B" default="no"/>
       <option name="DADDR1" default="no"/>
     </attribute>
-    <attribute name="DLL_PHASE_DETECTOR_MODE" type="map">
+    <attribute name="DLL_PHASE_DETECTOR_MODE" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="LEVEL" default="no"/>
       <option name="ENHANCED" default="no"/>
     </attribute>
-    <attribute name="DCM_EXT_FB_EN" type="map">
+    <attribute name="DCM_EXT_FB_EN" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="FALSE" default="no"/>
       <option name="TRUE" default="no"/>
     </attribute>
-    <attribute name="DI2INV" type="map">
+    <attribute name="DI2INV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="DI2_B" default="no"/>
       <option name="DI2" default="no"/>
     </attribute>
-    <attribute name="DI15INV" type="map">
+    <attribute name="DI15INV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="DI15_B" default="no"/>
       <option name="DI15" default="no"/>
     </attribute>
-    <attribute name="DCM_VREF_SOURCE" type="map">
+    <attribute name="DCM_VREF_SOURCE" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="VDD" default="no"/>
       <option name="VBG_DLL" default="no"/>
       <option name="VBG" default="no"/>
@@ -1873,35 +1943,43 @@
       <option name="BGM_ABS_SNAP" default="no"/>
       <option name="BGM_ABS_REF" default="no"/>
     </attribute>
-    <attribute name="DLL_PHASE_SHIFT_LOCK_BY1" type="map">
+    <attribute name="DLL_PHASE_SHIFT_LOCK_BY1" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="FALSE" default="no"/>
       <option name="TRUE" default="no"/>
     </attribute>
-    <attribute name="DI0INV" type="map">
+    <attribute name="DI0INV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="DI0_B" default="no"/>
       <option name="DI0" default="no"/>
     </attribute>
-    <attribute name="DI8INV" type="map">
+    <attribute name="DI8INV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="DI8_B" default="no"/>
       <option name="DI8" default="no"/>
     </attribute>
-    <attribute name="DI12INV" type="map">
+    <attribute name="DI12INV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="DI12_B" default="no"/>
       <option name="DI12" default="no"/>
     </attribute>
-    <attribute name="CTLGOINV" type="map">
+    <attribute name="CTLGOINV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="CTLGO_B" default="no"/>
       <option name="CTLGO" default="no"/>
     </attribute>
-    <attribute name="DCM_CLKDV_CLKFX_ALIGNMENT" type="map">
+    <attribute name="DCM_CLKDV_CLKFX_ALIGNMENT" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="FALSE" default="no"/>
       <option name="TRUE" default="no"/>
     </attribute>
-    <attribute name="DADDR6INV" type="map">
+    <attribute name="DADDR6INV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="DADDR6_B" default="no"/>
       <option name="DADDR6" default="no"/>
     </attribute>
-    <attribute name="BGM_LDLY" type="map">
+    <attribute name="BGM_LDLY" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="7" default="no"/>
       <option name="6" default="no"/>
       <option name="5" default="no"/>
@@ -1911,31 +1989,38 @@
       <option name="1" default="no"/>
       <option name="0" default="no"/>
     </attribute>
-    <attribute name="DFS_FINE_SEL" type="map">
+    <attribute name="DFS_FINE_SEL" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="LEVEL" default="no"/>
       <option name="LEGACY" default="no"/>
     </attribute>
-    <attribute name="DI6INV" type="map">
+    <attribute name="DI6INV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="DI6_B" default="no"/>
       <option name="DI6" default="no"/>
     </attribute>
-    <attribute name="STARTUP_WAIT" type="map">
+    <attribute name="STARTUP_WAIT" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="FALSE" default="no"/>
       <option name="TRUE" default="no"/>
     </attribute>
-    <attribute name="DLL_CTL_SEL_CLKIN_DIV2" type="map">
+    <attribute name="DLL_CTL_SEL_CLKIN_DIV2" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="FALSE" default="no"/>
       <option name="TRUE" default="no"/>
     </attribute>
-    <attribute name="DADDR0INV" type="map">
+    <attribute name="DADDR0INV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="DADDR0_B" default="no"/>
       <option name="DADDR0" default="no"/>
     </attribute>
-    <attribute name="PSENINV" type="map">
+    <attribute name="PSENINV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="PSEN_B" default="no"/>
       <option name="PSEN" default="no"/>
     </attribute>
-    <attribute name="DLL_PD_DLY_SEL" type="map">
+    <attribute name="DLL_PD_DLY_SEL" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="7" default="no"/>
       <option name="6" default="no"/>
       <option name="5" default="no"/>
@@ -1945,28 +2030,34 @@
       <option name="1" default="no"/>
       <option name="0" default="no"/>
     </attribute>
-    <attribute name="BGM_MODE" type="map">
+    <attribute name="BGM_MODE" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="BG_SNAPSHOT" default="no"/>
       <option name="ABS_FREQ_SNAPSHOT" default="no"/>
       <option name="ABS_FREQ_REF" default="no"/>
     </attribute>
-    <attribute name="DFS_COARSE_SEL" type="map">
+    <attribute name="DFS_COARSE_SEL" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="LEVEL" default="no"/>
       <option name="LEGACY" default="no"/>
     </attribute>
-    <attribute name="DCM_LOCK_HIGH" type="map">
+    <attribute name="DCM_LOCK_HIGH" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="FALSE" default="no"/>
       <option name="TRUE" default="no"/>
     </attribute>
-    <attribute name="RSTINV" type="map">
+    <attribute name="RSTINV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="RST_B" default="no"/>
       <option name="RST" default="no"/>
     </attribute>
-    <attribute name="FREEZE_DFSINV" type="map">
+    <attribute name="FREEZE_DFSINV" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="FREEZE_DFS_B" default="no"/>
       <option name="FREEZE_DFS" default="no"/>
     </attribute>
-    <attribute name="DLL_PHASE_SHIFT_CALIBRATION" type="map">
+    <attribute name="DLL_PHASE_SHIFT_CALIBRATION" method="map">
+     <option name="#OFF" default="yes"/>
       <option name="MASK" default="no"/>
       <option name="CONFIG" default="no"/>
       <option name="AUTO_ZD2" default="no"/>
