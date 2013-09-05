@@ -23,7 +23,7 @@
     </attribute>
     <attribute name="CEINV" method="map">
       <option name="#OFF" default="false">
-        <sram name="CEINV" value="1"/>
+        <sram name="CEINV" value="0"/>
       </option>
       <option name="CE" default="false">
         <sram name="CEINV" value="0"/>
@@ -282,7 +282,7 @@
     </attribute>
     <attribute name="SRINV" method="map">
       <option name="#OFF" default="false">
-        <sram name="SRINV" value="0"/>
+        <sram name="SRINV" value="1"/>
       </option>
       <option name="SR" default="false">
         <sram name="SRINV" value="0"/>
