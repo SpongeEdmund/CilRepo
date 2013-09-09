@@ -1,7 +1,7 @@
   <site name="FIFO16">
-	<initial>
-		<sram name="MODE" value="0"/>
-	</initial>
+	  <initial>
+		  <sram name="MODE" value="0"/>
+	  </initial>
     <attribute name="RAM_EXTENSION_A" method="map">
       <option name="LOWER" default="false">
         <sram name="RAM_EXTENSIONA1" value="1"/>
@@ -338,6 +338,7 @@
       </option>
       <option name="#OFF" default="false"/>
     </attribute>
+    <!--
     <attribute name="ENAINV" method="map">
       <option name="ENA" default="false">
         <sram name="ENAINV" value="0"/>
@@ -485,6 +486,196 @@
     <attribute name="CLKBINV" method="map">
       <option name="CLKB" default="false"/>
       <option name="CLKB_B" default="false"/>
+      <option name="#OFF" default="false"/>
+    </attribute>
+    -->
+    <attribute name="ENAINV" method="map">
+      <option name="ENA" default="false">
+        <sram name="CONTROL_SEL" value="0"/>
+      </option>
+      <option name="ENA_B" default="false">
+        <sram name="CONTROL_SEL" value="1"/>
+      </option>
+      <option name="#OFF" default="false"/>
+    </attribute>
+    <attribute name="ENBINV" method="map">
+      <option name="ENB" default="false">
+        <sram name="CONTROL_SEL" value="0"/>
+      </option>
+      <option name="ENB_B" default="false">
+        <sram name="CONTROL_SEL" value="1"/>
+      </option>
+      <option name="#OFF" default="false"/>
+    </attribute>
+    <attribute name="REGCEAINV" method="map">
+      <option name="REGCEA" default="false">
+        <sram name="CONTROL_SEL" value="0"/>
+      </option>
+      <option name="REGCEA_B" default="false">
+        <sram name="CONTROL_SEL" value="1"/>
+      </option>
+      <option name="#OFF" default="false"/>
+    </attribute>
+    <attribute name="REGCEBINV" method="map">
+      <option name="REGCEB" default="false">
+        <sram name="CONTROL_SEL" value="0"/>
+      </option>
+      <option name="REGCEB_B" default="false">
+        <sram name="CONTROL_SEL" value="1"/>
+      </option>
+      <option name="#OFF" default="false"/>
+    </attribute>
+    <attribute name="SSRAINV" method="map">
+      <option name="SSRA" default="false">
+        <sram name="CONTROL_SEL" value="0"/>
+      </option>
+      <option name="SSRA_B" default="false">
+        <sram name="CONTROL_SEL" value="1"/>
+      </option>
+      <option name="#OFF" default="false"/>
+    </attribute>
+    <attribute name="SSRBINV" method="map">
+      <option name="SSRB" default="false">
+        <sram name="CONTROL_SEL" value="0"/>
+      </option>
+      <option name="SSRB_B" default="false">
+        <sram name="CONTROL_SEL" value="1"/>
+      </option>
+      <option name="#OFF" default="false"/>
+    </attribute>
+    <attribute name="RDCLKINV" method="map">
+      <option name="RDCLK" default="false">
+        <sram name="CLKAINV" value="0"/>
+      </option>
+      <option name="RDCLK_B" default="false">
+        <sram name="CLKAINV" value="1"/>
+      </option>
+      <option name="#OFF" default="false"/>
+    </attribute>
+    <attribute name="RDENINV" method="map">
+      <option name="RDEN" default="false">
+        <sram name="ENAINV" value="0"/>
+      </option>
+      <option name="RDEN_B" default="false">
+        <sram name="ENAINV" value="1"/>
+      </option>
+      <option name="#OFF" default="false"/>
+    </attribute>
+    <attribute name="RSTINV" method="map">
+      <option name="RST" default="false">
+        <sram name="CONTROL_SEL" value="0"/>
+      </option>
+      <option name="RST_B" default="false">
+        <sram name="CONTROL_SEL" value="1"/>
+      </option>
+      <option name="#OFF" default="false"/>
+    </attribute>
+    <attribute name="WRCLKINV" method="map">
+      <option name="WRCLK" default="false">
+        <sram name="CLKBINV" value="0"/>
+      </option>
+      <option name="WRCLK_B" default="false">
+        <sram name="CLKBINV" value="1"/>
+      </option>
+      <option name="#OFF" default="false"/>
+    </attribute>
+    <attribute name="WRENINV" method="map">
+      <option name="WREN" default="false">
+        <sram name="ENBINV" value="0"/>
+      </option>
+      <option name="WREN_B" default="false">
+        <sram name="ENBINV" value="1"/>
+      </option>
+      <option name="#OFF" default="false"/>
+    </attribute>
+    <attribute name="WEA0INV" method="map">
+      <option name="WEA0" default="false">
+        <sram name="CONTROL_SEL" value="0"/>
+      </option>
+      <option name="WEA0_B" default="false">
+        <sram name="CONTROL_SEL" value="1"/>
+      </option>
+      <option name="#OFF" default="false"/>
+    </attribute>
+    <attribute name="WEA1INV" method="map">
+      <option name="WEA1" default="false">
+        <sram name="CONTROL_SEL" value="0"/>
+      </option>
+      <option name="WEA1_B" default="false">
+        <sram name="CONTROL_SEL" value="1"/>
+      </option>
+      <option name="#OFF" default="false"/>
+    </attribute>
+    <attribute name="WEA2INV" method="map">
+      <option name="WEA2" default="false">
+        <sram name="CONTROL_SEL" value="0"/>
+      </option>
+      <option name="WEA2_B" default="false">
+        <sram name="CONTROL_SEL" value="1"/>
+      </option>
+      <option name="#OFF" default="false"/>
+    </attribute>
+    <attribute name="WEA3INV" method="map">
+      <option name="WEA3" default="false">
+        <sram name="CONTROL_SEL" value="0"/>
+      </option>
+      <option name="WEA3_B" default="false">
+        <sram name="CONTROL_SEL" value="1"/>
+      </option>
+      <option name="#OFF" default="false"/>
+    </attribute>
+    <attribute name="WEB0INV" method="map">
+      <option name="WEB0" default="false">
+        <sram name="CONTROL_SEL" value="0"/>
+      </option>
+      <option name="WEB0_B" default="false">
+        <sram name="CONTROL_SEL" value="1"/>
+      </option>
+      <option name="#OFF" default="false"/>
+    </attribute>
+    <attribute name="WEB1INV" method="map">
+      <option name="WEB1" default="false">
+        <sram name="CONTROL_SEL" value="0"/>
+      </option>
+      <option name="WEB1_B" default="false">
+        <sram name="CONTROL_SEL" value="1"/>
+      </option>
+      <option name="#OFF" default="false"/>
+    </attribute>
+    <attribute name="WEB2INV" method="map">
+      <option name="WEB2" default="false">
+        <sram name="CONTROL_SEL" value="0"/>
+      </option>
+      <option name="WEB2_B" default="false">
+        <sram name="CONTROL_SEL" value="1"/>
+      </option>
+      <option name="#OFF" default="false"/>
+    </attribute>
+    <attribute name="WEB3INV" method="map">
+      <option name="WEB3" default="false">
+        <sram name="CONTROL_SEL" value="0"/>
+      </option>
+      <option name="WEB3_B" default="false">
+        <sram name="CONTROL_SEL" value="1"/>
+      </option>
+      <option name="#OFF" default="false"/>
+    </attribute>
+    <attribute name="CLKAINV" method="map">
+      <option name="CLKA" default="false">
+        <sram name="CONTROL_SEL" value="0"/>
+      </option>
+      <option name="CLKA_B" default="false">
+        <sram name="CONTROL_SEL" value="1"/>
+      </option>
+      <option name="#OFF" default="false"/>
+    </attribute>
+    <attribute name="CLKBINV" method="map">
+      <option name="CLKB" default="false">
+        <sram name="CONTROL_SEL" value="0"/>
+      </option>
+      <option name="CLKB_B" default="false">
+        <sram name="CONTROL_SEL" value="1"/>
+      </option>
       <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="EN_ECC_READ" method="map">

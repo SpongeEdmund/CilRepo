@@ -8,8 +8,22 @@
         <sram name="DVD1" value="0"/>
         <sram name="DVD0" value="1"/>
       </option>
+      <option name="1.0" default="false">
+        <sram name="DVD4" value="0"/>
+        <sram name="DVD3" value="0"/>
+        <sram name="DVD2" value="0"/>
+        <sram name="DVD1" value="0"/>
+        <sram name="DVD0" value="1"/>
+      </option>
       <option name="1.5" default="false"/>
       <option name="2" default="false">
+        <sram name="DVD4" value="0"/>
+        <sram name="DVD3" value="0"/>
+        <sram name="DVD2" value="0"/>
+        <sram name="DVD1" value="1"/>
+        <sram name="DVD0" value="0"/>
+      </option>
+      <option name="2.0" default="false">
         <sram name="DVD4" value="0"/>
         <sram name="DVD3" value="0"/>
         <sram name="DVD2" value="0"/>
@@ -32,8 +46,22 @@
         <sram name="DVD1" value="0"/>
         <sram name="DVD0" value="0"/>
       </option>
+      <option name="4.0" default="false">
+        <sram name="DVD4" value="0"/>
+        <sram name="DVD3" value="0"/>
+        <sram name="DVD2" value="1"/>
+        <sram name="DVD1" value="0"/>
+        <sram name="DVD0" value="0"/>
+      </option>
       <option name="4.5" default="false"/>
       <option name="5" default="false">
+        <sram name="DVD4" value="0"/>
+        <sram name="DVD3" value="0"/>
+        <sram name="DVD2" value="1"/>
+        <sram name="DVD1" value="0"/>
+        <sram name="DVD0" value="1"/>
+      </option>
+      <option name="5.0" default="false">
         <sram name="DVD4" value="0"/>
         <sram name="DVD3" value="0"/>
         <sram name="DVD2" value="1"/>
@@ -64,7 +92,21 @@
         <sram name="DVD1" value="0"/>
         <sram name="DVD0" value="0"/>
       </option>
+      <option name="8.0" default="false">
+        <sram name="DVD4" value="0"/>
+        <sram name="DVD3" value="1"/>
+        <sram name="DVD2" value="0"/>
+        <sram name="DVD1" value="0"/>
+        <sram name="DVD0" value="0"/>
+      </option>
       <option name="9" default="false">
+        <sram name="DVD4" value="0"/>
+        <sram name="DVD3" value="1"/>
+        <sram name="DVD2" value="0"/>
+        <sram name="DVD1" value="0"/>
+        <sram name="DVD0" value="1"/>
+      </option>
+      <option name="9.0" default="false">
         <sram name="DVD4" value="0"/>
         <sram name="DVD3" value="1"/>
         <sram name="DVD2" value="0"/>
@@ -78,7 +120,21 @@
         <sram name="DVD1" value="1"/>
         <sram name="DVD0" value="0"/>
       </option>
+      <option name="10.0" default="false">
+        <sram name="DVD4" value="0"/>
+        <sram name="DVD3" value="1"/>
+        <sram name="DVD2" value="0"/>
+        <sram name="DVD1" value="1"/>
+        <sram name="DVD0" value="0"/>
+      </option>
       <option name="11" default="false">
+        <sram name="DVD4" value="0"/>
+        <sram name="DVD3" value="1"/>
+        <sram name="DVD2" value="0"/>
+        <sram name="DVD1" value="1"/>
+        <sram name="DVD0" value="1"/>
+      </option>
+      <option name="11.0" default="false">
         <sram name="DVD4" value="0"/>
         <sram name="DVD3" value="1"/>
         <sram name="DVD2" value="0"/>
@@ -92,7 +148,21 @@
         <sram name="DVD1" value="0"/>
         <sram name="DVD0" value="0"/>
       </option>
+      <option name="12.0" default="false">
+        <sram name="DVD4" value="0"/>
+        <sram name="DVD3" value="1"/>
+        <sram name="DVD2" value="1"/>
+        <sram name="DVD1" value="0"/>
+        <sram name="DVD0" value="0"/>
+      </option>
       <option name="13" default="false">
+        <sram name="DVD4" value="0"/>
+        <sram name="DVD3" value="1"/>
+        <sram name="DVD2" value="1"/>
+        <sram name="DVD1" value="0"/>
+        <sram name="DVD0" value="1"/>
+      </option>
+      <option name="13.0" default="false">
         <sram name="DVD4" value="0"/>
         <sram name="DVD3" value="1"/>
         <sram name="DVD2" value="1"/>
@@ -106,7 +176,21 @@
         <sram name="DVD1" value="1"/>
         <sram name="DVD0" value="0"/>
       </option>
+      <option name="14.0" default="false">
+        <sram name="DVD4" value="0"/>
+        <sram name="DVD3" value="1"/>
+        <sram name="DVD2" value="1"/>
+        <sram name="DVD1" value="1"/>
+        <sram name="DVD0" value="0"/>
+      </option>
       <option name="15" default="false">
+        <sram name="DVD4" value="0"/>
+        <sram name="DVD3" value="1"/>
+        <sram name="DVD2" value="1"/>
+        <sram name="DVD1" value="1"/>
+        <sram name="DVD0" value="1"/>
+      </option>
+      <option name="15.0" default="false">
         <sram name="DVD4" value="0"/>
         <sram name="DVD3" value="1"/>
         <sram name="DVD2" value="1"/>
@@ -120,7 +204,21 @@
         <sram name="DVD1" value="0"/>
         <sram name="DVD0" value="0"/>
       </option>
+      <option name="16.0" default="false">
+        <sram name="DVD4" value="1"/>
+        <sram name="DVD3" value="0"/>
+        <sram name="DVD2" value="0"/>
+        <sram name="DVD1" value="0"/>
+        <sram name="DVD0" value="0"/>
+      </option>
       <option name="17" default="false">
+        <sram name="DVD4" value="1"/>
+        <sram name="DVD3" value="0"/>
+        <sram name="DVD2" value="0"/>
+        <sram name="DVD1" value="0"/>
+        <sram name="DVD0" value="1"/>
+      </option>
+      <option name="17.0" default="false">
         <sram name="DVD4" value="1"/>
         <sram name="DVD3" value="0"/>
         <sram name="DVD2" value="0"/>
@@ -134,6 +232,13 @@
         <sram name="DVD1" value="1"/>
         <sram name="DVD0" value="0"/>
       </option>
+      <option name="18.0" default="false">
+        <sram name="DVD4" value="1"/>
+        <sram name="DVD3" value="0"/>
+        <sram name="DVD2" value="0"/>
+        <sram name="DVD1" value="1"/>
+        <sram name="DVD0" value="0"/>
+      </option>
       <option name="19" default="false">
         <sram name="DVD4" value="1"/>
         <sram name="DVD3" value="0"/>
@@ -141,7 +246,21 @@
         <sram name="DVD1" value="1"/>
         <sram name="DVD0" value="1"/>
       </option>
+      <option name="19.0" default="false">
+        <sram name="DVD4" value="1"/>
+        <sram name="DVD3" value="0"/>
+        <sram name="DVD2" value="0"/>
+        <sram name="DVD1" value="1"/>
+        <sram name="DVD0" value="1"/>
+      </option>
       <option name="20" default="false">
+        <sram name="DVD4" value="1"/>
+        <sram name="DVD3" value="0"/>
+        <sram name="DVD2" value="1"/>
+        <sram name="DVD1" value="0"/>
+        <sram name="DVD0" value="0"/>
+      </option>
+      <option name="20.0" default="false">
         <sram name="DVD4" value="1"/>
         <sram name="DVD3" value="0"/>
         <sram name="DVD2" value="1"/>
@@ -226,6 +345,90 @@
         <sram name="DVD0" value="1"/>
       </option>
       <option name="32" default="false">
+        <sram name="DVD4" value="0"/>
+        <sram name="DVD3" value="0"/>
+        <sram name="DVD2" value="0"/>
+        <sram name="DVD1" value="0"/>
+        <sram name="DVD0" value="0"/>
+      </option>
+      <option name="21.0" default="false">
+        <sram name="DVD4" value="1"/>
+        <sram name="DVD3" value="0"/>
+        <sram name="DVD2" value="1"/>
+        <sram name="DVD1" value="0"/>
+        <sram name="DVD0" value="1"/>
+      </option>
+      <option name="22.0" default="false">
+        <sram name="DVD4" value="1"/>
+        <sram name="DVD3" value="0"/>
+        <sram name="DVD2" value="1"/>
+        <sram name="DVD1" value="1"/>
+        <sram name="DVD0" value="0"/>
+      </option>
+      <option name="23.0" default="false">
+        <sram name="DVD4" value="1"/>
+        <sram name="DVD3" value="0"/>
+        <sram name="DVD2" value="1"/>
+        <sram name="DVD1" value="1"/>
+        <sram name="DVD0" value="1"/>
+      </option>
+      <option name="24.0" default="false">
+        <sram name="DVD4" value="1"/>
+        <sram name="DVD3" value="1"/>
+        <sram name="DVD2" value="0"/>
+        <sram name="DVD1" value="0"/>
+        <sram name="DVD0" value="0"/>
+      </option>
+      <option name="25.0" default="false">
+        <sram name="DVD4" value="1"/>
+        <sram name="DVD3" value="1"/>
+        <sram name="DVD2" value="0"/>
+        <sram name="DVD1" value="0"/>
+        <sram name="DVD0" value="1"/>
+      </option>
+      <option name="26.0" default="false">
+        <sram name="DVD4" value="1"/>
+        <sram name="DVD3" value="1"/>
+        <sram name="DVD2" value="0"/>
+        <sram name="DVD1" value="1"/>
+        <sram name="DVD0" value="0"/>
+      </option>
+      <option name="27.0" default="false">
+        <sram name="DVD4" value="1"/>
+        <sram name="DVD3" value="1"/>
+        <sram name="DVD2" value="0"/>
+        <sram name="DVD1" value="1"/>
+        <sram name="DVD0" value="1"/>
+      </option>
+      <option name="28.0" default="false">
+        <sram name="DVD4" value="1"/>
+        <sram name="DVD3" value="1"/>
+        <sram name="DVD2" value="1"/>
+        <sram name="DVD1" value="0"/>
+        <sram name="DVD0" value="0"/>
+      </option>
+      <option name="29.0" default="false">
+        <sram name="DVD4" value="1"/>
+        <sram name="DVD3" value="1"/>
+        <sram name="DVD2" value="1"/>
+        <sram name="DVD1" value="0"/>
+        <sram name="DVD0" value="1"/>
+      </option>
+      <option name="30.0" default="false">
+        <sram name="DVD4" value="1"/>
+        <sram name="DVD3" value="1"/>
+        <sram name="DVD2" value="1"/>
+        <sram name="DVD1" value="1"/>
+        <sram name="DVD0" value="0"/>
+      </option>
+      <option name="31.0" default="false">
+        <sram name="DVD4" value="1"/>
+        <sram name="DVD3" value="1"/>
+        <sram name="DVD2" value="1"/>
+        <sram name="DVD1" value="1"/>
+        <sram name="DVD0" value="1"/>
+      </option>
+      <option name="32.0" default="false">
         <sram name="DVD4" value="0"/>
         <sram name="DVD3" value="0"/>
         <sram name="DVD2" value="0"/>
@@ -926,7 +1129,15 @@
         <sram name="FB_SEL1" value="0"/>
         <sram name="FB_SEL0" value="1"/>
       </option>
+      <option name="2X" default="false">
+        <sram name="FB_SEL1" value="0"/>
+        <sram name="FB_SEL0" value="1"/>
+      </option>
       <option name="1" default="false">
+        <sram name="FB_SEL1" value="1"/>
+        <sram name="FB_SEL0" value="0"/>
+      </option>
+      <option name="1X" default="false">
         <sram name="FB_SEL1" value="1"/>
         <sram name="FB_SEL0" value="0"/>
       </option>
@@ -1687,6 +1898,10 @@
       <option name="4" default="no"/>
       <option name="2" default="no"/>
       <option name="1" default="no"/>
+      <option name="8.0" default="no"/>
+      <option name="4.0" default="no"/>
+      <option name="2.0" default="no"/>
+      <option name="1.0" default="no"/>
       <option name="0.5" default="no"/>
       <option name="0.25" default="no"/>
       <option name="0.125" default="no"/>
@@ -2063,4 +2278,65 @@
       <option name="AUTO_ZD2" default="no"/>
       <option name="AUTO_DPS" default="no"/>
     </attribute>
+	<!--Added by chwang-->
+    <attribute name="CLKIN_PERIOD" method="map">
+        <option name="10.0" default="yes"/>
+    </attribute>
+    <attribute name="DCM_PULSE_WIDTH_CORRECTION_HIGH" method="map">
+        <option name="11111" default="yes"/>
+    </attribute>
+    <attribute name="DCM_PULSE_WIDTH_CORRECTION_LOW" method="map">
+        <option name="11111" default="yes"/>
+    </attribute>
+    <attribute name="DCM_VBG_PD" method="map">
+        <option name="00" default="yes"/>
+    </attribute>
+    <attribute name="DCM_VBG_SEL" method="map">
+        <option name="0000" default="yes"/>
+    </attribute>
+    <attribute name="DCM_VREG_PHASE_MARGIN" method="map">
+        <option name="010" default="yes"/>
+    </attribute>
+    <attribute name="DFS_COIN_WINDOW" method="map">
+        <option name="00" default="yes"/>
+    </attribute>
+    <attribute name="DFS_HARDSYNC" method="map">
+        <option name="00" default="yes"/>
+    </attribute>
+    <attribute name="DFS_SPARE" method="map">
+        <option name="0000000000000000" default="yes"/>
+    </attribute>
+    <attribute name="DLL_DEAD_TIME" method="map">
+        <option name="10" default="yes"/>
+    </attribute>
+    <attribute name="DLL_DESKEW_MAXTAP" method="map">
+        <option name="210" default="yes"/>
+    </attribute>
+    <attribute name="DLL_DESKEW_MINTAP" method="map">
+        <option name="42" default="yes"/>
+    </attribute>
+    <attribute name="DLL_LIVE_TIME" method="map">
+        <option name="5" default="yes"/>
+    </attribute>
+    <attribute name="DLL_PHASE_SHIFT_HFC" method="map">
+        <option name="206" default="yes"/>
+    </attribute>
+    <attribute name="DLL_PHASE_SHIFT_LFC" method="map">
+        <option name="413" default="yes"/>
+    </attribute>
+    <attribute name="DLL_SETTLE_TIME" method="map">
+        <option name="10" default="yes"/>
+    </attribute>
+    <attribute name="DLL_SPARE" method="map">
+        <option name="0000000000000000" default="yes"/>
+    </attribute>
+    <attribute name="DLL_TEST_MUX_SEL" method="map">
+        <option name="00" default="yes"/>
+    </attribute>
+    <attribute name="FACTORY_JF" method="map">
+        <option name="F0F0" default="yes"/>
+    </attribute>
+    <attribute name="PHASE_SHIFT" method="map">
+        <option name="0" default="yes"/>
+    </attribute>	
   </site>

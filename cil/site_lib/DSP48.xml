@@ -2,20 +2,26 @@
     <attribute name="CARRYININV" method="map">
       <option name="CARRYIN" default="false"/>
       <option name="CARRYIN_B" default="false"/>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="CARRYINSEL0INV" method="map">
       <option name="CARRYINSEL0" default="false"/>
       <option name="CARRYINSEL0_B" default="false"/>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="CARRYINSEL1INV" method="map">
       <option name="CARRYINSEL1" default="false"/>
       <option name="CARRYINSEL1_B" default="false"/>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="CEAINV" method="map">
       <option name="CEA" default="false">
         <sram name="CEAINV" value="0"/>
       </option>
       <option name="CEA_B" default="false">
+        <sram name="CEAINV" value="1"/>
+      </option>
+      <option name="#OFF" default="false">
         <sram name="CEAINV" value="1"/>
       </option>
     </attribute>
@@ -26,12 +32,18 @@
       <option name="CEB_B" default="false">
         <sram name="CEBINV" value="1"/>
       </option>
+      <option name="#OFF" default="false">
+        <sram name="CEBINV" value="1"/>
+      </option>
     </attribute>
     <attribute name="CECINV" method="map">
       <option name="CEC" default="false">
         <sram name="CECINV" value="0"/>
       </option>
       <option name="CEC_B" default="false">
+        <sram name="CECINV" value="1"/>
+      </option>
+      <option name="#OFF" default="false">
         <sram name="CECINV" value="1"/>
       </option>
     </attribute>
@@ -42,12 +54,18 @@
       <option name="CECARRYIN_B" default="false">
         <sram name="CECARRYININV" value="1"/>
       </option>
+      <option name="#OFF" default="false">
+        <sram name="CECARRYININV" value="1"/>
+      </option>
     </attribute>
     <attribute name="CECINSUBINV" method="map">
       <option name="CECINSUB" default="false">
         <sram name="CECINSUBINV" value="0"/>
       </option>
       <option name="CECINSUB_B" default="false">
+        <sram name="CECINSUBINV" value="1"/>
+      </option>
+      <option name="#OFF" default="false">
         <sram name="CECINSUBINV" value="1"/>
       </option>
     </attribute>
@@ -58,12 +76,18 @@
       <option name="CECTRL_B" default="false">
         <sram name="CECTRLINV" value="1"/>
       </option>
+      <option name="#OFF" default="false">
+        <sram name="CECTRLINV" value="1"/>
+      </option>
     </attribute>
     <attribute name="CEMINV" method="map">
       <option name="CEM" default="false">
         <sram name="CEMINV" value="0"/>
       </option>
       <option name="CEM_B" default="false">
+        <sram name="CEMINV" value="1"/>
+      </option>
+      <option name="#OFF" default="false">
         <sram name="CEMINV" value="1"/>
       </option>
     </attribute>
@@ -74,6 +98,9 @@
       <option name="CEP_B" default="false">
         <sram name="CEPINV" value="1"/>
       </option>
+      <option name="#OFF" default="false">
+        <sram name="CEPINV" value="1"/>
+      </option>
     </attribute>
     <attribute name="CLKINV" method="map">
       <option name="CLK" default="false">
@@ -82,40 +109,53 @@
       <option name="CLK_B" default="false">
         <sram name="CLKINV" value="1"/>
       </option>
+      <option name="#OFF" default="false">
+        <sram name="CLKINV" value="1"/>
+      </option>
     </attribute>
     <attribute name="OPMODE0INV" method="map">
       <option name="OPMODE0" default="false"/>
       <option name="OPMODE0_B" default="false"/>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="OPMODE1INV" method="map">
       <option name="OPMODE1" default="false"/>
       <option name="OPMODE1_B" default="false"/>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="OPMODE2INV" method="map">
       <option name="OPMODE2" default="false"/>
       <option name="OPMODE2_B" default="false"/>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="OPMODE3INV" method="map">
       <option name="OPMODE3" default="false"/>
       <option name="OPMODE3_B" default="false"/>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="OPMODE4INV" method="map">
       <option name="OPMODE4" default="false"/>
       <option name="OPMODE4_B" default="false"/>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="OPMODE5INV" method="map">
       <option name="OPMODE5" default="false"/>
       <option name="OPMODE5_B" default="false"/>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="OPMODE6INV" method="map">
       <option name="OPMODE6" default="false"/>
       <option name="OPMODE6_B" default="false"/>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="RSTAINV" method="map">
       <option name="RSTA" default="false">
         <sram name="RSTAINV" value="0"/>
       </option>
       <option name="RSTA_B" default="false">
+        <sram name="RSTAINV" value="1"/>
+      </option>
+      <option name="#OFF" default="false">
         <sram name="RSTAINV" value="1"/>
       </option>
     </attribute>
@@ -126,12 +166,18 @@
       <option name="RSTB_B" default="false">
         <sram name="RSTBINV" value="1"/>
       </option>
+      <option name="#OFF" default="false">
+        <sram name="RSTBINV" value="1"/>
+      </option>
     </attribute>
     <attribute name="RSTCINV" method="map">
       <option name="RSTC" default="false">
         <sram name="RSTCINV" value="0"/>
       </option>
       <option name="RSTC_B" default="false">
+        <sram name="RSTCINV" value="1"/>
+      </option>
+      <option name="#OFF" default="false">
         <sram name="RSTCINV" value="1"/>
       </option>
     </attribute>
@@ -142,12 +188,18 @@
       <option name="RSTCARRYIN_B" default="false">
         <sram name="RSTCARRYININV" value="1"/>
       </option>
+      <option name="#OFF" default="false">
+        <sram name="RSTCARRYININV" value="1"/>
+      </option>
     </attribute>
     <attribute name="RSTCTRLINV" method="map">
       <option name="RSTCTRL" default="false">
         <sram name="RSTCTRLINV" value="0"/>
       </option>
       <option name="RSTCTRL_B" default="false">
+        <sram name="RSTCTRLINV" value="1"/>
+      </option>
+      <option name="#OFF" default="false">
         <sram name="RSTCTRLINV" value="1"/>
       </option>
     </attribute>
@@ -158,6 +210,9 @@
       <option name="RSTM_B" default="false">
         <sram name="RSTMINV" value="1"/>
       </option>
+      <option name="#OFF" default="false">
+        <sram name="RSTMINV" value="1"/>
+      </option>
     </attribute>
     <attribute name="RSTPINV" method="map">
       <option name="RSTP" default="false">
@@ -166,10 +221,14 @@
       <option name="RSTP_B" default="false">
         <sram name="RSTPINV" value="1"/>
       </option>
+      <option name="#OFF" default="false">
+        <sram name="RSTPINV" value="1"/>
+      </option>
     </attribute>
     <attribute name="SUBTRACTINV" method="map">
       <option name="SUBTRACT" default="false"/>
       <option name="SUBTRACT_B" default="false"/>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="AREG" method="map">
       <option name="0" default="false">
@@ -184,6 +243,7 @@
         <sram name="AREG1" value="1"/>
         <sram name="AREG0" value="0"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="BREG" method="map">
       <option name="0" default="false">
@@ -198,6 +258,7 @@
         <sram name="BREG1" value="1"/>
         <sram name="BREG0" value="0"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="CREG" method="map">
       <option name="0" default="false">
@@ -206,6 +267,7 @@
       <option name="1" default="false">
         <sram name="CREG" value="1"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="MREG" method="map">
       <option name="0" default="false">
@@ -214,6 +276,7 @@
       <option name="1" default="false">
         <sram name="MREG" value="1"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="PREG" method="map">
       <option name="0" default="false">
@@ -222,6 +285,7 @@
       <option name="1" default="false">
         <sram name="PREG" value="1"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="CARRYINSELREG" method="map">
       <option name="0" default="false">
@@ -230,6 +294,7 @@
       <option name="1" default="false">
         <sram name="CARRYINSELREG" value="1"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="OPMODEREG" method="map">
       <option name="0" default="false">
@@ -238,6 +303,7 @@
       <option name="1" default="false">
         <sram name="OPMODEREG" value="1"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="SUBTRACTREG" method="map">
       <option name="0" default="false">
@@ -246,6 +312,7 @@
       <option name="1" default="false">
         <sram name="SUBTRACTREG" value="1"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="CARRYINREG" method="map">
       <option name="0" default="false">
@@ -254,6 +321,7 @@
       <option name="1" default="false">
         <sram name="CARRYINREG" value="1"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="BSEL" method="map">
       <option name="0" default="false">
@@ -262,19 +330,23 @@
       <option name="1" default="false">
         <sram name="BSEL" value="1"/>
       </option>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="LEGACY_MODE" method="map">
       <option name="NONE" default="false"/>
       <option name="MULT18X18S" default="false"/>
       <option name="MULT18X18" default="false"/>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="B_INPUT" method="map">
       <option name="DIRECT" default="false"/>
       <option name="CASCADE" default="false"/>
+      <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="LEGACY_MODE" method="map">
       <option name="NONE" default="false"/>
       <option name="MULT18X18S" default="false"/>
       <option name="MULT18X18" default="false"/>
+      <option name="#OFF" default="false"/>
     </attribute>
   </site>
