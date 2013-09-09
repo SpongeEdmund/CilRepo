@@ -560,6 +560,47 @@
       </option>
     </attribute>
     <attribute name="_GND_SOURCE" method="map">
-      <option name="Y" default="false"/>
+      <option name="Y" default="false">
+	    <sram name="LUTG0" value="0"/>
+        <sram name="LUTG1" value="0"/>
+        <sram name="LUTG2" value="0"/>
+        <sram name="LUTG3" value="0"/>
+        <sram name="LUTG4" value="0"/>
+        <sram name="LUTG5" value="0"/>
+        <sram name="LUTG6" value="0"/>
+        <sram name="LUTG7" value="0"/>
+        <sram name="LUTG8" value="0"/>
+        <sram name="LUTG9" value="0"/>
+        <sram name="LUTG10" value="0"/>
+        <sram name="LUTG11" value="0"/>
+        <sram name="LUTG12" value="0"/>
+        <sram name="LUTG13" value="0"/>
+        <sram name="LUTG14" value="0"/>
+        <sram name="LUTG15" value="0"/>
+	  </option>
+	  <option name="X" method="false">
+        <sram name="LUTF0" value="0"/>
+        <sram name="LUTF1" value="0"/>
+        <sram name="LUTF2" value="0"/>
+        <sram name="LUTF3" value="0"/>
+        <sram name="LUTF4" value="0"/>
+        <sram name="LUTF5" value="0"/>
+        <sram name="LUTF6" value="0"/>
+        <sram name="LUTF7" value="0"/>
+        <sram name="LUTF8" value="0"/>
+        <sram name="LUTF9" value="0"/>
+        <sram name="LUTF10" value="0"/>
+        <sram name="LUTF11" value="0"/>
+        <sram name="LUTF12" value="0"/>
+        <sram name="LUTF13" value="0"/>
+        <sram name="LUTF14" value="0"/>
+        <sram name="LUTF15" value="0"/>
+	  </option>
+    </attribute>
+    <attribute name="_VCC_SOURCE" method="map">
+      <option name="Y" default="false">
+	  </option>
+	  <option name="X" default="false">
+	  </option>
     </attribute>
   </site>
