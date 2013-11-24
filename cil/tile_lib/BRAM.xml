@@ -64,17 +64,17 @@
 	<!--BF_ENB-->
 	<dist sram="ENBINV" inst="XI597" bl="0" wl="16" inv="yes" offset="-1,-1"/>
 	<!--REGCEA-->
-	<!--<dist sram="REGCEAINV" inst="XI597" bl="15" wl="16" inv="yes" offset="-1,-1"/>-->
+	<dist sram="REGCEAINV" inst="XI597" bl="15" wl="16" inv="yes" offset="-1,-1"/>
 	<!--REGCEB-->
-	<!--<dist sram="REGCEBINV" inst="XI597" bl="7" wl="16" inv="yes" offset="-1,-1"/>-->
+	<dist sram="REGCEBINV" inst="XI597" bl="7" wl="16" inv="yes" offset="-1,-1"/>
 	<!--BF_CLKA-->
 	<dist sram="CLKAINV" inst="XI597" bl="24" wl="16" inv="yes" offset="-1,-1"/>
 	<!--BF_CLKB-->
 	<dist sram="CLKBINV" inst="XI597" bl="31" wl="16" inv="yes" offset="-1,-1"/>
 	<!--SSRB-->
-	<!--<dist sram="SSRBINV" inst="XI597" bl="71" wl="16" inv="yes" offset="-2,-1"/>-->
+	<dist sram="SSRBINV" inst="XI597" bl="71" wl="16" inv="yes" offset="-2,-1"/>
 	<!--BF_RST-->
-	<!--<dist sram="SSRAINV" inst="XI597" bl="79" wl="16" inv="yes" offset="-2,-1"/>-->
+	<dist sram="SSRAINV" inst="XI597" bl="79" wl="16" inv="yes" offset="-2,-1"/>
 	
 	<dist sram="CONTROL_SEL" inst="XI597" bl="58" wl="19" inv="no" offset="-2,-1"/>
 	
@@ -145,17 +145,17 @@
 	<!--BF_ENB-->
 	<dist sram="ENBINV" inst="XI597" bl="0" wl="16" inv="yes" offset="-1,-1"/>
 	<!--REGCEA-->
-	<!--<dist sram="REGCEAINV" inst="XI597" bl="15" wl="16" inv="yes" offset="-1,-1"/>-->
+	<dist sram="REGCEAINV" inst="XI597" bl="15" wl="16" inv="yes" offset="-1,-1"/>
 	<!--REGCEB-->
-	<!--<dist sram="REGCEBINV" inst="XI597" bl="7" wl="16" inv="yes" offset="-1,-1"/>-->
+	<dist sram="REGCEBINV" inst="XI597" bl="7" wl="16" inv="yes" offset="-1,-1"/>
 	<!--BF_CLKA-->
 	<dist sram="CLKAINV" inst="XI597" bl="24" wl="16" inv="yes" offset="-1,-1"/>
 	<!--BF_CLKB-->
 	<dist sram="CLKBINV" inst="XI597" bl="31" wl="16" inv="yes" offset="-1,-1"/>
 	<!--SSRB-->
-	<!--<dist sram="SSRBINV" inst="XI597" bl="71" wl="16" inv="yes" offset="-2,-1"/>-->
+	<dist sram="SSRBINV" inst="XI597" bl="71" wl="16" inv="yes" offset="-2,-1"/>
 	<!--BF_RST-->
-	<!--<dist sram="SSRAINV" inst="XI597" bl="79" wl="16" inv="yes" offset="-2,-1"/>-->
+	<dist sram="SSRAINV" inst="XI597" bl="79" wl="16" inv="yes" offset="-2,-1"/>
 	
 	<dist sram="CONTROL_SEL" inst="XI597" bl="58" wl="19" inv="no" offset="-2,-1"/>
 	

@@ -26,39 +26,39 @@
     <dist sram="MREG" inst="XI0" bl="5" wl="19" inv="yes" offset="-1,-1" />
   	
 	<!--INVERTERs existing in GRM-->
-	<dist sram="CEAINV" inst="XI0" bl="15" wl="16" inv="yes" offset="0,-1"/>
-	<dist sram="CEBINV" inst="XI0" bl="7" wl="16" inv="yes" offset="0,-1"/>
-	<dist sram="CECINV" inst="XI0" bl="15" wl="16" inv="yes" offset="-2,-1"/>
-	<dist sram="CECARRYININV" inst="XI0" bl="7" wl="16" inv="yes" offset="-2,-1"/>
 	<dist sram="CECINSUBINV" inst="XI0" bl="0" wl="16" inv="yes" offset="-2,-1"/>
 	<dist sram="CECTRLINV" inst="XI0" bl="8" wl="16" inv="yes" offset="-2,-1"/>
-	<dist sram="CEMINV" inst="XI0" bl="8" wl="16" inv="yes" offset="0,-1"/>
-	<dist sram="CEPINV" inst="XI0" bl="0" wl="16" inv="yes" offset="0,-1"/>
-	<dist sram="CLKINV" inst="XI0" bl="32" wl="16" inv="yes" offset="-2,-1"/>
-	<dist sram="RSTAINV" inst="XI0" bl="79" wl="16" inv="yes" offset="0,-1"/>
-	<dist sram="RSTBINV" inst="XI0" bl="71" wl="16" inv="yes" offset="0,-1"/>
+	<dist sram="CECARRYININV" inst="XI0" bl="7" wl="16" inv="yes" offset="-2,-1"/>
+	<dist sram="CECINV" inst="XI0" bl="15" wl="16" inv="yes" offset="-2,-1"/>
 	<dist sram="RSTCINV" inst="XI0" bl="79" wl="16" inv="yes" offset="-2,-1"/>
 	<dist sram="RSTCARRYININV" inst="XI0" bl="71" wl="16" inv="yes" offset="-2,-1"/>
 	<dist sram="RSTCTRLINV" inst="XI0" bl="72" wl="16" inv="yes" offset="-2,-1"/>
+	<dist sram="CLKINV" inst="XI0" bl="32" wl="16" inv="yes" offset="-2,-1"/>
+	<dist sram="CEAINV" inst="XI0" bl="15" wl="16" inv="yes" offset="0,-1"/>
+	<dist sram="CEBINV" inst="XI0" bl="7" wl="16" inv="yes" offset="0,-1"/>	
+	<dist sram="CEMINV" inst="XI0" bl="8" wl="16" inv="yes" offset="0,-1"/>
+	<dist sram="CEPINV" inst="XI0" bl="0" wl="16" inv="yes" offset="0,-1"/>
+	<dist sram="RSTAINV" inst="XI0" bl="79" wl="16" inv="yes" offset="0,-1"/>
+	<dist sram="RSTBINV" inst="XI0" bl="71" wl="16" inv="yes" offset="0,-1"/>
 	<dist sram="RSTMINV" inst="XI0" bl="72" wl="16" inv="yes" offset="0,-1"/>
 	<dist sram="RSTPINV" inst="XI0" bl="64" wl="16" inv="yes" offset="0,-1"/>
 	<!--
 	<dist sram="SUBTRACTINV" inst="XI0" bl="0" wl="0" inv="yes" offset="0,0"/>
 	-->
-	<dist sram="CEAINV" inst="XI1" bl="15" wl="16" inv="yes" offset="-1,-1"/>
-	<dist sram="CEBINV" inst="XI1" bl="7" wl="16" inv="yes" offset="-1,-1"/>
-	<dist sram="CECINV" inst="XI1" bl="15" wl="16" inv="yes" offset="-2,-1"/>
-	<dist sram="CECARRYININV" inst="XI1" bl="15" wl="16" inv="yes" offset="-3,-1"/>
 	<dist sram="CECINSUBINV" inst="XI1" bl="8" wl="16" inv="yes" offset="-3,-1"/>
 	<dist sram="CECTRLINV" inst="XI1" bl="7" wl="16" inv="yes" offset="-3,-1"/>
+	<dist sram="CECARRYININV" inst="XI1" bl="15" wl="16" inv="yes" offset="-3,-1"/>
+	<dist sram="RSTCTRLINV" inst="XI1" bl="71" wl="16" inv="yes" offset="-3,-1"/>
+	<dist sram="RSTCARRYININV" inst="XI1" bl="79" wl="16" inv="yes" offset="-3,-1"/>
+	<dist sram="CECINV" inst="XI1" bl="15" wl="16" inv="yes" offset="-2,-1"/>
+	<dist sram="RSTCINV" inst="XI1" bl="79" wl="16" inv="yes" offset="-2,-1"/>
+	<dist sram="CEAINV" inst="XI1" bl="15" wl="16" inv="yes" offset="-1,-1"/>
+	<dist sram="CEBINV" inst="XI1" bl="7" wl="16" inv="yes" offset="-1,-1"/>
 	<dist sram="CEMINV" inst="XI1" bl="8" wl="16" inv="yes" offset="-1,-1"/>
 	<dist sram="CEPINV" inst="XI1" bl="0" wl="16" inv="yes" offset="-1,-1"/>
 	<dist sram="CLKINV" inst="XI1" bl="32" wl="16" inv="yes" offset="-1,-1"/>
 	<dist sram="RSTAINV" inst="XI1" bl="79" wl="16" inv="yes" offset="-1,-1"/>
 	<dist sram="RSTBINV" inst="XI1" bl="71" wl="16" inv="yes" offset="-1,-1"/>
-	<dist sram="RSTCINV" inst="XI1" bl="79" wl="16" inv="yes" offset="-2,-1"/>
-	<dist sram="RSTCARRYININV" inst="XI1" bl="79" wl="16" inv="yes" offset="-3,-1"/>
-	<dist sram="RSTCTRLINV" inst="XI1" bl="71" wl="16" inv="yes" offset="-3,-1"/>
 	<dist sram="RSTMINV" inst="XI1" bl="72" wl="16" inv="yes" offset="-1,-1"/>
 	<dist sram="RSTPINV" inst="XI1" bl="64" wl="16" inv="yes" offset="-1,-1"/>
 	<!--

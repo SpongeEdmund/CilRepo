@@ -1,5 +1,4 @@
-
-    <bram type="INIT" wl="20" offset="0,0">
+    <bram type="INIT" wl="0" offset="0,0">
         <cell address="160" bl="0" inv="no"/>
         <cell address="161" bl="1" inv="no"/>
         <cell address="162" bl="2" inv="no"/>
@@ -257,7 +256,7 @@
         <cell address="254" bl="286" inv="no"/>
         <cell address="255" bl="287" inv="no"/>
     </bram>
-    <bram type="INITP" wl="20" offset="0,0">
+    <bram type="INITP" wl="0" offset="0,0">
         <cell address="16" bl="64" inv="no"/>
         <cell address="17" bl="65" inv="no"/>
         <cell address="18" bl="66" inv="no"/>

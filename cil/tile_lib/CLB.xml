@@ -243,7 +243,6 @@
     <dist sram="LUTG14" inst="XI3" bl="14" wl="21" inv="no" offset="0,-1" />
     <dist sram="LUTG15" inst="XI3" bl="15" wl="21" inv="no" offset="0,-1" />
 	
-	
     <!--INVERTERs existing in GRM-->
     <dist sram="BXINV" inst="XI0" bl="61" wl="16" inv="yes" offset="0,-1" />
     <dist sram="BYINV" inst="XI0" bl="58" wl="16" inv="yes" offset="0,-1" />
@@ -258,7 +257,7 @@
     <dist sram="SRINV" inst="XI2" bl="72" wl="16" inv="yes" offset="0,-1" />
 	
     <dist sram="BXINV" inst="XI1" bl="17" wl="16" inv="yes" offset="0,-1" />
-    <dist sram="BYINV" inst="XI1" bl="60" wl="16" inv="yes" offset="0,-1" />
+    <dist sram="BYINV" inst="XI1" bl="20" wl="16" inv="yes" offset="0,-1" />
     <dist sram="CEINV" inst="XI1" bl="7" wl="16" inv="yes" offset="0,-1" />
     <dist sram="CLKINV" inst="XI1" bl="39" wl="16" inv="yes" offset="0,-1" />
     <dist sram="SRINV" inst="XI1" bl="71" wl="16" inv="yes" offset="0,-1" />

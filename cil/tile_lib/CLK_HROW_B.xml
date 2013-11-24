@@ -211,4 +211,6 @@
 	<dist sram="CS" inst="XI21_0XI0" bl="63" wl="0" inv="yes" offset="1,0" />
 	<!--added by chwang to use CS_SRAMb-->
   </grm_inst>
+  <cluster_inst name="BUFGCTRL" ref="BUFGCTRL">
+  </cluster_inst>
 </tile>

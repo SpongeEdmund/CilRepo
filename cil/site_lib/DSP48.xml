@@ -323,7 +323,7 @@
       </option>
       <option name="#OFF" default="false"/>
     </attribute>
-    <attribute name="BSEL" method="map">
+<!--     <attribute name="BSEL" method="map">
       <option name="0" default="false">
         <sram name="BSEL" value="0"/>
       </option>
@@ -331,7 +331,7 @@
         <sram name="BSEL" value="1"/>
       </option>
       <option name="#OFF" default="false"/>
-    </attribute>
+    </attribute> -->
     <attribute name="LEGACY_MODE" method="map">
       <option name="NONE" default="false"/>
       <option name="MULT18X18S" default="false"/>
@@ -339,8 +339,12 @@
       <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="B_INPUT" method="map">
-      <option name="DIRECT" default="false"/>
-      <option name="CASCADE" default="false"/>
+      <option name="DIRECT" default="false">
+        <sram name="BSEL" value="0"/>
+      </option>
+      <option name="CASCADE" default="false">
+        <sram name="BSEL" value="1"/>
+      </option>
       <option name="#OFF" default="false"/>
     </attribute>
     <attribute name="LEGACY_MODE" method="map">
