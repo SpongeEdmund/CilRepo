@@ -1,18 +1,18 @@
 <cluster name="BUFGCTRL" scale="16X1">
-  <site_inst name="XI10_15" ref="BUFGCTRL" pos="15"/>
-  <site_inst name="XI10_14" ref="BUFGCTRL" pos="14"/>
-  <site_inst name="XI10_13" ref="BUFGCTRL" pos="13"/>
-  <site_inst name="XI10_12" ref="BUFGCTRL" pos="12"/>
-  <site_inst name="XI10_11" ref="BUFGCTRL" pos="11"/>
-  <site_inst name="XI10_10" ref="BUFGCTRL" pos="10"/>
-  <site_inst name="XI10_9" ref="BUFGCTRL"  pos="9"/>
-  <site_inst name="XI10_8" ref="BUFGCTRL"  pos="8"/>
-  <site_inst name="XI10_7" ref="BUFGCTRL"  pos="7"/>
-  <site_inst name="XI10_6" ref="BUFGCTRL"  pos="6"/>
-  <site_inst name="XI10_5" ref="BUFGCTRL" pos="5"/>
-  <site_inst name="XI10_4" ref="BUFGCTRL" pos="4"/>
-  <site_inst name="XI10_3" ref="BUFGCTRL"  pos="3"/>
-  <site_inst name="XI10_2" ref="BUFGCTRL"  pos="2"/>
-  <site_inst name="XI10_1" ref="BUFGCTRL"  pos="1"/>
-  <site_inst name="XI10_0" ref="BUFGCTRL"  pos="0"/>
+  <site_inst name="15" ref="BUFGCTRL" pos="15"/>
+  <site_inst name="14" ref="BUFGCTRL" pos="14"/>
+  <site_inst name="13" ref="BUFGCTRL" pos="13"/>
+  <site_inst name="12" ref="BUFGCTRL" pos="12"/>
+  <site_inst name="11" ref="BUFGCTRL" pos="11"/>
+  <site_inst name="10" ref="BUFGCTRL" pos="10"/>
+  <site_inst name="9" ref="BUFGCTRL"  pos="9"/>
+  <site_inst name="8" ref="BUFGCTRL"  pos="8"/>
+  <site_inst name="7" ref="BUFGCTRL"  pos="7"/>
+  <site_inst name="6" ref="BUFGCTRL"  pos="6"/>
+  <site_inst name="5" ref="BUFGCTRL" pos="5"/>
+  <site_inst name="4" ref="BUFGCTRL" pos="4"/>
+  <site_inst name="3" ref="BUFGCTRL"  pos="3"/>
+  <site_inst name="2" ref="BUFGCTRL"  pos="2"/>
+  <site_inst name="1" ref="BUFGCTRL"  pos="1"/>
+  <site_inst name="0" ref="BUFGCTRL"  pos="0"/>
 </cluster>

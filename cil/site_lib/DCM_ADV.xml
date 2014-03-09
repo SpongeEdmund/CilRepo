@@ -1,4 +1,8 @@
   <site name="DCM_ADV">
+<attribute name="INITIAL" method="map">
+<option name="TRUE" default="false">
+</option>
+</attribute>
     <attribute name="CLKDV_DIVIDE" method="map">
      <option name="#OFF" default="yes"/>
       <option name="1" default="false">

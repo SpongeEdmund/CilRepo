@@ -1,7 +1,8 @@
   <site name="FIFO16">
-	  <initial>
-		  <sram name="MODE" value="0"/>
-	  </initial>
+<attribute name="INITIAL" method="map">
+<option name="TRUE" default="false">
+</option>
+</attribute>
     <attribute name="RAM_EXTENSION_A" method="map">
       <option name="LOWER" default="false">
         <sram name="RAM_EXTENSIONA1" value="1"/>
