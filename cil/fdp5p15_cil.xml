@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cil family="fdp5" author="chwang" version="2014_0312_1329">
+<cil family="fdp5" author="chwang" version="2014_0317_2315">
 <element_lib>
   <element name="CLKMUXED_MX24">
     <path from="I0" to="Y">
@@ -18194,7 +18194,7 @@
     <step from="I16" to="Y" through="XI1_0XI0" />
   </route>
 </grm>
-<grm name="GRM_CLK_IOB_T">
+<grm name="GRM_CLK_IOB_B">
   <element_inst name="XI6_3XI20" ref="CLKMUXED_MX24" />
   <element_inst name="XI12_11XI12" ref="RDM_TranPASS" />
   <element_inst name="XI6_3XI12" ref="RDM_TranPASS" />
@@ -55151,6 +55151,19 @@
 </grm>
 </grm_lib>
 <site_lib>
+<site name="BUFG">
+<attribute name="INITIAL" method="map">
+<option name="TRUE" default="false">
+<sram name="CS_SRAMb" value="0"/>
+<sram name="SEL1_PS" value="1"/>
+<sram name="CEN1_PS" value="1"/>
+<sram name="CIG1_PS" value="0"/>
+<sram name="CIG2_PS" value="1"/>
+<sram name="SEL2_PS" value="0"/>
+<sram name="CEN2_PS" value="0"/>
+</option>
+</attribute>
+</site>
 <site name="BUFGCTRL">
 <attribute name="INITIAL" method="map">
 <option name="TRUE" default="false">
@@ -62611,6 +62624,16 @@
 	
 	<dist sram="CONTROL_SEL" inst="XI597" bl="58" wl="19" inv="no" offset="-2,-1"/>
 	
+    <!--New srams-->
+    <dist sram="DLY_P0_BRAM" inst="XI597" bl="18" wl="19" inv="yes" offset="-1,-1"/>
+    <dist sram="DLY_P1_BRAM" inst="XI597" bl="63" wl="19" inv="yes" offset="-2,-1"/>    
+    <dist sram="S_A_Control_FIFO" inst="XI597" bl="13" wl="19" inv="yes" offset="-1,-1"/>
+    <dist sram="DLY_RDCLK_P1" inst="XI597" bl="9" wl="19" inv="yes" offset="-1,-1"/>
+    <dist sram="DLY_RDCLK_P0" inst="XI597" bl="11" wl="19" inv="yes" offset="-1,-1"/>
+    <dist sram="DLY_WRCLK_P1" inst="XI597" bl="66" wl="19" inv="yes" offset="-2,-1"/>
+    <dist sram="DLY_WRCLK_P0" inst="XI597" bl="68" wl="19" inv="yes" offset="-2,-1"/>
+    <dist sram="RDLF_FIFO" inst="XI597" bl="17" wl="19" inv="yes" offset="-1,-1"/>
+    <dist sram="WRLF_FIFO" inst="XI597" bl="64" wl="19" inv="yes" offset="-2,-1"/>
   </cluster_inst>
   <!--FIFO16 is exactly the same with RAMB16-->
   <cluster_inst name="FIFO16" ref="FIFO16">
@@ -62692,6 +62715,16 @@
 	
 	<dist sram="CONTROL_SEL" inst="XI597" bl="58" wl="19" inv="no" offset="-2,-1"/>
 	
+    <!--New srams-->
+    <dist sram="DLY_P0_BRAM" inst="XI597" bl="18" wl="19" inv="yes" offset="-1,-1"/>
+    <dist sram="DLY_P1_BRAM" inst="XI597" bl="63" wl="19" inv="yes" offset="-2,-1"/>    
+    <dist sram="S_A_Control_FIFO" inst="XI597" bl="13" wl="19" inv="yes" offset="-1,-1"/>
+    <dist sram="DLY_RDCLK_P1" inst="XI597" bl="9" wl="19" inv="yes" offset="-1,-1"/>
+    <dist sram="DLY_RDCLK_P0" inst="XI597" bl="11" wl="19" inv="yes" offset="-1,-1"/>
+    <dist sram="DLY_WRCLK_P1" inst="XI597" bl="66" wl="19" inv="yes" offset="-2,-1"/>
+    <dist sram="DLY_WRCLK_P0" inst="XI597" bl="68" wl="19" inv="yes" offset="-2,-1"/>
+    <dist sram="RDLF_FIFO" inst="XI597" bl="17" wl="19" inv="yes" offset="-1,-1"/>
+    <dist sram="WRLF_FIFO" inst="XI597" bl="64" wl="19" inv="yes" offset="-2,-1"/>
   </cluster_inst>
 </tile><tile name="CLB" scale="80X3">
   <cluster_inst name="SLICE" ref="SLICE">
@@ -68725,6 +68758,9 @@
     <dist sram="DVR2" inst="XI3" bl="11" wl="20" inv="yes" offset="-6,-1" />
     <dist sram="DVR3" inst="XI3" bl="10" wl="20" inv="yes" offset="-6,-1" />
     <dist sram="DVR4" inst="XI3" bl="9" wl="20" inv="yes" offset="-6,-1" />
+    <dist sram="T0" inst="XI3" bl="0" wl="20" inv="yes" offset="-6,-1" />
+    <dist sram="T1" inst="XI3" bl="1" wl="20" inv="yes" offset="-6,-1" />
+    <dist sram="T2" inst="XI3" bl="2" wl="20" inv="yes" offset="-6,-1" />
   </cluster_inst>  
 </tile>
 <tile name="DCM_1" scale="320X3">
