@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cil family="fdp5" author="chwang" version="2014_0321_1436">
+<cil family="fdp5" author="chwang" version="2014_0324_1309">
 <element_lib>
   <element name="CLKMUXED_MX24">
     <path from="I0" to="Y">
@@ -18262,94 +18262,94 @@
   <route src="CLK_IOB_MUXED_CLKP_IN31" snk="CLK_IOB_MUXED_CLKP31">
     <step from="B" to="Y" through="XI6_15XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN30" snk="CLK_IOB_MUXED_CLKP29">
+  <route src="CLK_IOB_MUXED_CLKP_IN30" snk="CLK_IOB_MUXED_CLKP30">
     <step from="B" to="Y" through="XI6_14XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN29" snk="CLK_IOB_MUXED_CLKP27">
+  <route src="CLK_IOB_MUXED_CLKP_IN29" snk="CLK_IOB_MUXED_CLKP29">
     <step from="B" to="Y" through="XI6_13XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN28" snk="CLK_IOB_MUXED_CLKP25">
+  <route src="CLK_IOB_MUXED_CLKP_IN28" snk="CLK_IOB_MUXED_CLKP28">
     <step from="B" to="Y" through="XI6_12XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN27" snk="CLK_IOB_MUXED_CLKP23">
+  <route src="CLK_IOB_MUXED_CLKP_IN27" snk="CLK_IOB_MUXED_CLKP27">
     <step from="B" to="Y" through="XI6_11XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN26" snk="CLK_IOB_MUXED_CLKP21">
+  <route src="CLK_IOB_MUXED_CLKP_IN26" snk="CLK_IOB_MUXED_CLKP26">
     <step from="B" to="Y" through="XI6_10XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN25" snk="CLK_IOB_MUXED_CLKP19">
+  <route src="CLK_IOB_MUXED_CLKP_IN25" snk="CLK_IOB_MUXED_CLKP25">
     <step from="B" to="Y" through="XI6_9XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN24" snk="CLK_IOB_MUXED_CLKP17">
+  <route src="CLK_IOB_MUXED_CLKP_IN24" snk="CLK_IOB_MUXED_CLKP24">
     <step from="B" to="Y" through="XI6_8XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN23" snk="CLK_IOB_MUXED_CLKP15">
+  <route src="CLK_IOB_MUXED_CLKP_IN23" snk="CLK_IOB_MUXED_CLKP23">
     <step from="B" to="Y" through="XI6_7XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN22" snk="CLK_IOB_MUXED_CLKP13">
+  <route src="CLK_IOB_MUXED_CLKP_IN22" snk="CLK_IOB_MUXED_CLKP22">
     <step from="B" to="Y" through="XI6_6XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN21" snk="CLK_IOB_MUXED_CLKP11">
+  <route src="CLK_IOB_MUXED_CLKP_IN21" snk="CLK_IOB_MUXED_CLKP21">
     <step from="B" to="Y" through="XI6_5XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN20" snk="CLK_IOB_MUXED_CLKP9">
+  <route src="CLK_IOB_MUXED_CLKP_IN20" snk="CLK_IOB_MUXED_CLKP20">
     <step from="B" to="Y" through="XI6_4XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN19" snk="CLK_IOB_MUXED_CLKP7">
+  <route src="CLK_IOB_MUXED_CLKP_IN19" snk="CLK_IOB_MUXED_CLKP19">
     <step from="B" to="Y" through="XI6_3XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN18" snk="CLK_IOB_MUXED_CLKP5">
+  <route src="CLK_IOB_MUXED_CLKP_IN18" snk="CLK_IOB_MUXED_CLKP18">
     <step from="B" to="Y" through="XI6_2XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN17" snk="CLK_IOB_MUXED_CLKP3">
+  <route src="CLK_IOB_MUXED_CLKP_IN17" snk="CLK_IOB_MUXED_CLKP17">
     <step from="B" to="Y" through="XI6_1XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN16" snk="CLK_IOB_MUXED_CLKP1">
+  <route src="CLK_IOB_MUXED_CLKP_IN16" snk="CLK_IOB_MUXED_CLKP16">
     <step from="B" to="Y" through="XI6_0XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN15" snk="CLK_IOB_MUXED_CLKP30">
+  <route src="CLK_IOB_MUXED_CLKP_IN15" snk="CLK_IOB_MUXED_CLKP15">
     <step from="B" to="Y" through="XI1XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN14" snk="CLK_IOB_MUXED_CLKP28">
+  <route src="CLK_IOB_MUXED_CLKP_IN14" snk="CLK_IOB_MUXED_CLKP14">
     <step from="B" to="Y" through="XI12_14XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN13" snk="CLK_IOB_MUXED_CLKP26">
+  <route src="CLK_IOB_MUXED_CLKP_IN13" snk="CLK_IOB_MUXED_CLKP13">
     <step from="B" to="Y" through="XI12_13XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN12" snk="CLK_IOB_MUXED_CLKP24">
+  <route src="CLK_IOB_MUXED_CLKP_IN12" snk="CLK_IOB_MUXED_CLKP12">
     <step from="B" to="Y" through="XI12_12XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN11" snk="CLK_IOB_MUXED_CLKP22">
+  <route src="CLK_IOB_MUXED_CLKP_IN11" snk="CLK_IOB_MUXED_CLKP11">
     <step from="B" to="Y" through="XI12_11XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN10" snk="CLK_IOB_MUXED_CLKP20">
+  <route src="CLK_IOB_MUXED_CLKP_IN10" snk="CLK_IOB_MUXED_CLKP10">
     <step from="B" to="Y" through="XI12_10XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN9" snk="CLK_IOB_MUXED_CLKP18">
+  <route src="CLK_IOB_MUXED_CLKP_IN9" snk="CLK_IOB_MUXED_CLKP9">
     <step from="B" to="Y" through="XI12_9XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN8" snk="CLK_IOB_MUXED_CLKP16">
+  <route src="CLK_IOB_MUXED_CLKP_IN8" snk="CLK_IOB_MUXED_CLKP8">
     <step from="B" to="Y" through="XI12_8XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN7" snk="CLK_IOB_MUXED_CLKP14">
+  <route src="CLK_IOB_MUXED_CLKP_IN7" snk="CLK_IOB_MUXED_CLKP7">
     <step from="B" to="Y" through="XI12_7XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN6" snk="CLK_IOB_MUXED_CLKP12">
+  <route src="CLK_IOB_MUXED_CLKP_IN6" snk="CLK_IOB_MUXED_CLKP6">
     <step from="B" to="Y" through="XI12_6XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN5" snk="CLK_IOB_MUXED_CLKP10">
+  <route src="CLK_IOB_MUXED_CLKP_IN5" snk="CLK_IOB_MUXED_CLKP5">
     <step from="B" to="Y" through="XI12_5XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN4" snk="CLK_IOB_MUXED_CLKP8">
+  <route src="CLK_IOB_MUXED_CLKP_IN4" snk="CLK_IOB_MUXED_CLKP4">
     <step from="B" to="Y" through="XI12_4XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN3" snk="CLK_IOB_MUXED_CLKP6">
+  <route src="CLK_IOB_MUXED_CLKP_IN3" snk="CLK_IOB_MUXED_CLKP3">
     <step from="B" to="Y" through="XI12_3XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN2" snk="CLK_IOB_MUXED_CLKP4">
+  <route src="CLK_IOB_MUXED_CLKP_IN2" snk="CLK_IOB_MUXED_CLKP2">
     <step from="B" to="Y" through="XI12_2XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN1" snk="CLK_IOB_MUXED_CLKP2">
+  <route src="CLK_IOB_MUXED_CLKP_IN1" snk="CLK_IOB_MUXED_CLKP1">
     <step from="B" to="Y" through="XI12_1XI12" />
   </route>
   <route src="CLK_IOB_MUXED_CLKP_IN0" snk="CLK_IOB_MUXED_CLKP0">
@@ -20488,94 +20488,94 @@
   <route src="CLK_IOB_MUXED_CLKP_IN31" snk="CLK_IOB_MUXED_CLKP31">
     <step from="B" to="Y" through="XI6_15XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN30" snk="CLK_IOB_MUXED_CLKP29">
+  <route src="CLK_IOB_MUXED_CLKP_IN30" snk="CLK_IOB_MUXED_CLKP30">
     <step from="B" to="Y" through="XI6_14XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN29" snk="CLK_IOB_MUXED_CLKP27">
+  <route src="CLK_IOB_MUXED_CLKP_IN29" snk="CLK_IOB_MUXED_CLKP29">
     <step from="B" to="Y" through="XI6_13XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN28" snk="CLK_IOB_MUXED_CLKP25">
+  <route src="CLK_IOB_MUXED_CLKP_IN28" snk="CLK_IOB_MUXED_CLKP28">
     <step from="B" to="Y" through="XI6_12XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN27" snk="CLK_IOB_MUXED_CLKP23">
+  <route src="CLK_IOB_MUXED_CLKP_IN27" snk="CLK_IOB_MUXED_CLKP27">
     <step from="B" to="Y" through="XI6_11XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN26" snk="CLK_IOB_MUXED_CLKP21">
+  <route src="CLK_IOB_MUXED_CLKP_IN26" snk="CLK_IOB_MUXED_CLKP26">
     <step from="B" to="Y" through="XI6_10XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN25" snk="CLK_IOB_MUXED_CLKP19">
+  <route src="CLK_IOB_MUXED_CLKP_IN25" snk="CLK_IOB_MUXED_CLKP25">
     <step from="B" to="Y" through="XI6_9XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN24" snk="CLK_IOB_MUXED_CLKP17">
+  <route src="CLK_IOB_MUXED_CLKP_IN24" snk="CLK_IOB_MUXED_CLKP24">
     <step from="B" to="Y" through="XI6_8XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN23" snk="CLK_IOB_MUXED_CLKP15">
+  <route src="CLK_IOB_MUXED_CLKP_IN23" snk="CLK_IOB_MUXED_CLKP23">
     <step from="B" to="Y" through="XI6_7XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN22" snk="CLK_IOB_MUXED_CLKP13">
+  <route src="CLK_IOB_MUXED_CLKP_IN22" snk="CLK_IOB_MUXED_CLKP22">
     <step from="B" to="Y" through="XI6_6XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN21" snk="CLK_IOB_MUXED_CLKP11">
+  <route src="CLK_IOB_MUXED_CLKP_IN21" snk="CLK_IOB_MUXED_CLKP21">
     <step from="B" to="Y" through="XI6_5XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN20" snk="CLK_IOB_MUXED_CLKP9">
+  <route src="CLK_IOB_MUXED_CLKP_IN20" snk="CLK_IOB_MUXED_CLKP20">
     <step from="B" to="Y" through="XI6_4XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN19" snk="CLK_IOB_MUXED_CLKP7">
+  <route src="CLK_IOB_MUXED_CLKP_IN19" snk="CLK_IOB_MUXED_CLKP19">
     <step from="B" to="Y" through="XI6_3XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN18" snk="CLK_IOB_MUXED_CLKP5">
+  <route src="CLK_IOB_MUXED_CLKP_IN18" snk="CLK_IOB_MUXED_CLKP18">
     <step from="B" to="Y" through="XI6_2XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN17" snk="CLK_IOB_MUXED_CLKP3">
+  <route src="CLK_IOB_MUXED_CLKP_IN17" snk="CLK_IOB_MUXED_CLKP17">
     <step from="B" to="Y" through="XI6_1XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN16" snk="CLK_IOB_MUXED_CLKP1">
+  <route src="CLK_IOB_MUXED_CLKP_IN16" snk="CLK_IOB_MUXED_CLKP16">
     <step from="B" to="Y" through="XI6_0XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN15" snk="CLK_IOB_MUXED_CLKP30">
+  <route src="CLK_IOB_MUXED_CLKP_IN15" snk="CLK_IOB_MUXED_CLKP15">
     <step from="B" to="Y" through="XI1XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN14" snk="CLK_IOB_MUXED_CLKP28">
+  <route src="CLK_IOB_MUXED_CLKP_IN14" snk="CLK_IOB_MUXED_CLKP14">
     <step from="B" to="Y" through="XI12_14XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN13" snk="CLK_IOB_MUXED_CLKP26">
+  <route src="CLK_IOB_MUXED_CLKP_IN13" snk="CLK_IOB_MUXED_CLKP13">
     <step from="B" to="Y" through="XI12_13XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN12" snk="CLK_IOB_MUXED_CLKP24">
+  <route src="CLK_IOB_MUXED_CLKP_IN12" snk="CLK_IOB_MUXED_CLKP12">
     <step from="B" to="Y" through="XI12_12XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN11" snk="CLK_IOB_MUXED_CLKP22">
+  <route src="CLK_IOB_MUXED_CLKP_IN11" snk="CLK_IOB_MUXED_CLKP11">
     <step from="B" to="Y" through="XI12_11XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN10" snk="CLK_IOB_MUXED_CLKP20">
+  <route src="CLK_IOB_MUXED_CLKP_IN10" snk="CLK_IOB_MUXED_CLKP10">
     <step from="B" to="Y" through="XI12_10XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN9" snk="CLK_IOB_MUXED_CLKP18">
+  <route src="CLK_IOB_MUXED_CLKP_IN9" snk="CLK_IOB_MUXED_CLKP9">
     <step from="B" to="Y" through="XI12_9XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN8" snk="CLK_IOB_MUXED_CLKP16">
+  <route src="CLK_IOB_MUXED_CLKP_IN8" snk="CLK_IOB_MUXED_CLKP8">
     <step from="B" to="Y" through="XI12_8XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN7" snk="CLK_IOB_MUXED_CLKP14">
+  <route src="CLK_IOB_MUXED_CLKP_IN7" snk="CLK_IOB_MUXED_CLKP7">
     <step from="B" to="Y" through="XI12_7XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN6" snk="CLK_IOB_MUXED_CLKP12">
+  <route src="CLK_IOB_MUXED_CLKP_IN6" snk="CLK_IOB_MUXED_CLKP6">
     <step from="B" to="Y" through="XI12_6XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN5" snk="CLK_IOB_MUXED_CLKP10">
+  <route src="CLK_IOB_MUXED_CLKP_IN5" snk="CLK_IOB_MUXED_CLKP5">
     <step from="B" to="Y" through="XI12_5XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN4" snk="CLK_IOB_MUXED_CLKP8">
+  <route src="CLK_IOB_MUXED_CLKP_IN4" snk="CLK_IOB_MUXED_CLKP4">
     <step from="B" to="Y" through="XI12_4XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN3" snk="CLK_IOB_MUXED_CLKP6">
+  <route src="CLK_IOB_MUXED_CLKP_IN3" snk="CLK_IOB_MUXED_CLKP3">
     <step from="B" to="Y" through="XI12_3XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN2" snk="CLK_IOB_MUXED_CLKP4">
+  <route src="CLK_IOB_MUXED_CLKP_IN2" snk="CLK_IOB_MUXED_CLKP2">
     <step from="B" to="Y" through="XI12_2XI12" />
   </route>
-  <route src="CLK_IOB_MUXED_CLKP_IN1" snk="CLK_IOB_MUXED_CLKP2">
+  <route src="CLK_IOB_MUXED_CLKP_IN1" snk="CLK_IOB_MUXED_CLKP1">
     <step from="B" to="Y" through="XI12_1XI12" />
   </route>
   <route src="CLK_IOB_MUXED_CLKP_IN0" snk="CLK_IOB_MUXED_CLKP0">
