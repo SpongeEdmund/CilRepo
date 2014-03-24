@@ -1,0 +1,1216 @@
+<site name="IOBM">
+<attribute name="INITIAL" method="map">
+<option name="TRUE" default="false">
+</option>
+</attribute>
+<attribute name="PULL" method="map">
+<option name="KEEPER" default="false">
+</option>
+<option name="PULLDOWN" default="false">
+</option>
+<option name="PULLUP" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="GTSATTRBOX" method="map">
+<option name="DISABLE_GTS" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="SLEW" method="map">
+<option name="SLOW" default="false">
+</option>
+<option name="FAST" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="DIFF_TERM" method="map">
+<option name="TRUE" default="false">
+</option>
+<option name="FALSE" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="DRIVEATTRBOX" method="map">
+<option name="2" default="false">
+</option>
+<option name="4" default="false">
+</option>
+<option name="6" default="false">
+</option>
+<option name="8" default="false">
+</option>
+<option name="12" default="false">
+</option>
+<option name="16" default="false">
+</option>
+<option name="24" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="DRIVE_0MA" method="map">
+<option name="DRIVE_0MA" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="DIFFI_INUSED" method="map">
+<option name="0" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="INBUFUSED" method="map">
+<option name="0" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="TUSED" method="map">
+<option name="0" default="false">
+<sram name="T0" value="1"/>
+<sram name="T1" value="1"/>
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="OUSED" method="map">
+<option name="0" default="false">
+<sram name="T0" value="0"/>
+<sram name="T1" value="1"/>
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="IOATTRBOX" method="map">
+<option name="LVTTL" default="false">
+</option>
+<option name="LVCMOS33" default="false">
+</option>
+<option name="LVCMOS25" default="false">
+</option>
+<option name="LVCMOS18" default="false">
+</option>
+<option name="LVCMOS15" default="false">
+</option>
+<option name="PCI33_3" default="false">
+</option>
+<option name="PCI66_3" default="false">
+</option>
+<option name="PCIX" default="false">
+</option>
+<option name="HSTL_I" default="false">
+</option>
+<option name="HSTL_II" default="false">
+</option>
+<option name="HSTL_III" default="false">
+</option>
+<option name="HSTL_IV" default="false">
+</option>
+<option name="HSTL_I_18" default="false">
+</option>
+<option name="HSTL_II_18" default="false">
+</option>
+<option name="HSTL_III_18" default="false">
+</option>
+<option name="HSTL_IV_18" default="false">
+</option>
+<option name="GTL" default="false">
+</option>
+<option name="GTLP" default="false">
+</option>
+<option name="SSTL2_I" default="false">
+</option>
+<option name="SSTL2_II" default="false">
+</option>
+<option name="SSTL18_I" default="false">
+</option>
+<option name="SSTL18_II" default="false">
+</option>
+<option name="LVPECL_25" default="false">
+</option>
+<option name="LVDS_25" default="false">
+</option>
+<option name="LVDSEXT_25" default="false">
+</option>
+<option name="BLVDS_25" default="false">
+</option>
+<option name="ULVDS_25" default="false">
+</option>
+<option name="LDT_25" default="false">
+</option>
+<option name="RSDS_25" default="false">
+</option>
+<option name="DIFF_SSTL2_II" default="false">
+</option>
+<option name="DIFF_SSTL18_II" default="false">
+</option>
+<option name="DIFF_HSTL_II" default="false">
+</option>
+<option name="DIFF_HSTL_II_18" default="false">
+</option>
+<option name="LVDCI_33" default="false">
+</option>
+<option name="LVDCI_25" default="false">
+</option>
+<option name="LVDCI_18" default="false">
+</option>
+<option name="LVDCI_15" default="false">
+</option>
+<option name="LVDCI_DV2_25" default="false">
+</option>
+<option name="LVDCI_DV2_18" default="false">
+</option>
+<option name="LVDCI_DV2_15" default="false">
+</option>
+<option name="HSTL_II_T_DCI" default="false">
+</option>
+<option name="HSTL_II_T_DCI_18" default="false">
+</option>
+<option name="SSTL2_II_T_DCI" default="false">
+</option>
+<option name="SSTL18_II_T_DCI" default="false">
+</option>
+<option name="DIFF_SSTL2_II_DCI" default="false">
+</option>
+<option name="DIFF_SSTL18_II_DCI" default="false">
+</option>
+<option name="DIFF_HSTL_II_DCI" default="false">
+</option>
+<option name="DIFF_HSTL_II_DCI_18" default="false">
+</option>
+<option name="GTL_DCI" default="false">
+</option>
+<option name="GTLP_DCI" default="false">
+</option>
+<option name="HSTL_I_DCI" default="false">
+</option>
+<option name="HSTL_II_DCI" default="false">
+</option>
+<option name="HSTL_III_DCI" default="false">
+</option>
+<option name="HSTL_IV_DCI" default="false">
+</option>
+<option name="HSTL_I_DCI_18" default="false">
+</option>
+<option name="HSTL_II_DCI_18" default="false">
+</option>
+<option name="HSTL_III_DCI_18" default="false">
+</option>
+<option name="HSTL_IV_DCI_18" default="false">
+</option>
+<option name="SSTL2_I_DCI" default="false">
+</option>
+<option name="SSTL2_II_DCI" default="false">
+</option>
+<option name="SSTL18_I_DCI" default="false">
+</option>
+<option name="SSTL18_II_DCI" default="false">
+</option>
+<option name="LVDS_25_DCI" default="false">
+</option>
+<option name="LVDSEXT_25_DCI" default="false">
+</option>
+<option name="HSLVDCI_33" default="false">
+</option>
+<option name="HSLVDCI_25" default="false">
+</option>
+<option name="HSLVDCI_18" default="false">
+</option>
+<option name="HSLVDCI_15" default="false">
+</option>
+<option name="HSTL_I_12" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="PADOUTUSED" method="map">
+<option name="0" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="DIFFO_OUTUSED" method="map">
+<option name="0" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+</site>
+<site name="IOBS">
+<attribute name="INITIAL" method="map">
+<option name="TRUE" default="false">
+</option>
+</attribute>
+<attribute name="PULL" method="map">
+<option name="KEEPER" default="false">
+</option>
+<option name="PULLDOWN" default="false">
+</option>
+<option name="PULLUP" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="GTSATTRBOX" method="map">
+<option name="DISABLE_GTS" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="SLEW" method="map">
+<option name="SLOW" default="false">
+</option>
+<option name="FAST" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="DIFF_TERM" method="map">
+<option name="TRUE" default="false">
+</option>
+<option name="FALSE" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="DRIVEATTRBOX" method="map">
+<option name="2" default="false">
+</option>
+<option name="4" default="false">
+</option>
+<option name="6" default="false">
+</option>
+<option name="8" default="false">
+</option>
+<option name="12" default="false">
+</option>
+<option name="16" default="false">
+</option>
+<option name="24" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="DRIVE_0MA" method="map">
+<option name="DRIVE_0MA" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="DIFFI_INUSED" method="map">
+<option name="0" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="INBUFUSED" method="map">
+<option name="0" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="TUSED" method="map">
+<option name="0" default="false">
+<sram name="T0" value="1"/>
+<sram name="T1" value="1"/>
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="OUSED" method="map">
+<option name="0" default="false">
+<sram name="T0" value="0"/>
+<sram name="T1" value="1"/>
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="IOATTRBOX" method="map">
+<option name="LVTTL" default="false">
+</option>
+<option name="LVCMOS33" default="false">
+</option>
+<option name="LVCMOS25" default="false">
+</option>
+<option name="LVCMOS18" default="false">
+</option>
+<option name="LVCMOS15" default="false">
+</option>
+<option name="PCI33_3" default="false">
+</option>
+<option name="PCI66_3" default="false">
+</option>
+<option name="PCIX" default="false">
+</option>
+<option name="HSTL_I" default="false">
+</option>
+<option name="HSTL_II" default="false">
+</option>
+<option name="HSTL_III" default="false">
+</option>
+<option name="HSTL_IV" default="false">
+</option>
+<option name="HSTL_I_18" default="false">
+</option>
+<option name="HSTL_II_18" default="false">
+</option>
+<option name="HSTL_III_18" default="false">
+</option>
+<option name="HSTL_IV_18" default="false">
+</option>
+<option name="GTL" default="false">
+</option>
+<option name="GTLP" default="false">
+</option>
+<option name="SSTL2_I" default="false">
+</option>
+<option name="SSTL2_II" default="false">
+</option>
+<option name="SSTL18_I" default="false">
+</option>
+<option name="SSTL18_II" default="false">
+</option>
+<option name="LVPECL_25" default="false">
+</option>
+<option name="LVDS_25" default="false">
+</option>
+<option name="LVDSEXT_25" default="false">
+</option>
+<option name="BLVDS_25" default="false">
+</option>
+<option name="ULVDS_25" default="false">
+</option>
+<option name="LDT_25" default="false">
+</option>
+<option name="RSDS_25" default="false">
+</option>
+<option name="DIFF_SSTL2_II" default="false">
+</option>
+<option name="DIFF_SSTL18_II" default="false">
+</option>
+<option name="DIFF_HSTL_II" default="false">
+</option>
+<option name="DIFF_HSTL_II_18" default="false">
+</option>
+<option name="LVDCI_33" default="false">
+</option>
+<option name="LVDCI_25" default="false">
+</option>
+<option name="LVDCI_18" default="false">
+</option>
+<option name="LVDCI_15" default="false">
+</option>
+<option name="LVDCI_DV2_25" default="false">
+</option>
+<option name="LVDCI_DV2_18" default="false">
+</option>
+<option name="LVDCI_DV2_15" default="false">
+</option>
+<option name="HSTL_II_T_DCI" default="false">
+</option>
+<option name="HSTL_II_T_DCI_18" default="false">
+</option>
+<option name="SSTL2_II_T_DCI" default="false">
+</option>
+<option name="SSTL18_II_T_DCI" default="false">
+</option>
+<option name="DIFF_SSTL2_II_DCI" default="false">
+</option>
+<option name="DIFF_SSTL18_II_DCI" default="false">
+</option>
+<option name="DIFF_HSTL_II_DCI" default="false">
+</option>
+<option name="DIFF_HSTL_II_DCI_18" default="false">
+</option>
+<option name="GTL_DCI" default="false">
+</option>
+<option name="GTLP_DCI" default="false">
+</option>
+<option name="HSTL_I_DCI" default="false">
+</option>
+<option name="HSTL_II_DCI" default="false">
+</option>
+<option name="HSTL_III_DCI" default="false">
+</option>
+<option name="HSTL_IV_DCI" default="false">
+</option>
+<option name="HSTL_I_DCI_18" default="false">
+</option>
+<option name="HSTL_II_DCI_18" default="false">
+</option>
+<option name="HSTL_III_DCI_18" default="false">
+</option>
+<option name="HSTL_IV_DCI_18" default="false">
+</option>
+<option name="SSTL2_I_DCI" default="false">
+</option>
+<option name="SSTL2_II_DCI" default="false">
+</option>
+<option name="SSTL18_I_DCI" default="false">
+</option>
+<option name="SSTL18_II_DCI" default="false">
+</option>
+<option name="LVDS_25_DCI" default="false">
+</option>
+<option name="LVDSEXT_25_DCI" default="false">
+</option>
+<option name="HSLVDCI_33" default="false">
+</option>
+<option name="HSLVDCI_25" default="false">
+</option>
+<option name="HSLVDCI_18" default="false">
+</option>
+<option name="HSLVDCI_15" default="false">
+</option>
+<option name="HSTL_I_12" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="PADOUTUSED" method="map">
+<option name="0" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="OUTMUX" method="map">
+<option name="0" default="false">
+</option>
+<option name="1" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="DIFFO_INUSED" method="map">
+<option name="0" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+</site>
+<site name="IOB">
+<attribute name="INITIAL" method="map">
+<option name="TRUE" default="false">
+</option>
+</attribute>
+<attribute name="PULL" method="map">
+<option name="KEEPER" default="false">
+</option>
+<option name="PULLDOWN" default="false">
+</option>
+<option name="PULLUP" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="GTSATTRBOX" method="map">
+<option name="DISABLE_GTS" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="SLEW" method="map">
+<option name="SLOW" default="false">
+</option>
+<option name="FAST" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="DIFF_TERM" method="map">
+<option name="TRUE" default="false">
+</option>
+<option name="FALSE" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="DRIVEATTRBOX" method="map">
+<option name="2" default="false">
+</option>
+<option name="4" default="false">
+</option>
+<option name="6" default="false">
+</option>
+<option name="8" default="false">
+</option>
+<option name="12" default="false">
+</option>
+<option name="16" default="false">
+</option>
+<option name="24" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="DRIVE_0MA" method="map">
+<option name="DRIVE_0MA" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="DIFFI_INUSED" method="map">
+<option name="0" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="INBUFUSED" method="map">
+<option name="0" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="TUSED" method="map">
+<option name="0" default="false">
+<sram name="T0" value="1"/>
+<sram name="T1" value="1"/>
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="OUSED" method="map">
+<option name="0" default="false">
+<sram name="T0" value="0"/>
+<sram name="T1" value="1"/>
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="IOATTRBOX" method="map">
+<option name="LVTTL" default="false">
+</option>
+<option name="LVCMOS33" default="false">
+</option>
+<option name="LVCMOS25" default="false">
+</option>
+<option name="LVCMOS18" default="false">
+</option>
+<option name="LVCMOS15" default="false">
+</option>
+<option name="PCI33_3" default="false">
+</option>
+<option name="PCI66_3" default="false">
+</option>
+<option name="PCIX" default="false">
+</option>
+<option name="HSTL_I" default="false">
+</option>
+<option name="HSTL_II" default="false">
+</option>
+<option name="HSTL_III" default="false">
+</option>
+<option name="HSTL_IV" default="false">
+</option>
+<option name="HSTL_I_18" default="false">
+</option>
+<option name="HSTL_II_18" default="false">
+</option>
+<option name="HSTL_III_18" default="false">
+</option>
+<option name="HSTL_IV_18" default="false">
+</option>
+<option name="GTL" default="false">
+</option>
+<option name="GTLP" default="false">
+</option>
+<option name="SSTL2_I" default="false">
+</option>
+<option name="SSTL2_II" default="false">
+</option>
+<option name="SSTL18_I" default="false">
+</option>
+<option name="SSTL18_II" default="false">
+</option>
+<option name="LVPECL_25" default="false">
+</option>
+<option name="LVDS_25" default="false">
+</option>
+<option name="LVDSEXT_25" default="false">
+</option>
+<option name="BLVDS_25" default="false">
+</option>
+<option name="ULVDS_25" default="false">
+</option>
+<option name="LDT_25" default="false">
+</option>
+<option name="RSDS_25" default="false">
+</option>
+<option name="DIFF_SSTL2_II" default="false">
+</option>
+<option name="DIFF_SSTL18_II" default="false">
+</option>
+<option name="DIFF_HSTL_II" default="false">
+</option>
+<option name="DIFF_HSTL_II_18" default="false">
+</option>
+<option name="LVDCI_33" default="false">
+</option>
+<option name="LVDCI_25" default="false">
+</option>
+<option name="LVDCI_18" default="false">
+</option>
+<option name="LVDCI_15" default="false">
+</option>
+<option name="LVDCI_DV2_25" default="false">
+</option>
+<option name="LVDCI_DV2_18" default="false">
+</option>
+<option name="LVDCI_DV2_15" default="false">
+</option>
+<option name="HSTL_II_T_DCI" default="false">
+</option>
+<option name="HSTL_II_T_DCI_18" default="false">
+</option>
+<option name="SSTL2_II_T_DCI" default="false">
+</option>
+<option name="SSTL18_II_T_DCI" default="false">
+</option>
+<option name="DIFF_SSTL2_II_DCI" default="false">
+</option>
+<option name="DIFF_SSTL18_II_DCI" default="false">
+</option>
+<option name="DIFF_HSTL_II_DCI" default="false">
+</option>
+<option name="DIFF_HSTL_II_DCI_18" default="false">
+</option>
+<option name="GTL_DCI" default="false">
+</option>
+<option name="GTLP_DCI" default="false">
+</option>
+<option name="HSTL_I_DCI" default="false">
+</option>
+<option name="HSTL_II_DCI" default="false">
+</option>
+<option name="HSTL_III_DCI" default="false">
+</option>
+<option name="HSTL_IV_DCI" default="false">
+</option>
+<option name="HSTL_I_DCI_18" default="false">
+</option>
+<option name="HSTL_II_DCI_18" default="false">
+</option>
+<option name="HSTL_III_DCI_18" default="false">
+</option>
+<option name="HSTL_IV_DCI_18" default="false">
+</option>
+<option name="SSTL2_I_DCI" default="false">
+</option>
+<option name="SSTL2_II_DCI" default="false">
+</option>
+<option name="SSTL18_I_DCI" default="false">
+</option>
+<option name="SSTL18_II_DCI" default="false">
+</option>
+<option name="LVDS_25_DCI" default="false">
+</option>
+<option name="LVDSEXT_25_DCI" default="false">
+</option>
+<option name="HSLVDCI_33" default="false">
+</option>
+<option name="HSLVDCI_25" default="false">
+</option>
+<option name="HSLVDCI_18" default="false">
+</option>
+<option name="HSLVDCI_15" default="false">
+</option>
+<option name="HSTL_I_12" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="PADOUTUSED" method="map">
+<option name="0" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="DIFFO_OUTUSED" method="map">
+<option name="0" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+</site>
+<site name="LOWCAPIOB">
+<attribute name="INITIAL" method="map">
+<option name="TRUE" default="false">
+</option>
+</attribute>
+<attribute name="PULL" method="map">
+<option name="KEEPER" default="false">
+</option>
+<option name="PULLDOWN" default="false">
+</option>
+<option name="PULLUP" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="GTSATTRBOX" method="map">
+<option name="DISABLE_GTS" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="SLEW" method="map">
+<option name="SLOW" default="false">
+</option>
+<option name="FAST" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="DIFF_TERM" method="map">
+<option name="TRUE" default="false">
+</option>
+<option name="FALSE" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="DRIVEATTRBOX" method="map">
+<option name="2" default="false">
+</option>
+<option name="4" default="false">
+</option>
+<option name="6" default="false">
+</option>
+<option name="8" default="false">
+</option>
+<option name="12" default="false">
+</option>
+<option name="16" default="false">
+</option>
+<option name="24" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="DRIVE_0MA" method="map">
+<option name="DRIVE_0MA" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="DIFFI_INUSED" method="map">
+<option name="0" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="INBUFUSED" method="map">
+<option name="0" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="TUSED" method="map">
+<option name="0" default="false">
+<sram name="T0" value="1"/>
+<sram name="T1" value="1"/>
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="OUSED" method="map">
+<option name="0" default="false">
+<sram name="T0" value="0"/>
+<sram name="T1" value="1"/>
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="IOATTRBOX" method="map">
+<option name="LVTTL" default="false">
+</option>
+<option name="LVCMOS33" default="false">
+</option>
+<option name="LVCMOS25" default="false">
+</option>
+<option name="LVCMOS18" default="false">
+</option>
+<option name="LVCMOS15" default="false">
+</option>
+<option name="PCI33_3" default="false">
+</option>
+<option name="PCI66_3" default="false">
+</option>
+<option name="PCIX" default="false">
+</option>
+<option name="HSTL_I" default="false">
+</option>
+<option name="HSTL_II" default="false">
+</option>
+<option name="HSTL_III" default="false">
+</option>
+<option name="HSTL_IV" default="false">
+</option>
+<option name="HSTL_I_18" default="false">
+</option>
+<option name="HSTL_II_18" default="false">
+</option>
+<option name="HSTL_III_18" default="false">
+</option>
+<option name="HSTL_IV_18" default="false">
+</option>
+<option name="GTL" default="false">
+</option>
+<option name="GTLP" default="false">
+</option>
+<option name="SSTL2_I" default="false">
+</option>
+<option name="SSTL2_II" default="false">
+</option>
+<option name="SSTL18_I" default="false">
+</option>
+<option name="SSTL18_II" default="false">
+</option>
+<option name="LVPECL_25" default="false">
+</option>
+<option name="LVDS_25" default="false">
+</option>
+<option name="LVDSEXT_25" default="false">
+</option>
+<option name="BLVDS_25" default="false">
+</option>
+<option name="ULVDS_25" default="false">
+</option>
+<option name="LDT_25" default="false">
+</option>
+<option name="RSDS_25" default="false">
+</option>
+<option name="DIFF_SSTL2_II" default="false">
+</option>
+<option name="DIFF_SSTL18_II" default="false">
+</option>
+<option name="DIFF_HSTL_II" default="false">
+</option>
+<option name="DIFF_HSTL_II_18" default="false">
+</option>
+<option name="LVDCI_33" default="false">
+</option>
+<option name="LVDCI_25" default="false">
+</option>
+<option name="LVDCI_18" default="false">
+</option>
+<option name="LVDCI_15" default="false">
+</option>
+<option name="LVDCI_DV2_25" default="false">
+</option>
+<option name="LVDCI_DV2_18" default="false">
+</option>
+<option name="LVDCI_DV2_15" default="false">
+</option>
+<option name="HSTL_II_T_DCI" default="false">
+</option>
+<option name="HSTL_II_T_DCI_18" default="false">
+</option>
+<option name="SSTL2_II_T_DCI" default="false">
+</option>
+<option name="SSTL18_II_T_DCI" default="false">
+</option>
+<option name="DIFF_SSTL2_II_DCI" default="false">
+</option>
+<option name="DIFF_SSTL18_II_DCI" default="false">
+</option>
+<option name="DIFF_HSTL_II_DCI" default="false">
+</option>
+<option name="DIFF_HSTL_II_DCI_18" default="false">
+</option>
+<option name="GTL_DCI" default="false">
+</option>
+<option name="GTLP_DCI" default="false">
+</option>
+<option name="HSTL_I_DCI" default="false">
+</option>
+<option name="HSTL_II_DCI" default="false">
+</option>
+<option name="HSTL_III_DCI" default="false">
+</option>
+<option name="HSTL_IV_DCI" default="false">
+</option>
+<option name="HSTL_I_DCI_18" default="false">
+</option>
+<option name="HSTL_II_DCI_18" default="false">
+</option>
+<option name="HSTL_III_DCI_18" default="false">
+</option>
+<option name="HSTL_IV_DCI_18" default="false">
+</option>
+<option name="SSTL2_I_DCI" default="false">
+</option>
+<option name="SSTL2_II_DCI" default="false">
+</option>
+<option name="SSTL18_I_DCI" default="false">
+</option>
+<option name="SSTL18_II_DCI" default="false">
+</option>
+<option name="LVDS_25_DCI" default="false">
+</option>
+<option name="LVDSEXT_25_DCI" default="false">
+</option>
+<option name="HSLVDCI_33" default="false">
+</option>
+<option name="HSLVDCI_25" default="false">
+</option>
+<option name="HSLVDCI_18" default="false">
+</option>
+<option name="HSLVDCI_15" default="false">
+</option>
+<option name="HSTL_I_12" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="PADOUTUSED" method="map">
+<option name="0" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+</site>
+<site name="NOMCAPIOB">
+<attribute name="INITIAL" method="map">
+<option name="TRUE" default="false">
+</option>
+</attribute>
+<attribute name="PULL" method="map">
+<option name="KEEPER" default="false">
+</option>
+<option name="PULLDOWN" default="false">
+</option>
+<option name="PULLUP" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="GTSATTRBOX" method="map">
+<option name="DISABLE_GTS" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="SLEW" method="map">
+<option name="SLOW" default="false">
+</option>
+<option name="FAST" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="DIFF_TERM" method="map">
+<option name="TRUE" default="false">
+</option>
+<option name="FALSE" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="DRIVEATTRBOX" method="map">
+<option name="2" default="false">
+</option>
+<option name="4" default="false">
+</option>
+<option name="6" default="false">
+</option>
+<option name="8" default="false">
+</option>
+<option name="12" default="false">
+</option>
+<option name="16" default="false">
+</option>
+<option name="24" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="DRIVE_0MA" method="map">
+<option name="DRIVE_0MA" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="DIFFI_INUSED" method="map">
+<option name="0" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="INBUFUSED" method="map">
+<option name="0" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="TUSED" method="map">
+<option name="0" default="false">
+<sram name="T0" value="1"/>
+<sram name="T1" value="1"/>
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="OUSED" method="map">
+<option name="0" default="false">
+<sram name="T0" value="0"/>
+<sram name="T1" value="1"/>
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="IOATTRBOX" method="map">
+<option name="LVTTL" default="false">
+</option>
+<option name="LVCMOS33" default="false">
+</option>
+<option name="LVCMOS25" default="false">
+</option>
+<option name="LVCMOS18" default="false">
+</option>
+<option name="LVCMOS15" default="false">
+</option>
+<option name="PCI33_3" default="false">
+</option>
+<option name="PCI66_3" default="false">
+</option>
+<option name="PCIX" default="false">
+</option>
+<option name="HSTL_I" default="false">
+</option>
+<option name="HSTL_II" default="false">
+</option>
+<option name="HSTL_III" default="false">
+</option>
+<option name="HSTL_IV" default="false">
+</option>
+<option name="HSTL_I_18" default="false">
+</option>
+<option name="HSTL_II_18" default="false">
+</option>
+<option name="HSTL_III_18" default="false">
+</option>
+<option name="HSTL_IV_18" default="false">
+</option>
+<option name="GTL" default="false">
+</option>
+<option name="GTLP" default="false">
+</option>
+<option name="SSTL2_I" default="false">
+</option>
+<option name="SSTL2_II" default="false">
+</option>
+<option name="SSTL18_I" default="false">
+</option>
+<option name="SSTL18_II" default="false">
+</option>
+<option name="LVPECL_25" default="false">
+</option>
+<option name="LVDS_25" default="false">
+</option>
+<option name="LVDSEXT_25" default="false">
+</option>
+<option name="BLVDS_25" default="false">
+</option>
+<option name="ULVDS_25" default="false">
+</option>
+<option name="LDT_25" default="false">
+</option>
+<option name="RSDS_25" default="false">
+</option>
+<option name="DIFF_SSTL2_II" default="false">
+</option>
+<option name="DIFF_SSTL18_II" default="false">
+</option>
+<option name="DIFF_HSTL_II" default="false">
+</option>
+<option name="DIFF_HSTL_II_18" default="false">
+</option>
+<option name="LVDCI_33" default="false">
+</option>
+<option name="LVDCI_25" default="false">
+</option>
+<option name="LVDCI_18" default="false">
+</option>
+<option name="LVDCI_15" default="false">
+</option>
+<option name="LVDCI_DV2_25" default="false">
+</option>
+<option name="LVDCI_DV2_18" default="false">
+</option>
+<option name="LVDCI_DV2_15" default="false">
+</option>
+<option name="HSTL_II_T_DCI" default="false">
+</option>
+<option name="HSTL_II_T_DCI_18" default="false">
+</option>
+<option name="SSTL2_II_T_DCI" default="false">
+</option>
+<option name="SSTL18_II_T_DCI" default="false">
+</option>
+<option name="DIFF_SSTL2_II_DCI" default="false">
+</option>
+<option name="DIFF_SSTL18_II_DCI" default="false">
+</option>
+<option name="DIFF_HSTL_II_DCI" default="false">
+</option>
+<option name="DIFF_HSTL_II_DCI_18" default="false">
+</option>
+<option name="GTL_DCI" default="false">
+</option>
+<option name="GTLP_DCI" default="false">
+</option>
+<option name="HSTL_I_DCI" default="false">
+</option>
+<option name="HSTL_II_DCI" default="false">
+</option>
+<option name="HSTL_III_DCI" default="false">
+</option>
+<option name="HSTL_IV_DCI" default="false">
+</option>
+<option name="HSTL_I_DCI_18" default="false">
+</option>
+<option name="HSTL_II_DCI_18" default="false">
+</option>
+<option name="HSTL_III_DCI_18" default="false">
+</option>
+<option name="HSTL_IV_DCI_18" default="false">
+</option>
+<option name="SSTL2_I_DCI" default="false">
+</option>
+<option name="SSTL2_II_DCI" default="false">
+</option>
+<option name="SSTL18_I_DCI" default="false">
+</option>
+<option name="SSTL18_II_DCI" default="false">
+</option>
+<option name="LVDS_25_DCI" default="false">
+</option>
+<option name="LVDSEXT_25_DCI" default="false">
+</option>
+<option name="HSLVDCI_33" default="false">
+</option>
+<option name="HSLVDCI_25" default="false">
+</option>
+<option name="HSLVDCI_18" default="false">
+</option>
+<option name="HSLVDCI_15" default="false">
+</option>
+<option name="HSTL_I_12" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="PADOUTUSED" method="map">
+<option name="0" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+</site>

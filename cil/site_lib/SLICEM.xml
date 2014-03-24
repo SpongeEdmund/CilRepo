@@ -1,4 +1,8 @@
   <site name="SLICEM">
+ <attribute name="INITIAL" method="map">
+<option name="TRUE" default="false">
+</option>
+</attribute> 
     <attribute name="BXINV" method="map">
       <option name="#OFF" default="false">
         <sram name="BXINV" value="0"/>

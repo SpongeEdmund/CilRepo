@@ -1,21 +1,33 @@
-<tile name="IOIS_LC" scale="0X0">
-	<cluster_inst name="IOB" type="IOBL"/>
-	<cluster_inst name="ILOGIC" type="ILOGIC"/>
-	<cluster_inst name="OLOGIC" type="OLOGIC"/>
+<tile name="IOIS_LC" scale="80X11">
+	<cluster_inst name="IOB" type="IOB">
+        <dist sram="T0" inst="XI1" bl="33" wl="16" inv="yes" offset="0,-1" />
+        <dist sram="T1" inst="XI1" bl="34" wl="16" inv="yes" offset="0,-1" />
+        <dist sram="T0" inst="XI0" bl="35" wl="16" inv="yes" offset="0,-1" />
+        <dist sram="T1" inst="XI0" bl="36" wl="16" inv="yes" offset="0,-1" />
+    </cluster_inst>
 </tile>
-<tile name="IOIS_LC_L" scale="0X0">
-	<cluster_inst name="IOB" type="IOBL"/>
-	<cluster_inst name="ILOGIC" type="ILOGIC"/>
-	<cluster_inst name="OLOGIC" type="OLOGIC"/>
+<tile name="IOIS_LC_L" scale="80X11">
+	<cluster_inst name="IOB" type="IOB">
+        <dist sram="T0" inst="XI1" bl="33" wl="16" inv="yes" offset="0,-1" />
+        <dist sram="T1" inst="XI1" bl="34" wl="16" inv="yes" offset="0,-1" />
+        <dist sram="T0" inst="XI0" bl="35" wl="16" inv="yes" offset="0,-1" />
+        <dist sram="T1" inst="XI0" bl="36" wl="16" inv="yes" offset="0,-1" />
+    </cluster_inst>
 </tile>
-<tile name="IOIS_NC" scale="0X0">
-	<cluster_inst name="IOB" type="IOBN"/>
-	<cluster_inst name="ILOGIC" type="ILOGIC"/>
-	<cluster_inst name="OLOGIC" type="OLOGIC"/>
+<tile name="IOIS_NC" scale="80X11">
+	<cluster_inst name="IOB" type="IOB">
+        <dist sram="T0" inst="XI1" bl="33" wl="16" inv="yes" offset="0,-1" />
+        <dist sram="T1" inst="XI1" bl="34" wl="16" inv="yes" offset="0,-1" />
+        <dist sram="T0" inst="XI0" bl="35" wl="16" inv="yes" offset="0,-1" />
+        <dist sram="T1" inst="XI0" bl="36" wl="16" inv="yes" offset="0,-1" />
+    </cluster_inst>
 </tile>
-<tile name="IOIS_NC_L" scale="0X0">
-	<cluster_inst name="IOB" type="IOBN"/>
-	<cluster_inst name="ILOGIC" type="ILOGIC"/>
-	<cluster_inst name="OLOGIC" type="OLOGIC"/>
+<tile name="IOIS_NC_L" scale="80X11">
+	<cluster_inst name="IOB" type="IOB">
+        <dist sram="T0" inst="XI1" bl="33" wl="16" inv="yes" offset="0,-1" />
+        <dist sram="T1" inst="XI1" bl="34" wl="16" inv="yes" offset="0,-1" />
+        <dist sram="T0" inst="XI0" bl="35" wl="16" inv="yes" offset="0,-1" />
+        <dist sram="T1" inst="XI0" bl="36" wl="16" inv="yes" offset="0,-1" />
+    </cluster_inst>
 </tile>
 

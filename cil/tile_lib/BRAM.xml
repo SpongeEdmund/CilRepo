@@ -78,6 +78,16 @@
 	
 	<dist sram="CONTROL_SEL" inst="XI597" bl="58" wl="19" inv="no" offset="-2,-1"/>
 	
+    <!--New srams-->
+    <dist sram="DLY_P0_BRAM" inst="XI597" bl="18" wl="19" inv="yes" offset="-1,-1"/>
+    <dist sram="DLY_P1_BRAM" inst="XI597" bl="63" wl="19" inv="yes" offset="-2,-1"/>    
+    <dist sram="S_A_Control_FIFO" inst="XI597" bl="13" wl="19" inv="yes" offset="-1,-1"/>
+    <dist sram="DLY_RDCLK_P1" inst="XI597" bl="9" wl="19" inv="yes" offset="-1,-1"/>
+    <dist sram="DLY_RDCLK_P0" inst="XI597" bl="11" wl="19" inv="yes" offset="-1,-1"/>
+    <dist sram="DLY_WRCLK_P1" inst="XI597" bl="66" wl="19" inv="yes" offset="-2,-1"/>
+    <dist sram="DLY_WRCLK_P0" inst="XI597" bl="68" wl="19" inv="yes" offset="-2,-1"/>
+    <dist sram="RDLF_FIFO" inst="XI597" bl="17" wl="19" inv="yes" offset="-1,-1"/>
+    <dist sram="WRLF_FIFO" inst="XI597" bl="64" wl="19" inv="yes" offset="-2,-1"/>
   </cluster_inst>
   <!--FIFO16 is exactly the same with RAMB16-->
   <cluster_inst name="FIFO16" ref="FIFO16">
@@ -159,5 +169,15 @@
 	
 	<dist sram="CONTROL_SEL" inst="XI597" bl="58" wl="19" inv="no" offset="-2,-1"/>
 	
+    <!--New srams-->
+    <dist sram="DLY_P0_BRAM" inst="XI597" bl="18" wl="19" inv="yes" offset="-1,-1"/>
+    <dist sram="DLY_P1_BRAM" inst="XI597" bl="63" wl="19" inv="yes" offset="-2,-1"/>    
+    <dist sram="S_A_Control_FIFO" inst="XI597" bl="13" wl="19" inv="yes" offset="-1,-1"/>
+    <dist sram="DLY_RDCLK_P1" inst="XI597" bl="9" wl="19" inv="yes" offset="-1,-1"/>
+    <dist sram="DLY_RDCLK_P0" inst="XI597" bl="11" wl="19" inv="yes" offset="-1,-1"/>
+    <dist sram="DLY_WRCLK_P1" inst="XI597" bl="66" wl="19" inv="yes" offset="-2,-1"/>
+    <dist sram="DLY_WRCLK_P0" inst="XI597" bl="68" wl="19" inv="yes" offset="-2,-1"/>
+    <dist sram="RDLF_FIFO" inst="XI597" bl="17" wl="19" inv="yes" offset="-1,-1"/>
+    <dist sram="WRLF_FIFO" inst="XI597" bl="64" wl="19" inv="yes" offset="-2,-1"/>
   </cluster_inst>
 </tile>

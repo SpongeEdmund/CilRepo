@@ -1,0 +1,13 @@
+<site name="BUFG">
+<attribute name="INITIAL" method="map">
+<option name="TRUE" default="false">
+<sram name="CS_SRAMb" value="0"/>
+<sram name="SEL1_PS" value="1"/>
+<sram name="CEN1_PS" value="1"/>
+<sram name="CIG1_PS" value="0"/>
+<sram name="CIG2_PS" value="1"/>
+<sram name="SEL2_PS" value="0"/>
+<sram name="CEN2_PS" value="0"/>
+</option>
+</attribute>
+</site>

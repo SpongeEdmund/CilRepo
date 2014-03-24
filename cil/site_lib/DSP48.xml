@@ -1,4 +1,8 @@
   <site name="DSP48">
+<attribute name="INITIAL" method="map">
+<option name="TRUE" default="false">
+</option>
+</attribute>  
     <attribute name="CARRYININV" method="map">
       <option name="CARRYIN" default="false"/>
       <option name="CARRYIN_B" default="false"/>

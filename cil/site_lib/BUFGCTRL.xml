@@ -1,2 +1,103 @@
 <site name="BUFGCTRL">
+<attribute name="INITIAL" method="map">
+<option name="TRUE" default="false">
+<sram name="CS_SRAMb" value="0"/>
+</option>
+</attribute>
+<attribute name="PRESELECT_I1" method="map">
+<option name="TRUE" default="false">
+<sram name="PRE_SEL2" value="0"/>
+</option>
+<option name="FALSE" default="false">
+<sram name="PRE_SEL2" value="1"/>
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="IGNORE0INV" method="map">
+<option name="IGNORE0_B" default="false">
+<sram name="CIG1_PS" value="0"/>
+</option>
+<option name="IGNORE0" default="false">
+<sram name="CIG1_PS" value="1"/>
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="CE0INV" method="map">
+<option name="CE0_B" default="false">
+<sram name="CEN1_PS" value="0"/>
+</option>
+<option name="CE0" default="false">
+<sram name="CEN1_PS" value="1"/>
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="INIT_OUT" method="map">
+<option name="1" default="false">
+</option>
+<option name="0" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="S1INV" method="map">
+<option name="S1_B" default="false">
+<sram name="SEL2_PS" value="0"/>
+</option>
+<option name="S1" default="false">
+<sram name="SEL2_PS" value="1"/>
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="IGNORE1INV" method="map">
+<option name="IGNORE1_B" default="false">
+<sram name="CIG2_PS" value="0"/>
+</option>
+<option name="IGNORE1" default="false">
+<sram name="CIG2_PS" value="1"/>
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="CE1INV" method="map">
+<option name="CE1_B" default="false">
+<sram name="CEN2_PS" value="0"/>
+</option>
+<option name="CE1" default="false">
+<sram name="CEN2_PS" value="1"/>
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="CREATE_EDGE" method="map">
+<option name="TRUE" default="false">
+</option>
+<option name="FALSE" default="false">
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="S0INV" method="map">
+<option name="S0_B" default="false">
+<sram name="SEL1_PS" value="0"/>
+</option>
+<option name="S0" default="false">
+<sram name="SEL1_PS" value="1"/>
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
+<attribute name="PRESELECT_I0" method="map">
+<option name="TRUE" default="false">
+<sram name="PRE_SEL1" value="0"/>
+</option>
+<option name="FALSE" default="false">
+<sram name="PRE_SEL1" value="1"/>
+</option>
+<option name="#OFF" default="false">
+</option>
+</attribute>
 </site>

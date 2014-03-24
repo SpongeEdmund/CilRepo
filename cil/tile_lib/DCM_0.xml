@@ -313,5 +313,8 @@
     <dist sram="DVR2" inst="XI3" bl="11" wl="20" inv="yes" offset="-6,-1" />
     <dist sram="DVR3" inst="XI3" bl="10" wl="20" inv="yes" offset="-6,-1" />
     <dist sram="DVR4" inst="XI3" bl="9" wl="20" inv="yes" offset="-6,-1" />
+    <dist sram="T0" inst="XI3" bl="0" wl="20" inv="yes" offset="-6,-1" />
+    <dist sram="T1" inst="XI3" bl="1" wl="20" inv="yes" offset="-6,-1" />
+    <dist sram="T2" inst="XI3" bl="2" wl="20" inv="yes" offset="-6,-1" />
   </cluster_inst>  
 </tile>

@@ -210,7 +210,21 @@
 	<dist sram="CS" inst="XI21_1XI0" bl="36" wl="0" inv="yes" offset="1,0" />
 	<dist sram="CS" inst="XI21_0XI0" bl="16" wl="0" inv="yes" offset="1,0" />
 	<!--end-->
+	<dist sram="E" inst="XI1_3XI0" bl="0" wl="1" inv="yes" offset="0,0" />
+	<dist sram="E" inst="XI1_2XI0" bl="0" wl="1" inv="yes" offset="0,0" />
+	<dist sram="E" inst="XI1_1XI0" bl="0" wl="1" inv="yes" offset="0,0" />
+	<dist sram="E" inst="XI1_0XI0" bl="0" wl="1" inv="yes" offset="0,0" />
+	<dist sram="E" inst="XI3_3XI0" bl="0" wl="1" inv="yes" offset="0,0" />
+	<dist sram="E" inst="XI3_2XI0" bl="0" wl="1" inv="yes" offset="0,0" />
+	<dist sram="E" inst="XI3_1XI0" bl="0" wl="1" inv="yes" offset="0,0" />
+	<dist sram="E" inst="XI3_0XI0" bl="0" wl="1" inv="yes" offset="0,0" />
+	<dist sram="E" inst="XI20_3XI0" bl="0" wl="1" inv="yes" offset="0,0" />
+	<dist sram="E" inst="XI20_2XI0" bl="0" wl="1" inv="yes" offset="0,0" />
+	<dist sram="E" inst="XI20_1XI0" bl="0" wl="1" inv="yes" offset="0,0" />
+	<dist sram="E" inst="XI20_0XI0" bl="0" wl="1" inv="yes" offset="0,0" />
+	<dist sram="E" inst="XI21_3XI0" bl="0" wl="1" inv="yes" offset="0,0" />
+	<dist sram="E" inst="XI21_2XI0" bl="0" wl="1" inv="yes" offset="0,0" />
+	<dist sram="E" inst="XI21_1XI0" bl="0" wl="1" inv="yes" offset="0,0" />
+	<dist sram="E" inst="XI21_0XI0" bl="0" wl="1" inv="yes" offset="0,0" />
   </grm_inst>
-  <cluster_inst name="BUFGCTRL" ref="BUFGCTRL">
-  </cluster_inst>
 </tile>

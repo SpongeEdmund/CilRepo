@@ -14,6 +14,8 @@
       <sram name="S11" value="0"/>
 	  <!--CS_SRAMb-->
 	  <sram name="CS" value="1"/>
+      <!--E_SRAMb-->
+      <sram name="E" value="1"/>
     </path>
     <path from="I1" to="Y">
       <sram name="S0" value="0"/>
@@ -29,6 +31,7 @@
       <sram name="S10" value="0"/>
       <sram name="S11" value="0"/>
 	  <sram name="CS" value="1"/>
+      <sram name="E" value="1"/>
     </path>
     <path from="I2" to="Y">
       <sram name="S0" value="0"/>
@@ -44,6 +47,7 @@
       <sram name="S10" value="0"/>
       <sram name="S11" value="0"/>
 	  <sram name="CS" value="1"/>
+      <sram name="E" value="1"/>
     </path>
     <path from="I3" to="Y">
       <sram name="S0" value="0"/>
@@ -59,6 +63,7 @@
       <sram name="S10" value="0"/>
       <sram name="S11" value="0"/>
 	  <sram name="CS" value="1"/>
+      <sram name="E" value="1"/>
     </path>
     <path from="I4" to="Y">
       <sram name="S0" value="0"/>
@@ -74,6 +79,7 @@
       <sram name="S10" value="0"/>
       <sram name="S11" value="0"/>
 	  <sram name="CS" value="1"/>
+      <sram name="E" value="1"/>
     </path>
     <path from="I5" to="Y">
       <sram name="S0" value="0"/>
@@ -89,6 +95,7 @@
       <sram name="S10" value="0"/>
       <sram name="S11" value="0"/>
 	  <sram name="CS" value="1"/>
+      <sram name="E" value="1"/>
     </path>
     <path from="I6" to="Y">
       <sram name="S0" value="0"/>
@@ -104,6 +111,7 @@
       <sram name="S10" value="0"/>
       <sram name="S11" value="0"/>
 	  <sram name="CS" value="1"/>
+      <sram name="E" value="1"/>
     </path>
     <path from="I7" to="Y">
       <sram name="S0" value="0"/>
@@ -119,6 +127,7 @@
       <sram name="S10" value="0"/>
       <sram name="S11" value="0"/>
 	  <sram name="CS" value="1"/>
+      <sram name="E" value="1"/>
     </path>
     <path from="I8" to="Y">
       <sram name="S0" value="1"/>
@@ -134,6 +143,7 @@
       <sram name="S10" value="0"/>
       <sram name="S11" value="0"/>
 	  <sram name="CS" value="1"/>
+      <sram name="E" value="1"/>
     </path>
     <path from="I9" to="Y">
       <sram name="S0" value="0"/>
@@ -149,6 +159,7 @@
       <sram name="S10" value="0"/>
       <sram name="S11" value="0"/>
 	  <sram name="CS" value="1"/>
+      <sram name="E" value="1"/>
     </path>
     <path from="I10" to="Y">
       <sram name="S0" value="0"/>
@@ -164,6 +175,7 @@
       <sram name="S10" value="0"/>
       <sram name="S11" value="0"/>
 	  <sram name="CS" value="1"/>
+      <sram name="E" value="1"/>
     </path>
     <path from="I11" to="Y">
       <sram name="S0" value="0"/>
@@ -179,6 +191,7 @@
       <sram name="S10" value="0"/>
       <sram name="S11" value="0"/>
 	  <sram name="CS" value="1"/>
+      <sram name="E" value="1"/>
     </path>
     <path from="I12" to="Y">
       <sram name="S0" value="0"/>
@@ -194,6 +207,7 @@
       <sram name="S10" value="0"/>
       <sram name="S11" value="0"/>
 	  <sram name="CS" value="1"/>
+      <sram name="E" value="1"/>
     </path>
     <path from="I13" to="Y">
       <sram name="S0" value="0"/>
@@ -209,6 +223,7 @@
       <sram name="S10" value="0"/>
       <sram name="S11" value="0"/>
 	  <sram name="CS" value="1"/>
+      <sram name="E" value="1"/>
     </path>
     <path from="I14" to="Y">
       <sram name="S0" value="0"/>
@@ -224,6 +239,7 @@
       <sram name="S10" value="0"/>
       <sram name="S11" value="0"/>
 	  <sram name="CS" value="1"/>
+      <sram name="E" value="1"/>
     </path>
     <path from="I15" to="Y">
       <sram name="S0" value="0"/>
@@ -239,6 +255,7 @@
       <sram name="S10" value="0"/>
       <sram name="S11" value="0"/>
 	  <sram name="CS" value="1"/>
+      <sram name="E" value="1"/>
     </path>
     <path from="I16" to="Y">
       <sram name="S0" value="1"/>
@@ -254,6 +271,7 @@
       <sram name="S10" value="1"/>
       <sram name="S11" value="0"/>
 	  <sram name="CS" value="1"/>
+      <sram name="E" value="1"/>
     </path>
     <path from="I17" to="Y">
       <sram name="S0" value="0"/>
@@ -269,6 +287,7 @@
       <sram name="S10" value="1"/>
       <sram name="S11" value="0"/>
 	  <sram name="CS" value="1"/>
+      <sram name="E" value="1"/>
     </path>
     <path from="I18" to="Y">
       <sram name="S0" value="0"/>
@@ -284,6 +303,7 @@
       <sram name="S10" value="1"/>
       <sram name="S11" value="0"/>
 	  <sram name="CS" value="1"/>
+      <sram name="E" value="1"/>
     </path>
     <path from="I19" to="Y">
       <sram name="S0" value="0"/>
@@ -299,6 +319,7 @@
       <sram name="S10" value="1"/>
       <sram name="S11" value="0"/>
 	  <sram name="CS" value="1"/>
+      <sram name="E" value="1"/>
     </path>
     <path from="I20" to="Y">
       <sram name="S0" value="0"/>
@@ -314,6 +335,7 @@
       <sram name="S10" value="1"/>
       <sram name="S11" value="0"/>
 	  <sram name="CS" value="1"/>
+      <sram name="E" value="1"/>
     </path>
     <path from="I21" to="Y">
       <sram name="S0" value="0"/>
@@ -329,6 +351,7 @@
       <sram name="S10" value="1"/>
       <sram name="S11" value="0"/>
 	  <sram name="CS" value="1"/>
+      <sram name="E" value="1"/>
     </path>
     <path from="I22" to="Y">
       <sram name="S0" value="0"/>
@@ -343,6 +366,7 @@
       <sram name="S9" value="0"/>
       <sram name="S10" value="1"/>
       <sram name="S11" value="0"/>
+      <sram name="E" value="1"/>
 	  <sram name="CS" value="1"/>
     </path>
     <path from="I23" to="Y">
@@ -359,6 +383,7 @@
       <sram name="S10" value="1"/>
       <sram name="S11" value="0"/>
 	  <sram name="CS" value="1"/>
+      <sram name="E" value="1"/>
     </path>
     <path from="I24" to="Y">
       <sram name="S0" value="1"/>
@@ -374,6 +399,7 @@
       <sram name="S10" value="0"/>
       <sram name="S11" value="1"/>
 	  <sram name="CS" value="1"/>
+      <sram name="E" value="1"/>
     </path>
     <path from="I25" to="Y">
       <sram name="S0" value="0"/>
@@ -389,6 +415,7 @@
       <sram name="S10" value="0"/>
       <sram name="S11" value="1"/>
 	  <sram name="CS" value="1"/>
+      <sram name="E" value="1"/>
     </path>
     <path from="I26" to="Y">
       <sram name="S0" value="0"/>
@@ -404,6 +431,7 @@
       <sram name="S10" value="0"/>
       <sram name="S11" value="1"/>
 	  <sram name="CS" value="1"/>
+      <sram name="E" value="1"/>
     </path>
     <path from="I27" to="Y">
       <sram name="S0" value="0"/>
@@ -419,6 +447,7 @@
       <sram name="S10" value="0"/>
       <sram name="S11" value="1"/>
 	  <sram name="CS" value="1"/>
+      <sram name="E" value="1"/>
     </path>
     <path from="I28" to="Y">
       <sram name="S0" value="0"/>
@@ -434,6 +463,7 @@
       <sram name="S10" value="0"/>
       <sram name="S11" value="1"/>
 	  <sram name="CS" value="1"/>
+      <sram name="E" value="1"/>
     </path>
     <path from="I29" to="Y">
       <sram name="S0" value="0"/>
@@ -449,6 +479,7 @@
       <sram name="S10" value="0"/>
       <sram name="S11" value="1"/>
 	  <sram name="CS" value="1"/>
+      <sram name="E" value="1"/>
     </path>
     <path from="I30" to="Y">
       <sram name="S0" value="0"/>
@@ -464,6 +495,7 @@
       <sram name="S10" value="0"/>
       <sram name="S11" value="1"/>
 	  <sram name="CS" value="1"/>
+      <sram name="E" value="1"/>
     </path>
     <path from="I31" to="Y">
       <sram name="S0" value="0"/>
@@ -479,5 +511,6 @@
       <sram name="S10" value="0"/>
       <sram name="S11" value="1"/>
 	  <sram name="CS" value="1"/>
+      <sram name="E" value="1"/>
     </path>
   </element>
